@@ -68,6 +68,9 @@
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1"
   },
+  "files": [
+    "/build"
+  ],
   "jest": {
     "watchPathIgnorePatterns": [
       "<rootDir>/node_modules/"
