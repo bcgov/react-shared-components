@@ -657,6 +657,342 @@ exports[`Storyshots DisplayBox With Border 1`] = `
 </DisplayBox>
 `;
 
+exports[`Storyshots DisplayBox With File Data 1`] = `
+<DisplayBox
+  element={
+    <Table
+      elements={
+        Array [
+          Object {
+            "name": <div
+              style={
+                Object {
+                  "width": "80%",
+                }
+              }
+            >
+              <span>
+                file name
+              </span>
+            </div>,
+            "value": <Table
+              elements={
+                Array [
+                  Object {
+                    "isClose": true,
+                    "isValueBold": true,
+                    "name": "Description:",
+                    "value": "some file description",
+                  },
+                  Object {
+                    "isClose": true,
+                    "isValueBold": true,
+                    "name": "Statutory Fee:",
+                    "value": "$10.00",
+                  },
+                ]
+              }
+              heading=""
+              isFeesData={false}
+              styling=""
+            />,
+            "verticalMiddle": true,
+          },
+        ]
+      }
+      heading=""
+      isFeesData={false}
+      styling=""
+    />
+  }
+  icon={
+    <div
+      style={
+        Object {
+          "color": "rgb(252, 186, 25)",
+        }
+      }
+    >
+      <MdDescription
+        size={32}
+      />
+    </div>
+  }
+  styling="border-background display-file"
+>
+  <div
+    className="display-box border-background display-file"
+  >
+    <div
+      className="display-icon"
+    >
+      <div
+        style={
+          Object {
+            "color": "rgb(252, 186, 25)",
+          }
+        }
+      >
+        <MdDescription
+          size={32}
+        >
+          <IconBase
+            attr={
+              Object {
+                "viewBox": "0 0 24 24",
+              }
+            }
+            size={32}
+          >
+            <svg
+              fill="currentColor"
+              height={32}
+              size={32}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 24 24"
+              width={32}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+                key="0"
+              />
+            </svg>
+          </IconBase>
+        </MdDescription>
+      </div>
+    </div>
+    <div
+      className="display-right-element"
+    >
+      <Table
+        elements={
+          Array [
+            Object {
+              "name": <div
+                style={
+                  Object {
+                    "width": "80%",
+                  }
+                }
+              >
+                <span>
+                  file name
+                </span>
+              </div>,
+              "value": <Table
+                elements={
+                  Array [
+                    Object {
+                      "isClose": true,
+                      "isValueBold": true,
+                      "name": "Description:",
+                      "value": "some file description",
+                    },
+                    Object {
+                      "isClose": true,
+                      "isValueBold": true,
+                      "name": "Statutory Fee:",
+                      "value": "$10.00",
+                    },
+                  ]
+                }
+                heading=""
+                isFeesData={false}
+                styling=""
+              />,
+              "verticalMiddle": true,
+            },
+          ]
+        }
+        heading=""
+        isFeesData={false}
+        styling=""
+      >
+        <table
+          className=""
+        >
+          <thead>
+            <tr>
+              <th
+                colSpan="2"
+              />
+            </tr>
+          </thead>
+          <tbody>
+            <TableElement
+              element={
+                Object {
+                  "name": <div
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <span>
+                      file name
+                    </span>
+                  </div>,
+                  "value": <Table
+                    elements={
+                      Array [
+                        Object {
+                          "isClose": true,
+                          "isValueBold": true,
+                          "name": "Description:",
+                          "value": "some file description",
+                        },
+                        Object {
+                          "isClose": true,
+                          "isValueBold": true,
+                          "name": "Statutory Fee:",
+                          "value": "$10.00",
+                        },
+                      ]
+                    }
+                    heading=""
+                    isFeesData={false}
+                    styling=""
+                  />,
+                  "verticalMiddle": true,
+                }
+              }
+              isFeesData={false}
+              key="[object Object]"
+            >
+              <tr
+                className=""
+                colSpan="2"
+              >
+                <td
+                  className="vertical-middle"
+                >
+                  <div
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <span>
+                      file name
+                    </span>
+                  </div>
+                </td>
+                <td>
+                  <Table
+                    elements={
+                      Array [
+                        Object {
+                          "isClose": true,
+                          "isValueBold": true,
+                          "name": "Description:",
+                          "value": "some file description",
+                        },
+                        Object {
+                          "isClose": true,
+                          "isValueBold": true,
+                          "name": "Statutory Fee:",
+                          "value": "$10.00",
+                        },
+                      ]
+                    }
+                    heading=""
+                    isFeesData={false}
+                    styling=""
+                  >
+                    <table
+                      className=""
+                    >
+                      <thead>
+                        <tr>
+                          <th
+                            colSpan="2"
+                          />
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <TableElement
+                          element={
+                            Object {
+                              "isClose": true,
+                              "isValueBold": true,
+                              "name": "Description:",
+                              "value": "some file description",
+                            }
+                          }
+                          isFeesData={false}
+                          key="Description:"
+                        >
+                          <tr
+                            className=""
+                            colSpan="2"
+                          >
+                            <td
+                              className="reduce-width"
+                            >
+                              Description:
+                            </td>
+                            <td
+                              className=""
+                            >
+                              <b>
+                                some file description
+                              </b>
+                            </td>
+                          </tr>
+                        </TableElement>
+                        <TableElement
+                          element={
+                            Object {
+                              "isClose": true,
+                              "isValueBold": true,
+                              "name": "Statutory Fee:",
+                              "value": "$10.00",
+                            }
+                          }
+                          isFeesData={false}
+                          key="Statutory Fee:"
+                        >
+                          <tr
+                            className=""
+                            colSpan="2"
+                          >
+                            <td
+                              className="reduce-width"
+                            >
+                              Statutory Fee:
+                            </td>
+                            <td
+                              className=""
+                            >
+                              <b>
+                                $10.00
+                              </b>
+                            </td>
+                          </tr>
+                        </TableElement>
+                      </tbody>
+                    </table>
+                  </Table>
+                </td>
+              </tr>
+            </TableElement>
+          </tbody>
+        </table>
+      </Table>
+    </div>
+  </div>
+</DisplayBox>
+`;
+
 exports[`Storyshots DisplayBox With Icon 1`] = `
 <DisplayBox
   element={

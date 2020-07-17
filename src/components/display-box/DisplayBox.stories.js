@@ -1,5 +1,5 @@
 import React from "react";
-import { MdPerson } from "react-icons/md";
+import { MdPerson, MdDescription } from "react-icons/md";
 import mdx from "./DisplayBox.mdx";
 
 import { DisplayBox } from "./DisplayBox";
@@ -34,9 +34,44 @@ const elements = [
   }
 ];
 
+const fileData = [
+  {
+    name: "Description:",
+    value: "some file description",
+    isValueBold: true,
+    isClose: true
+  },
+  {
+    name: "Statutory Fee:",
+    value: "$10.00",
+    isValueBold: true,
+    isClose: true
+  }
+];
+
+const generateTableData = () => {
+  return [
+    {
+      name: (
+        <div style={{ width: "80%" }}>
+          <span>file name</span>
+        </div>
+      ),
+      value: <Table elements={fileData} />,
+      verticalMiddle: true
+    }
+  ];
+};
+
 const table = getTestTable();
 
 const icon = <MdPerson size={32} />;
+
+const documentIcon = (
+  <div style={{ color: "rgb(252, 186, 25)" }}>
+    <MdDescription size={32} />
+  </div>
+);
 
 export const WithoutIcon = () => <DisplayBox element={table} />;
 
@@ -55,6 +90,14 @@ export const WithBlueBackground = () => (
 
 export const WithBorder = () => (
   <DisplayBox styling="border-background" icon={icon} element={table} />
+);
+
+export const WithFileData = () => (
+  <DisplayBox
+    styling="border-background display-file"
+    icon={documentIcon}
+    element={<Table elements={generateTableData()} />}
+  />
 );
 
 export const Mobile = () => (

@@ -4,21 +4,38 @@ import PropTypes from "prop-types";
 import "./Table.css";
 
 const TableElement = ({
-  element: { name, value, isValueBold, isNameBold, isSideBySide, isEmptyRow },
+  element: {
+    name,
+    value,
+    isValueBold,
+    isNameBold,
+    isSideBySide,
+    isEmptyRow,
+    verticalMiddle,
+    isClose
+  },
   isFeesData
 }) => {
-  const columnWidth = isSideBySide ? "side-by-side" : "";
+  let columnWidth = "";
+  if (verticalMiddle) {
+    columnWidth = "vertical-middle";
+  } else if (isSideBySide) {
+    columnWidth = "side-by-side";
+  }
   const emptyRow = isEmptyRow ? "empty-row" : "";
   const rightAlign = isFeesData ? "right-align" : "";
+  const reduceWidth = isClose ? "reduce-width" : "";
 
   return (
     <tr colSpan="2" className={emptyRow}>
       {isNameBold && (
-        <td className={columnWidth}>
+        <td className={`${columnWidth}${reduceWidth}`}>
           <b>{name}</b>
         </td>
       )}
-      {!isNameBold && <td className={columnWidth}>{name}</td>}
+      {!isNameBold && (
+        <td className={`${columnWidth}${reduceWidth}`}>{name}</td>
+      )}
       {isValueBold && (
         <td className={rightAlign}>
           <b>{value}</b>
@@ -59,7 +76,9 @@ TableElement.propTypes = {
     isValueBold: PropTypes.bool,
     isNameBold: PropTypes.bool,
     isSideBySide: PropTypes.bool,
-    isEmptyRow: PropTypes.bool
+    isEmptyRow: PropTypes.bool,
+    verticalMiddle: PropTypes.bool,
+    isClose: PropTypes.bool
   }).isRequired,
   isFeesData: PropTypes.bool.isRequired
 };

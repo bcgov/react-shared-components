@@ -95,3 +95,54 @@ Used for content with a border around it.
 ```bash
 <DisplayBox styling="border-background" icon={icon} element={table} />
 ```
+
+## Display Box (With File Data)
+
+Used to display file information usually with description, icon, and fees.
+
+<Story name="With File Data" id="displaybox--with-file-data"></Story>
+
+```bash
+const fileData = [
+  {
+    name: "Description:",
+    value: "some file description",
+    isValueBold: true,
+    isClose: true
+  },
+  {
+    name: "Statutory Fee:",
+    value: "$10.00",
+    isValueBold: true,
+    isClose: true
+  }
+];
+
+const generateTableData = () => {
+  return [
+    {
+      name: (
+        <div style={{ width: "80%" }}>
+          <span>file name</span>
+        </div>
+      ),
+      value: (
+        <Table elements={fileData} />
+      ),
+      verticalMiddle: true
+    }
+  ];
+};
+
+const documentIcon = (
+  <div style={{ color: "rgb(252, 186, 25)" }}>
+    <MdDescription size={32} />
+  </div>
+);
+
+<DisplayBox
+  styling="border-background display-file"
+  icon={documentIcon}
+  element={<Table elements={generateTableData()} />}
+/>
+```

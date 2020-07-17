@@ -20,6 +20,15 @@ td {
   width: 60%;
 }
 
+.vertical-middle {
+  width: 35%;
+  vertical-align: middle !important;
+}
+
+.reduce-width {
+  width: 20%;
+}
+
 .empty-row td {
   border-bottom: 1px solid black;
 }
