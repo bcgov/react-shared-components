@@ -25,7 +25,8 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "precommit": "pretty-quick --staged"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -109,8 +110,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged",
-      "pre-push": "npx eslint ."
+      "pre-commit": "yarn run precommit"
     }
   }
 }

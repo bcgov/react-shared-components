@@ -13,6 +13,16 @@
   padding-right: 15px;
 }
 
+.display-file {
+  padding: 0px !important;
+  padding-left: 5px !important;
+}
+
+.display-file .display-icon {
+  display: flex;
+  align-self: center;
+}
+
 .display-right-element {
   width: 100%;
   padding-top: 3px;
