@@ -19,10 +19,16 @@ The table lets you aggregate a huge amount of data and present it in a clear and
 
 The elements array contains objects of the following structure:
 
-| Prop  | Type          | Required | Description                                  | Default |
-| ----- | ------------- | -------- | -------------------------------------------- | ------- |
-| name  | string/object | true     | the key of the key:value pair in the table   |         |
-| value | string/object | true     | the value of the key:value pair in the table |         |
+| Prop           | Type          | Required | Description                                                       | Default |
+| -------------- | ------------- | -------- | ----------------------------------------------------------------- | ------- |
+| name           | string/object | true     | the key of the key:value pair in the table                        |         |
+| value          | string/object | true     | the value of the key:value pair in the table                      |         |
+| isValueBold    | boolean       | false    | represents if you want your values to be bolded in the table      | false   |
+| isNameBold     | boolean       | false    | represents if you want your keys to be bolded in the table        | false   |
+| isSideBySide   | boolean       | false    | represents if you want to place content side by side              | false   |
+| isEmptyRow     | boolean       | false    | represents if you want to have an empty row with hr tag           | false   |
+| verticalMiddle | boolean       | false    | represents if you want your td to be vertically aligned to middle | false   |
+| isClose        | boolean       | false    | represents if you want your key value pairs to be closer together | false   |
 
 <br />
 

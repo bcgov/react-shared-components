@@ -94,7 +94,9 @@ Table.propTypes = {
       isValueBold: PropTypes.bool,
       isNameBold: PropTypes.bool,
       isSideBySide: PropTypes.bool,
-      isEmptyRow: PropTypes.bool
+      isEmptyRow: PropTypes.bool,
+      verticalMiddle: PropTypes.bool,
+      isClose: PropTypes.bool
     }).isRequired
   ),
   styling: PropTypes.string,
