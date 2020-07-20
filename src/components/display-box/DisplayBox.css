@@ -16,6 +16,7 @@
 .display-file {
   padding: 0px !important;
   padding-left: 5px !important;
+  min-height: 75px;
 }
 
 .display-file .display-icon {
@@ -26,6 +27,8 @@
 .display-right-element {
   width: 100%;
   padding-top: 3px;
+  display: flex;
+  align-self: center;
 }
 
 .display-left-element {
