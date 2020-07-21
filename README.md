@@ -4,7 +4,7 @@ Shared reusable react BCGov themed components.
 
 ## Release packaging
 
-Run the following commands locally after a new component has been added:
+Run the following commands locally when ready to release:
 
 `bash yarn install`
 
