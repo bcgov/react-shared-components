@@ -2,30 +2,22 @@
 
 Shared reusable react BCGov themed components.
 
-## Running Locally
+## Release packaging
 
-In order to use these shared react components locally, run:
+Run the following commands locally after a new component has been added:
 
-```bash
-yarn prepare
-```
+`bash yarn install`
 
-```bash
-npm install -g linklocal
-```
+`bash npm pack`
 
-from the `shared-components` directory.
+Running the pack command will create a *shared-components-X.X.X.tgz* file in the root level of the projectthat contains the components ready for consumption by any project.
 
-Then, to include the component dependency and include it in your react app:
+In order for projects to consume a new version, create a new release on this repository with the updated semantic version. Once the release is created, edit the release and upload the generated *shared-components-X.X.X.tgz* file to the release. Once this is complete, update your projects package.json to the following:
 
-1. Add this to your `package.json` file:
+`"dependencies": {
+    ...
+    "shared-components": "https://github.com/SierraSystems/bcgov-shared-components/releases/download/X.X.X/shared-components-X.X.X.tgz",
+    ...
+  },`
 
-```bash
-"shared-components": "file:./../shared-components"
-```
-
-2. From the root of your react app, run:
-
-```bash
-linklocal
-```
+Make sure that X.X.X is replaced with the appropriate version you're looking to target.
