@@ -18,10 +18,12 @@ Running the pack command will create a *shared-components-X.X.X.tgz* file in the
 
 In order for projects to consume a new version, create a new release on this repository with the updated semantic version. Once the release is created, edit the release and upload the generated *shared-components-X.X.X.tgz* file to the release. Once this is complete, update your project's package.json file to the following:
 
+```
 "dependencies": {
     ...
     "shared-components": "https://github.com/SierraSystems/bcgov-shared-components/releases/download/X.X.X/shared-components-X.X.X.tgz",
     ...
- },
+},
+```
 
 Make sure that X.X.X is replaced with the appropriate version you're looking to target.
