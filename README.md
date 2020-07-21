@@ -1,4 +1,4 @@
-# Shared React Components
+# React Shared Components
 
 Shared reusable react BCGov themed components.
 
