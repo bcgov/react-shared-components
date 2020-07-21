@@ -10,8 +10,8 @@ Run the following commands locally when ready to release:
 yarn install
 ```
 
-```
-bash npm pack
+```bash 
+npm pack
 ```
 
 Running the pack command will create a *shared-components-X.X.X.tgz* file in the root level of the project that contains the components ready for consumption by any project.
