@@ -21,7 +21,7 @@ In order for projects to consume a new version, create a new release on this rep
 ```
 "dependencies": {
     ...
-    "shared-components": "https://github.com/SierraSystems/bcgov-shared-components/releases/download/X.X.X/shared-components-X.X.X.tgz",
+    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/X.X.X/shared-components-X.X.X.tgz",
     ...
 },
 ```
