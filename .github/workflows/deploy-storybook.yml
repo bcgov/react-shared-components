@@ -1,0 +1,22 @@
+name: Deploy Storybook
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  yarn:
+    name: Deploy Storybook
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # Run Yarn Install
+      - name: Run Yarn Install
+        run: yarn install
+
+      # Run Npm deploy-storybook
+      - name: Deploy storybook to Github Pages
+        env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+        run: npm run deploy-storybook -- --ci
