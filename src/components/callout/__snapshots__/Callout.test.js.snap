@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Callout Component with checkbox matches the snapshot 1`] = `
+<div
+  className="bcgov-callout-checkbox"
+>
+  <p>
+    some text
+  </p>
+  <label
+    htmlFor="agreeCallout"
+    style={
+      Object {
+        "float": "right",
+      }
+    }
+  >
+    <input
+      id="agreeCallout"
+      onClick={[MockFunction]}
+      type="checkbox"
+    />
+     
+    <b>
+      I agree
+    </b>
+    <span
+      className="mandatory"
+      id="asterisk"
+    >
+      *
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Callout Component with text matches the snapshot 1`] = `
+<div
+  className="bcgov-callout"
+>
+  <p>
+    some text
+  </p>
+  
+</div>
+`;
