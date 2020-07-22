@@ -22,6 +22,7 @@
     "build": "babel src -d build --copy-files",
     "prepare": "yarn run build",
     "storybook": "start-storybook -p 9009 -s public",
+    "deploy-storybook": "storybook-to-ghpages",
     "test": "jest",
     "coverage": "jest --coverage",
     "lint": "eslint .",
