@@ -1,0 +1,57 @@
+import { Meta, Story } from "@storybook/addon-docs/blocks";
+import { Callout } from "./Callout";
+
+<Meta title="Callout" component={Callout} />
+
+# Callout
+
+Callouts are an excerpt of text that has been pulled out and used as a visual clue to draw the eye to the text. They are used
+to help direct a user's attention to important pieces of information.
+
+## When to Use
+
+Differentiating a block of text from the content that surrounds it, for example:
+
+- Important snippets of information
+- Quotes
+- Examples
+- Additional information about the page
+
+## When not to Use
+
+- Warning notifications
+- Page alerts
+
+Use callouts very sparingly - it’s less effective if it’s overused.
+
+## API
+
+| Prop | Type   | Required | Description                       | Default |
+| ---- | ------ | -------- | --------------------------------- | ------- |
+| text | string | true     | value of the text for the callout |         |
+
+<br />
+
+## With Text
+
+Callout with just basic text.
+
+<Story name="With Text" id="callout--with-text"></Story>
+
+```bash
+<Callout text={text} />
+```
+
+## With Checkbox
+
+Callout with text and a checkbox to confirm/agree.
+
+<Story name="With Checkbox" id="callout--with-checkbox"></Story>
+
+```bash
+<Callout
+  text={text}
+  checkboxLabel="I agree"
+  agreeCallout={action("onAgreeCallout")}
+/>
+```
