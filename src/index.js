@@ -11,5 +11,6 @@ export { DisplayBox } from "./components/display-box/DisplayBox";
 export { Table } from "./components/table/Table";
 export { Alert } from "./components/alert/Alert";
 export { Textarea } from "./components/textarea/Textarea";
+export { Callout } from "./components/callout/Callout";
 
 export default ConfirmationPopup;
