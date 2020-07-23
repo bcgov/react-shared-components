@@ -1,8 +1,15 @@
-table {
+.bcgov-table {
   width: 100%;
 }
 
-td {
+.bcgov-table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bcgov-row {
+  display: flex;
+  flex-direction: row;
   vertical-align: top;
   padding-bottom: 3px;
   padding-top: 3px;
@@ -10,11 +17,11 @@ td {
   white-space: pre-wrap;
 }
 
-.blue-stripe tbody tr:nth-child(even) {
+.blue-stripe .bcgov-table-body .bcgov-row:nth-child(even) {
   background: rgba(241, 244, 250, 1);
 }
 
-.blue-stripe tbody tr:nth-child(odd) {
+.blue-stripe .bcgov-table-body .bcgov-row:nth-child(odd) {
   background: rgba(225, 232, 242, 1);
 }
 

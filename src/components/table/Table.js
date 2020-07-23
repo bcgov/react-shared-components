@@ -11,7 +11,7 @@ const TableElement = ({
     isNameBold,
     isSideBySide,
     isEmptyRow,
-    verticalMiddle,
+    verticalMiddle = true,
     isClose
   },
   isFeesData
@@ -27,22 +27,22 @@ const TableElement = ({
   const reduceWidth = isClose ? "reduce-width" : "";
 
   return (
-    <tr colSpan="2" className={emptyRow}>
+    <div className={`bcgov-row ${emptyRow}`}>
       {isNameBold && (
-        <td className={`${columnWidth}${reduceWidth}`}>
+        <div className={`${columnWidth}${reduceWidth}`}>
           <b>{name}</b>
-        </td>
+        </div>
       )}
       {!isNameBold && (
-        <td className={`${columnWidth}${reduceWidth}`}>{name}</td>
+        <div className={`${columnWidth}${reduceWidth}`}>{name}</div>
       )}
       {isValueBold && (
-        <td className={rightAlign}>
+        <div className={rightAlign}>
           <b>{value}</b>
-        </td>
+        </div>
       )}
-      {!isValueBold && <td>{value}</td>}
-    </tr>
+      {!isValueBold && <div>{value}</div>}
+    </div>
   );
 };
 
@@ -58,14 +58,10 @@ export const Table = ({ heading, elements, styling, isFeesData }) => {
   });
 
   return (
-    <table className={styling}>
-      <thead>
-        <tr>
-          <th colSpan="2">{heading}</th>
-        </tr>
-      </thead>
-      <tbody>{tableComponents}</tbody>
-    </table>
+    <div className={`bcgov-table ${styling}`}>
+      <b>{heading}</b>
+      <div className={"bcgov-table-body"}>{tableComponents}</div>
+    </div>
   );
 };
 
