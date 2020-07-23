@@ -15,64 +15,60 @@ export const Sidecard = ({
 
   return (
     <div className={sideCardCss} style={{ position: "relative" }}>
-      <div className="row">
-        <div className="col-12 pt-2" style={{ position: "relative" }}>
-          <p />
-          {type === "grey" && (
-            <section
-              id="grey-section"
-              className="submit-container"
-              style={{
-                backgroundColor: "#F2F2F2",
-                color: "#000",
-                border: "none"
-              }}
-            >
-              <h2 style={{ color: "#000" }}>{heading}</h2>
-              <div className="submit-content">
-                <span>{content}</span>
-              </div>
-            </section>
-          )}
-          {type === "blue" && (
-            <section id="blue-section" className="submit-container">
-              <h2 className="heading-style">{heading}</h2>
-              <div className="submit-content">
-                <span>{content}</span>
-                {image && imageLink && (
-                  <a href={imageLink} target="_blank" rel="noopener noreferrer">
-                    <img
-                      src={image}
-                      alt="imagelink"
-                      height="65px"
-                      width="310px"
-                    />
-                  </a>
-                )}
-              </div>
-            </section>
-          )}
-          {type === "bluegrey" && (
-            <section id="bluegrey-section" className="bluegrey-container">
-              <div className="container-background bluegrey-heading">
-                {!icon && <h2 className="heading-style">{heading}</h2>}
-                {icon && (
-                  <h2 className="heading-style">
-                    <div className="row">
-                      <div className="side-card-row">
-                        <div className="round-icon-wrapper">{icon}</div>
-                        <div className={sideCardTitleCss}>{heading}</div>
-                      </div>
-                    </div>
-                  </h2>
-                )}
-              </div>
-              <div className="bluegrey-content">
-                <span className="content-style">{content}</span>
-              </div>
-            </section>
-          )}
-        </div>
+      <div className="col-12 pt-2" style={{ position: "relative" }}>
+        <p />
+        {type === "grey" && (
+          <section
+            id="grey-section"
+            className="submit-container"
+            style={{
+              backgroundColor: "#F2F2F2",
+              color: "#000",
+              border: "none"
+            }}
+          >
+            <h2 style={{ color: "#000" }}>{heading}</h2>
+            <div className="submit-content">
+              <span>{content}</span>
+            </div>
+          </section>
+        )}
+        {type === "blue" && (
+          <section id="blue-section" className="submit-container">
+            <h2 className="heading-style">{heading}</h2>
+            <div className="submit-content">
+              <span>{content}</span>
+              {image && imageLink && (
+                <a href={imageLink} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={image}
+                    alt="imagelink"
+                    height="65px"
+                    width="310px"
+                  />
+                </a>
+              )}
+            </div>
+          </section>
+        )}
+        {type === "bluegrey" && (
+          <section id="bluegrey-section" className="bluegrey-container">
+            <div className="container-background bluegrey-heading">
+              {!icon && <h2 className="heading-style">{heading}</h2>}
+              {icon && (
+                <h2 className="heading-style">
+                  <div className="side-card-row">
+                    <div className="round-icon-wrapper">{icon}</div>
+                    <div className={sideCardTitleCss}>{heading}</div>
+                  </div>
+                </h2>
+              )}
+            </div>
+            <div className="bluegrey-content">
+              <span className="content-style">{content}</span>
+            </div>
+          </section>
+        )}
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 .heading-style {
   font-weight: 600;
   font-style: normal;
-  font-size: 16px;
   color: #ffffff;
   text-align: left;
 }
@@ -116,6 +115,7 @@ img {
 }
 
 .side-card-title {
+  align-self: center;
   font-size: 20px;
   font-weight: Semi-bold;
   width: 100%;
