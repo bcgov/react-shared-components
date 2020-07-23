@@ -90,12 +90,6 @@ img {
   }
 }
 
-@media (max-width: 950px) {
-  .side-card-title {
-    padding-top: 0px !important;
-  }
-}
-
 .side-card-row {
   white-space: nowrap;
   display: flex;
@@ -129,4 +123,16 @@ img {
   width: 80%;
   white-space: normal;
   padding-top: 0 !important;
+}
+
+@media (max-width: 950px) {
+  .side-card-title {
+    padding-top: 0px !important;
+  }
+}
+
+@media (max-width: 865px) {
+  .wide-dashboard-spacing {
+    padding-left: 0px;
+  }
 }
