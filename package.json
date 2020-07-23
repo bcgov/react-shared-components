@@ -21,7 +21,8 @@
   "scripts": {
     "build": "babel src -d build --copy-files",
     "prepare": "yarn run build",
-    "storybook": "start-storybook -p 9009 -s public",
+    "storybook": "start-storybook -p 9009 -s public --docs",
+    "build-storybook": "build-storybook -s public --docs",
     "deploy-storybook": "storybook-to-ghpages",
     "test": "jest",
     "coverage": "jest --coverage",
