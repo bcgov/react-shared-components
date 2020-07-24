@@ -26,10 +26,10 @@ export const Callout = ({ text, checkboxLabel, agreeCallout }) => {
 Callout.propTypes = {
   text: PropTypes.string.isRequired,
   agreeCallout: PropTypes.func,
-  checkboxLabel: PropTypes.string
+  checkboxLabel: PropTypes.string,
 };
 
 Callout.defaultProps = {
   agreeCallout: () => {},
-  checkboxLabel: ""
+  checkboxLabel: "",
 };

@@ -7,7 +7,7 @@ import { Header, HeadingTitle, HeaderImage } from "./Header";
 describe("Header Component", () => {
   const header = {
     name: "File Submission",
-    history: createMemoryHistory()
+    history: createMemoryHistory(),
   };
 
   test("Header matches the snapshot", () => {
@@ -34,7 +34,7 @@ describe("Header Component", () => {
   });
 
   test("Clicking HeadingImage takes you back to home", () => {
-    header.history.location.pathname = "/somepageroute";
+    header.history.replace("/somepageroute");
 
     const { container } = render(<Header header={header} />);
 
@@ -44,7 +44,7 @@ describe("Header Component", () => {
   });
 
   test("Keydown on HeadingImage takes you back to home", () => {
-    header.history.location.pathname = "/somepageroute";
+    header.history.replace("/somepageroute");
 
     const { container } = render(<Header header={header} />);
 
