@@ -1,5 +1,5 @@
 /* Customize the label (the container) */
-.radio {
+.bcgov-radio {
   display: block;
   position: relative;
   padding-left: 30px;
@@ -14,7 +14,7 @@
 }
 
 /* Hide the browser's default radio button */
-.radio input {
+.bcgov-radio input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -34,12 +34,12 @@
 }
 
 /* When the radio button is checked, add a blue background */
-.radio input:checked ~ .dot {
+.bcgov-radio input:checked ~ .dot {
   background-color: #ffffff;
 }
 
 /* Custom checkbox has blue outline when in focus */
-.radio input:focus ~ .dot {
+.bcgov-radio input:focus ~ .dot {
   outline: 4px solid #3b99fc;
   outline-offset: 1px;
 }
@@ -59,6 +59,6 @@
 }
 
 /* Show the indicator (dot/circle) when checked */
-.radio input:checked ~ .dot:after {
+.bcgov-radio input:checked ~ .dot:after {
   display: block;
 }
