@@ -14,8 +14,9 @@ export default {
   }
 };
 
-const history = createMemoryHistory();
-history.entries[0].key = "testkey"; // set mock test key so storyshot is deterministic
+const history = createMemoryHistory({
+  initialEntries: [{ key: "testKey" }]
+});
 
 const header = {
   name: "Header title",
