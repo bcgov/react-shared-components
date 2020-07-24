@@ -9,9 +9,9 @@ export default {
   component: Radio,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const label = "Yes";
@@ -28,7 +28,7 @@ export const Mobile = () => (
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
