@@ -20,7 +20,7 @@ describe("ConfirmationPopup Component", () => {
   const modal = {
     show: true,
     title: "Cancel process?",
-    body
+    body,
   };
 
   const onButtonClick = jest.fn();
@@ -28,19 +28,19 @@ describe("ConfirmationPopup Component", () => {
   const mainButton = {
     label: "main label",
     styling: "normal-blue btn",
-    onClick: onButtonClick
+    onClick: onButtonClick,
   };
 
   const confirmButton = {
     label: "Yes, cancel my process please",
     styling: "normal-blue btn consistent-width",
-    onClick: onButtonClick
+    onClick: onButtonClick,
   };
 
   const cancelButton = {
     label: "No, resume my process please",
     styling: "normal-white btn consistent-width",
-    onClick: onButtonClick
+    onClick: onButtonClick,
   };
 
   const component = (

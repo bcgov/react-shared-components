@@ -5,6 +5,6 @@ export const propTypes = {
     label: PropTypes.string.isRequired,
     styling: PropTypes.string.isRequired,
     onClick: PropTypes.func.isRequired,
-    disabled: PropTypes.bool
-  }).isRequired
+    disabled: PropTypes.bool,
+  }).isRequired,
 };

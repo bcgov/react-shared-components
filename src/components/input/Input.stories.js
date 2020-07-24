@@ -9,7 +9,7 @@ const input = {
   id: "textInputId",
   placeholder: "Enter value",
   isReadOnly: false,
-  isRequired: false
+  isRequired: false,
 };
 
 export default {
@@ -17,9 +17,9 @@ export default {
   component: Input,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 export const EditableWhiteMandatory = () => (
@@ -27,7 +27,7 @@ export const EditableWhiteMandatory = () => (
     input={{
       ...input,
       styling: "editable-white",
-      isRequired: true
+      isRequired: true,
     }}
     onChange={action("onChange")}
   />
@@ -37,7 +37,7 @@ export const EditableWhiteWithLabel = () => (
   <Input
     input={{
       ...input,
-      styling: "editable-white"
+      styling: "editable-white",
     }}
     onChange={action("onChange")}
   />
@@ -48,7 +48,7 @@ export const EditableWhiteNoLabel = () => (
     input={{
       ...input,
       styling: "editable-white",
-      label: ""
+      label: "",
     }}
     onChange={action("onChange")}
   />
@@ -59,7 +59,7 @@ export const NonEditableGrey = () => (
     input={{
       ...input,
       styling: "non-editable-grey",
-      isReadOnly: true
+      isReadOnly: true,
     }}
     onChange={action("onChange")}
   />
@@ -71,7 +71,7 @@ export const WithErrorMessage = () => (
       ...input,
       styling: "editable-white",
       errorMsg: "There is an error.",
-      value: "some wrong value"
+      value: "some wrong value",
     }}
     onChange={action("onChange")}
   />
@@ -82,7 +82,7 @@ export const Mobile = () => (
     input={{
       ...input,
       styling: "non-editable-grey",
-      isReadOnly: true
+      isReadOnly: true,
     }}
     onChange={action("onChange")}
   />
@@ -91,9 +91,9 @@ export const Mobile = () => (
 const mobileViewport = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
 
 Mobile.story = mobileViewport;

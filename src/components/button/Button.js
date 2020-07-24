@@ -21,10 +21,10 @@ Button.propTypes = {
   label: PropTypes.string.isRequired,
   styling: PropTypes.string.isRequired,
   disabled: PropTypes.bool,
-  testId: PropTypes.string
+  testId: PropTypes.string,
 };
 
 Button.defaultProps = {
   disabled: false,
-  testId: ""
+  testId: "",
 };

@@ -6,7 +6,7 @@ import "./Header.css";
 const bcidSymbol = `${process.env.PUBLIC_URL}/images/bcid-symbol-rev.svg`;
 const bcidLogoRev = `${process.env.PUBLIC_URL}/images/bcid-logo-rev-en.svg`;
 
-export const HeadingTitle = classNames => (
+export const HeadingTitle = (classNames) => (
   <div className={classNames} aria-labelledby="title" />
 );
 
@@ -47,6 +47,6 @@ export const Header = ({ header: { name, history } }) => {
 Header.propTypes = {
   header: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    history: PropTypes.any.isRequired
-  }).isRequired
+    history: PropTypes.any.isRequired,
+  }).isRequired,
 };

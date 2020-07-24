@@ -18,9 +18,9 @@ export const Dropdown = ({ items, label, onSelect }) => {
           name="options"
           id="dropdown"
           data-testid="dropdown"
-          onChange={e => onSelect(e.target.value)}
+          onChange={(e) => onSelect(e.target.value)}
         >
-          {items.map(val => (
+          {items.map((val) => (
             <option key={val} value={val}>
               {val}
             </option>
@@ -34,5 +34,5 @@ export const Dropdown = ({ items, label, onSelect }) => {
 Dropdown.propTypes = {
   items: PropTypes.arrayOf(PropTypes.string).isRequired,
   label: PropTypes.string.isRequired,
-  onSelect: PropTypes.func.isRequired
+  onSelect: PropTypes.func.isRequired,
 };

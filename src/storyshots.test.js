@@ -1,5 +1,5 @@
 import initStoryshots, {
-  Stories2SnapsConverter
+  Stories2SnapsConverter,
 } from "@storybook/addon-storyshots";
 import { waitFor } from "@testing-library/react";
 import { mount } from "enzyme";
@@ -37,5 +37,5 @@ initStoryshots({
   snapshotSerializers: [createSerializer()],
   test: ({ story, context, done }) => {
     runTest(story, context).then(done);
-  }
+  },
 });

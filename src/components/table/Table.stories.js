@@ -9,16 +9,16 @@ export default {
   component: Table,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const feesData = [
   { name: "Some Fees:", value: "$100.00", isValueBold: true },
   { name: "Some More Fees:", value: "$10.00", isValueBold: true },
   { name: "", value: "", isEmptyRow: true },
-  { name: "Total Fees:", value: "$110.00", isValueBold: true }
+  { name: "Total Fees:", value: "$110.00", isValueBold: true },
 ];
 
 const tableData = getTableElementsTestData();
@@ -48,9 +48,9 @@ export const Mobile = () => <Table heading={header} elements={tableData} />;
 const mobileViewport = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
 
 Mobile.story = mobileViewport;

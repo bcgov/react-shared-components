@@ -25,7 +25,7 @@ describe("Textarea Component", () => {
     );
 
     fireEvent.change(getByRole(container, "textbox"), {
-      target: { value: "examplevalue" }
+      target: { value: "examplevalue" },
     });
 
     expect(getByRole(container, "textbox").value).toBe("examplevalue");

@@ -9,9 +9,9 @@ export default {
   component: Dropdown,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const onSelect = () => action("dropdown option selected");
@@ -21,7 +21,7 @@ const itemsNoDefault = [
   "Option 1",
   "Option 2",
   "Option 3",
-  "Option 4"
+  "Option 4",
 ];
 const itemsDefault = ["Option 1", "Option 2", "Option 3", "Option 4"];
 
@@ -40,7 +40,7 @@ export const Mobile = () => (
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
