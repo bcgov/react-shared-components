@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Radio Default 1`] = `
+<Radio
+  id="yes"
+  label="Yes"
+  name="yes"
+  onSelect={[Function]}
+>
+  <label
+    className="radio"
+    htmlFor="yes"
+  >
+    Yes
+    <input
+      id="yes"
+      name="yes"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="dot"
+    />
+  </label>
+</Radio>
+`;
+
+exports[`Storyshots Radio Mobile 1`] = `
+<Radio
+  id="yes"
+  label="Yes"
+  name="yes"
+  onSelect={[Function]}
+>
+  <label
+    className="radio"
+    htmlFor="yes"
+  >
+    Yes
+    <input
+      id="yes"
+      name="yes"
+      onChange={[Function]}
+      type="radio"
+    />
+    <span
+      className="dot"
+    />
+  </label>
+</Radio>
+`;
