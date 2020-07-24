@@ -23,7 +23,7 @@
 }
 
 /* Create a custom radio button */
-.dot {
+.bcgov-dot {
   position: absolute;
   top: 5px;
   left: 0;
@@ -34,18 +34,18 @@
 }
 
 /* When the radio button is checked, add a blue background */
-.bcgov-radio input:checked ~ .dot {
+.bcgov-radio input:checked ~ .bcgov-dot {
   background-color: #ffffff;
 }
 
 /* Custom checkbox has blue outline when in focus */
-.bcgov-radio input:focus ~ .dot {
+.bcgov-radio input:focus ~ .bcgov-dot {
   outline: 4px solid #3b99fc;
   outline-offset: 1px;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
-.dot:after {
+.bcgov-dot:after {
   content: "";
   position: absolute;
   display: none;
@@ -59,6 +59,6 @@
 }
 
 /* Show the indicator (dot/circle) when checked */
-.bcgov-radio input:checked ~ .dot:after {
+.bcgov-radio input:checked ~ .bcgov-dot:after {
   display: block;
 }
