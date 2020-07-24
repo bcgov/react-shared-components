@@ -12,9 +12,9 @@ const TableElement = ({
     isSideBySide,
     isEmptyRow,
     verticalMiddle,
-    isClose
+    isClose,
   },
-  isFeesData
+  isFeesData,
 }) => {
   let columnWidth = "";
   if (verticalMiddle) {
@@ -47,7 +47,7 @@ const TableElement = ({
 };
 
 export const Table = ({ heading, elements, styling, isFeesData }) => {
-  const tableComponents = elements.map(element => {
+  const tableComponents = elements.map((element) => {
     return (
       <TableElement
         isFeesData={isFeesData}
@@ -78,9 +78,9 @@ TableElement.propTypes = {
     isSideBySide: PropTypes.bool,
     isEmptyRow: PropTypes.bool,
     verticalMiddle: PropTypes.bool,
-    isClose: PropTypes.bool
+    isClose: PropTypes.bool,
   }).isRequired,
-  isFeesData: PropTypes.bool.isRequired
+  isFeesData: PropTypes.bool.isRequired,
 };
 
 Table.propTypes = {
@@ -96,16 +96,16 @@ Table.propTypes = {
       isSideBySide: PropTypes.bool,
       isEmptyRow: PropTypes.bool,
       verticalMiddle: PropTypes.bool,
-      isClose: PropTypes.bool
+      isClose: PropTypes.bool,
     }).isRequired
   ),
   styling: PropTypes.string,
-  isFeesData: PropTypes.bool
+  isFeesData: PropTypes.bool,
 };
 
 Table.defaultProps = {
   styling: "",
   heading: "",
   elements: [],
-  isFeesData: false
+  isFeesData: false,
 };
