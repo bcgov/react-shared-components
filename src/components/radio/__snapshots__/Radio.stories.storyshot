@@ -8,7 +8,7 @@ exports[`Storyshots Radio Default 1`] = `
   onSelect={[Function]}
 >
   <label
-    className="radio"
+    className="bcgov-radio"
     htmlFor="yes"
   >
     Yes
@@ -19,7 +19,7 @@ exports[`Storyshots Radio Default 1`] = `
       type="radio"
     />
     <span
-      className="dot"
+      className="bcgov-dot"
     />
   </label>
 </Radio>
@@ -33,7 +33,7 @@ exports[`Storyshots Radio Mobile 1`] = `
   onSelect={[Function]}
 >
   <label
-    className="radio"
+    className="bcgov-radio"
     htmlFor="yes"
   >
     Yes
@@ -44,7 +44,7 @@ exports[`Storyshots Radio Mobile 1`] = `
       type="radio"
     />
     <span
-      className="dot"
+      className="bcgov-dot"
     />
   </label>
 </Radio>

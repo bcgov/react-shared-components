@@ -2,7 +2,7 @@
 
 exports[`Radio Component matches the snapshot 1`] = `
 <label
-  className="radio"
+  className="bcgov-radio"
   htmlFor="yes"
 >
   Yes
@@ -13,7 +13,7 @@ exports[`Radio Component matches the snapshot 1`] = `
     type="radio"
   />
   <span
-    className="dot"
+    className="bcgov-dot"
   />
 </label>
 `;
