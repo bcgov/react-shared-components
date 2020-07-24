@@ -5,7 +5,7 @@ import "./Radio.css";
 
 export const Radio = ({ id, name, label, onSelect }) => {
   return (
-    <label className="radio" htmlFor={id}>
+    <label className="bcgov-radio" htmlFor={id}>
       {label}
       <input
         type="radio"
