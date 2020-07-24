@@ -10,9 +10,9 @@ export default {
   component: TermsOfUse,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const content = getTestData();
@@ -42,7 +42,7 @@ export const Mobile = () => (
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
