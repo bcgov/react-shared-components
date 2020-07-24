@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # npm dependencies
+  - package-ecosystem: "npm"
+    directory: "."
+    schedule:
+      interval: "daily"
+      time: "18:00"
