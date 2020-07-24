@@ -2375,13 +2375,13 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react-hooks@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/react-hooks/-/react-hooks-3.2.1.tgz#19b6caa048ef15faa69d439c469033873ea01294"
-  integrity sha512-1OB6Ksvlk6BCJA1xpj8/WWz0XVd1qRcgqdaFAq+xeC6l61Ucj0P6QpA5u+Db/x9gU4DCX8ziR5b66Mlfg0M2RA==
+"@testing-library/react-hooks@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/react-hooks/-/react-hooks-3.4.1.tgz#1f8ccd21208086ec228d9743fe40b69d0efcd7e5"
+  integrity sha512-LbzvE7oKsVzuW1cxA/aOeNgeVvmHWG2p/WSzalIGyWuqZT3jVcNDT5KPEwy36sUYWde0Qsh32xqIUFXukeywXg==
   dependencies:
     "@babel/runtime" "^7.5.4"
-    "@types/testing-library__react-hooks" "^3.0.0"
+    "@types/testing-library__react-hooks" "^3.3.0"
 
 "@testing-library/react@^10.4.7":
   version "10.4.7"
@@ -2391,10 +2391,12 @@
     "@babel/runtime" "^7.10.3"
     "@testing-library/dom" "^7.17.1"
 
-"@testing-library/user-event@^7.1.2":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-7.2.1.tgz#2ad4e844175a3738cb9e7064be5ea070b8863a1c"
-  integrity sha512-oZ0Ib5I4Z2pUEcoo95cT1cr6slco9WY7yiPpG+RGNkj8YcYgJnM7pXmYmorNOReh8MIGcKSqXyeGjxnr8YiZbA==
+"@testing-library/user-event@^12.0.13":
+  version "12.0.13"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-12.0.13.tgz#585fbb1188df005d16eabd376c3f8e8eb2f2d35c"
+  integrity sha512-JvodPV7CGl2Izf/qWS+vAVKBB1ZNAPGEacabfEeLGfafLmiqXoGJCxNZC1ml3mNTj9tTsIjouHGc42gvlyRTtQ==
+  dependencies:
+    "@babel/runtime" "^7.10.2"
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -2661,10 +2663,10 @@
   dependencies:
     "@types/jest" "*"
 
-"@types/testing-library__react-hooks@^3.0.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@types/testing-library__react-hooks/-/testing-library__react-hooks-3.2.0.tgz#52f3a109bef06080e3b1e3ae7ea1c014ce859897"
-  integrity sha512-dE8iMTuR5lzB+MqnxlzORlXzXyCL0EKfzH0w/lau20OpkHD37EaWjZDz0iNG8b71iEtxT4XKGmSKAGVEqk46mw==
+"@types/testing-library__react-hooks@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@types/testing-library__react-hooks/-/testing-library__react-hooks-3.3.0.tgz#f5d3e4ba1c811ef04f7f2309c9f5946e420060cd"
+  integrity sha512-ZbMmXaVqeiLjbRGEXuDeh6fG2hkNxaOiXV7o9RklXwKeSrygx0aohuomnkWi7UobJUhkvGZLFUmsoirfGY8HPw==
   dependencies:
     "@types/react" "*"
     "@types/react-test-renderer" "*"
@@ -12608,10 +12610,10 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-react-bootstrap@^1.0.1:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-1.2.2.tgz#dbae0c3d4fb20cd545c8efc62f49190f690cea2b"
-  integrity sha512-G+QcEyBqFtakBNghdDugie+yU/ABDeqw3n+SOeRGxEn1m0dbIyHTroZpectcQk6FB3aS4RJGkZTuLVYH86Cu2A==
+react-bootstrap@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-1.3.0.tgz#d9dde4ad554e9cd21d1465e8b5e5ef6679cae6a1"
+  integrity sha512-GYj0c6FO9mx7DaO8Xyz2zs0IcQ6CGCtM3O6/feIoCaG4N8B0+l4eqL7stlMcLpqO4d8NG2PoMO/AbUOD+MO7mg==
   dependencies:
     "@babel/runtime" "^7.4.2"
     "@restart/context" "^2.1.4"
@@ -12627,8 +12629,8 @@ react-bootstrap@^1.0.1:
     invariant "^2.2.4"
     prop-types "^15.7.2"
     prop-types-extra "^1.1.0"
-    react-overlays "^4.0.0"
-    react-transition-group "^4.0.0"
+    react-overlays "^4.1.0"
+    react-transition-group "^4.4.1"
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
@@ -12832,10 +12834,10 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-overlays@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-4.0.0.tgz#7fbcb60d12fee3733e9e4dd216b225e94fb3befe"
-  integrity sha512-LpznWocwgeB5oWKg6cDdkqKP7MbX4ClKbJqgZGUMXPRBBYcqrgM6TjjZ/8DeurNU//GuqwQMjhmo/JVma4XEWw==
+react-overlays@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-4.1.0.tgz#755a890519b02e3904845172d5223ff2dfb1bb29"
+  integrity sha512-vdRpnKe0ckWOOD9uWdqykLUPHLPndIiUV7XfEKsi5008xiyHCfL8bxsx4LbMrfnxW1LzRthLyfy50XYRFNQqqw==
   dependencies:
     "@babel/runtime" "^7.4.5"
     "@popperjs/core" "^2.0.0"
@@ -12995,7 +12997,7 @@ react-textarea-autosize@^7.1.0:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react-transition-group@^4.0.0:
+react-transition-group@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
   integrity sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==
