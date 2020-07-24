@@ -18,23 +18,23 @@ const TableElement = ({
 }) => {
   let columnWidth = "";
   if (verticalMiddle) {
-    columnWidth = "vertical-middle";
+    columnWidth = "bcgov-vertical-middle";
   } else if (isSideBySide) {
-    columnWidth = "side-by-side";
+    columnWidth = "bcgov-side-by-side";
   }
-  const emptyRow = isEmptyRow ? "empty-row" : "";
-  const rightAlign = isFeesData ? "right-align" : "";
-  const reduceWidth = isClose ? "reduce-width" : "";
+  const emptyRow = isEmptyRow ? "bcgov-empty-row" : "";
+  const rightAlign = isFeesData ? "bcgov-right-align" : "";
+  const reduceWidth = isClose ? "bcgov-reduce-width" : "";
 
   return (
     <div className={`bcgov-row ${emptyRow}`}>
       {isNameBold && (
-        <div className={`${columnWidth}${reduceWidth}`}>
+        <div className={`${columnWidth} ${reduceWidth}`}>
           <b>{name}</b>
         </div>
       )}
       {!isNameBold && (
-        <div className={`${columnWidth}${reduceWidth}`}>{name}</div>
+        <div className={`${columnWidth} ${reduceWidth}`}>{name}</div>
       )}
       {isValueBold && (
         <div className={rightAlign}>
