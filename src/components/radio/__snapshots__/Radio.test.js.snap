@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Component matches the snapshot 1`] = `
+<label
+  className="radio"
+  htmlFor="yes"
+>
+  Yes
+  <input
+    id="yes"
+    name="yes"
+    onChange={[Function]}
+    type="radio"
+  />
+  <span
+    className="dot"
+  />
+</label>
+`;
