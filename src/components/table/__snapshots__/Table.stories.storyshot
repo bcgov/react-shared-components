@@ -53,7 +53,9 @@ exports[`Storyshots Table Mobile 1`] = `
           >
             BCeID
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             bobross42
           </div>
         </div>
@@ -76,7 +78,9 @@ exports[`Storyshots Table Mobile 1`] = `
           >
             Last Name
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Ross
           </div>
         </div>
@@ -99,7 +103,9 @@ exports[`Storyshots Table Mobile 1`] = `
           >
             First Name
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Bob
           </div>
         </div>
@@ -122,7 +128,9 @@ exports[`Storyshots Table Mobile 1`] = `
           >
             Email Address
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             bob.ross@example.com
           </div>
         </div>
@@ -183,7 +191,9 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           >
             BCeID
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             bobross42
           </div>
         </div>
@@ -206,7 +216,9 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           >
             Last Name
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Ross
           </div>
         </div>
@@ -229,7 +241,9 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           >
             First Name
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Bob
           </div>
         </div>
@@ -252,7 +266,9 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           >
             Email Address
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             bob.ross@example.com
           </div>
         </div>
@@ -305,7 +321,9 @@ exports[`Storyshots Table With Bold Names 1`] = `
               Key
             </b>
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Value
           </div>
         </div>
@@ -357,7 +375,7 @@ exports[`Storyshots Table With Bold Values 1`] = `
             Key
           </div>
           <div
-            className=""
+            className="bcgov-table-value "
           >
             <b>
               Value
@@ -419,7 +437,7 @@ exports[`Storyshots Table With Fees 1`] = `
         key="Some Fees:"
       >
         <div
-          className="bcgov-row "
+          className="bcgov-row-fees "
         >
           <div
             className="bcgov-vertical-middle "
@@ -427,7 +445,7 @@ exports[`Storyshots Table With Fees 1`] = `
             Some Fees:
           </div>
           <div
-            className="bcgov-right-align"
+            className="bcgov-table-value bcgov-right-align"
           >
             <b>
               $100.00
@@ -447,7 +465,7 @@ exports[`Storyshots Table With Fees 1`] = `
         key="Some More Fees:"
       >
         <div
-          className="bcgov-row "
+          className="bcgov-row-fees "
         >
           <div
             className="bcgov-vertical-middle "
@@ -455,7 +473,7 @@ exports[`Storyshots Table With Fees 1`] = `
             Some More Fees:
           </div>
           <div
-            className="bcgov-right-align"
+            className="bcgov-table-value bcgov-right-align"
           >
             <b>
               $10.00
@@ -475,12 +493,14 @@ exports[`Storyshots Table With Fees 1`] = `
         key=""
       >
         <div
-          className="bcgov-row bcgov-empty-row"
+          className="bcgov-row-fees bcgov-empty-row"
         >
           <div
             className="bcgov-vertical-middle "
           />
-          <div />
+          <div
+            className="bcgov-table-value bcgov-right-align"
+          />
         </div>
       </TableElement>
       <TableElement
@@ -495,7 +515,7 @@ exports[`Storyshots Table With Fees 1`] = `
         key="Total Fees:"
       >
         <div
-          className="bcgov-row "
+          className="bcgov-row-fees "
         >
           <div
             className="bcgov-vertical-middle "
@@ -503,7 +523,7 @@ exports[`Storyshots Table With Fees 1`] = `
             Total Fees:
           </div>
           <div
-            className="bcgov-right-align"
+            className="bcgov-table-value bcgov-right-align"
           >
             <b>
               $110.00
@@ -569,7 +589,9 @@ exports[`Storyshots Table With Header 1`] = `
           >
             BCeID
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             bobross42
           </div>
         </div>
@@ -592,7 +614,9 @@ exports[`Storyshots Table With Header 1`] = `
           >
             Last Name
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Ross
           </div>
         </div>
@@ -615,7 +639,9 @@ exports[`Storyshots Table With Header 1`] = `
           >
             First Name
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Bob
           </div>
         </div>
@@ -638,7 +664,9 @@ exports[`Storyshots Table With Header 1`] = `
           >
             Email Address
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             bob.ross@example.com
           </div>
         </div>
@@ -699,7 +727,9 @@ exports[`Storyshots Table Without Header 1`] = `
           >
             BCeID
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             bobross42
           </div>
         </div>
@@ -722,7 +752,9 @@ exports[`Storyshots Table Without Header 1`] = `
           >
             Last Name
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Ross
           </div>
         </div>
@@ -745,7 +777,9 @@ exports[`Storyshots Table Without Header 1`] = `
           >
             First Name
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             Bob
           </div>
         </div>
@@ -768,7 +802,9 @@ exports[`Storyshots Table Without Header 1`] = `
           >
             Email Address
           </div>
-          <div>
+          <div
+            className="bcgov-table-value "
+          >
             bob.ross@example.com
           </div>
         </div>
