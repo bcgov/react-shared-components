@@ -1,8 +1,15 @@
-table {
+.bcgov-table {
   width: 100%;
 }
 
-td {
+.bcgov-table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bcgov-row {
+  display: flex;
+  flex-direction: row;
   vertical-align: top;
   padding-bottom: 3px;
   padding-top: 3px;
@@ -10,31 +17,43 @@ td {
   white-space: pre-wrap;
 }
 
-.blue-stripe tbody tr:nth-child(even) {
+.bcgov-blue-stripe .bcgov-table-body .bcgov-row:nth-child(even) {
   background: rgba(241, 244, 250, 1);
 }
 
-.blue-stripe tbody tr:nth-child(odd) {
+.bcgov-blue-stripe .bcgov-table-body .bcgov-row:nth-child(odd) {
   background: rgba(225, 232, 242, 1);
 }
 
-.side-by-side {
+.bcgov-side-by-side {
   width: 60%;
 }
 
-.vertical-middle {
+.bcgov-vertical-middle {
   width: 35%;
   vertical-align: middle !important;
 }
 
-.reduce-width {
+.bcgov-reduce-width {
   width: 20%;
 }
 
-.empty-row td {
+.bcgov-empty-row td {
   border-bottom: 1px solid black;
 }
 
-.right-align {
+.bcgov-right-align {
   text-align: right;
+}
+
+@media (max-width: 576px) {
+  .bcgov-row {
+    flex-direction: column;
+  }
+
+  .bcgov-side-by-side,
+  .bcgov-vertical-middle,
+  .bcgov-reduce-width {
+    width: 100%;
+  }
 }

@@ -32,7 +32,7 @@ export const WithHeader = () => <Table heading={header} elements={tableData} />;
 export const WithoutHeader = () => <Table elements={tableData} />;
 
 export const WithBlueStripe = () => (
-  <Table elements={tableData} styling="blue-stripe" />
+  <Table elements={tableData} styling="bcgov-blue-stripe" />
 );
 
 export const WithBoldValues = () => (

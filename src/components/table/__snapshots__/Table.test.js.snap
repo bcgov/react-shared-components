@@ -1,141 +1,125 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Table Component Matches the blue striped snapshot 1`] = `
-<table
-  className="blue-stripe"
+<div
+  className="bcgov-table bcgov-blue-stripe"
 >
-  <thead>
-    <tr>
-      <th
-        colSpan="2"
-      >
-        
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr
-      className=""
-      colSpan="2"
+  <b>
+    
+  </b>
+  <div
+    className="bcgov-table-body"
+  >
+    <div
+      className="bcgov-row "
     >
-      <td
-        className=""
+      <div
+        className="bcgov-vertical-middle "
       >
         BCeID
-      </td>
-      <td>
+      </div>
+      <div>
         bobross42
-      </td>
-    </tr>
-    <tr
-      className=""
-      colSpan="2"
+      </div>
+    </div>
+    <div
+      className="bcgov-row "
     >
-      <td
-        className=""
+      <div
+        className="bcgov-vertical-middle "
       >
         Last Name
-      </td>
-      <td>
+      </div>
+      <div>
         Ross
-      </td>
-    </tr>
-    <tr
-      className=""
-      colSpan="2"
+      </div>
+    </div>
+    <div
+      className="bcgov-row "
     >
-      <td
-        className=""
+      <div
+        className="bcgov-vertical-middle "
       >
         First Name
-      </td>
-      <td>
+      </div>
+      <div>
         Bob
-      </td>
-    </tr>
-    <tr
-      className=""
-      colSpan="2"
+      </div>
+    </div>
+    <div
+      className="bcgov-row "
     >
-      <td
-        className=""
+      <div
+        className="bcgov-vertical-middle "
       >
         Email Address
-      </td>
-      <td>
+      </div>
+      <div>
         bob.ross@example.com
-      </td>
-    </tr>
-  </tbody>
-</table>
+      </div>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Table Component Matches the default snapshot 1`] = `
-<table
-  className=""
+<div
+  className="bcgov-table "
 >
-  <thead>
-    <tr>
-      <th
-        colSpan="2"
-      >
-        BCeID Info
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr
-      className=""
-      colSpan="2"
+  <b>
+    BCeID Info
+  </b>
+  <div
+    className="bcgov-table-body"
+  >
+    <div
+      className="bcgov-row "
     >
-      <td
-        className=""
+      <div
+        className="bcgov-vertical-middle "
       >
         BCeID
-      </td>
-      <td>
+      </div>
+      <div>
         bobross42
-      </td>
-    </tr>
-    <tr
-      className=""
-      colSpan="2"
+      </div>
+    </div>
+    <div
+      className="bcgov-row "
     >
-      <td
-        className=""
+      <div
+        className="bcgov-vertical-middle "
       >
         Last Name
-      </td>
-      <td>
+      </div>
+      <div>
         Ross
-      </td>
-    </tr>
-    <tr
-      className=""
-      colSpan="2"
+      </div>
+    </div>
+    <div
+      className="bcgov-row "
     >
-      <td
-        className=""
+      <div
+        className="bcgov-vertical-middle "
       >
         First Name
-      </td>
-      <td>
+      </div>
+      <div>
         Bob
-      </td>
-    </tr>
-    <tr
-      className=""
-      colSpan="2"
+      </div>
+    </div>
+    <div
+      className="bcgov-row "
     >
-      <td
-        className=""
+      <div
+        className="bcgov-vertical-middle "
       >
         Email Address
-      </td>
-      <td>
+      </div>
+      <div>
         bob.ross@example.com
-      </td>
-    </tr>
-  </tbody>
-</table>
+      </div>
+    </div>
+  </div>
+</div>
 `;

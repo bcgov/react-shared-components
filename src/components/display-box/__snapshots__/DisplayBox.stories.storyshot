@@ -104,17 +104,13 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -125,19 +121,18 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div>
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -149,19 +144,18 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -173,19 +167,18 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -197,22 +190,21 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div>
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -323,17 +315,13 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -344,19 +332,18 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div>
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -368,19 +355,18 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -392,19 +378,18 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -416,22 +401,21 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div>
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -542,17 +526,13 @@ exports[`Storyshots DisplayBox With Border 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -563,19 +543,18 @@ exports[`Storyshots DisplayBox With Border 1`] = `
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div>
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -587,19 +566,18 @@ exports[`Storyshots DisplayBox With Border 1`] = `
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -611,19 +589,18 @@ exports[`Storyshots DisplayBox With Border 1`] = `
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -635,22 +612,21 @@ exports[`Storyshots DisplayBox With Border 1`] = `
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div>
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -815,17 +791,13 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -867,12 +839,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
               isFeesData={false}
               key="[object Object]"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className="vertical-middle"
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   <div
                     style={
@@ -885,8 +856,8 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                       file name
                     </span>
                   </div>
-                </td>
-                <td>
+                </div>
+                <div>
                   <Table
                     elements={
                       Array [
@@ -908,17 +879,13 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                     isFeesData={false}
                     styling=""
                   >
-                    <table
-                      className=""
+                    <div
+                      className="bcgov-table "
                     >
-                      <thead>
-                        <tr>
-                          <th
-                            colSpan="2"
-                          />
-                        </tr>
-                      </thead>
-                      <tbody>
+                      <b />
+                      <div
+                        className="bcgov-table-body"
+                      >
                         <TableElement
                           element={
                             Object {
@@ -931,23 +898,22 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                           isFeesData={false}
                           key="Description:"
                         >
-                          <tr
-                            className=""
-                            colSpan="2"
+                          <div
+                            className="bcgov-row "
                           >
-                            <td
-                              className="reduce-width"
+                            <div
+                              className="bcgov-vertical-middle bcgov-reduce-width"
                             >
                               Description:
-                            </td>
-                            <td
+                            </div>
+                            <div
                               className=""
                             >
                               <b>
                                 some file description
                               </b>
-                            </td>
-                          </tr>
+                            </div>
+                          </div>
                         </TableElement>
                         <TableElement
                           element={
@@ -961,32 +927,31 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                           isFeesData={false}
                           key="Statutory Fee:"
                         >
-                          <tr
-                            className=""
-                            colSpan="2"
+                          <div
+                            className="bcgov-row "
                           >
-                            <td
-                              className="reduce-width"
+                            <div
+                              className="bcgov-vertical-middle bcgov-reduce-width"
                             >
                               Statutory Fee:
-                            </td>
-                            <td
+                            </div>
+                            <div
                               className=""
                             >
                               <b>
                                 $10.00
                               </b>
-                            </td>
-                          </tr>
+                            </div>
+                          </div>
                         </TableElement>
-                      </tbody>
-                    </table>
+                      </div>
+                    </div>
                   </Table>
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -1097,17 +1062,13 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -1118,19 +1079,18 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div>
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1142,19 +1102,18 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1166,19 +1125,18 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1190,22 +1148,21 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div>
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -1285,17 +1242,13 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -1323,12 +1276,11 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
               isFeesData={false}
               key="[object Object]"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className="side-by-side"
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   <p
                     style={
@@ -1339,8 +1291,8 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                   >
                     This is the content on the left of the display box. Maybe there will be other content on the right too.
                   </p>
-                </td>
-                <td>
+                </div>
+                <div>
                   <p
                     style={
                       Object {
@@ -1350,11 +1302,11 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                   >
                     This is the content on the right of the display box. There already is content on the left side of the box.
                   </p>
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -1424,17 +1376,13 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -1445,19 +1393,18 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div>
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1469,19 +1416,18 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1493,19 +1439,18 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div>
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1517,22 +1462,21 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-vertical-middle "
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div>
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
