@@ -13,7 +13,7 @@ export const Radio = ({ id, name, label, onSelect }) => {
         id={id}
         onChange={e => onSelect(e.target.id)}
       />
-      <span className="dot" />
+      <span className="bcgov-dot" />
     </label>
   );
 };
