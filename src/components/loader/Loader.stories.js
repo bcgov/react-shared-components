@@ -8,9 +8,9 @@ export default {
   component: Loader,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 export const Page = () => <Loader page />;
@@ -26,7 +26,7 @@ export const Mobile = () => <Loader page />;
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };

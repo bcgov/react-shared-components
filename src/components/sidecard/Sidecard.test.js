@@ -6,7 +6,7 @@ describe("Sidecard Component", () => {
   const sideCard = {
     heading: "header",
     content: ["content"],
-    type: "grey"
+    type: "grey",
   };
 
   test("Matches the grey card snapshot", () => {
@@ -24,7 +24,7 @@ describe("Sidecard Component", () => {
           ...sideCard,
           type: "blue",
           image: "image",
-          imageLink: "imageLink"
+          imageLink: "imageLink",
         }}
       />
     );
@@ -46,7 +46,7 @@ describe("Sidecard Component", () => {
         sideCard={{
           ...sideCard,
           heading:
-            "heading is quite long so we can use custom styling to see it render"
+            "heading is quite long so we can use custom styling to see it render",
         }}
       />
     );

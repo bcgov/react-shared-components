@@ -7,7 +7,7 @@ import { Header, HeadingTitle, HeaderImage } from "./Header";
 describe("Header Component", () => {
   const header = {
     name: "File Submission",
-    history: createMemoryHistory()
+    history: createMemoryHistory(),
   };
 
   test("Header matches the snapshot", () => {

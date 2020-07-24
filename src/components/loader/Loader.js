@@ -16,9 +16,9 @@ export const Loader = ({ page }) => {
 };
 
 Loader.propTypes = {
-  page: PropTypes.bool
+  page: PropTypes.bool,
 };
 
 Loader.defaultProps = {
-  page: false
+  page: false,
 };

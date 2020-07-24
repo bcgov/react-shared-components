@@ -8,9 +8,9 @@ export default {
   component: Footer,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 export const Basic = () => <Footer />;
@@ -20,7 +20,7 @@ export const Mobile = () => <Footer />;
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };

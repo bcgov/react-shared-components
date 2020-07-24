@@ -9,15 +9,15 @@ export default {
   component: Sidecard,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const sideCard = {
   heading: "Heading",
   content: ["This is where I put my content for the sidecard"],
-  type: "blue"
+  type: "blue",
 };
 
 export const Blue = () => <Sidecard sideCard={sideCard} />;
@@ -33,7 +33,7 @@ export const WithIcon = () => (
     sideCard={{
       ...sideCard,
       type: "bluegrey",
-      icon: <FaIdCard className="side-card-icon" />
+      icon: <FaIdCard className="side-card-icon" />,
     }}
   />
 );
@@ -43,7 +43,7 @@ export const Mobile = () => (
     sideCard={{
       ...sideCard,
       type: "bluegrey",
-      icon: <FaIdCard className="side-card-icon" />
+      icon: <FaIdCard className="side-card-icon" />,
     }}
   />
 );
@@ -51,9 +51,9 @@ export const Mobile = () => (
 const mobileViewport = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
 
 Mobile.story = mobileViewport;

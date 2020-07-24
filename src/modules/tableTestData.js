@@ -2,10 +2,10 @@ const elements = [
   { name: "BCeID", value: "bobross42" },
   {
     name: "Last Name",
-    value: "Ross"
+    value: "Ross",
   },
   { name: "First Name", value: "Bob" },
-  { name: "Email Address", value: "bob.ross@example.com" }
+  { name: "Email Address", value: "bob.ross@example.com" },
 ];
 
 export function getTableElementsTestData() {

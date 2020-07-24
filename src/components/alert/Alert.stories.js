@@ -9,9 +9,9 @@ export default {
   component: Alert,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 export const Success = () => (
@@ -62,9 +62,9 @@ export const Mobile = () => (
 const mobileViewport = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
 
 Mobile.story = mobileViewport;
