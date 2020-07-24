@@ -15,7 +15,7 @@ export default {
 };
 
 const history = createMemoryHistory({
-  initialEntries: [{ key: "testKey" }]
+  initialEntries: [{ key: "testKey" }],
 });
 
 const header = {
