@@ -1,0 +1,58 @@
+import { Meta, Story } from "@storybook/addon-docs/blocks";
+import { Dropdown } from "./Dropdown";
+
+<Meta title="Dropdown" component={Dropdown} />
+
+# Dropdown
+
+Dropdowns allow users to select one option from a list.
+
+## When to Use
+
+When users have to select one option from a list of seven (7) to fifteen (15) different options.
+
+## When not to Use
+
+- When users have to select one option from a list of less than seven (7) items. Consider using a Radio Button instead
+- When users have to select multiple options from a list. Use Checkboxes instead
+- When users have to select one option from a very long list such as their country of birth. Consider using a Text Input that suggests input options instead
+
+## API
+
+| Prop     | Type     | Required | Description                                                      | Default |
+| -------- | -------- | -------- | ---------------------------------------------------------------- | ------- |
+| label    | string   | true     | value of the heading label for the dropdown                      |         |
+| items    | array    | true     | an array of strings representing the items in the dropdown       |         |
+| onSelect | function | true     | function describing action to take on selection of dropdown item |         |
+
+<br />
+
+## With Pre-Selected Option
+
+Basic dropdown with a pre-selected option.
+
+<Story
+  name="With Pre-selected Option"
+  id="dropdown--pre-selected-option"
+></Story>
+
+```bash
+const items = ["Option 1", "Option 2", "Option 3", "Option 4"];
+
+<Dropdown label="My dropdown" items={items} onSelect={onSelect} />
+```
+
+## With No Pre-Selected Option
+
+Basic dropdown with no pre-selected option.
+
+<Story
+  name="With No Pre-selected Option"
+  id="dropdown--no-pre-selected-option"
+></Story>
+
+```bash
+const items = ["Select", "Option 1", "Option 2", "Option 3", "Option 4"];
+
+<Dropdown label="My dropdown" items={items} onSelect={onSelect} />
+```

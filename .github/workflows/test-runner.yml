@@ -1,0 +1,40 @@
+name: Run JEST Tests
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  yarn:
+    name: Run yarn tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # Implement Caching Action for Yarn Project
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          # YARN cache files are stored in `/home/runner/.cache/yarn/v6` on git actions
+          path: /home/runner/.cache/yarn/v6
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      # Run Yarn Install
+      - name: Run Yarn Install
+        run: yarn install
+
+      # Run lint
+      - name: Run lint
+        run: yarn run lint
+
+      # Yarn Coverage
+      - name: Run Yarn Coverage
+        run: yarn coverage
