@@ -129,7 +129,9 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 >
                   BCeID
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
                 </div>
               </div>
@@ -152,7 +154,9 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 >
                   Last Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
                 </div>
               </div>
@@ -175,7 +179,9 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 >
                   First Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
                 </div>
               </div>
@@ -198,7 +204,9 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 >
                   Email Address
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
                 </div>
               </div>
@@ -340,7 +348,9 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 >
                   BCeID
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
                 </div>
               </div>
@@ -363,7 +373,9 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 >
                   Last Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
                 </div>
               </div>
@@ -386,7 +398,9 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 >
                   First Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
                 </div>
               </div>
@@ -409,7 +423,9 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 >
                   Email Address
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
                 </div>
               </div>
@@ -551,7 +567,9 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 >
                   BCeID
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
                 </div>
               </div>
@@ -574,7 +592,9 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 >
                   Last Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
                 </div>
               </div>
@@ -597,7 +617,9 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 >
                   First Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
                 </div>
               </div>
@@ -620,7 +642,9 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 >
                   Email Address
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
                 </div>
               </div>
@@ -655,13 +679,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
               elements={
                 Array [
                   Object {
-                    "isClose": true,
                     "isValueBold": true,
                     "name": "Description:",
                     "value": "some file description",
                   },
                   Object {
-                    "isClose": true,
                     "isValueBold": true,
                     "name": "Statutory Fee:",
                     "value": "$10.00",
@@ -766,13 +788,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                 elements={
                   Array [
                     Object {
-                      "isClose": true,
                       "isValueBold": true,
                       "name": "Description:",
                       "value": "some file description",
                     },
                     Object {
-                      "isClose": true,
                       "isValueBold": true,
                       "name": "Statutory Fee:",
                       "value": "$10.00",
@@ -816,13 +836,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                     elements={
                       Array [
                         Object {
-                          "isClose": true,
                           "isValueBold": true,
                           "name": "Description:",
                           "value": "some file description",
                         },
                         Object {
-                          "isClose": true,
                           "isValueBold": true,
                           "name": "Statutory Fee:",
                           "value": "$10.00",
@@ -857,18 +875,18 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                     </span>
                   </div>
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   <Table
                     elements={
                       Array [
                         Object {
-                          "isClose": true,
                           "isValueBold": true,
                           "name": "Description:",
                           "value": "some file description",
                         },
                         Object {
-                          "isClose": true,
                           "isValueBold": true,
                           "name": "Statutory Fee:",
                           "value": "$10.00",
@@ -889,7 +907,6 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                         <TableElement
                           element={
                             Object {
-                              "isClose": true,
                               "isValueBold": true,
                               "name": "Description:",
                               "value": "some file description",
@@ -902,12 +919,12 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                             className="bcgov-row "
                           >
                             <div
-                              className="bcgov-vertical-middle bcgov-reduce-width"
+                              className="bcgov-vertical-middle "
                             >
                               Description:
                             </div>
                             <div
-                              className=""
+                              className="bcgov-table-value "
                             >
                               <b>
                                 some file description
@@ -918,7 +935,6 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                         <TableElement
                           element={
                             Object {
-                              "isClose": true,
                               "isValueBold": true,
                               "name": "Statutory Fee:",
                               "value": "$10.00",
@@ -931,12 +947,12 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                             className="bcgov-row "
                           >
                             <div
-                              className="bcgov-vertical-middle bcgov-reduce-width"
+                              className="bcgov-vertical-middle "
                             >
                               Statutory Fee:
                             </div>
                             <div
-                              className=""
+                              className="bcgov-table-value "
                             >
                               <b>
                                 $10.00
@@ -1087,7 +1103,9 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 >
                   BCeID
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
                 </div>
               </div>
@@ -1110,7 +1128,9 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 >
                   Last Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
                 </div>
               </div>
@@ -1133,7 +1153,9 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 >
                   First Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
                 </div>
               </div>
@@ -1156,7 +1178,9 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 >
                   Email Address
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
                 </div>
               </div>
@@ -1292,7 +1316,9 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                     This is the content on the left of the display box. Maybe there will be other content on the right too.
                   </p>
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   <p
                     style={
                       Object {
@@ -1401,7 +1427,9 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 >
                   BCeID
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
                 </div>
               </div>
@@ -1424,7 +1452,9 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 >
                   Last Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
                 </div>
               </div>
@@ -1447,7 +1477,9 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 >
                   First Name
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
                 </div>
               </div>
@@ -1470,7 +1502,9 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 >
                   Email Address
                 </div>
-                <div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
                 </div>
               </div>

@@ -39,13 +39,11 @@ const fileData = [
     name: "Description:",
     value: "some file description",
     isValueBold: true,
-    isClose: true,
   },
   {
     name: "Statutory Fee:",
     value: "$10.00",
     isValueBold: true,
-    isClose: true,
   },
 ];
 

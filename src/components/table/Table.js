@@ -25,9 +25,10 @@ const TableElement = ({
   const emptyRow = isEmptyRow ? "bcgov-empty-row" : "";
   const rightAlign = isFeesData ? "bcgov-right-align" : "";
   const reduceWidth = isClose ? "bcgov-reduce-width" : "";
+  const rowStyle = isFeesData ? "bcgov-row-fees" : "bcgov-row";
 
   return (
-    <div className={`bcgov-row ${emptyRow}`}>
+    <div className={`${rowStyle} ${emptyRow}`}>
       {isNameBold && (
         <div className={`${columnWidth} ${reduceWidth}`}>
           <b>{name}</b>
@@ -37,11 +38,13 @@ const TableElement = ({
         <div className={`${columnWidth} ${reduceWidth}`}>{name}</div>
       )}
       {isValueBold && (
-        <div className={rightAlign}>
+        <div className={`bcgov-table-value ${rightAlign}`}>
           <b>{value}</b>
         </div>
       )}
-      {!isValueBold && <div>{value}</div>}
+      {!isValueBold && (
+        <div className={`bcgov-table-value ${rightAlign}`}>{value}</div>
+      )}
     </div>
   );
 };
