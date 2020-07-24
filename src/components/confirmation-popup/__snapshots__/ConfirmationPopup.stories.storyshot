@@ -7,7 +7,7 @@ exports[`Storyshots Confirmation Popup Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "d3ce690b-b3cf-44ad-8223-f12bb3a933c0",
+          "subscription": "6c3e7f5d-855f-4503-80e5-7d1559dae1d1",
         },
       ],
       "state": Object {
@@ -66,62 +66,53 @@ exports[`Storyshots Confirmation Popup Default 1`] = `
         </button>
       </div>
     </Button>
-    <Bootstrap(Modal)
+    <Modal
+      animation={true}
+      autoFocus={true}
+      backdrop={true}
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "ModalDialog",
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
       onHide={[Function]}
+      restoreFocus={true}
       show={false}
     >
       <Modal
-        animation={true}
         autoFocus={true}
         backdrop={true}
-        bsPrefix="modal"
-        dialogAs={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "displayName": "ModalDialog",
-            "render": [Function],
-          }
-        }
+        backdropTransition={[Function]}
+        containerClassName="modal-open"
         enforceFocus={true}
         keyboard={true}
+        manager={
+          BootstrapModalManager {
+            "containers": Array [],
+            "data": Array [],
+            "handleContainerOverflow": true,
+            "hideSiblingNodes": true,
+            "modals": Array [],
+            "scrollbarSize": 0,
+          }
+        }
+        onEnter={[Function]}
+        onEntering={[Function]}
+        onEscapeKeyDown={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
         onHide={[Function]}
+        renderBackdrop={[Function]}
+        renderDialog={[Function]}
         restoreFocus={true}
         show={false}
-      >
-        <Modal
-          autoFocus={true}
-          backdrop={true}
-          backdropTransition={[Function]}
-          className="modal"
-          containerClassName="modal-open"
-          enforceFocus={true}
-          keyboard={true}
-          manager={
-            BootstrapModalManager {
-              "adjustAndStore": [Function],
-              "containers": Array [],
-              "data": Array [],
-              "handleContainerOverflow": true,
-              "hideSiblingNodes": true,
-              "modals": Array [],
-              "restore": [Function],
-              "scrollbarSize": 0,
-            }
-          }
-          onClick={[Function]}
-          onEnter={[Function]}
-          onEntering={[Function]}
-          onExited={[Function]}
-          onHide={[Function]}
-          onMouseUp={[Function]}
-          renderBackdrop={[Function]}
-          restoreFocus={true}
-          show={false}
-          style={Object {}}
-          transition={[Function]}
-        />
-      </Modal>
-    </Bootstrap(Modal)>
+        transition={[Function]}
+      />
+    </Modal>
   </ConfirmationPopup>
 </State>
 `;
@@ -133,11 +124,11 @@ exports[`Storyshots Confirmation Popup Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "d3ce690b-b3cf-44ad-8223-f12bb3a933c0",
+          "subscription": "6c3e7f5d-855f-4503-80e5-7d1559dae1d1",
         },
         Object {
           "callback": [Function],
-          "subscription": "dd827e46-829d-42a3-8dc1-2559bb3230d9",
+          "subscription": "563f80e3-0522-4d01-86b6-a8405320dcbb",
         },
       ],
       "state": Object {
@@ -196,62 +187,53 @@ exports[`Storyshots Confirmation Popup Mobile 1`] = `
         </button>
       </div>
     </Button>
-    <Bootstrap(Modal)
+    <Modal
+      animation={true}
+      autoFocus={true}
+      backdrop={true}
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "ModalDialog",
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
       onHide={[Function]}
+      restoreFocus={true}
       show={false}
     >
       <Modal
-        animation={true}
         autoFocus={true}
         backdrop={true}
-        bsPrefix="modal"
-        dialogAs={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "displayName": "ModalDialog",
-            "render": [Function],
-          }
-        }
+        backdropTransition={[Function]}
+        containerClassName="modal-open"
         enforceFocus={true}
         keyboard={true}
+        manager={
+          BootstrapModalManager {
+            "containers": Array [],
+            "data": Array [],
+            "handleContainerOverflow": true,
+            "hideSiblingNodes": true,
+            "modals": Array [],
+            "scrollbarSize": 0,
+          }
+        }
+        onEnter={[Function]}
+        onEntering={[Function]}
+        onEscapeKeyDown={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
         onHide={[Function]}
+        renderBackdrop={[Function]}
+        renderDialog={[Function]}
         restoreFocus={true}
         show={false}
-      >
-        <Modal
-          autoFocus={true}
-          backdrop={true}
-          backdropTransition={[Function]}
-          className="modal"
-          containerClassName="modal-open"
-          enforceFocus={true}
-          keyboard={true}
-          manager={
-            BootstrapModalManager {
-              "adjustAndStore": [Function],
-              "containers": Array [],
-              "data": Array [],
-              "handleContainerOverflow": true,
-              "hideSiblingNodes": true,
-              "modals": Array [],
-              "restore": [Function],
-              "scrollbarSize": 0,
-            }
-          }
-          onClick={[Function]}
-          onEnter={[Function]}
-          onEntering={[Function]}
-          onExited={[Function]}
-          onHide={[Function]}
-          onMouseUp={[Function]}
-          renderBackdrop={[Function]}
-          restoreFocus={true}
-          show={false}
-          style={Object {}}
-          transition={[Function]}
-        />
-      </Modal>
-    </Bootstrap(Modal)>
+        transition={[Function]}
+      />
+    </Modal>
   </ConfirmationPopup>
 </State>
 `;
