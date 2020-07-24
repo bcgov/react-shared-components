@@ -9,9 +9,9 @@ export default {
   component: Header,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const history = createMemoryHistory();
@@ -19,7 +19,7 @@ history.entries[0].key = "testkey"; // set mock test key so storyshot is determi
 
 const header = {
   name: "Header title",
-  history
+  history,
 };
 
 export const Basic = () => <Header header={header} />;
@@ -29,7 +29,7 @@ export const Mobile = () => <Header header={header} />;
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
