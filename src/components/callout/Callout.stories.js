@@ -9,9 +9,9 @@ export default {
   component: Callout,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const text =
@@ -32,7 +32,7 @@ export const Mobile = () => <Callout text={text} />;
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };

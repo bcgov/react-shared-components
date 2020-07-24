@@ -11,9 +11,9 @@ export default {
   component: DisplayBox,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const elements = [
@@ -30,8 +30,8 @@ const elements = [
         content on the left side of the box.
       </p>
     ),
-    isSideBySide: true
-  }
+    isSideBySide: true,
+  },
 ];
 
 const fileData = [
@@ -39,14 +39,14 @@ const fileData = [
     name: "Description:",
     value: "some file description",
     isValueBold: true,
-    isClose: true
+    isClose: true,
   },
   {
     name: "Statutory Fee:",
     value: "$10.00",
     isValueBold: true,
-    isClose: true
-  }
+    isClose: true,
+  },
 ];
 
 const generateTableData = () => {
@@ -58,8 +58,8 @@ const generateTableData = () => {
         </div>
       ),
       value: <Table elements={fileData} />,
-      verticalMiddle: true
-    }
+      verticalMiddle: true,
+    },
   ];
 };
 
@@ -107,9 +107,9 @@ export const Mobile = () => (
 const mobileViewport = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
 
 Mobile.story = mobileViewport;

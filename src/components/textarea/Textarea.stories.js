@@ -9,9 +9,9 @@ export default {
   component: Textarea,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 export const WithLabel = () => (
@@ -37,7 +37,7 @@ export const Mobile = () => (
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };

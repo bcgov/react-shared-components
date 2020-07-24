@@ -42,5 +42,5 @@ TermsOfUse.propTypes = {
   acceptTerms: PropTypes.func.isRequired,
   content: PropTypes.element.isRequired,
   heading: PropTypes.string.isRequired,
-  confirmText: PropTypes.string.isRequired
+  confirmText: PropTypes.string.isRequired,
 };

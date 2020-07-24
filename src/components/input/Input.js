@@ -13,9 +13,9 @@ export const Input = ({
     errorMsg,
     styling,
     note,
-    isReadOnly
+    isReadOnly,
   },
-  onChange
+  onChange,
 }) => {
   let asterisk = "";
 
@@ -50,7 +50,7 @@ export const Input = ({
         defaultValue={value}
         placeholder={placeholder}
         readOnly={isReadOnly}
-        onChange={event => onChange(event.target.value)}
+        onChange={(event) => onChange(event.target.value)}
       />
       <br />
       <span className="error">{errorMsg}</span>
@@ -68,7 +68,7 @@ Input.propTypes = {
     errorMsg: PropTypes.string,
     styling: PropTypes.string.isRequired,
     note: PropTypes.string,
-    isReadOnly: PropTypes.bool
+    isReadOnly: PropTypes.bool,
   }).isRequired,
-  onChange: PropTypes.func.isRequired
+  onChange: PropTypes.func.isRequired,
 };

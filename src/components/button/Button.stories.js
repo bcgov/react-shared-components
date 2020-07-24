@@ -10,9 +10,9 @@ export default {
   component: Button,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const onClick = () => action("button was clicked");
@@ -41,9 +41,9 @@ export const Mobile = () => (
 const mobileViewport = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };
 
 Mobile.story = mobileViewport;

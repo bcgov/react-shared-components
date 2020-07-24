@@ -20,7 +20,7 @@ describe("Dropdown Component", () => {
     );
 
     fireEvent.change(getByTestId(container, "dropdown"), {
-      target: { value: "Option 2" }
+      target: { value: "Option 2" },
     });
 
     expect(onSelect).toHaveBeenCalledWith("Option 2");

@@ -7,7 +7,7 @@ describe("Input Component", () => {
   const input = {
     styling: "editable-white",
     id: "textInputId",
-    isReadOnly: false
+    isReadOnly: false,
   };
 
   const onChange = jest.fn();
@@ -19,7 +19,7 @@ describe("Input Component", () => {
           ...input,
           isRequired: true,
           placeholder: "Enter id",
-          label: "Submission ID"
+          label: "Submission ID",
         }}
         onChange={onChange}
       />
@@ -35,7 +35,7 @@ describe("Input Component", () => {
           ...input,
           isRequired: false,
           placeholder: "Enter id",
-          label: "Submission ID"
+          label: "Submission ID",
         }}
         onChange={onChange}
       />
@@ -50,7 +50,7 @@ describe("Input Component", () => {
         input={{
           ...input,
           isRequired: true,
-          placeholder: "Enter id"
+          placeholder: "Enter id",
         }}
         onChange={onChange}
       />
@@ -65,7 +65,7 @@ describe("Input Component", () => {
         input={{
           ...input,
           isRequired: false,
-          placeholder: "Enter id"
+          placeholder: "Enter id",
         }}
         onChange={onChange}
       />
@@ -81,7 +81,7 @@ describe("Input Component", () => {
           ...input,
           isRequired: false,
           isReadOnly: true,
-          placeholder: "Enter id"
+          placeholder: "Enter id",
         }}
         onChange={onChange}
       />
@@ -96,14 +96,14 @@ describe("Input Component", () => {
         input={{
           ...input,
           isRequired: false,
-          placeholder: "Enter id"
+          placeholder: "Enter id",
         }}
         onChange={onChange}
       />
     );
 
     fireEvent.change(getByRole(container, "textbox"), {
-      target: { value: "examplevalue" }
+      target: { value: "examplevalue" },
     });
 
     expect(getByRole(container, "textbox").value).toBe("examplevalue");

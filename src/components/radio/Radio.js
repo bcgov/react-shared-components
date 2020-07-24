@@ -11,7 +11,7 @@ export const Radio = ({ id, name, label, onSelect }) => {
         type="radio"
         name={name}
         id={id}
-        onChange={e => onSelect(e.target.id)}
+        onChange={(e) => onSelect(e.target.id)}
       />
       <span className="bcgov-dot" />
     </label>
@@ -22,5 +22,5 @@ Radio.propTypes = {
   label: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  onSelect: PropTypes.func.isRequired
+  onSelect: PropTypes.func.isRequired,
 };
