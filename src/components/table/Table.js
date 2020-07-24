@@ -11,7 +11,7 @@ const TableElement = ({
     isNameBold,
     isSideBySide,
     isEmptyRow,
-    verticalMiddle,
+    verticalMiddle = true,
     isClose,
   },
   isFeesData,
