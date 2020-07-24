@@ -34,8 +34,10 @@ exports[`Dropdown Component matches the snapshot 1`] = `
     </svg>
     <select
       className="bcgov-dropdown"
+      data-testid="dropdown"
       id="dropdown"
       name="options"
+      onChange={[Function]}
     >
       <option
         value="Option 1"

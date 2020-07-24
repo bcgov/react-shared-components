@@ -12,6 +12,7 @@ exports[`Storyshots Dropdown Mobile 1`] = `
     ]
   }
   label="My dropdown"
+  onSelect={[Function]}
 >
   <div
     className="bcgov-form"
@@ -60,8 +61,10 @@ exports[`Storyshots Dropdown Mobile 1`] = `
       </FaChevronDown>
       <select
         className="bcgov-dropdown"
+        data-testid="dropdown"
         id="dropdown"
         name="options"
+        onChange={[Function]}
       >
         <option
           key="Select"
@@ -111,6 +114,7 @@ exports[`Storyshots Dropdown No Pre Selected Option 1`] = `
     ]
   }
   label="My dropdown"
+  onSelect={[Function]}
 >
   <div
     className="bcgov-form"
@@ -159,8 +163,10 @@ exports[`Storyshots Dropdown No Pre Selected Option 1`] = `
       </FaChevronDown>
       <select
         className="bcgov-dropdown"
+        data-testid="dropdown"
         id="dropdown"
         name="options"
+        onChange={[Function]}
       >
         <option
           key="Select"
@@ -209,6 +215,7 @@ exports[`Storyshots Dropdown Pre Selected Option 1`] = `
     ]
   }
   label="My dropdown"
+  onSelect={[Function]}
 >
   <div
     className="bcgov-form"
@@ -257,8 +264,10 @@ exports[`Storyshots Dropdown Pre Selected Option 1`] = `
       </FaChevronDown>
       <select
         className="bcgov-dropdown"
+        data-testid="dropdown"
         id="dropdown"
         name="options"
+        onChange={[Function]}
       >
         <option
           key="Option 1"
