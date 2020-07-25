@@ -64,6 +64,6 @@
   .bcgov-side-by-side,
   .bcgov-vertical-middle,
   .bcgov-reduce-width {
-    width: 100%;
+    width: 100% !important;
   }
 }
