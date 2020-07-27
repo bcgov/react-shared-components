@@ -8,9 +8,11 @@ export const Dropdown = ({ items, label, onSelect }) => {
   return (
     <div className="bcgov-form">
       {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-      <label className="bcgov-dropdown-label" htmlFor="dropdown">
-        {label}
-      </label>
+      {label && (
+        <label className="bcgov-dropdown-label" htmlFor="dropdown">
+          {label}
+        </label>
+      )}
       <div className="bcgov-dropdown-wrapper">
         <FaChevronDown className="fa-chevron-down" />
         <select
@@ -33,6 +35,10 @@ export const Dropdown = ({ items, label, onSelect }) => {
 
 Dropdown.propTypes = {
   items: PropTypes.arrayOf(PropTypes.string).isRequired,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
   onSelect: PropTypes.func.isRequired,
+};
+
+Dropdown.defaultProps = {
+  label: "",
 };

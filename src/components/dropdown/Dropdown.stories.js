@@ -33,6 +33,10 @@ export const PreSelectedOption = () => (
   <Dropdown label={label} items={itemsDefault} onSelect={onSelect} />
 );
 
+export const NoLabel = () => (
+  <Dropdown items={itemsDefault} onSelect={onSelect} />
+);
+
 export const Mobile = () => (
   <Dropdown label={label} items={itemsNoDefault} onSelect={onSelect} />
 );
