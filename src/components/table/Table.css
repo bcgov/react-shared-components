@@ -34,13 +34,15 @@
   width: 60%;
 }
 
-.display-file .bcgov-vertical-middle {
+.bcgov-fill-width {
+  width: -webkit-fill-available;
+}
+
+.display-file .bcgov-fill-width {
   width: 35%;
-  align-self: center;
 }
 
 .bcgov-vertical-middle {
-  width: -webkit-fill-available;
   align-self: center;
 }
 
