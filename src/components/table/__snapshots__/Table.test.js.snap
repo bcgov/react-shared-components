@@ -14,7 +14,7 @@ exports[`Table Component Matches the blue striped snapshot 1`] = `
       className="bcgov-row "
     >
       <div
-        className="bcgov-vertical-middle "
+        className="bcgov-vertical-middle bcgov-fill-width "
       >
         BCeID
       </div>
@@ -28,7 +28,7 @@ exports[`Table Component Matches the blue striped snapshot 1`] = `
       className="bcgov-row "
     >
       <div
-        className="bcgov-vertical-middle "
+        className="bcgov-vertical-middle bcgov-fill-width "
       >
         Last Name
       </div>
@@ -42,7 +42,7 @@ exports[`Table Component Matches the blue striped snapshot 1`] = `
       className="bcgov-row "
     >
       <div
-        className="bcgov-vertical-middle "
+        className="bcgov-vertical-middle bcgov-fill-width "
       >
         First Name
       </div>
@@ -56,7 +56,7 @@ exports[`Table Component Matches the blue striped snapshot 1`] = `
       className="bcgov-row "
     >
       <div
-        className="bcgov-vertical-middle "
+        className="bcgov-vertical-middle bcgov-fill-width "
       >
         Email Address
       </div>
@@ -84,7 +84,7 @@ exports[`Table Component Matches the default snapshot 1`] = `
       className="bcgov-row "
     >
       <div
-        className="bcgov-vertical-middle "
+        className="bcgov-vertical-middle bcgov-fill-width "
       >
         BCeID
       </div>
@@ -98,7 +98,7 @@ exports[`Table Component Matches the default snapshot 1`] = `
       className="bcgov-row "
     >
       <div
-        className="bcgov-vertical-middle "
+        className="bcgov-vertical-middle bcgov-fill-width "
       >
         Last Name
       </div>
@@ -112,7 +112,7 @@ exports[`Table Component Matches the default snapshot 1`] = `
       className="bcgov-row "
     >
       <div
-        className="bcgov-vertical-middle "
+        className="bcgov-vertical-middle bcgov-fill-width "
       >
         First Name
       </div>
@@ -126,7 +126,7 @@ exports[`Table Component Matches the default snapshot 1`] = `
       className="bcgov-row "
     >
       <div
-        className="bcgov-vertical-middle "
+        className="bcgov-vertical-middle bcgov-fill-width "
       >
         Email Address
       </div>

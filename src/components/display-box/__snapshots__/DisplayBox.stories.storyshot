@@ -125,7 +125,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   BCeID
                 </div>
@@ -150,7 +150,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Last Name
                 </div>
@@ -175,7 +175,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   First Name
                 </div>
@@ -200,7 +200,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Email Address
                 </div>
@@ -344,7 +344,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   BCeID
                 </div>
@@ -369,7 +369,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Last Name
                 </div>
@@ -394,7 +394,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   First Name
                 </div>
@@ -419,7 +419,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Email Address
                 </div>
@@ -563,7 +563,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   BCeID
                 </div>
@@ -588,7 +588,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Last Name
                 </div>
@@ -613,7 +613,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   First Name
                 </div>
@@ -638,7 +638,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Email Address
                 </div>
@@ -861,7 +861,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   <div
                     style={
@@ -919,7 +919,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                             className="bcgov-row "
                           >
                             <div
-                              className="bcgov-vertical-middle "
+                              className="bcgov-vertical-middle bcgov-fill-width "
                             >
                               Description:
                             </div>
@@ -947,7 +947,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                             className="bcgov-row "
                           >
                             <div
-                              className="bcgov-vertical-middle "
+                              className="bcgov-vertical-middle bcgov-fill-width "
                             >
                               Statutory Fee:
                             </div>
@@ -1099,7 +1099,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   BCeID
                 </div>
@@ -1124,7 +1124,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Last Name
                 </div>
@@ -1149,7 +1149,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   First Name
                 </div>
@@ -1174,7 +1174,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Email Address
                 </div>
@@ -1304,7 +1304,7 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   <p
                     style={
@@ -1423,7 +1423,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   BCeID
                 </div>
@@ -1448,7 +1448,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Last Name
                 </div>
@@ -1473,7 +1473,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   First Name
                 </div>
@@ -1498,7 +1498,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle "
+                  className="bcgov-vertical-middle bcgov-fill-width "
                 >
                   Email Address
                 </div>

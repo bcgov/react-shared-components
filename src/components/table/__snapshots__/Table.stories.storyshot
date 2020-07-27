@@ -49,7 +49,7 @@ exports[`Storyshots Table Mobile 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             BCeID
           </div>
@@ -74,7 +74,7 @@ exports[`Storyshots Table Mobile 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Last Name
           </div>
@@ -99,7 +99,7 @@ exports[`Storyshots Table Mobile 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             First Name
           </div>
@@ -124,7 +124,7 @@ exports[`Storyshots Table Mobile 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Email Address
           </div>
@@ -187,7 +187,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             BCeID
           </div>
@@ -212,7 +212,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Last Name
           </div>
@@ -237,7 +237,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             First Name
           </div>
@@ -262,7 +262,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Email Address
           </div>
@@ -315,7 +315,7 @@ exports[`Storyshots Table With Bold Names 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             <b>
               Key
@@ -370,7 +370,7 @@ exports[`Storyshots Table With Bold Values 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Key
           </div>
@@ -440,7 +440,7 @@ exports[`Storyshots Table With Fees 1`] = `
           className="bcgov-row-fees "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Some Fees:
           </div>
@@ -468,7 +468,7 @@ exports[`Storyshots Table With Fees 1`] = `
           className="bcgov-row-fees "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Some More Fees:
           </div>
@@ -496,7 +496,7 @@ exports[`Storyshots Table With Fees 1`] = `
           className="bcgov-row-fees bcgov-empty-row"
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           />
           <div
             className="bcgov-table-value bcgov-right-align"
@@ -518,7 +518,7 @@ exports[`Storyshots Table With Fees 1`] = `
           className="bcgov-row-fees "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Total Fees:
           </div>
@@ -585,7 +585,7 @@ exports[`Storyshots Table With Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             BCeID
           </div>
@@ -610,7 +610,7 @@ exports[`Storyshots Table With Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Last Name
           </div>
@@ -635,7 +635,7 @@ exports[`Storyshots Table With Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             First Name
           </div>
@@ -660,7 +660,7 @@ exports[`Storyshots Table With Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Email Address
           </div>
@@ -723,7 +723,7 @@ exports[`Storyshots Table Without Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             BCeID
           </div>
@@ -748,7 +748,7 @@ exports[`Storyshots Table Without Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Last Name
           </div>
@@ -773,7 +773,7 @@ exports[`Storyshots Table Without Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             First Name
           </div>
@@ -798,7 +798,7 @@ exports[`Storyshots Table Without Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Email Address
           </div>

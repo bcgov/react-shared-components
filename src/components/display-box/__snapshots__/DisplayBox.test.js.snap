@@ -43,7 +43,7 @@ exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             BCeID
           </div>
@@ -57,7 +57,7 @@ exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Last Name
           </div>
@@ -71,7 +71,7 @@ exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             First Name
           </div>
@@ -85,7 +85,7 @@ exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Email Address
           </div>
@@ -121,7 +121,7 @@ exports[`DisplayBox Component Matches the 'without icon' snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             BCeID
           </div>
@@ -135,7 +135,7 @@ exports[`DisplayBox Component Matches the 'without icon' snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Last Name
           </div>
@@ -149,7 +149,7 @@ exports[`DisplayBox Component Matches the 'without icon' snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             First Name
           </div>
@@ -163,7 +163,7 @@ exports[`DisplayBox Component Matches the 'without icon' snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Email Address
           </div>
@@ -222,7 +222,7 @@ exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             BCeID
           </div>
@@ -236,7 +236,7 @@ exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Last Name
           </div>
@@ -250,7 +250,7 @@ exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             First Name
           </div>
@@ -264,7 +264,7 @@ exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Email Address
           </div>
@@ -323,7 +323,7 @@ exports[`DisplayBox Component Matches the warning snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             BCeID
           </div>
@@ -337,7 +337,7 @@ exports[`DisplayBox Component Matches the warning snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Last Name
           </div>
@@ -351,7 +351,7 @@ exports[`DisplayBox Component Matches the warning snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             First Name
           </div>
@@ -365,7 +365,7 @@ exports[`DisplayBox Component Matches the warning snapshot 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle "
+            className="bcgov-vertical-middle bcgov-fill-width "
           >
             Email Address
           </div>

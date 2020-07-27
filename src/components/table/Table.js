@@ -18,7 +18,7 @@ const TableElement = ({
 }) => {
   let columnWidth = "";
   if (verticalMiddle) {
-    columnWidth = "bcgov-vertical-middle";
+    columnWidth = "bcgov-vertical-middle bcgov-fill-width";
   } else if (isSideBySide) {
     columnWidth = "bcgov-side-by-side";
   }
