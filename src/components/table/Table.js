@@ -101,3 +101,7 @@ Table.defaultProps = {
   isFeesData: false,
   elementStyles: {},
 };
+
+TableElement.defaultProps = {
+  elementStyles: {},
+};
