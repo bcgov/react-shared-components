@@ -4,39 +4,28 @@ import PropTypes from "prop-types";
 import "./Table.css";
 
 const TableElement = ({
-  element: {
-    name,
-    value,
-    isValueBold,
-    isNameBold,
-    isSideBySide,
-    isEmptyRow,
-    verticalMiddle = true,
-    isClose,
-  },
+  element: { name, value, isValueBold, isNameBold, isEmptyRow },
   isFeesData,
+  elementStyles,
 }) => {
-  let columnWidth = "";
-  if (verticalMiddle) {
-    columnWidth = "bcgov-vertical-middle bcgov-fill-width";
-  } else if (isSideBySide) {
-    columnWidth = "bcgov-side-by-side";
-  }
   const emptyRow = isEmptyRow ? "bcgov-empty-row" : "";
   const rightAlign = isFeesData ? "bcgov-right-align" : "";
-  const reduceWidth = isClose ? "bcgov-reduce-width" : "";
-  const rowStyle = isFeesData ? "bcgov-row-fees" : "bcgov-row";
+  let rowStyle = isFeesData ? "bcgov-row-fees" : "bcgov-row";
+  let columnStyle = "bcgov-fill-width";
+  if (elementStyles) {
+    if (elementStyles.rowStyle) rowStyle += ` ${elementStyles.rowStyle}`;
+    if (elementStyles.columnStyle)
+      columnStyle = elementStyles && elementStyles.columnStyle;
+  }
 
   return (
     <div className={`${rowStyle} ${emptyRow}`}>
       {isNameBold && (
-        <div className={`${columnWidth} ${reduceWidth}`}>
+        <div className={columnStyle}>
           <b>{name}</b>
         </div>
       )}
-      {!isNameBold && (
-        <div className={`${columnWidth} ${reduceWidth}`}>{name}</div>
-      )}
+      {!isNameBold && <div className={columnStyle}>{name}</div>}
       {isValueBold && (
         <div className={`bcgov-table-value ${rightAlign}`}>
           <b>{value}</b>
@@ -49,13 +38,20 @@ const TableElement = ({
   );
 };
 
-export const Table = ({ heading, elements, styling, isFeesData }) => {
+export const Table = ({
+  heading,
+  elements,
+  styling,
+  isFeesData,
+  elementStyles,
+}) => {
   const tableComponents = elements.map((element) => {
     return (
       <TableElement
         isFeesData={isFeesData}
         key={element.key || element.name}
         element={element}
+        elementStyles={elementStyles}
       />
     );
   });
@@ -74,12 +70,10 @@ TableElement.propTypes = {
     value: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
     isValueBold: PropTypes.bool,
     isNameBold: PropTypes.bool,
-    isSideBySide: PropTypes.bool,
     isEmptyRow: PropTypes.bool,
-    verticalMiddle: PropTypes.bool,
-    isClose: PropTypes.bool,
   }).isRequired,
   isFeesData: PropTypes.bool.isRequired,
+  elementStyles: PropTypes.object,
 };
 
 Table.propTypes = {
@@ -92,14 +86,12 @@ Table.propTypes = {
         .isRequired,
       isValueBold: PropTypes.bool,
       isNameBold: PropTypes.bool,
-      isSideBySide: PropTypes.bool,
       isEmptyRow: PropTypes.bool,
-      verticalMiddle: PropTypes.bool,
-      isClose: PropTypes.bool,
     }).isRequired
   ),
   styling: PropTypes.string,
   isFeesData: PropTypes.bool,
+  elementStyles: PropTypes.object,
 };
 
 Table.defaultProps = {
@@ -107,4 +99,5 @@ Table.defaultProps = {
   heading: "",
   elements: [],
   isFeesData: false,
+  elementStyles: {},
 };

@@ -56,7 +56,6 @@ const generateTableData = () => {
         </div>
       ),
       value: <Table elements={fileData} />,
-      verticalMiddle: true,
     },
   ];
 };
@@ -94,7 +93,14 @@ export const WithFileData = () => (
   <DisplayBox
     styling="border-background display-file"
     icon={documentIcon}
-    element={<Table elements={generateTableData()} />}
+    element={
+      <Table
+        elementStyles={{
+          columnStyle: "bcgov-vertical-middle bcgov-fill-width",
+        }}
+        elements={generateTableData()}
+      />
+    }
   />
 );
 
