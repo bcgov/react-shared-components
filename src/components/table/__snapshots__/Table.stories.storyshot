@@ -2,6 +2,7 @@
 
 exports[`Storyshots Table Mobile 1`] = `
 <Table
+  elementStyles={Object {}}
   elements={
     Array [
       Object {
@@ -42,6 +43,7 @@ exports[`Storyshots Table Mobile 1`] = `
             "value": "bobross42",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="BCeID"
       >
@@ -49,7 +51,7 @@ exports[`Storyshots Table Mobile 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             BCeID
           </div>
@@ -67,6 +69,7 @@ exports[`Storyshots Table Mobile 1`] = `
             "value": "Ross",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Last Name"
       >
@@ -74,7 +77,7 @@ exports[`Storyshots Table Mobile 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Last Name
           </div>
@@ -92,6 +95,7 @@ exports[`Storyshots Table Mobile 1`] = `
             "value": "Bob",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="First Name"
       >
@@ -99,7 +103,7 @@ exports[`Storyshots Table Mobile 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             First Name
           </div>
@@ -117,6 +121,7 @@ exports[`Storyshots Table Mobile 1`] = `
             "value": "bob.ross@example.com",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Email Address"
       >
@@ -124,7 +129,7 @@ exports[`Storyshots Table Mobile 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Email Address
           </div>
@@ -142,6 +147,7 @@ exports[`Storyshots Table Mobile 1`] = `
 
 exports[`Storyshots Table With Blue Stripe 1`] = `
 <Table
+  elementStyles={Object {}}
   elements={
     Array [
       Object {
@@ -180,6 +186,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
             "value": "bobross42",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="BCeID"
       >
@@ -187,7 +194,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             BCeID
           </div>
@@ -205,6 +212,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
             "value": "Ross",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Last Name"
       >
@@ -212,7 +220,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Last Name
           </div>
@@ -230,6 +238,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
             "value": "Bob",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="First Name"
       >
@@ -237,7 +246,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             First Name
           </div>
@@ -255,6 +264,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
             "value": "bob.ross@example.com",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Email Address"
       >
@@ -262,7 +272,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Email Address
           </div>
@@ -280,6 +290,7 @@ exports[`Storyshots Table With Blue Stripe 1`] = `
 
 exports[`Storyshots Table With Bold Names 1`] = `
 <Table
+  elementStyles={Object {}}
   elements={
     Array [
       Object {
@@ -308,6 +319,7 @@ exports[`Storyshots Table With Bold Names 1`] = `
             "value": "Value",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Key"
       >
@@ -315,7 +327,7 @@ exports[`Storyshots Table With Bold Names 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             <b>
               Key
@@ -335,6 +347,7 @@ exports[`Storyshots Table With Bold Names 1`] = `
 
 exports[`Storyshots Table With Bold Values 1`] = `
 <Table
+  elementStyles={Object {}}
   elements={
     Array [
       Object {
@@ -363,6 +376,7 @@ exports[`Storyshots Table With Bold Values 1`] = `
             "value": "Value",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Key"
       >
@@ -370,7 +384,7 @@ exports[`Storyshots Table With Bold Values 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Key
           </div>
@@ -390,6 +404,7 @@ exports[`Storyshots Table With Bold Values 1`] = `
 
 exports[`Storyshots Table With Fees 1`] = `
 <Table
+  elementStyles={Object {}}
   elements={
     Array [
       Object {
@@ -433,6 +448,7 @@ exports[`Storyshots Table With Fees 1`] = `
             "value": "$100.00",
           }
         }
+        elementStyles={Object {}}
         isFeesData={true}
         key="Some Fees:"
       >
@@ -440,7 +456,7 @@ exports[`Storyshots Table With Fees 1`] = `
           className="bcgov-row-fees "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Some Fees:
           </div>
@@ -461,6 +477,7 @@ exports[`Storyshots Table With Fees 1`] = `
             "value": "$10.00",
           }
         }
+        elementStyles={Object {}}
         isFeesData={true}
         key="Some More Fees:"
       >
@@ -468,7 +485,7 @@ exports[`Storyshots Table With Fees 1`] = `
           className="bcgov-row-fees "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Some More Fees:
           </div>
@@ -489,6 +506,7 @@ exports[`Storyshots Table With Fees 1`] = `
             "value": "",
           }
         }
+        elementStyles={Object {}}
         isFeesData={true}
         key=""
       >
@@ -496,7 +514,7 @@ exports[`Storyshots Table With Fees 1`] = `
           className="bcgov-row-fees bcgov-empty-row"
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           />
           <div
             className="bcgov-table-value bcgov-right-align"
@@ -511,6 +529,7 @@ exports[`Storyshots Table With Fees 1`] = `
             "value": "$110.00",
           }
         }
+        elementStyles={Object {}}
         isFeesData={true}
         key="Total Fees:"
       >
@@ -518,7 +537,7 @@ exports[`Storyshots Table With Fees 1`] = `
           className="bcgov-row-fees "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Total Fees:
           </div>
@@ -538,6 +557,7 @@ exports[`Storyshots Table With Fees 1`] = `
 
 exports[`Storyshots Table With Header 1`] = `
 <Table
+  elementStyles={Object {}}
   elements={
     Array [
       Object {
@@ -578,6 +598,7 @@ exports[`Storyshots Table With Header 1`] = `
             "value": "bobross42",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="BCeID"
       >
@@ -585,7 +606,7 @@ exports[`Storyshots Table With Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             BCeID
           </div>
@@ -603,6 +624,7 @@ exports[`Storyshots Table With Header 1`] = `
             "value": "Ross",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Last Name"
       >
@@ -610,7 +632,7 @@ exports[`Storyshots Table With Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Last Name
           </div>
@@ -628,6 +650,7 @@ exports[`Storyshots Table With Header 1`] = `
             "value": "Bob",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="First Name"
       >
@@ -635,7 +658,7 @@ exports[`Storyshots Table With Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             First Name
           </div>
@@ -653,6 +676,7 @@ exports[`Storyshots Table With Header 1`] = `
             "value": "bob.ross@example.com",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Email Address"
       >
@@ -660,7 +684,7 @@ exports[`Storyshots Table With Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Email Address
           </div>
@@ -678,6 +702,7 @@ exports[`Storyshots Table With Header 1`] = `
 
 exports[`Storyshots Table Without Header 1`] = `
 <Table
+  elementStyles={Object {}}
   elements={
     Array [
       Object {
@@ -716,6 +741,7 @@ exports[`Storyshots Table Without Header 1`] = `
             "value": "bobross42",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="BCeID"
       >
@@ -723,7 +749,7 @@ exports[`Storyshots Table Without Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             BCeID
           </div>
@@ -741,6 +767,7 @@ exports[`Storyshots Table Without Header 1`] = `
             "value": "Ross",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Last Name"
       >
@@ -748,7 +775,7 @@ exports[`Storyshots Table Without Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Last Name
           </div>
@@ -766,6 +793,7 @@ exports[`Storyshots Table Without Header 1`] = `
             "value": "Bob",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="First Name"
       >
@@ -773,7 +801,7 @@ exports[`Storyshots Table Without Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             First Name
           </div>
@@ -791,6 +819,7 @@ exports[`Storyshots Table Without Header 1`] = `
             "value": "bob.ross@example.com",
           }
         }
+        elementStyles={Object {}}
         isFeesData={false}
         key="Email Address"
       >
@@ -798,7 +827,7 @@ exports[`Storyshots Table Without Header 1`] = `
           className="bcgov-row "
         >
           <div
-            className="bcgov-vertical-middle bcgov-fill-width "
+            className="bcgov-fill-width"
           >
             Email Address
           </div>

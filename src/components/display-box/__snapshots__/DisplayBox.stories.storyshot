@@ -4,6 +4,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -80,6 +81,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -118,6 +120,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
@@ -125,7 +128,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   BCeID
                 </div>
@@ -143,6 +146,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
@@ -150,7 +154,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Last Name
                 </div>
@@ -168,6 +172,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
@@ -175,7 +180,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   First Name
                 </div>
@@ -193,6 +198,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
@@ -200,7 +206,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Email Address
                 </div>
@@ -223,6 +229,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -299,6 +306,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -337,6 +345,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
@@ -344,7 +353,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   BCeID
                 </div>
@@ -362,6 +371,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
@@ -369,7 +379,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Last Name
                 </div>
@@ -387,6 +397,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
@@ -394,7 +405,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   First Name
                 </div>
@@ -412,6 +423,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
@@ -419,7 +431,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Email Address
                 </div>
@@ -442,6 +454,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -518,6 +531,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -556,6 +570,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
@@ -563,7 +578,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   BCeID
                 </div>
@@ -581,6 +596,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
@@ -588,7 +604,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Last Name
                 </div>
@@ -606,6 +622,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
@@ -613,7 +630,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   First Name
                 </div>
@@ -631,6 +648,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
@@ -638,7 +656,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Email Address
                 </div>
@@ -661,6 +679,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={
+        Object {
+          "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
+        }
+      }
       elements={
         Array [
           Object {
@@ -676,6 +699,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
               </span>
             </div>,
             "value": <Table
+              elementStyles={Object {}}
               elements={
                 Array [
                   Object {
@@ -694,7 +718,6 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
               isFeesData={false}
               styling=""
             />,
-            "verticalMiddle": true,
           },
         ]
       }
@@ -770,6 +793,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={
+          Object {
+            "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
+          }
+        }
         elements={
           Array [
             Object {
@@ -785,6 +813,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                 </span>
               </div>,
               "value": <Table
+                elementStyles={Object {}}
                 elements={
                   Array [
                     Object {
@@ -803,7 +832,6 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                 isFeesData={false}
                 styling=""
               />,
-              "verticalMiddle": true,
             },
           ]
         }
@@ -833,6 +861,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                     </span>
                   </div>,
                   "value": <Table
+                    elementStyles={Object {}}
                     elements={
                       Array [
                         Object {
@@ -851,7 +880,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                     isFeesData={false}
                     styling=""
                   />,
-                  "verticalMiddle": true,
+                }
+              }
+              elementStyles={
+                Object {
+                  "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
                 }
               }
               isFeesData={false}
@@ -861,7 +894,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-vertical-middle bcgov-fill-width"
                 >
                   <div
                     style={
@@ -879,6 +912,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                   className="bcgov-table-value "
                 >
                   <Table
+                    elementStyles={Object {}}
                     elements={
                       Array [
                         Object {
@@ -912,6 +946,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                               "value": "some file description",
                             }
                           }
+                          elementStyles={Object {}}
                           isFeesData={false}
                           key="Description:"
                         >
@@ -919,7 +954,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                             className="bcgov-row "
                           >
                             <div
-                              className="bcgov-vertical-middle bcgov-fill-width "
+                              className="bcgov-fill-width"
                             >
                               Description:
                             </div>
@@ -940,6 +975,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                               "value": "$10.00",
                             }
                           }
+                          elementStyles={Object {}}
                           isFeesData={false}
                           key="Statutory Fee:"
                         >
@@ -947,7 +983,7 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                             className="bcgov-row "
                           >
                             <div
-                              className="bcgov-vertical-middle bcgov-fill-width "
+                              className="bcgov-fill-width"
                             >
                               Statutory Fee:
                             </div>
@@ -978,6 +1014,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -1054,6 +1091,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -1092,6 +1130,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
@@ -1099,7 +1138,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   BCeID
                 </div>
@@ -1117,6 +1156,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
@@ -1124,7 +1164,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Last Name
                 </div>
@@ -1142,6 +1182,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
@@ -1149,7 +1190,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   First Name
                 </div>
@@ -1167,6 +1208,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
@@ -1174,7 +1216,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Email Address
                 </div>
@@ -1197,6 +1239,7 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -1237,6 +1280,7 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -1297,6 +1341,7 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                   </p>,
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="[object Object]"
             >
@@ -1304,7 +1349,7 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   <p
                     style={
@@ -1343,6 +1388,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -1378,6 +1424,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -1416,6 +1463,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
@@ -1423,7 +1471,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   BCeID
                 </div>
@@ -1441,6 +1489,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
@@ -1448,7 +1497,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Last Name
                 </div>
@@ -1466,6 +1515,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
@@ -1473,7 +1523,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   First Name
                 </div>
@@ -1491,6 +1541,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
@@ -1498,7 +1549,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                 className="bcgov-row "
               >
                 <div
-                  className="bcgov-vertical-middle bcgov-fill-width "
+                  className="bcgov-fill-width"
                 >
                   Email Address
                 </div>

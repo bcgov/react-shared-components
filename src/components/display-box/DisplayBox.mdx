@@ -107,14 +107,12 @@ const fileData = [
   {
     name: "Description:",
     value: "some file description",
-    isValueBold: true,
-    isClose: true
+    isValueBold: true
   },
   {
     name: "Statutory Fee:",
     value: "$10.00",
-    isValueBold: true,
-    isClose: true
+    isValueBold: true
   }
 ];
 
@@ -128,8 +126,7 @@ const generateTableData = () => {
       ),
       value: (
         <Table elements={fileData} />
-      ),
-      verticalMiddle: true
+      )
     }
   ];
 };
@@ -143,6 +140,6 @@ const documentIcon = (
 <DisplayBox
   styling="border-background display-file"
   icon={documentIcon}
-  element={<Table elements={generateTableData()} />}
+  element={<Table elementStyles={{ columnStyle: "bcgov-vertical-middle bcgov-fill-width" }} elements={generateTableData()} />}
 />
 ```
