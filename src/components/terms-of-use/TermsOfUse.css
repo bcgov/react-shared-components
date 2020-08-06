@@ -7,10 +7,6 @@
   margin-bottom: 30px;
 }
 
-.normal-white {
-  margin-right: 30px;
-}
-
 .full-width {
   width: 100%;
 }
@@ -22,11 +18,6 @@
   float: right;
   margin-top: 10px;
   margin-right: 15px;
-}
-
-.buttons {
-  display: flex;
-  float: right;
 }
 
 @media print {

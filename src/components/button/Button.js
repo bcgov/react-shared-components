@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import "./Button.css";
 
 export const Button = ({ onClick, label, styling, disabled, testId }) => (
-  <div>
+  <div className="bcgov-button-container">
     <button
-      className={styling}
+      className={`bcgov-button ${styling}`}
       onClick={onClick}
       type="button"
       disabled={disabled}

@@ -12,8 +12,6 @@
 
 .normal-white {
   color: #003366;
-  min-width: 150px;
-  min-height: 40px;
   background-color: white;
   border-width: 1px;
   border-style: solid;
@@ -30,4 +28,15 @@
 
 .consistent-width {
   width: 270px;
+}
+
+.bcgov-button {
+  min-width: 150px;
+  min-height: 40px;
+}
+
+@media (max-width: 575.98px) {
+  .bcgov-button-container {
+    text-align: center;
+  }
 }
