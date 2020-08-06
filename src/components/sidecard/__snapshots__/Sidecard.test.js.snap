@@ -10,47 +10,43 @@ exports[`Sidecard Component Matches the blue card snapshot with image 1`] = `
   }
 >
   <div
-    className="row"
-  >
-    <div
-      className="col-12 pt-2"
-      style={
-        Object {
-          "position": "relative",
-        }
+    className="col-12 pt-2"
+    style={
+      Object {
+        "position": "relative",
       }
+    }
+  >
+    <p />
+    <section
+      className="submit-container"
+      id="blue-section"
     >
-      <p />
-      <section
-        className="submit-container"
-        id="blue-section"
+      <h2
+        className="heading-style"
       >
-        <h2
-          className="heading-style"
+        header
+      </h2>
+      <div
+        className="submit-content"
+      >
+        <span>
+          content
+        </span>
+        <a
+          href="imageLink"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          header
-        </h2>
-        <div
-          className="submit-content"
-        >
-          <span>
-            content
-          </span>
-          <a
-            href="imageLink"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="imagelink"
-              height="65px"
-              src="image"
-              width="310px"
-            />
-          </a>
-        </div>
-      </section>
-    </div>
+          <img
+            alt="imagelink"
+            height="65px"
+            src="image"
+            width="310px"
+          />
+        </a>
+      </div>
+    </section>
   </div>
 </div>
 `;
@@ -65,35 +61,31 @@ exports[`Sidecard Component Matches the blue card snapshot without image 1`] = `
   }
 >
   <div
-    className="row"
-  >
-    <div
-      className="col-12 pt-2"
-      style={
-        Object {
-          "position": "relative",
-        }
+    className="col-12 pt-2"
+    style={
+      Object {
+        "position": "relative",
       }
+    }
+  >
+    <p />
+    <section
+      className="submit-container"
+      id="blue-section"
     >
-      <p />
-      <section
-        className="submit-container"
-        id="blue-section"
+      <h2
+        className="heading-style"
       >
-        <h2
-          className="heading-style"
-        >
-          header
-        </h2>
-        <div
-          className="submit-content"
-        >
-          <span>
-            content
-          </span>
-        </div>
-      </section>
-    </div>
+        header
+      </h2>
+      <div
+        className="submit-content"
+      >
+        <span>
+          content
+        </span>
+      </div>
+    </section>
   </div>
 </div>
 `;
@@ -108,41 +100,37 @@ exports[`Sidecard Component Matches the bluegrey card snapshot 1`] = `
   }
 >
   <div
-    className="row"
-  >
-    <div
-      className="col-12 pt-2"
-      style={
-        Object {
-          "position": "relative",
-        }
+    className="col-12 pt-2"
+    style={
+      Object {
+        "position": "relative",
       }
+    }
+  >
+    <p />
+    <section
+      className="bluegrey-container"
+      id="bluegrey-section"
     >
-      <p />
-      <section
-        className="bluegrey-container"
-        id="bluegrey-section"
+      <div
+        className="container-background bluegrey-heading"
       >
-        <div
-          className="container-background bluegrey-heading"
+        <h2
+          className="heading-style"
         >
-          <h2
-            className="heading-style"
-          >
-            header
-          </h2>
-        </div>
-        <div
-          className="bluegrey-content"
+          header
+        </h2>
+      </div>
+      <div
+        className="bluegrey-content"
+      >
+        <span
+          className="content-style"
         >
-          <span
-            className="content-style"
-          >
-            content
-          </span>
-        </div>
-      </section>
-    </div>
+          content
+        </span>
+      </div>
+    </section>
   </div>
 </div>
 `;
@@ -157,46 +145,42 @@ exports[`Sidecard Component Matches the grey card snapshot 1`] = `
   }
 >
   <div
-    className="row"
+    className="col-12 pt-2"
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
   >
-    <div
-      className="col-12 pt-2"
+    <p />
+    <section
+      className="submit-container"
+      id="grey-section"
       style={
         Object {
-          "position": "relative",
+          "backgroundColor": "#F2F2F2",
+          "border": "none",
+          "color": "#000",
         }
       }
     >
-      <p />
-      <section
-        className="submit-container"
-        id="grey-section"
+      <h2
         style={
           Object {
-            "backgroundColor": "#F2F2F2",
-            "border": "none",
             "color": "#000",
           }
         }
       >
-        <h2
-          style={
-            Object {
-              "color": "#000",
-            }
-          }
-        >
-          header
-        </h2>
-        <div
-          className="submit-content"
-        >
-          <span>
-            content
-          </span>
-        </div>
-      </section>
-    </div>
+        header
+      </h2>
+      <div
+        className="submit-content"
+      >
+        <span>
+          content
+        </span>
+      </div>
+    </section>
   </div>
 </div>
 `;
@@ -211,46 +195,42 @@ exports[`Sidecard Component Matches the snapshot when heading is long 1`] = `
   }
 >
   <div
-    className="row"
+    className="col-12 pt-2"
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
   >
-    <div
-      className="col-12 pt-2"
+    <p />
+    <section
+      className="submit-container"
+      id="grey-section"
       style={
         Object {
-          "position": "relative",
+          "backgroundColor": "#F2F2F2",
+          "border": "none",
+          "color": "#000",
         }
       }
     >
-      <p />
-      <section
-        className="submit-container"
-        id="grey-section"
+      <h2
         style={
           Object {
-            "backgroundColor": "#F2F2F2",
-            "border": "none",
             "color": "#000",
           }
         }
       >
-        <h2
-          style={
-            Object {
-              "color": "#000",
-            }
-          }
-        >
-          heading is quite long so we can use custom styling to see it render
-        </h2>
-        <div
-          className="submit-content"
-        >
-          <span>
-            content
-          </span>
-        </div>
-      </section>
-    </div>
+        heading is quite long so we can use custom styling to see it render
+      </h2>
+      <div
+        className="submit-content"
+      >
+        <span>
+          content
+        </span>
+      </div>
+    </section>
   </div>
 </div>
 `;
@@ -265,46 +245,42 @@ exports[`Sidecard Component Matches the snapshot when it is wide 1`] = `
   }
 >
   <div
-    className="row"
+    className="col-12 pt-2"
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
   >
-    <div
-      className="col-12 pt-2"
+    <p />
+    <section
+      className="submit-container"
+      id="grey-section"
       style={
         Object {
-          "position": "relative",
+          "backgroundColor": "#F2F2F2",
+          "border": "none",
+          "color": "#000",
         }
       }
     >
-      <p />
-      <section
-        className="submit-container"
-        id="grey-section"
+      <h2
         style={
           Object {
-            "backgroundColor": "#F2F2F2",
-            "border": "none",
             "color": "#000",
           }
         }
       >
-        <h2
-          style={
-            Object {
-              "color": "#000",
-            }
-          }
-        >
-          header
-        </h2>
-        <div
-          className="submit-content"
-        >
-          <span>
-            content
-          </span>
-        </div>
-      </section>
-    </div>
+        header
+      </h2>
+      <div
+        className="submit-content"
+      >
+        <span>
+          content
+        </span>
+      </div>
+    </section>
   </div>
 </div>
 `;
