@@ -5,7 +5,7 @@ import "./Button.css";
 export const Button = ({ onClick, label, styling, disabled, testId }) => (
   <div>
     <button
-      className={styling}
+      className={`bcgov-button ${styling}`}
       onClick={onClick}
       type="button"
       disabled={disabled}

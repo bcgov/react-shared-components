@@ -23,24 +23,26 @@ export default function ConfirmationPopup({
       />
 
       <Modal show={show} onHide={cancelButton.onClick}>
-        <Modal.Header className="hide-border padding-left" closeButton>
-          <Modal.Title className="mt-3 larger-font">{title}</Modal.Title>
+        <Modal.Header className="hide-border mt-3" closeButton>
+          <Modal.Title className="mx-auto larger-font">{title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body className="padding-left">{body()}</Modal.Body>
-        <div className="mx-auto mb-5">
-          <Button
-            styling={confirmButton.styling}
-            onClick={confirmButton.onClick}
-            label={confirmButton.label}
-            testId="modal-confirm-btn"
-          />
-          <br />
-          <Button
-            styling={cancelButton.styling}
-            onClick={cancelButton.onClick}
-            label={cancelButton.label}
-            testId="modal-cancel-btn"
-          />
+        <div className="mx-auto">
+          <Modal.Body className="padding-left">{body()}</Modal.Body>
+          <div className="mx-auto mb-5">
+            <Button
+              styling={confirmButton.styling}
+              onClick={confirmButton.onClick}
+              label={confirmButton.label}
+              testId="modal-confirm-btn"
+            />
+            <br />
+            <Button
+              styling={cancelButton.styling}
+              onClick={cancelButton.onClick}
+              label={cancelButton.label}
+              testId="modal-cancel-btn"
+            />
+          </div>
         </div>
       </Modal>
     </>

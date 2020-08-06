@@ -40,7 +40,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
   >
     <div>
       <button
-        className="normal-blue btn"
+        className="bcgov-button normal-blue btn"
         data-test-id="main-cancel-btn"
         disabled={false}
         onClick={[MockFunction]}
@@ -99,10 +99,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     class="modal-content"
                   >
                     <div
-                      class="hide-border padding-left modal-header"
+                      class="hide-border mt-3 modal-header"
                     >
                       <div
-                        class="mt-3 larger-font modal-title h4"
+                        class="mx-auto larger-font modal-title h4"
                       >
                         Cancel process?
                       </div>
@@ -123,41 +123,45 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       </button>
                     </div>
                     <div
-                      class="padding-left modal-body"
+                      class="mx-auto"
                     >
-                      <p>
-                        Your files will not be submitted.
-                      </p>
-                      <p>
-                        You will be returned to:
-                        <br />
-                        <b>
-                          Original
-                        </b>
-                         website
-                      </p>
-                    </div>
-                    <div
-                      class="mx-auto mb-5"
-                    >
-                      <div>
-                        <button
-                          class="normal-blue btn consistent-width"
-                          data-test-id="modal-confirm-btn"
-                          type="button"
-                        >
-                          Yes, cancel my process please
-                        </button>
+                      <div
+                        class="padding-left modal-body"
+                      >
+                        <p>
+                          Your files will not be submitted.
+                        </p>
+                        <p>
+                          You will be returned to:
+                          <br />
+                          <b>
+                            Original
+                          </b>
+                           website
+                        </p>
                       </div>
-                      <br />
-                      <div>
-                        <button
-                          class="normal-white btn consistent-width"
-                          data-test-id="modal-cancel-btn"
-                          type="button"
-                        >
-                          No, resume my process please
-                        </button>
+                      <div
+                        class="mx-auto mb-5"
+                      >
+                        <div>
+                          <button
+                            class="bcgov-button normal-blue btn consistent-width"
+                            data-test-id="modal-confirm-btn"
+                            type="button"
+                          >
+                            Yes, cancel my process please
+                          </button>
+                        </div>
+                        <br />
+                        <div>
+                          <button
+                            class="bcgov-button normal-white btn consistent-width"
+                            data-test-id="modal-cancel-btn"
+                            type="button"
+                          >
+                            No, resume my process please
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -191,10 +195,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         class="modal-content"
                       >
                         <div
-                          class="hide-border padding-left modal-header"
+                          class="hide-border mt-3 modal-header"
                         >
                           <div
-                            class="mt-3 larger-font modal-title h4"
+                            class="mx-auto larger-font modal-title h4"
                           >
                             Cancel process?
                           </div>
@@ -215,41 +219,45 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           </button>
                         </div>
                         <div
-                          class="padding-left modal-body"
+                          class="mx-auto"
                         >
-                          <p>
-                            Your files will not be submitted.
-                          </p>
-                          <p>
-                            You will be returned to:
-                            <br />
-                            <b>
-                              Original
-                            </b>
-                             website
-                          </p>
-                        </div>
-                        <div
-                          class="mx-auto mb-5"
-                        >
-                          <div>
-                            <button
-                              class="normal-blue btn consistent-width"
-                              data-test-id="modal-confirm-btn"
-                              type="button"
-                            >
-                              Yes, cancel my process please
-                            </button>
+                          <div
+                            class="padding-left modal-body"
+                          >
+                            <p>
+                              Your files will not be submitted.
+                            </p>
+                            <p>
+                              You will be returned to:
+                              <br />
+                              <b>
+                                Original
+                              </b>
+                               website
+                            </p>
                           </div>
-                          <br />
-                          <div>
-                            <button
-                              class="normal-white btn consistent-width"
-                              data-test-id="modal-cancel-btn"
-                              type="button"
-                            >
-                              No, resume my process please
-                            </button>
+                          <div
+                            class="mx-auto mb-5"
+                          >
+                            <div>
+                              <button
+                                class="bcgov-button normal-blue btn consistent-width"
+                                data-test-id="modal-confirm-btn"
+                                type="button"
+                              >
+                                Yes, cancel my process please
+                              </button>
+                            </div>
+                            <br />
+                            <div>
+                              <button
+                                class="bcgov-button normal-white btn consistent-width"
+                                data-test-id="modal-cancel-btn"
+                                type="button"
+                              >
+                                No, resume my process please
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -291,10 +299,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     class="modal-content"
                   >
                     <div
-                      class="hide-border padding-left modal-header"
+                      class="hide-border mt-3 modal-header"
                     >
                       <div
-                        class="mt-3 larger-font modal-title h4"
+                        class="mx-auto larger-font modal-title h4"
                       >
                         Cancel process?
                       </div>
@@ -315,41 +323,45 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       </button>
                     </div>
                     <div
-                      class="padding-left modal-body"
+                      class="mx-auto"
                     >
-                      <p>
-                        Your files will not be submitted.
-                      </p>
-                      <p>
-                        You will be returned to:
-                        <br />
-                        <b>
-                          Original
-                        </b>
-                         website
-                      </p>
-                    </div>
-                    <div
-                      class="mx-auto mb-5"
-                    >
-                      <div>
-                        <button
-                          class="normal-blue btn consistent-width"
-                          data-test-id="modal-confirm-btn"
-                          type="button"
-                        >
-                          Yes, cancel my process please
-                        </button>
+                      <div
+                        class="padding-left modal-body"
+                      >
+                        <p>
+                          Your files will not be submitted.
+                        </p>
+                        <p>
+                          You will be returned to:
+                          <br />
+                          <b>
+                            Original
+                          </b>
+                           website
+                        </p>
                       </div>
-                      <br />
-                      <div>
-                        <button
-                          class="normal-white btn consistent-width"
-                          data-test-id="modal-cancel-btn"
-                          type="button"
-                        >
-                          No, resume my process please
-                        </button>
+                      <div
+                        class="mx-auto mb-5"
+                      >
+                        <div>
+                          <button
+                            class="bcgov-button normal-blue btn consistent-width"
+                            data-test-id="modal-confirm-btn"
+                            type="button"
+                          >
+                            Yes, cancel my process please
+                          </button>
+                        </div>
+                        <br />
+                        <div>
+                          <button
+                            class="bcgov-button normal-white btn consistent-width"
+                            data-test-id="modal-cancel-btn"
+                            type="button"
+                          >
+                            No, resume my process please
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -400,10 +412,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                   class="modal-content"
                 >
                   <div
-                    class="hide-border padding-left modal-header"
+                    class="hide-border mt-3 modal-header"
                   >
                     <div
-                      class="mt-3 larger-font modal-title h4"
+                      class="mx-auto larger-font modal-title h4"
                     >
                       Cancel process?
                     </div>
@@ -424,41 +436,45 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     </button>
                   </div>
                   <div
-                    class="padding-left modal-body"
+                    class="mx-auto"
                   >
-                    <p>
-                      Your files will not be submitted.
-                    </p>
-                    <p>
-                      You will be returned to:
-                      <br />
-                      <b>
-                        Original
-                      </b>
-                       website
-                    </p>
-                  </div>
-                  <div
-                    class="mx-auto mb-5"
-                  >
-                    <div>
-                      <button
-                        class="normal-blue btn consistent-width"
-                        data-test-id="modal-confirm-btn"
-                        type="button"
-                      >
-                        Yes, cancel my process please
-                      </button>
+                    <div
+                      class="padding-left modal-body"
+                    >
+                      <p>
+                        Your files will not be submitted.
+                      </p>
+                      <p>
+                        You will be returned to:
+                        <br />
+                        <b>
+                          Original
+                        </b>
+                         website
+                      </p>
                     </div>
-                    <br />
-                    <div>
-                      <button
-                        class="normal-white btn consistent-width"
-                        data-test-id="modal-cancel-btn"
-                        type="button"
-                      >
-                        No, resume my process please
-                      </button>
+                    <div
+                      class="mx-auto mb-5"
+                    >
+                      <div>
+                        <button
+                          class="bcgov-button normal-blue btn consistent-width"
+                          data-test-id="modal-confirm-btn"
+                          type="button"
+                        >
+                          Yes, cancel my process please
+                        </button>
+                      </div>
+                      <br />
+                      <div>
+                        <button
+                          class="bcgov-button normal-white btn consistent-width"
+                          data-test-id="modal-cancel-btn"
+                          type="button"
+                        >
+                          No, resume my process please
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -564,21 +580,21 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       className="modal-content"
                     >
                       <ModalHeader
-                        className="hide-border padding-left"
+                        className="hide-border mt-3"
                         closeButton={true}
                         closeLabel="Close"
                       >
                         <div
-                          className="hide-border padding-left modal-header"
+                          className="hide-border mt-3 modal-header"
                         >
                           <ModalTitle
-                            className="mt-3 larger-font"
+                            className="mx-auto larger-font"
                           >
                             <ForwardRef
-                              className="mt-3 larger-font modal-title"
+                              className="mx-auto larger-font modal-title"
                             >
                               <div
-                                className="mt-3 larger-font modal-title h4"
+                                className="mx-auto larger-font modal-title h4"
                               >
                                 Cancel process?
                               </div>
@@ -607,67 +623,71 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           </CloseButton>
                         </div>
                       </ModalHeader>
-                      <ModalBody
-                        className="padding-left"
-                      >
-                        <div
-                          className="padding-left modal-body"
-                        >
-                          <p>
-                            Your files will not be submitted.
-                          </p>
-                          <p>
-                            You will be returned to:
-                            <br />
-                            <b>
-                              Original
-                            </b>
-                             website
-                          </p>
-                        </div>
-                      </ModalBody>
                       <div
-                        className="mx-auto mb-5"
+                        className="mx-auto"
                       >
-                        <Button
-                          disabled={false}
-                          label="Yes, cancel my process please"
-                          onClick={[MockFunction]}
-                          styling="normal-blue btn consistent-width"
-                          testId="modal-confirm-btn"
+                        <ModalBody
+                          className="padding-left"
                         >
-                          <div>
-                            <button
-                              className="normal-blue btn consistent-width"
-                              data-test-id="modal-confirm-btn"
-                              disabled={false}
-                              onClick={[MockFunction]}
-                              type="button"
-                            >
-                              Yes, cancel my process please
-                            </button>
+                          <div
+                            className="padding-left modal-body"
+                          >
+                            <p>
+                              Your files will not be submitted.
+                            </p>
+                            <p>
+                              You will be returned to:
+                              <br />
+                              <b>
+                                Original
+                              </b>
+                               website
+                            </p>
                           </div>
-                        </Button>
-                        <br />
-                        <Button
-                          disabled={false}
-                          label="No, resume my process please"
-                          onClick={[MockFunction]}
-                          styling="normal-white btn consistent-width"
-                          testId="modal-cancel-btn"
+                        </ModalBody>
+                        <div
+                          className="mx-auto mb-5"
                         >
-                          <div>
-                            <button
-                              className="normal-white btn consistent-width"
-                              data-test-id="modal-cancel-btn"
-                              disabled={false}
-                              onClick={[MockFunction]}
-                              type="button"
-                            >
-                              No, resume my process please
-                            </button>
-                          </div>
-                        </Button>
+                          <Button
+                            disabled={false}
+                            label="Yes, cancel my process please"
+                            onClick={[MockFunction]}
+                            styling="normal-blue btn consistent-width"
+                            testId="modal-confirm-btn"
+                          >
+                            <div>
+                              <button
+                                className="bcgov-button normal-blue btn consistent-width"
+                                data-test-id="modal-confirm-btn"
+                                disabled={false}
+                                onClick={[MockFunction]}
+                                type="button"
+                              >
+                                Yes, cancel my process please
+                              </button>
+                            </div>
+                          </Button>
+                          <br />
+                          <Button
+                            disabled={false}
+                            label="No, resume my process please"
+                            onClick={[MockFunction]}
+                            styling="normal-white btn consistent-width"
+                            testId="modal-cancel-btn"
+                          >
+                            <div>
+                              <button
+                                className="bcgov-button normal-white btn consistent-width"
+                                data-test-id="modal-cancel-btn"
+                                disabled={false}
+                                onClick={[MockFunction]}
+                                type="button"
+                              >
+                                No, resume my process please
+                              </button>
+                            </div>
+                          </Button>
+                        </div>
                       </div>
                     </div>
                   </div>
