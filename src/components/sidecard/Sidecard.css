@@ -102,8 +102,8 @@ img {
 }
 
 .round-icon-wrapper {
-  padding-top: 8px;
-  margin-right: 10px;
+  align-self: center;
+  margin-right: 15px;
 }
 
 .side-card-title {

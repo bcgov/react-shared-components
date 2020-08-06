@@ -7,7 +7,7 @@ exports[`Storyshots Confirmation Popup Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "79edd048-e072-427f-a372-1fdb6a150c40",
+          "subscription": "1d973393-da63-4636-9a3b-966e3686ccc4",
         },
       ],
       "state": Object {
@@ -124,11 +124,11 @@ exports[`Storyshots Confirmation Popup Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "79edd048-e072-427f-a372-1fdb6a150c40",
+          "subscription": "1d973393-da63-4636-9a3b-966e3686ccc4",
         },
         Object {
           "callback": [Function],
-          "subscription": "274bbdba-d440-4bad-aba5-5c6cf6ea86c2",
+          "subscription": "4101ffab-b618-4c57-b606-86161d8bb020",
         },
       ],
       "state": Object {
