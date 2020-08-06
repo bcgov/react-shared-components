@@ -16,7 +16,7 @@ export const Textarea = ({ id, label, onChange }) => {
         className="text-input"
         rows="8"
         cols="60"
-        onChange={event => onChange(event.target.value)}
+        onChange={(event) => onChange(event.target.value)}
       />
     </>
   );
@@ -25,9 +25,9 @@ export const Textarea = ({ id, label, onChange }) => {
 Textarea.propTypes = {
   id: PropTypes.string.isRequired,
   label: PropTypes.string,
-  onChange: PropTypes.func.isRequired
+  onChange: PropTypes.func.isRequired,
 };
 
 Textarea.defaultProps = {
-  label: ""
+  label: "",
 };

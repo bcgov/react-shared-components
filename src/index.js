@@ -12,5 +12,7 @@ export { Table } from "./components/table/Table";
 export { Alert } from "./components/alert/Alert";
 export { Textarea } from "./components/textarea/Textarea";
 export { Callout } from "./components/callout/Callout";
+export { Radio } from "./components/radio/Radio";
+export { Dropdown } from "./components/dropdown/Dropdown";
 
 export default ConfirmationPopup;

@@ -30,73 +30,73 @@ exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
   <div
     className="display-right-element"
   >
-    <table
-      className=""
+    <div
+      className="bcgov-table "
     >
-      <thead>
-        <tr>
-          <th
-            colSpan="2"
-          >
-            
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          className=""
-          colSpan="2"
+      <b>
+        
+      </b>
+      <div
+        className="bcgov-table-body"
+      >
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             BCeID
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             bobross42
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             Last Name
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             Ross
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             First Name
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             Bob
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             Email Address
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             bob.ross@example.com
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -108,73 +108,73 @@ exports[`DisplayBox Component Matches the 'without icon' snapshot 1`] = `
   <div
     className="display-right-element"
   >
-    <table
-      className=""
+    <div
+      className="bcgov-table "
     >
-      <thead>
-        <tr>
-          <th
-            colSpan="2"
-          >
-            
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          className=""
-          colSpan="2"
+      <b>
+        
+      </b>
+      <div
+        className="bcgov-table-body"
+      >
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             BCeID
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             bobross42
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             Last Name
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             Ross
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             First Name
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             Bob
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             Email Address
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             bob.ross@example.com
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -209,73 +209,73 @@ exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
   <div
     className="display-right-element"
   >
-    <table
-      className=""
+    <div
+      className="bcgov-table "
     >
-      <thead>
-        <tr>
-          <th
-            colSpan="2"
-          >
-            
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          className=""
-          colSpan="2"
+      <b>
+        
+      </b>
+      <div
+        className="bcgov-table-body"
+      >
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             BCeID
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             bobross42
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             Last Name
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             Ross
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             First Name
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             Bob
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             Email Address
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             bob.ross@example.com
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -310,73 +310,73 @@ exports[`DisplayBox Component Matches the warning snapshot 1`] = `
   <div
     className="display-right-element"
   >
-    <table
-      className=""
+    <div
+      className="bcgov-table "
     >
-      <thead>
-        <tr>
-          <th
-            colSpan="2"
-          >
-            
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          className=""
-          colSpan="2"
+      <b>
+        
+      </b>
+      <div
+        className="bcgov-table-body"
+      >
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             BCeID
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             bobross42
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             Last Name
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             Ross
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             First Name
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             Bob
-          </td>
-        </tr>
-        <tr
-          className=""
-          colSpan="2"
+          </div>
+        </div>
+        <div
+          className="bcgov-row "
         >
-          <td
-            className=""
+          <div
+            className="bcgov-fill-width"
           >
             Email Address
-          </td>
-          <td>
+          </div>
+          <div
+            className="bcgov-table-value "
+          >
             bob.ross@example.com
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

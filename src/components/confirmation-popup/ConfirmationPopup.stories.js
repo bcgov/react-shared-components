@@ -10,13 +10,13 @@ export default {
   component: ConfirmationPopup,
   parameters: {
     docs: {
-      page: mdx
-    }
-  }
+      page: mdx,
+    },
+  },
 };
 
 const store = new Store({
-  show: false
+  show: false,
 });
 
 const body = () => (
@@ -32,7 +32,7 @@ const body = () => (
 
 const modal = {
   title: "Cancel process?",
-  body
+  body,
 };
 
 const onButtonClick = () => store.set({ show: !store.get("show") });
@@ -40,32 +40,32 @@ const onButtonClick = () => store.set({ show: !store.get("show") });
 const mainButton = {
   label: "Click Me",
   styling: "normal-white btn",
-  onClick: onButtonClick
+  onClick: onButtonClick,
 };
 
 const confirmButton = {
   label: "Yes, cancel my process please",
   styling: "normal-blue btn consistent-width",
-  onClick: onButtonClick
+  onClick: onButtonClick,
 };
 
 const cancelButton = {
   label: "No, resume my process please",
   styling: "normal-white btn consistent-width",
-  onClick: onButtonClick
+  onClick: onButtonClick,
 };
 
 export const Default = () => {
   return (
     <State store={store}>
-      {state => [
+      {(state) => [
         <ConfirmationPopup
           key="popup"
           modal={{ ...modal, show: state.show }}
           mainButton={mainButton}
           confirmButton={confirmButton}
           cancelButton={cancelButton}
-        />
+        />,
       ]}
     </State>
   );
@@ -73,14 +73,14 @@ export const Default = () => {
 
 export const Mobile = () => (
   <State store={store}>
-    {state => [
+    {(state) => [
       <ConfirmationPopup
         key="popup"
         modal={{ ...modal, show: state.show }}
         mainButton={mainButton}
         confirmButton={confirmButton}
         cancelButton={cancelButton}
-      />
+      />,
     ]}
   </State>
 );
@@ -88,7 +88,7 @@ export const Mobile = () => (
 Mobile.story = {
   parameters: {
     viewport: {
-      defaultViewport: "mobile2"
-    }
-  }
+      defaultViewport: "mobile2",
+    },
+  },
 };

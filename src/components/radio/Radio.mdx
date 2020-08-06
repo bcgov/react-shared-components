@@ -1,0 +1,38 @@
+import { Meta, Story } from "@storybook/addon-docs/blocks";
+import { Radio } from "./Radio";
+
+<Meta title="Radio" component={Radio} />
+
+# Radio
+
+Radio buttons are a type of input that allow users to select only one option from a list.
+
+## When to Use
+
+A user can only select one option from a list
+
+## When not to Use
+
+A user can select more than one option from a list. In this case, use a checkbox
+
+## API
+
+| Prop  | Type   | Required | Description                     | Default |
+| ----- | ------ | -------- | ------------------------------- | ------- |
+| id    | string | true     | id of the radio button          |         |
+| name  | string | true     | name of the radio button        |         |
+| label | string | true     | label text for the radio button |         |
+
+<br />
+
+## Default
+
+Default Radio button.
+
+<Story name="Default" id="radio--default"></Story>
+
+```bash
+const label = "Yes";
+
+<Radio id="yes" name="yes" label={label} onSelect={onSelect} />
+```

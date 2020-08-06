@@ -13,6 +13,8 @@ describe("Table Component", () => {
   });
 
   test("Matches the blue striped snapshot", () => {
-    testBasicSnapshot(<Table elements={tableData} styling="blue-stripe" />);
+    testBasicSnapshot(
+      <Table elements={tableData} styling="bcgov-blue-stripe" />
+    );
   });
 });

@@ -4,68 +4,63 @@ import PropTypes from "prop-types";
 import "./Table.css";
 
 const TableElement = ({
-  element: {
-    name,
-    value,
-    isValueBold,
-    isNameBold,
-    isSideBySide,
-    isEmptyRow,
-    verticalMiddle,
-    isClose
-  },
-  isFeesData
+  element: { name, value, isValueBold, isNameBold, isEmptyRow },
+  isFeesData,
+  elementStyles,
 }) => {
-  let columnWidth = "";
-  if (verticalMiddle) {
-    columnWidth = "vertical-middle";
-  } else if (isSideBySide) {
-    columnWidth = "side-by-side";
+  const emptyRow = isEmptyRow ? "bcgov-empty-row" : "";
+  const rightAlign = isFeesData ? "bcgov-right-align" : "";
+  let rowStyle = isFeesData ? "bcgov-row-fees" : "bcgov-row";
+  let columnStyle = "bcgov-fill-width";
+  if (elementStyles) {
+    if (elementStyles.rowStyle) rowStyle += ` ${elementStyles.rowStyle}`;
+    if (elementStyles.columnStyle)
+      columnStyle = elementStyles && elementStyles.columnStyle;
   }
-  const emptyRow = isEmptyRow ? "empty-row" : "";
-  const rightAlign = isFeesData ? "right-align" : "";
-  const reduceWidth = isClose ? "reduce-width" : "";
 
   return (
-    <tr colSpan="2" className={emptyRow}>
+    <div className={`${rowStyle} ${emptyRow}`}>
       {isNameBold && (
-        <td className={`${columnWidth}${reduceWidth}`}>
+        <div className={columnStyle}>
           <b>{name}</b>
-        </td>
+        </div>
       )}
-      {!isNameBold && (
-        <td className={`${columnWidth}${reduceWidth}`}>{name}</td>
-      )}
+      {!isNameBold && <div className={columnStyle}>{name}</div>}
       {isValueBold && (
-        <td className={rightAlign}>
+        <div className={`bcgov-table-value ${rightAlign}`}>
           <b>{value}</b>
-        </td>
+        </div>
       )}
-      {!isValueBold && <td>{value}</td>}
-    </tr>
+      {!isValueBold && (
+        <div className={`bcgov-table-value ${rightAlign}`}>{value}</div>
+      )}
+    </div>
   );
 };
 
-export const Table = ({ heading, elements, styling, isFeesData }) => {
-  const tableComponents = elements.map(element => {
+export const Table = ({
+  heading,
+  elements,
+  styling,
+  isFeesData,
+  elementStyles,
+}) => {
+  const tableComponents = elements.map((element) => {
     return (
       <TableElement
         isFeesData={isFeesData}
         key={element.key || element.name}
         element={element}
+        elementStyles={elementStyles}
       />
     );
   });
 
   return (
-    <table className={styling}>
-      <thead>
-        <tr>
-          <th colSpan="2">{heading}</th>
-        </tr>
-      </thead>
-      <tbody>{tableComponents}</tbody>
-    </table>
+    <div className={`bcgov-table ${styling}`}>
+      <b>{heading}</b>
+      <div className={"bcgov-table-body"}>{tableComponents}</div>
+    </div>
   );
 };
 
@@ -75,12 +70,10 @@ TableElement.propTypes = {
     value: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
     isValueBold: PropTypes.bool,
     isNameBold: PropTypes.bool,
-    isSideBySide: PropTypes.bool,
     isEmptyRow: PropTypes.bool,
-    verticalMiddle: PropTypes.bool,
-    isClose: PropTypes.bool
   }).isRequired,
-  isFeesData: PropTypes.bool.isRequired
+  isFeesData: PropTypes.bool.isRequired,
+  elementStyles: PropTypes.object,
 };
 
 Table.propTypes = {
@@ -93,19 +86,22 @@ Table.propTypes = {
         .isRequired,
       isValueBold: PropTypes.bool,
       isNameBold: PropTypes.bool,
-      isSideBySide: PropTypes.bool,
       isEmptyRow: PropTypes.bool,
-      verticalMiddle: PropTypes.bool,
-      isClose: PropTypes.bool
     }).isRequired
   ),
   styling: PropTypes.string,
-  isFeesData: PropTypes.bool
+  isFeesData: PropTypes.bool,
+  elementStyles: PropTypes.object,
 };
 
 Table.defaultProps = {
   styling: "",
   heading: "",
   elements: [],
-  isFeesData: false
+  isFeesData: false,
+  elementStyles: {},
+};
+
+TableElement.defaultProps = {
+  elementStyles: {},
 };

@@ -1,7 +1,7 @@
 import initStoryshots, {
-  Stories2SnapsConverter
+  Stories2SnapsConverter,
 } from "@storybook/addon-storyshots";
-import { wait } from "@testing-library/react";
+import { waitFor } from "@testing-library/react";
 import { mount } from "enzyme";
 import { createSerializer } from "enzyme-to-json";
 
@@ -18,7 +18,7 @@ const runTest = async (story, context) => {
 
   const asFragment = mount(storyElement);
 
-  await wait(() => {
+  await waitFor(() => {
     if (
       filename ===
       "components/confirmation-popup/__snapshots__/ConfirmationPopup.stories.storyshot"
@@ -37,5 +37,5 @@ initStoryshots({
   snapshotSerializers: [createSerializer()],
   test: ({ story, context, done }) => {
     runTest(story, context).then(done);
-  }
+  },
 });

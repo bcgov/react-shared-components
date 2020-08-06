@@ -11,7 +11,7 @@ export default function ConfirmationPopup({
   modal: { show, title, body },
   mainButton,
   confirmButton,
-  cancelButton
+  cancelButton,
 }) {
   return (
     <>
@@ -51,9 +51,9 @@ ConfirmationPopup.propTypes = {
   modal: PropTypes.shape({
     show: PropTypes.bool.isRequired,
     title: PropTypes.string.isRequired,
-    body: PropTypes.func.isRequired
+    body: PropTypes.func.isRequired,
   }).isRequired,
   mainButton: propTypes.button,
   confirmButton: propTypes.button,
-  cancelButton: propTypes.button
+  cancelButton: propTypes.button,
 };

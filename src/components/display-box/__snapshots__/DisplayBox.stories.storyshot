@@ -4,6 +4,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -80,6 +81,7 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -104,17 +106,13 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -122,22 +120,24 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -146,22 +146,24 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -170,22 +172,24 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -194,25 +198,27 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -223,6 +229,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -299,6 +306,7 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -323,17 +331,13 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -341,22 +345,24 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -365,22 +371,24 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -389,22 +397,24 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -413,25 +423,27 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -442,6 +454,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -518,6 +531,7 @@ exports[`Storyshots DisplayBox With Border 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -542,17 +556,13 @@ exports[`Storyshots DisplayBox With Border 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -560,22 +570,24 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -584,22 +596,24 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -608,22 +622,24 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -632,25 +648,27 @@ exports[`Storyshots DisplayBox With Border 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -661,6 +679,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={
+        Object {
+          "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
+        }
+      }
       elements={
         Array [
           Object {
@@ -676,16 +699,15 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
               </span>
             </div>,
             "value": <Table
+              elementStyles={Object {}}
               elements={
                 Array [
                   Object {
-                    "isClose": true,
                     "isValueBold": true,
                     "name": "Description:",
                     "value": "some file description",
                   },
                   Object {
-                    "isClose": true,
                     "isValueBold": true,
                     "name": "Statutory Fee:",
                     "value": "$10.00",
@@ -696,7 +718,6 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
               isFeesData={false}
               styling=""
             />,
-            "verticalMiddle": true,
           },
         ]
       }
@@ -772,6 +793,11 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={
+          Object {
+            "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
+          }
+        }
         elements={
           Array [
             Object {
@@ -787,16 +813,15 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                 </span>
               </div>,
               "value": <Table
+                elementStyles={Object {}}
                 elements={
                   Array [
                     Object {
-                      "isClose": true,
                       "isValueBold": true,
                       "name": "Description:",
                       "value": "some file description",
                     },
                     Object {
-                      "isClose": true,
                       "isValueBold": true,
                       "name": "Statutory Fee:",
                       "value": "$10.00",
@@ -807,7 +832,6 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                 isFeesData={false}
                 styling=""
               />,
-              "verticalMiddle": true,
             },
           ]
         }
@@ -815,17 +839,13 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -841,16 +861,15 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                     </span>
                   </div>,
                   "value": <Table
+                    elementStyles={Object {}}
                     elements={
                       Array [
                         Object {
-                          "isClose": true,
                           "isValueBold": true,
                           "name": "Description:",
                           "value": "some file description",
                         },
                         Object {
-                          "isClose": true,
                           "isValueBold": true,
                           "name": "Statutory Fee:",
                           "value": "$10.00",
@@ -861,18 +880,21 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                     isFeesData={false}
                     styling=""
                   />,
-                  "verticalMiddle": true,
+                }
+              }
+              elementStyles={
+                Object {
+                  "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
                 }
               }
               isFeesData={false}
               key="[object Object]"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className="vertical-middle"
+                <div
+                  className="bcgov-vertical-middle bcgov-fill-width"
                 >
                   <div
                     style={
@@ -885,19 +907,20 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                       file name
                     </span>
                   </div>
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   <Table
+                    elementStyles={Object {}}
                     elements={
                       Array [
                         Object {
-                          "isClose": true,
                           "isValueBold": true,
                           "name": "Description:",
                           "value": "some file description",
                         },
                         Object {
-                          "isClose": true,
                           "isValueBold": true,
                           "name": "Statutory Fee:",
                           "value": "$10.00",
@@ -908,85 +931,79 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
                     isFeesData={false}
                     styling=""
                   >
-                    <table
-                      className=""
+                    <div
+                      className="bcgov-table "
                     >
-                      <thead>
-                        <tr>
-                          <th
-                            colSpan="2"
-                          />
-                        </tr>
-                      </thead>
-                      <tbody>
+                      <b />
+                      <div
+                        className="bcgov-table-body"
+                      >
                         <TableElement
                           element={
                             Object {
-                              "isClose": true,
                               "isValueBold": true,
                               "name": "Description:",
                               "value": "some file description",
                             }
                           }
+                          elementStyles={Object {}}
                           isFeesData={false}
                           key="Description:"
                         >
-                          <tr
-                            className=""
-                            colSpan="2"
+                          <div
+                            className="bcgov-row "
                           >
-                            <td
-                              className="reduce-width"
+                            <div
+                              className="bcgov-fill-width"
                             >
                               Description:
-                            </td>
-                            <td
-                              className=""
+                            </div>
+                            <div
+                              className="bcgov-table-value "
                             >
                               <b>
                                 some file description
                               </b>
-                            </td>
-                          </tr>
+                            </div>
+                          </div>
                         </TableElement>
                         <TableElement
                           element={
                             Object {
-                              "isClose": true,
                               "isValueBold": true,
                               "name": "Statutory Fee:",
                               "value": "$10.00",
                             }
                           }
+                          elementStyles={Object {}}
                           isFeesData={false}
                           key="Statutory Fee:"
                         >
-                          <tr
-                            className=""
-                            colSpan="2"
+                          <div
+                            className="bcgov-row "
                           >
-                            <td
-                              className="reduce-width"
+                            <div
+                              className="bcgov-fill-width"
                             >
                               Statutory Fee:
-                            </td>
-                            <td
-                              className=""
+                            </div>
+                            <div
+                              className="bcgov-table-value "
                             >
                               <b>
                                 $10.00
                               </b>
-                            </td>
-                          </tr>
+                            </div>
+                          </div>
                         </TableElement>
-                      </tbody>
-                    </table>
+                      </div>
+                    </div>
                   </Table>
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -997,6 +1014,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -1073,6 +1091,7 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -1097,17 +1116,13 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -1115,22 +1130,24 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1139,22 +1156,24 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1163,22 +1182,24 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1187,25 +1208,27 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -1216,6 +1239,7 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -1256,6 +1280,7 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -1285,17 +1310,13 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -1320,15 +1341,15 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                   </p>,
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="[object Object]"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className="side-by-side"
+                <div
+                  className="bcgov-fill-width"
                 >
                   <p
                     style={
@@ -1339,8 +1360,10 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                   >
                     This is the content on the left of the display box. Maybe there will be other content on the right too.
                   </p>
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   <p
                     style={
                       Object {
@@ -1350,11 +1373,11 @@ exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
                   >
                     This is the content on the right of the display box. There already is content on the left side of the box.
                   </p>
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>
@@ -1365,6 +1388,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
 <DisplayBox
   element={
     <Table
+      elementStyles={Object {}}
       elements={
         Array [
           Object {
@@ -1400,6 +1424,7 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
       className="display-right-element"
     >
       <Table
+        elementStyles={Object {}}
         elements={
           Array [
             Object {
@@ -1424,17 +1449,13 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
         isFeesData={false}
         styling=""
       >
-        <table
-          className=""
+        <div
+          className="bcgov-table "
         >
-          <thead>
-            <tr>
-              <th
-                colSpan="2"
-              />
-            </tr>
-          </thead>
-          <tbody>
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
             <TableElement
               element={
                 Object {
@@ -1442,22 +1463,24 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                   "value": "bobross42",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="BCeID"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   BCeID
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bobross42
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1466,22 +1489,24 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                   "value": "Ross",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Last Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Last Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Ross
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1490,22 +1515,24 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                   "value": "Bob",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="First Name"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   First Name
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   Bob
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
             <TableElement
               element={
@@ -1514,25 +1541,27 @@ exports[`Storyshots DisplayBox Without Icon 1`] = `
                   "value": "bob.ross@example.com",
                 }
               }
+              elementStyles={Object {}}
               isFeesData={false}
               key="Email Address"
             >
-              <tr
-                className=""
-                colSpan="2"
+              <div
+                className="bcgov-row "
               >
-                <td
-                  className=""
+                <div
+                  className="bcgov-fill-width"
                 >
                   Email Address
-                </td>
-                <td>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
                   bob.ross@example.com
-                </td>
-              </tr>
+                </div>
+              </div>
             </TableElement>
-          </tbody>
-        </table>
+          </div>
+        </div>
       </Table>
     </div>
   </div>

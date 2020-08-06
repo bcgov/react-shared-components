@@ -1,5 +1,5 @@
 import React from "react";
-import { render, fireEvent, getByText, wait } from "@testing-library/react";
+import { render, fireEvent, getByText, waitFor } from "@testing-library/react";
 import testBasicSnapshot from "../../TestHelper";
 import { getTestData } from "../../modules/termsOfUseTestData";
 
@@ -40,7 +40,7 @@ describe("TermsOfUse Component", () => {
 
     fireEvent.click(getByText(container, "Print"));
 
-    await wait(() => {
+    await waitFor(() => {
       expect(window.print).toHaveBeenCalled();
     });
   });
@@ -57,7 +57,7 @@ describe("TermsOfUse Component", () => {
 
     fireEvent.keyDown(getByText(container, "Print"));
 
-    await wait(() => {
+    await waitFor(() => {
       expect(window.print).toHaveBeenCalled();
     });
   });
