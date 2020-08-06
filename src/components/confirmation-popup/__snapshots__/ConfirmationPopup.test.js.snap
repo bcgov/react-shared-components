@@ -38,9 +38,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
     styling="normal-blue btn"
     testId="main-cancel-btn"
   >
-    <div
-      className="bcgov-button-container"
-    >
+    <div>
       <button
         className="bcgov-button normal-blue btn"
         data-test-id="main-cancel-btn"
@@ -145,9 +143,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       <div
                         class="mx-auto mb-5"
                       >
-                        <div
-                          class="bcgov-button-container"
-                        >
+                        <div>
                           <button
                             class="bcgov-button normal-blue btn consistent-width"
                             data-test-id="modal-confirm-btn"
@@ -157,9 +153,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           </button>
                         </div>
                         <br />
-                        <div
-                          class="bcgov-button-container"
-                        >
+                        <div>
                           <button
                             class="bcgov-button normal-white btn consistent-width"
                             data-test-id="modal-cancel-btn"
@@ -245,9 +239,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           <div
                             class="mx-auto mb-5"
                           >
-                            <div
-                              class="bcgov-button-container"
-                            >
+                            <div>
                               <button
                                 class="bcgov-button normal-blue btn consistent-width"
                                 data-test-id="modal-confirm-btn"
@@ -257,9 +249,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                               </button>
                             </div>
                             <br />
-                            <div
-                              class="bcgov-button-container"
-                            >
+                            <div>
                               <button
                                 class="bcgov-button normal-white btn consistent-width"
                                 data-test-id="modal-cancel-btn"
@@ -353,9 +343,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       <div
                         class="mx-auto mb-5"
                       >
-                        <div
-                          class="bcgov-button-container"
-                        >
+                        <div>
                           <button
                             class="bcgov-button normal-blue btn consistent-width"
                             data-test-id="modal-confirm-btn"
@@ -365,9 +353,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           </button>
                         </div>
                         <br />
-                        <div
-                          class="bcgov-button-container"
-                        >
+                        <div>
                           <button
                             class="bcgov-button normal-white btn consistent-width"
                             data-test-id="modal-cancel-btn"
@@ -470,9 +456,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     <div
                       class="mx-auto mb-5"
                     >
-                      <div
-                        class="bcgov-button-container"
-                      >
+                      <div>
                         <button
                           class="bcgov-button normal-blue btn consistent-width"
                           data-test-id="modal-confirm-btn"
@@ -482,9 +466,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         </button>
                       </div>
                       <br />
-                      <div
-                        class="bcgov-button-container"
-                      >
+                      <div>
                         <button
                           class="bcgov-button normal-white btn consistent-width"
                           data-test-id="modal-cancel-btn"
@@ -673,9 +655,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             styling="normal-blue btn consistent-width"
                             testId="modal-confirm-btn"
                           >
-                            <div
-                              className="bcgov-button-container"
-                            >
+                            <div>
                               <button
                                 className="bcgov-button normal-blue btn consistent-width"
                                 data-test-id="modal-confirm-btn"
@@ -695,9 +675,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             styling="normal-white btn consistent-width"
                             testId="modal-cancel-btn"
                           >
-                            <div
-                              className="bcgov-button-container"
-                            >
+                            <div>
                               <button
                                 className="bcgov-button normal-white btn consistent-width"
                                 data-test-id="modal-cancel-btn"

@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button Component Matches the 'disabled' snapshot 1`] = `
-<div
-  className="bcgov-button-container"
->
+<div>
   <button
     className="bcgov-button normal-blue btn"
     data-test-id=""
@@ -17,9 +15,7 @@ exports[`Button Component Matches the 'disabled' snapshot 1`] = `
 `;
 
 exports[`Button Component Matches the 'primary' snapshot 1`] = `
-<div
-  className="bcgov-button-container"
->
+<div>
   <button
     className="bcgov-button normal-blue btn"
     data-test-id=""
@@ -33,9 +29,7 @@ exports[`Button Component Matches the 'primary' snapshot 1`] = `
 `;
 
 exports[`Button Component Matches the 'secondary' snapshot 1`] = `
-<div
-  className="bcgov-button-container"
->
+<div>
   <button
     className="bcgov-button normal-white btn"
     data-test-id=""

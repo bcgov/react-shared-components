@@ -8,9 +8,7 @@ exports[`Storyshots Button Disabled 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div
-    className="bcgov-button-container"
-  >
+  <div>
     <button
       className="bcgov-button normal-blue btn"
       data-test-id=""
@@ -32,9 +30,7 @@ exports[`Storyshots Button Mobile 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div
-    className="bcgov-button-container"
-  >
+  <div>
     <button
       className="bcgov-button normal-blue btn"
       data-test-id=""
@@ -56,9 +52,7 @@ exports[`Storyshots Button Primary 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div
-    className="bcgov-button-container"
-  >
+  <div>
     <button
       className="bcgov-button normal-blue btn"
       data-test-id=""
@@ -80,9 +74,7 @@ exports[`Storyshots Button Secondary 1`] = `
   styling="normal-white btn"
   testId=""
 >
-  <div
-    className="bcgov-button-container"
-  >
+  <div>
     <button
       className="bcgov-button normal-white btn"
       data-test-id=""
