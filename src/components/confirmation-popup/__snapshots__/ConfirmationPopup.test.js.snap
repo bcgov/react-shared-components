@@ -38,17 +38,15 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
     styling="normal-blue btn"
     testId="main-cancel-btn"
   >
-    <div>
-      <button
-        className="bcgov-button normal-blue btn"
-        data-test-id="main-cancel-btn"
-        disabled={false}
-        onClick={[MockFunction]}
-        type="button"
-      >
-        main label
-      </button>
-    </div>
+    <button
+      className="bcgov-button normal-blue btn"
+      data-test-id="main-cancel-btn"
+      disabled={false}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      main label
+    </button>
   </Button>
   <Modal
     animation={true}
@@ -143,25 +141,21 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       <div
                         class="mx-auto mb-5"
                       >
-                        <div>
-                          <button
-                            class="bcgov-button normal-blue btn consistent-width"
-                            data-test-id="modal-confirm-btn"
-                            type="button"
-                          >
-                            Yes, cancel my process please
-                          </button>
-                        </div>
+                        <button
+                          class="bcgov-button normal-blue btn consistent-width"
+                          data-test-id="modal-confirm-btn"
+                          type="button"
+                        >
+                          Yes, cancel my process please
+                        </button>
                         <br />
-                        <div>
-                          <button
-                            class="bcgov-button normal-white btn consistent-width"
-                            data-test-id="modal-cancel-btn"
-                            type="button"
-                          >
-                            No, resume my process please
-                          </button>
-                        </div>
+                        <button
+                          class="bcgov-button normal-white btn consistent-width"
+                          data-test-id="modal-cancel-btn"
+                          type="button"
+                        >
+                          No, resume my process please
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -239,25 +233,21 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           <div
                             class="mx-auto mb-5"
                           >
-                            <div>
-                              <button
-                                class="bcgov-button normal-blue btn consistent-width"
-                                data-test-id="modal-confirm-btn"
-                                type="button"
-                              >
-                                Yes, cancel my process please
-                              </button>
-                            </div>
+                            <button
+                              class="bcgov-button normal-blue btn consistent-width"
+                              data-test-id="modal-confirm-btn"
+                              type="button"
+                            >
+                              Yes, cancel my process please
+                            </button>
                             <br />
-                            <div>
-                              <button
-                                class="bcgov-button normal-white btn consistent-width"
-                                data-test-id="modal-cancel-btn"
-                                type="button"
-                              >
-                                No, resume my process please
-                              </button>
-                            </div>
+                            <button
+                              class="bcgov-button normal-white btn consistent-width"
+                              data-test-id="modal-cancel-btn"
+                              type="button"
+                            >
+                              No, resume my process please
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -343,25 +333,21 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       <div
                         class="mx-auto mb-5"
                       >
-                        <div>
-                          <button
-                            class="bcgov-button normal-blue btn consistent-width"
-                            data-test-id="modal-confirm-btn"
-                            type="button"
-                          >
-                            Yes, cancel my process please
-                          </button>
-                        </div>
+                        <button
+                          class="bcgov-button normal-blue btn consistent-width"
+                          data-test-id="modal-confirm-btn"
+                          type="button"
+                        >
+                          Yes, cancel my process please
+                        </button>
                         <br />
-                        <div>
-                          <button
-                            class="bcgov-button normal-white btn consistent-width"
-                            data-test-id="modal-cancel-btn"
-                            type="button"
-                          >
-                            No, resume my process please
-                          </button>
-                        </div>
+                        <button
+                          class="bcgov-button normal-white btn consistent-width"
+                          data-test-id="modal-cancel-btn"
+                          type="button"
+                        >
+                          No, resume my process please
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -456,25 +442,21 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     <div
                       class="mx-auto mb-5"
                     >
-                      <div>
-                        <button
-                          class="bcgov-button normal-blue btn consistent-width"
-                          data-test-id="modal-confirm-btn"
-                          type="button"
-                        >
-                          Yes, cancel my process please
-                        </button>
-                      </div>
+                      <button
+                        class="bcgov-button normal-blue btn consistent-width"
+                        data-test-id="modal-confirm-btn"
+                        type="button"
+                      >
+                        Yes, cancel my process please
+                      </button>
                       <br />
-                      <div>
-                        <button
-                          class="bcgov-button normal-white btn consistent-width"
-                          data-test-id="modal-cancel-btn"
-                          type="button"
-                        >
-                          No, resume my process please
-                        </button>
-                      </div>
+                      <button
+                        class="bcgov-button normal-white btn consistent-width"
+                        data-test-id="modal-cancel-btn"
+                        type="button"
+                      >
+                        No, resume my process please
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -655,17 +637,15 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             styling="normal-blue btn consistent-width"
                             testId="modal-confirm-btn"
                           >
-                            <div>
-                              <button
-                                className="bcgov-button normal-blue btn consistent-width"
-                                data-test-id="modal-confirm-btn"
-                                disabled={false}
-                                onClick={[MockFunction]}
-                                type="button"
-                              >
-                                Yes, cancel my process please
-                              </button>
-                            </div>
+                            <button
+                              className="bcgov-button normal-blue btn consistent-width"
+                              data-test-id="modal-confirm-btn"
+                              disabled={false}
+                              onClick={[MockFunction]}
+                              type="button"
+                            >
+                              Yes, cancel my process please
+                            </button>
                           </Button>
                           <br />
                           <Button
@@ -675,17 +655,15 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             styling="normal-white btn consistent-width"
                             testId="modal-cancel-btn"
                           >
-                            <div>
-                              <button
-                                className="bcgov-button normal-white btn consistent-width"
-                                data-test-id="modal-cancel-btn"
-                                disabled={false}
-                                onClick={[MockFunction]}
-                                type="button"
-                              >
-                                No, resume my process please
-                              </button>
-                            </div>
+                            <button
+                              className="bcgov-button normal-white btn consistent-width"
+                              data-test-id="modal-cancel-btn"
+                              disabled={false}
+                              onClick={[MockFunction]}
+                              type="button"
+                            >
+                              No, resume my process please
+                            </button>
                           </Button>
                         </div>
                       </div>
