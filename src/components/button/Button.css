@@ -39,4 +39,9 @@
   .bcgov-button-container {
     text-align: center;
   }
+
+  .bcgov-button {
+    min-width: 0px;
+    min-height: 0px;
+  }
 }

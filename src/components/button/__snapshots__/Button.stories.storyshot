@@ -8,9 +8,11 @@ exports[`Storyshots Button Disabled 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div>
+  <div
+    className="bcgov-button-container"
+  >
     <button
-      className="normal-blue btn"
+      className="bcgov-button normal-blue btn"
       data-test-id=""
       disabled={true}
       onClick={[Function]}
@@ -30,9 +32,11 @@ exports[`Storyshots Button Mobile 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div>
+  <div
+    className="bcgov-button-container"
+  >
     <button
-      className="normal-blue btn"
+      className="bcgov-button normal-blue btn"
       data-test-id=""
       disabled={false}
       onClick={[Function]}
@@ -52,9 +56,11 @@ exports[`Storyshots Button Primary 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div>
+  <div
+    className="bcgov-button-container"
+  >
     <button
-      className="normal-blue btn"
+      className="bcgov-button normal-blue btn"
       data-test-id=""
       disabled={false}
       onClick={[Function]}
@@ -74,9 +80,11 @@ exports[`Storyshots Button Secondary 1`] = `
   styling="normal-white btn"
   testId=""
 >
-  <div>
+  <div
+    className="bcgov-button-container"
+  >
     <button
-      className="normal-white btn"
+      className="bcgov-button normal-white btn"
       data-test-id=""
       disabled={false}
       onClick={[Function]}
