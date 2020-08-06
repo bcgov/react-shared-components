@@ -1,43 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button Component Matches the 'disabled' snapshot 1`] = `
-<div>
-  <button
-    className="bcgov-button normal-blue btn"
-    data-test-id=""
-    disabled={true}
-    onClick={[MockFunction]}
-    type="button"
-  >
-    Button label
-  </button>
-</div>
+<button
+  className="bcgov-button normal-blue btn"
+  data-test-id=""
+  disabled={true}
+  onClick={[MockFunction]}
+  type="button"
+>
+  Button label
+</button>
 `;
 
 exports[`Button Component Matches the 'primary' snapshot 1`] = `
-<div>
-  <button
-    className="bcgov-button normal-blue btn"
-    data-test-id=""
-    disabled={false}
-    onClick={[MockFunction]}
-    type="button"
-  >
-    Button label
-  </button>
-</div>
+<button
+  className="bcgov-button normal-blue btn"
+  data-test-id=""
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  Button label
+</button>
 `;
 
 exports[`Button Component Matches the 'secondary' snapshot 1`] = `
-<div>
-  <button
-    className="bcgov-button normal-white btn"
-    data-test-id=""
-    disabled={false}
-    onClick={[MockFunction]}
-    type="button"
-  >
-    Button label
-  </button>
-</div>
+<button
+  className="bcgov-button normal-white btn"
+  data-test-id=""
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  Button label
+</button>
 `;

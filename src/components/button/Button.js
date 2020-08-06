@@ -3,17 +3,15 @@ import PropTypes from "prop-types";
 import "./Button.css";
 
 export const Button = ({ onClick, label, styling, disabled, testId }) => (
-  <div>
-    <button
-      className={`bcgov-button ${styling}`}
-      onClick={onClick}
-      type="button"
-      disabled={disabled}
-      data-test-id={testId}
-    >
-      {label}
-    </button>
-  </div>
+  <button
+    className={`bcgov-button ${styling}`}
+    onClick={onClick}
+    type="button"
+    disabled={disabled}
+    data-test-id={testId}
+  >
+    {label}
+  </button>
 );
 
 Button.propTypes = {

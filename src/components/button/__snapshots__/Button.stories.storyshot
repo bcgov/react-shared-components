@@ -8,17 +8,15 @@ exports[`Storyshots Button Disabled 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div>
-    <button
-      className="bcgov-button normal-blue btn"
-      data-test-id=""
-      disabled={true}
-      onClick={[Function]}
-      type="button"
-    >
-      Disabled
-    </button>
-  </div>
+  <button
+    className="bcgov-button normal-blue btn"
+    data-test-id=""
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Disabled
+  </button>
 </Button>
 `;
 
@@ -30,17 +28,15 @@ exports[`Storyshots Button Mobile 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div>
-    <button
-      className="bcgov-button normal-blue btn"
-      data-test-id=""
-      disabled={false}
-      onClick={[Function]}
-      type="button"
-    >
-      Submit
-    </button>
-  </div>
+  <button
+    className="bcgov-button normal-blue btn"
+    data-test-id=""
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Submit
+  </button>
 </Button>
 `;
 
@@ -52,17 +48,15 @@ exports[`Storyshots Button Primary 1`] = `
   styling="normal-blue btn"
   testId=""
 >
-  <div>
-    <button
-      className="bcgov-button normal-blue btn"
-      data-test-id=""
-      disabled={false}
-      onClick={[Function]}
-      type="button"
-    >
-      Submit
-    </button>
-  </div>
+  <button
+    className="bcgov-button normal-blue btn"
+    data-test-id=""
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Submit
+  </button>
 </Button>
 `;
 
@@ -74,16 +68,14 @@ exports[`Storyshots Button Secondary 1`] = `
   styling="normal-white btn"
   testId=""
 >
-  <div>
-    <button
-      className="bcgov-button normal-white btn"
-      data-test-id=""
-      disabled={false}
-      onClick={[Function]}
-      type="button"
-    >
-      Cancel
-    </button>
-  </div>
+  <button
+    className="bcgov-button normal-white btn"
+    data-test-id=""
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Cancel
+  </button>
 </Button>
 `;
