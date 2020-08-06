@@ -15,7 +15,7 @@ export default {
 };
 
 const sideCard = {
-  heading: "Heading is a nice long heading",
+  heading: "Heading",
   content: ["This is where I put my content for the sidecard"],
   type: "blue",
 };
