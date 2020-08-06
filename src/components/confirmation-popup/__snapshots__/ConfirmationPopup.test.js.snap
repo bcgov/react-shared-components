@@ -148,7 +148,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         >
                           Yes, cancel my process please
                         </button>
-                        <br />
+                        <p />
                         <button
                           class="bcgov-button normal-white btn consistent-width"
                           data-test-id="modal-cancel-btn"
@@ -240,7 +240,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             >
                               Yes, cancel my process please
                             </button>
-                            <br />
+                            <p />
                             <button
                               class="bcgov-button normal-white btn consistent-width"
                               data-test-id="modal-cancel-btn"
@@ -340,7 +340,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         >
                           Yes, cancel my process please
                         </button>
-                        <br />
+                        <p />
                         <button
                           class="bcgov-button normal-white btn consistent-width"
                           data-test-id="modal-cancel-btn"
@@ -449,7 +449,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       >
                         Yes, cancel my process please
                       </button>
-                      <br />
+                      <p />
                       <button
                         class="bcgov-button normal-white btn consistent-width"
                         data-test-id="modal-cancel-btn"
@@ -647,7 +647,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                               Yes, cancel my process please
                             </button>
                           </Button>
-                          <br />
+                          <p />
                           <Button
                             disabled={false}
                             label="No, resume my process please"

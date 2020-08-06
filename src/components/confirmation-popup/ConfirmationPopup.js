@@ -35,7 +35,7 @@ export default function ConfirmationPopup({
               label={confirmButton.label}
               testId="modal-confirm-btn"
             />
-            <br />
+            <p />
             <Button
               styling={cancelButton.styling}
               onClick={cancelButton.onClick}
