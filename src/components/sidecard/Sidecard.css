@@ -66,12 +66,12 @@
 }
 
 .dashboard-spacing {
-  padding-left: 50px;
+  padding-left: 25px;
   max-width: 400px;
 }
 
 .wide-dashboard-spacing {
-  padding-left: 50px;
+  padding-left: 25px;
   max-width: 458px;
 }
 
@@ -104,7 +104,6 @@ img {
 
 .round-icon-wrapper {
   padding-top: 8px;
-  margin-left: 10px;
   margin-right: 10px;
 }
 
