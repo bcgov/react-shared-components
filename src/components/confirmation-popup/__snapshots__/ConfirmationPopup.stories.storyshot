@@ -7,7 +7,7 @@ exports[`Storyshots Confirmation Popup Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "1d973393-da63-4636-9a3b-966e3686ccc4",
+          "subscription": "a07eb0fb-cf03-46de-9cf2-52e2225174e3",
         },
       ],
       "state": Object {
@@ -54,17 +54,15 @@ exports[`Storyshots Confirmation Popup Default 1`] = `
       styling="normal-white btn"
       testId="main-cancel-btn"
     >
-      <div>
-        <button
-          className="normal-white btn"
-          data-test-id="main-cancel-btn"
-          disabled={false}
-          onClick={[Function]}
-          type="button"
-        >
-          Click Me
-        </button>
-      </div>
+      <button
+        className="bcgov-button normal-white btn"
+        data-test-id="main-cancel-btn"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Click Me
+      </button>
     </Button>
     <Modal
       animation={true}
@@ -124,11 +122,11 @@ exports[`Storyshots Confirmation Popup Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "1d973393-da63-4636-9a3b-966e3686ccc4",
+          "subscription": "a07eb0fb-cf03-46de-9cf2-52e2225174e3",
         },
         Object {
           "callback": [Function],
-          "subscription": "4101ffab-b618-4c57-b606-86161d8bb020",
+          "subscription": "1215c62f-4e28-4098-ace1-5b406d274585",
         },
       ],
       "state": Object {
@@ -175,17 +173,15 @@ exports[`Storyshots Confirmation Popup Mobile 1`] = `
       styling="normal-white btn"
       testId="main-cancel-btn"
     >
-      <div>
-        <button
-          className="normal-white btn"
-          data-test-id="main-cancel-btn"
-          disabled={false}
-          onClick={[Function]}
-          type="button"
-        >
-          Click Me
-        </button>
-      </div>
+      <button
+        className="bcgov-button normal-white btn"
+        data-test-id="main-cancel-btn"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Click Me
+      </button>
     </Button>
     <Modal
       animation={true}
