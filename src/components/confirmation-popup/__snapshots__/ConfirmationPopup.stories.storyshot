@@ -233,3 +233,241 @@ exports[`Storyshots Confirmation Popup Mobile 1`] = `
   </ConfirmationPopup>
 </State>
 `;
+
+exports[`Storyshots Terms of Use Default 1`] = `
+<State
+  store={
+    Store {
+      "callbacks": Array [
+        Object {
+          "callback": [Function],
+          "subscription": "d97330f1-5a63-44ef-83c2-d393356319a2",
+        },
+        Object {
+          "callback": [Function],
+          "subscription": "c7f2f74b-0db0-4a79-a4ef-51404d77ef97",
+        },
+      ],
+      "state": Object {
+        "show": false,
+      },
+    }
+  }
+>
+  <ConfirmationPopup
+    cancelButton={
+      Object {
+        "label": "No, resume my process please",
+        "onClick": [Function],
+        "styling": "normal-white btn consistent-width",
+      }
+    }
+    confirmButton={
+      Object {
+        "label": "Yes, cancel my process please",
+        "onClick": [Function],
+        "styling": "normal-blue btn consistent-width",
+      }
+    }
+    key="popup"
+    mainButton={
+      Object {
+        "label": "Click Me",
+        "onClick": [Function],
+        "styling": "normal-white btn",
+      }
+    }
+    modal={
+      Object {
+        "body": [Function],
+        "show": false,
+        "title": "Cancel process?",
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      label="Click Me"
+      onClick={[Function]}
+      styling="normal-white btn"
+      testId="main-cancel-btn"
+    >
+      <button
+        className="bcgov-button normal-white btn"
+        data-test-id="main-cancel-btn"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Click Me
+      </button>
+    </Button>
+    <Modal
+      animation={true}
+      autoFocus={true}
+      backdrop={true}
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "ModalDialog",
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
+      onHide={[Function]}
+      restoreFocus={true}
+      show={false}
+    >
+      <Modal
+        autoFocus={true}
+        backdrop={true}
+        backdropTransition={[Function]}
+        containerClassName="modal-open"
+        enforceFocus={true}
+        keyboard={true}
+        manager={
+          BootstrapModalManager {
+            "containers": Array [],
+            "data": Array [],
+            "handleContainerOverflow": true,
+            "hideSiblingNodes": true,
+            "modals": Array [],
+            "scrollbarSize": 0,
+          }
+        }
+        onEnter={[Function]}
+        onEntering={[Function]}
+        onEscapeKeyDown={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onHide={[Function]}
+        renderBackdrop={[Function]}
+        renderDialog={[Function]}
+        restoreFocus={true}
+        show={false}
+        transition={[Function]}
+      />
+    </Modal>
+  </ConfirmationPopup>
+</State>
+`;
+
+exports[`Storyshots Terms of Use Mobile 1`] = `
+<State
+  store={
+    Store {
+      "callbacks": Array [
+        Object {
+          "callback": [Function],
+          "subscription": "d97330f1-5a63-44ef-83c2-d393356319a2",
+        },
+        Object {
+          "callback": [Function],
+          "subscription": "c7f2f74b-0db0-4a79-a4ef-51404d77ef97",
+        },
+      ],
+      "state": Object {
+        "show": false,
+      },
+    }
+  }
+>
+  <ConfirmationPopup
+    cancelButton={
+      Object {
+        "label": "No, resume my process please",
+        "onClick": [Function],
+        "styling": "normal-white btn consistent-width",
+      }
+    }
+    confirmButton={
+      Object {
+        "label": "Yes, cancel my process please",
+        "onClick": [Function],
+        "styling": "normal-blue btn consistent-width",
+      }
+    }
+    key="popup"
+    mainButton={
+      Object {
+        "label": "Click Me",
+        "onClick": [Function],
+        "styling": "normal-white btn",
+      }
+    }
+    modal={
+      Object {
+        "body": [Function],
+        "show": false,
+        "title": "Cancel process?",
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      label="Click Me"
+      onClick={[Function]}
+      styling="normal-white btn"
+      testId="main-cancel-btn"
+    >
+      <button
+        className="bcgov-button normal-white btn"
+        data-test-id="main-cancel-btn"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Click Me
+      </button>
+    </Button>
+    <Modal
+      animation={true}
+      autoFocus={true}
+      backdrop={true}
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "ModalDialog",
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
+      onHide={[Function]}
+      restoreFocus={true}
+      show={false}
+    >
+      <Modal
+        autoFocus={true}
+        backdrop={true}
+        backdropTransition={[Function]}
+        containerClassName="modal-open"
+        enforceFocus={true}
+        keyboard={true}
+        manager={
+          BootstrapModalManager {
+            "containers": Array [],
+            "data": Array [],
+            "handleContainerOverflow": true,
+            "hideSiblingNodes": true,
+            "modals": Array [],
+            "scrollbarSize": 0,
+          }
+        }
+        onEnter={[Function]}
+        onEntering={[Function]}
+        onEscapeKeyDown={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onHide={[Function]}
+        renderBackdrop={[Function]}
+        renderDialog={[Function]}
+        restoreFocus={true}
+        show={false}
+        transition={[Function]}
+      />
+    </Modal>
+  </ConfirmationPopup>
+</State>
+`;

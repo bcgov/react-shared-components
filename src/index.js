@@ -14,5 +14,6 @@ export { Textarea } from "./components/textarea/Textarea";
 export { Callout } from "./components/callout/Callout";
 export { Radio } from "./components/radio/Radio";
 export { Dropdown } from "./components/dropdown/Dropdown";
+export { DatePick } from "./components/date-pick/DatePick";
 
 export default ConfirmationPopup;

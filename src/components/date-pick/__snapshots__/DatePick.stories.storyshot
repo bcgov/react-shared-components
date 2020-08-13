@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Date Pick Default 1`] = `
+<State
+  store={
+    Store {
+      "callbacks": Array [
+        Object {
+          "callback": [Function],
+          "subscription": "14f14461-61a1-4732-8753-6a330bb37a01",
+        },
+      ],
+      "state": Object {
+        "selectedDate": 1975-08-20T06:15:30.000Z,
+      },
+    }
+  }
+>
+  <DatePick
+    key="datepick"
+    selectedDate={1975-08-20T06:15:30.000Z}
+    setSelectedDate={[Function]}
+  >
+    <div
+      className="bcgov-flex"
+    >
+      <MdDateRange
+        className="bcgov-move-right"
+        size={32}
+      >
+        <IconBase
+          attr={
+            Object {
+              "viewBox": "0 0 24 24",
+            }
+          }
+          className="bcgov-move-right"
+          size={32}
+        >
+          <svg
+            className="bcgov-move-right"
+            fill="currentColor"
+            height={32}
+            size={32}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={32}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+              key="0"
+            />
+          </svg>
+        </IconBase>
+      </MdDateRange>
+      <a
+        allowSameDay={false}
+        customTimeInput={null}
+        dateFormat="MM/dd/yyyy"
+        dateFormatCalendar="LLLL yyyy"
+        disabled={false}
+        disabledKeyboardNavigation={false}
+        dropdownMode="scroll"
+        enableTabLoop={true}
+        excludeScrollbar={true}
+        focusSelectedMonth={false}
+        monthsShown={1}
+        nextMonthButtonLabel="Next Month"
+        nextYearButtonLabel="Next Year"
+        onBlur={[Function]}
+        onCalendarClose={[Function]}
+        onCalendarOpen={[Function]}
+        onChange={[Function]}
+        onClickOutside={[Function]}
+        onFocus={[Function]}
+        onInputClick={[Function]}
+        onInputError={[Function]}
+        onKeyDown={[Function]}
+        onMonthChange={[Function]}
+        onSelect={[Function]}
+        onYearChange={[Function]}
+        preventOpenOnFocus={false}
+        previousMonthButtonLabel="Previous Month"
+        previousYearButtonLabel="Previous Year"
+        readOnly={false}
+        renderDayContents={[Function]}
+        selected={1975-08-20T06:15:30.000Z}
+        shouldCloseOnSelect={true}
+        showFullMonthYearPicker={false}
+        showMonthYearPicker={false}
+        showPopperArrow={true}
+        showPreviousMonths={false}
+        showQuarterYearPicker={false}
+        showTimeInput={false}
+        showTimeSelect={false}
+        showTwoColumnMonthYearPicker={false}
+        showYearPicker={false}
+        strictParsing={false}
+        timeCaption="Time"
+        timeInputLabel="Time"
+        timeIntervals={30}
+        withPortal={false}
+      >
+        <o
+          enableTabLoop={true}
+          hidePopper={true}
+          popperComponent={null}
+          popperModifiers={
+            Object {
+              "preventOverflow": Object {
+                "boundariesElement": "viewport",
+                "enabled": true,
+                "escapeWithReference": true,
+              },
+            }
+          }
+          popperOnKeyDown={[Function]}
+          popperPlacement="bottom-start"
+          popperProps={Object {}}
+          targetComponent={
+            <div
+              className="react-datepicker__input-container"
+            >
+              <input
+                className=""
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                readOnly={false}
+                type="text"
+                value="08/19/1975"
+              />
+            </div>
+          }
+        >
+          <Manager
+            className="react-datepicker-manager"
+          >
+            <Reference>
+              <InnerReference
+                setReferenceNode={[Function]}
+              >
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <input
+                      className=""
+                      disabled={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      readOnly={false}
+                      type="text"
+                      value="08/19/1975"
+                    />
+                  </div>
+                </div>
+              </InnerReference>
+            </Reference>
+          </Manager>
+        </o>
+      </a>
+    </div>
+  </DatePick>
+</State>
+`;
+
+exports[`Storyshots Date Pick Mobile 1`] = `
+<State
+  store={
+    Store {
+      "callbacks": Array [
+        Object {
+          "callback": [Function],
+          "subscription": "14f14461-61a1-4732-8753-6a330bb37a01",
+        },
+        Object {
+          "callback": [Function],
+          "subscription": "7977d0d7-ab22-41b8-ba02-b843fc959733",
+        },
+      ],
+      "state": Object {
+        "selectedDate": 1975-08-20T06:15:30.000Z,
+      },
+    }
+  }
+>
+  <DatePick
+    key="datepick"
+    selectedDate={1975-08-20T06:15:30.000Z}
+    setSelectedDate={[Function]}
+  >
+    <div
+      className="bcgov-flex"
+    >
+      <MdDateRange
+        className="bcgov-move-right"
+        size={32}
+      >
+        <IconBase
+          attr={
+            Object {
+              "viewBox": "0 0 24 24",
+            }
+          }
+          className="bcgov-move-right"
+          size={32}
+        >
+          <svg
+            className="bcgov-move-right"
+            fill="currentColor"
+            height={32}
+            size={32}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={32}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+              key="0"
+            />
+          </svg>
+        </IconBase>
+      </MdDateRange>
+      <a
+        allowSameDay={false}
+        customTimeInput={null}
+        dateFormat="MM/dd/yyyy"
+        dateFormatCalendar="LLLL yyyy"
+        disabled={false}
+        disabledKeyboardNavigation={false}
+        dropdownMode="scroll"
+        enableTabLoop={true}
+        excludeScrollbar={true}
+        focusSelectedMonth={false}
+        monthsShown={1}
+        nextMonthButtonLabel="Next Month"
+        nextYearButtonLabel="Next Year"
+        onBlur={[Function]}
+        onCalendarClose={[Function]}
+        onCalendarOpen={[Function]}
+        onChange={[Function]}
+        onClickOutside={[Function]}
+        onFocus={[Function]}
+        onInputClick={[Function]}
+        onInputError={[Function]}
+        onKeyDown={[Function]}
+        onMonthChange={[Function]}
+        onSelect={[Function]}
+        onYearChange={[Function]}
+        preventOpenOnFocus={false}
+        previousMonthButtonLabel="Previous Month"
+        previousYearButtonLabel="Previous Year"
+        readOnly={false}
+        renderDayContents={[Function]}
+        selected={1975-08-20T06:15:30.000Z}
+        shouldCloseOnSelect={true}
+        showFullMonthYearPicker={false}
+        showMonthYearPicker={false}
+        showPopperArrow={true}
+        showPreviousMonths={false}
+        showQuarterYearPicker={false}
+        showTimeInput={false}
+        showTimeSelect={false}
+        showTwoColumnMonthYearPicker={false}
+        showYearPicker={false}
+        strictParsing={false}
+        timeCaption="Time"
+        timeInputLabel="Time"
+        timeIntervals={30}
+        withPortal={false}
+      >
+        <o
+          enableTabLoop={true}
+          hidePopper={true}
+          popperComponent={null}
+          popperModifiers={
+            Object {
+              "preventOverflow": Object {
+                "boundariesElement": "viewport",
+                "enabled": true,
+                "escapeWithReference": true,
+              },
+            }
+          }
+          popperOnKeyDown={[Function]}
+          popperPlacement="bottom-start"
+          popperProps={Object {}}
+          targetComponent={
+            <div
+              className="react-datepicker__input-container"
+            >
+              <input
+                className=""
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                readOnly={false}
+                type="text"
+                value="08/19/1975"
+              />
+            </div>
+          }
+        >
+          <Manager
+            className="react-datepicker-manager"
+          >
+            <Reference>
+              <InnerReference
+                setReferenceNode={[Function]}
+              >
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <input
+                      className=""
+                      disabled={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      readOnly={false}
+                      type="text"
+                      value="08/19/1975"
+                    />
+                  </div>
+                </div>
+              </InnerReference>
+            </Reference>
+          </Manager>
+        </o>
+      </a>
+    </div>
+  </DatePick>
+</State>
+`;

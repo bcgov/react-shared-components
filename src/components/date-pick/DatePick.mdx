@@ -1,0 +1,32 @@
+import { Meta, Story } from "@storybook/addon-docs/blocks";
+import { DatePick } from "./DatePick";
+
+<Meta title="DatePick" component={DatePick} />
+
+# Date Pick
+
+Date picker component for allowing users to select a date.
+
+## API
+
+| Prop            | Type     | Required | Description                                   | Default |
+| --------------- | -------- | -------- | --------------------------------------------- | ------- |
+| selectedDate    | date     | true     | sets the default selected date                |         |
+| setSelectedDate | function | true     | function to set the newly selected date state |         |
+
+<br />
+
+## Default Date Picker
+
+Used for selecting a date.
+
+```bash
+const [selectedDate, setSelectedDate] = useState(new Date('August 19, 1975 23:15:30'));
+
+<DatePick
+  selectedDate={selectedDate}
+  setSelectedDate={setSelectedDate}
+/>
+```
+
+<Story name="Default" id="date-pick--default"></Story>
