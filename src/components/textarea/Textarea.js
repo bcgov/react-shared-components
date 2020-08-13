@@ -3,12 +3,23 @@ import PropTypes from "prop-types";
 
 import "./Textarea.css";
 
-export const Textarea = ({ id, label, onChange }) => {
+export const Textarea = ({ id, isRequired, label, onChange }) => {
+  let asterisk = "";
+
+  if (isRequired) {
+    asterisk = (
+      <span id="asterisk" className="mandatory">
+        *
+      </span>
+    );
+  }
+
   return (
     <>
       {label && (
         <div className="text-label">
           <label htmlFor={id}>{label}</label>
+          {asterisk}&nbsp;
         </div>
       )}
       <textarea
@@ -23,6 +34,7 @@ export const Textarea = ({ id, label, onChange }) => {
 };
 
 Textarea.propTypes = {
+  isRequired: PropTypes.bool,
   id: PropTypes.string.isRequired,
   label: PropTypes.string,
   onChange: PropTypes.func.isRequired,
@@ -30,4 +42,5 @@ Textarea.propTypes = {
 
 Textarea.defaultProps = {
   label: "",
+  isRequired: false,
 };
