@@ -21,7 +21,9 @@ const runTest = async (story, context) => {
   await waitFor(() => {
     if (
       filename ===
-      "components/confirmation-popup/__snapshots__/ConfirmationPopup.stories.storyshot"
+        "components/confirmation-popup/__snapshots__/ConfirmationPopup.stories.storyshot" ||
+      filename ===
+        "components/date-pick/__snapshots__/DatePick.stories.storyshot"
     ) {
       setTimeout(() => {
         expect(asFragment).toMatchSpecificSnapshot(filename);
