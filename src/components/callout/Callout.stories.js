@@ -29,10 +29,8 @@ export const WithCheckbox = () => (
 
 export const Mobile = () => <Callout text={text} />;
 
-Mobile.story = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };

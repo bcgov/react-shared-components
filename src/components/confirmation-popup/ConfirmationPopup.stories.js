@@ -85,10 +85,8 @@ export const Mobile = () => (
   </State>
 );
 
-Mobile.story = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };

@@ -23,10 +23,8 @@ export const Container = () => (
 
 export const Mobile = () => <Loader page />;
 
-Mobile.story = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };

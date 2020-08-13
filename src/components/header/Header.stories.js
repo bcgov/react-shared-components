@@ -27,10 +27,8 @@ export const Basic = () => <Header header={header} />;
 
 export const Mobile = () => <Header header={header} />;
 
-Mobile.story = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };

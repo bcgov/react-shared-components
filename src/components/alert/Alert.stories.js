@@ -59,12 +59,8 @@ export const Mobile = () => (
   />
 );
 
-const mobileViewport = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };
-
-Mobile.story = mobileViewport;

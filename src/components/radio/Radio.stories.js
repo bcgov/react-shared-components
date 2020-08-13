@@ -25,10 +25,8 @@ export const Mobile = () => (
   <Radio id="yes" name="yes" label={label} onSelect={onSelect} />
 );
 
-Mobile.story = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };

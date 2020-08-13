@@ -41,10 +41,8 @@ export const Mobile = () => (
   <Dropdown label={label} items={itemsNoDefault} onSelect={onSelect} />
 );
 
-Mobile.story = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };

@@ -108,12 +108,8 @@ export const Mobile = () => (
   <DisplayBox styling="blue-background" icon={icon} element={table} />
 );
 
-const mobileViewport = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };
-
-Mobile.story = mobileViewport;
