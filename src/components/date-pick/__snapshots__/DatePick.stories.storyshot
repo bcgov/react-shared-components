@@ -7,7 +7,7 @@ exports[`Storyshots Date Pick Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "14f14461-61a1-4732-8753-6a330bb37a01",
+          "subscription": "f7cfb246-f8e0-447f-9ba1-6f5b3f1bd6bd",
         },
       ],
       "state": Object {
@@ -187,11 +187,11 @@ exports[`Storyshots Date Pick Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "14f14461-61a1-4732-8753-6a330bb37a01",
+          "subscription": "f7cfb246-f8e0-447f-9ba1-6f5b3f1bd6bd",
         },
         Object {
           "callback": [Function],
-          "subscription": "7977d0d7-ab22-41b8-ba02-b843fc959733",
+          "subscription": "6bc29272-bc81-4dbd-86cd-14ccaae98655",
         },
       ],
       "state": Object {
