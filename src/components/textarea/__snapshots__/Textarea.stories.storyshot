@@ -3,6 +3,7 @@
 exports[`Storyshots Textarea Mobile 1`] = `
 <Textarea
   id="1"
+  isRequired={false}
   label="Can you provide more detail?"
   onChange={[Function]}
 >
@@ -14,6 +15,7 @@ exports[`Storyshots Textarea Mobile 1`] = `
     >
       Can you provide more detail?
     </label>
+     
   </div>
   <textarea
     className="text-input"
@@ -28,6 +30,7 @@ exports[`Storyshots Textarea Mobile 1`] = `
 exports[`Storyshots Textarea With Label 1`] = `
 <Textarea
   id="1"
+  isRequired={false}
   label="Can you provide more detail?"
   onChange={[Function]}
 >
@@ -39,6 +42,7 @@ exports[`Storyshots Textarea With Label 1`] = `
     >
       Can you provide more detail?
     </label>
+     
   </div>
   <textarea
     className="text-input"
@@ -53,6 +57,7 @@ exports[`Storyshots Textarea With Label 1`] = `
 exports[`Storyshots Textarea Without Label 1`] = `
 <Textarea
   id="1"
+  isRequired={false}
   label=""
   onChange={[Function]}
 >

@@ -12,4 +12,15 @@ describe("DatePick Component", () => {
       <DatePick selectedDate={selectedDate} setSelectedDate={setSelectedDate} />
     );
   });
+
+  test("With mandatory label matches the snapshot", () => {
+    testBasicSnapshot(
+      <DatePick
+        isRequired
+        label="Select date"
+        selectedDate={selectedDate}
+        setSelectedDate={setSelectedDate}
+      />
+    );
+  });
 });

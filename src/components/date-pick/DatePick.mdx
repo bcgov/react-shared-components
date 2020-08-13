@@ -9,16 +9,20 @@ Date picker component for allowing users to select a date.
 
 ## API
 
-| Prop            | Type     | Required | Description                                   | Default |
-| --------------- | -------- | -------- | --------------------------------------------- | ------- |
-| selectedDate    | date     | true     | sets the default selected date                |         |
-| setSelectedDate | function | true     | function to set the newly selected date state |         |
+| Prop            | Type     | Required | Description                                                  | Default |
+| --------------- | -------- | -------- | ------------------------------------------------------------ | ------- |
+| selectedDate    | date     | true     | sets the default selected date                               |         |
+| setSelectedDate | function | true     | function to set the newly selected date state                |         |
+| label           | string   | false    | label text to display above the date picker                  | ""      |
+| isRequired      | boolean  | false    | determines whether date picker selection is mandatory or not | false   |
 
 <br />
 
 ## Default Date Picker
 
 Used for selecting a date.
+
+<Story name="Default" id="date-pick--default"></Story>
 
 ```bash
 const [selectedDate, setSelectedDate] = useState(new Date('August 19, 1975 23:15:30'));
@@ -29,4 +33,17 @@ const [selectedDate, setSelectedDate] = useState(new Date('August 19, 1975 23:15
 />
 ```
 
-<Story name="Default" id="date-pick--default"></Story>
+## With Label (Mandatory) Date Picker
+
+Used when selecting a date is mandatory.
+
+<Story name="With Label (Mandatory)" id="date-pick--with-label"></Story>
+
+```bash
+<DatePick
+  label="Select date"
+  isRequired
+  selectedDate={selectedDate}
+  setSelectedDate={setSelectedDate}
+/>
+```

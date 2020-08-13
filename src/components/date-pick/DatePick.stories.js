@@ -34,6 +34,22 @@ export const Default = () => {
   );
 };
 
+export const WithLabel = () => {
+  return (
+    <State store={store}>
+      {(state) => [
+        <DatePick
+          key="datepick"
+          label="Select date"
+          isRequired
+          selectedDate={state.selectedDate}
+          setSelectedDate={setSelectedDate}
+        />,
+      ]}
+    </State>
+  );
+};
+
 export const Mobile = () => (
   <State store={store}>
     {(state) => [
