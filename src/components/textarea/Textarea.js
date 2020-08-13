@@ -18,7 +18,7 @@ export const Textarea = ({ id, isRequired, label, onChange }) => {
   return (
     <>
       {label && (
-        <div className="text-label">
+        <div className="input-label">
           <label htmlFor={id}>{label}</label>
           {asterisk}&nbsp;
         </div>

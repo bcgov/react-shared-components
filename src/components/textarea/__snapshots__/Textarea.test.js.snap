@@ -1,9 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Textarea Component when is required matches the snapshot 1`] = `
+Array [
+  <div
+    className="input-label"
+  >
+    <label
+      htmlFor="1"
+    >
+      some label
+    </label>
+    <span
+      className="mandatory"
+      id="asterisk"
+    >
+      *
+    </span>
+     
+  </div>,
+  <textarea
+    className="text-input"
+    cols="60"
+    id="1"
+    onChange={[Function]}
+    rows="8"
+  />,
+]
+`;
+
 exports[`Textarea Component with label matches the snapshot 1`] = `
 Array [
   <div
-    className="text-label"
+    className="input-label"
   >
     <label
       htmlFor="1"
