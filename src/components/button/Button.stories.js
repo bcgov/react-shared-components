@@ -38,12 +38,8 @@ export const Mobile = () => (
   <Button onClick={onClick} label="Submit" styling="normal-blue btn" />
 );
 
-const mobileViewport = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };
-
-Mobile.story = mobileViewport;

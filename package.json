@@ -1,6 +1,6 @@
 {
   "name": "shared-components",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "main": "build/index.js",
   "private": true,
   "dependencies": {
@@ -83,7 +83,7 @@
     ],
     "collectCoverageFrom": [
       "src/**/*.js",
-      "!src/index.js",
+      "!src/*.js",
       "!**/node_modules/**",
       "!**/vendor/**"
     ],

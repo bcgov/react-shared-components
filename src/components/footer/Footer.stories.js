@@ -17,10 +17,8 @@ export const Basic = () => <Footer />;
 
 export const Mobile = () => <Footer />;
 
-Mobile.story = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };

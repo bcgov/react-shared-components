@@ -45,12 +45,8 @@ export const WithFees = () => <Table isFeesData elements={feesData} />;
 
 export const Mobile = () => <Table heading={header} elements={tableData} />;
 
-const mobileViewport = {
-  parameters: {
-    viewport: {
-      defaultViewport: "mobile2",
-    },
+Mobile.parameters = {
+  viewport: {
+    defaultViewport: "mobile2",
   },
 };
-
-Mobile.story = mobileViewport;
