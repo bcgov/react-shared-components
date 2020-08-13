@@ -13,6 +13,14 @@ describe("Textarea Component", () => {
     testBasicSnapshot(textArea);
   });
 
+  test("when is required matches the snapshot", () => {
+    const textArea = (
+      <Textarea id="1" label={label} onChange={onChange} isRequired />
+    );
+
+    testBasicSnapshot(textArea);
+  });
+
   test("without label matches the snapshot", () => {
     const textArea = <Textarea id="1" onChange={onChange} />;
 
