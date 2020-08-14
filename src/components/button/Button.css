@@ -41,3 +41,7 @@
     min-height: 0px;
   }
 }
+
+.bcgov-loader-show {
+  display: inline-block;
+}
