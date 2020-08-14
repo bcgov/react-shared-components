@@ -18,8 +18,6 @@ exports[`Storyshots Loader Container 1`] = `
       <div
         className="btn-loader"
       />
-      <br />
-      Loading... Please Wait
     </div>
   </Loader>
 </div>

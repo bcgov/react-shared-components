@@ -34,6 +34,15 @@ export const Disabled = () => (
   />
 );
 
+export const HasLoader = () => (
+  <Button
+    onClick={onClick}
+    label="Has Loader"
+    styling="normal-blue btn"
+    hasLoader
+  />
+);
+
 export const Mobile = () => (
   <Button onClick={onClick} label="Submit" styling="normal-blue btn" />
 );
