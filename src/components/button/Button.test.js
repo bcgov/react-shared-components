@@ -35,4 +35,17 @@ describe("Button Component", () => {
 
     testBasicSnapshot(buttonComponent);
   });
+
+  test("Matches the 'hasLoader' snapshot", () => {
+    const buttonComponent = (
+      <Button
+        hasLoader
+        onClick={onClick}
+        label={label}
+        styling="normal-blue btn"
+      />
+    );
+
+    testBasicSnapshot(buttonComponent);
+  });
 });

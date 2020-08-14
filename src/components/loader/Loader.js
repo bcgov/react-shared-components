@@ -9,8 +9,12 @@ export const Loader = ({ page }) => {
   return (
     <div className="loader-align">
       <div className={loaderCss} />
-      <br />
-      Loading... Please Wait
+      {page && (
+        <>
+          <br />
+          Loading... Please Wait
+        </>
+      )}
     </div>
   );
 };

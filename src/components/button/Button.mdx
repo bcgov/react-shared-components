@@ -9,12 +9,13 @@ Buttons allow users to take actions, and make choices, with a single click.
 
 ## API
 
-| Prop     | Type     | Required | Description                                                                           | Default |
-| -------- | -------- | -------- | ------------------------------------------------------------------------------------- | ------- |
-| onClick  | function | true     | function executed on button click                                                     |         |
-| label    | string   | true     | text to be displayed on button                                                        |         |
-| styling  | string   | true     | list of css classnames to apply styling based on (ex: normal-blue, normal-white, btn) |         |
-| disabled | boolean  | false    | indicates whether button is disabled or enabled                                       | false   |
+| Prop      | Type     | Required | Description                                                                           | Default |
+| --------- | -------- | -------- | ------------------------------------------------------------------------------------- | ------- |
+| onClick   | function | true     | function executed on button click                                                     |         |
+| label     | string   | true     | text to be displayed on button                                                        |         |
+| styling   | string   | true     | list of css classnames to apply styling based on (ex: normal-blue, normal-white, btn) |         |
+| disabled  | boolean  | false    | indicates whether button is disabled or enabled                                       | false   |
+| hasLoader | boolean  | false    | indicates whether you want to show a loader within button                             | false   |
 
 <br />
 
@@ -64,4 +65,20 @@ with it. This is usually for page logic reasons.
 
 ```bash
 <Button onClick={onClick} label="Disabled" styling="normal-blue btn" disabled />
+```
+
+## Has Loader
+
+A button that you want to display a loader within, for when an async action is
+taking place that you want the user to wait for before proceeding.
+
+<Story name="Has Loader" id="button--has-loader"></Story>
+
+```bash
+<Button
+  onClick={onClick}
+  label="Has Loader"
+  styling="normal-blue btn"
+  hasLoader
+/>
 ```
