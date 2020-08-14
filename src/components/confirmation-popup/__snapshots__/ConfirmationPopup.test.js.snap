@@ -33,6 +33,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
 >
   <Button
     disabled={false}
+    hasLoader={false}
     label="main label"
     onClick={[MockFunction]}
     styling="normal-blue btn"
@@ -632,6 +633,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         >
                           <Button
                             disabled={false}
+                            hasLoader={false}
                             label="Yes, cancel my process please"
                             onClick={[MockFunction]}
                             styling="normal-blue btn consistent-width"
@@ -650,6 +652,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           <p />
                           <Button
                             disabled={false}
+                            hasLoader={false}
                             label="No, resume my process please"
                             onClick={[MockFunction]}
                             styling="normal-white btn consistent-width"
