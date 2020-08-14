@@ -66,3 +66,19 @@ with it. This is usually for page logic reasons.
 ```bash
 <Button onClick={onClick} label="Disabled" styling="normal-blue btn" disabled />
 ```
+
+## Has Loader
+
+A button that you want to display a loader within, for when an async action is
+taking place that you want the user to wait for before proceeding.
+
+<Story name="Has Loader" id="button--has-loader"></Story>
+
+```bash
+<Button
+  onClick={onClick}
+  label="Has Loader"
+  styling="normal-blue btn"
+  hasLoader
+/>
+```

@@ -21,6 +21,42 @@ exports[`Storyshots Button Disabled 1`] = `
 </Button>
 `;
 
+exports[`Storyshots Button Has Loader 1`] = `
+<Button
+  disabled={false}
+  hasLoader={true}
+  label="Has Loader"
+  onClick={[Function]}
+  styling="normal-blue btn"
+  testId=""
+>
+  <button
+    className="bcgov-button normal-blue btn"
+    data-test-id=""
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Has Loader
+    <div
+      className="bcgov-loader-show"
+    >
+      <Loader
+        page={false}
+      >
+        <div
+          className="loader-align"
+        >
+          <div
+            className="btn-loader"
+          />
+        </div>
+      </Loader>
+    </div>
+  </button>
+</Button>
+`;
+
 exports[`Storyshots Button Mobile 1`] = `
 <Button
   disabled={false}
