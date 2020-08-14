@@ -14,8 +14,6 @@ In order for projects to consume a new version, create a new release on this rep
 },
 ```
 
-Make sure that X.X.X is replaced with the appropriate version you're looking to target.
-
 ## Creating a release
 
 Run the following commands locally when ready to release:
