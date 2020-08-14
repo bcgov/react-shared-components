@@ -42,7 +42,7 @@ Array [
           onKeyDown={[Function]}
           readOnly={false}
           type="text"
-          value="08/13/2020"
+          value="08/19/1975"
         />
       </div>
     </div>
@@ -107,7 +107,7 @@ Array [
           onKeyDown={[Function]}
           readOnly={false}
           type="text"
-          value="08/13/2020"
+          value="08/19/1975"
         />
       </div>
     </div>

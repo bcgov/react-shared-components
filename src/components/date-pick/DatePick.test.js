@@ -4,7 +4,7 @@ import testBasicSnapshot from "../../TestHelper";
 import { DatePick } from "./DatePick";
 
 describe("DatePick Component", () => {
-  const selectedDate = new Date();
+  const selectedDate = new Date("August 19, 1975 23:15:30");
   const setSelectedDate = jest.fn();
 
   test("Matches the snapshot", () => {
