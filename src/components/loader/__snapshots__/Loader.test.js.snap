@@ -7,8 +7,6 @@ exports[`Loader Component Button version matches the snapshot 1`] = `
   <div
     className="btn-loader"
   />
-  <br />
-  Loading... Please Wait
 </div>
 `;
 
