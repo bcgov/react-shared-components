@@ -4,7 +4,7 @@ Shared reusable react BCGov themed components. See [https://bcgov.github.io/reac
 
 ## Getting started
 
-In order for projects to use these components, add the latest [release](https://github.com/bcgov/react-shared-components/releases) to the projects package.json. Example: (current release)
+In order for a project to use these components, add the latest [release](https://github.com/bcgov/react-shared-components/releases) to the project's package.json. Example: (current release)
 
 ```
 "dependencies": {
