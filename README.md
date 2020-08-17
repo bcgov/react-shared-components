@@ -1,15 +1,15 @@
 # React Shared Components
 
-Shared reusable react BCGov themed components.
+Shared reusable react BCGov themed components. See [https://bcgov.github.io/react-shared-components/](https://bcgov.github.io/react-shared-components/) for documentation.
 
 ## Getting started
 
-In order for projects to consume a new version, create a new release on this repository with the updated semantic version. Once the release is created, edit the release and upload the generated _shared-components-X.X.X.tgz_ file to the release. Once this is complete, update your project's package.json file to the following (current latest release):
+In order for a project to use these components, add the latest [release](https://github.com/bcgov/react-shared-components/releases) to the project's package.json. Example: (current release)
 
 ```
 "dependencies": {
     ...
-    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/0.5.2/shared-components-0.5.2.tgz",
+    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/0.5.3/shared-components-0.5.3.tgz",
     ...
 },
 ```
