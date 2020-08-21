@@ -13,10 +13,8 @@
   background: white;
   box-shadow: none;
   border: 2px solid #606060;
-  min-width: 200px;
+  width: 100%;
   padding: 8px 45px 8px 15px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 
