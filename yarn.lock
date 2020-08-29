@@ -1756,17 +1756,17 @@
   dependencies:
     type-detect "4.0.8"
 
-"@storybook/addon-actions@^6.0.19":
-  version "6.0.19"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.0.19.tgz#588923a20c9215f97a69e99e007b0ac30fafcdc0"
-  integrity sha512-jasaiD5in/8+ykKDzGxCgZxFl4iD81gtB1HnYKpxejMgtRvZPHN7SvL0wlkQEN8z7O0wU9rgfy87o3DX9EWasA==
+"@storybook/addon-actions@^6.0.20":
+  version "6.0.20"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.0.20.tgz#4fcf83ec7f961a90a0836633cdf18ecf37d9ed51"
+  integrity sha512-zO0iol1FQya3cPuVjkq5/YWmmmgXuElIcVQpxndACHGIF6ktwmMJSLToLjfz9Gi5l9LA9/m8j/7FUZrORFtWQQ==
   dependencies:
-    "@storybook/addons" "6.0.19"
-    "@storybook/api" "6.0.19"
-    "@storybook/client-api" "6.0.19"
-    "@storybook/components" "6.0.19"
-    "@storybook/core-events" "6.0.19"
-    "@storybook/theming" "6.0.19"
+    "@storybook/addons" "6.0.20"
+    "@storybook/api" "6.0.20"
+    "@storybook/client-api" "6.0.20"
+    "@storybook/components" "6.0.20"
+    "@storybook/core-events" "6.0.20"
+    "@storybook/theming" "6.0.20"
     core-js "^3.0.1"
     fast-deep-equal "^3.1.1"
     global "^4.3.2"
@@ -1864,17 +1864,17 @@
     regenerator-runtime "^0.13.3"
     ts-dedent "^1.1.1"
 
-"@storybook/addon-viewport@6.0.19":
-  version "6.0.19"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-6.0.19.tgz#60d5b5b850a12b343f296aa67b4a1c5090493ae6"
-  integrity sha512-qYLZgaRisdlEhKJbg9ZeRcEazz/cjxHqJ/w26/mhvRhOlY+E9sRDSjYMG1KJ85TNCpocRLaHQBczUfvz+BTaGg==
+"@storybook/addon-viewport@6.0.20":
+  version "6.0.20"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-6.0.20.tgz#62e0bc08db11efd8547053c54998c7aace1a0f1c"
+  integrity sha512-QyRSA9UFIZHra69xY3mf0xUsAix+SLASD3VTkPsIq8BM8VtdlHw/STqDD3m5OCTKrlsuDJ1CAMeimjp6jWriXw==
   dependencies:
-    "@storybook/addons" "6.0.19"
-    "@storybook/api" "6.0.19"
-    "@storybook/client-logger" "6.0.19"
-    "@storybook/components" "6.0.19"
-    "@storybook/core-events" "6.0.19"
-    "@storybook/theming" "6.0.19"
+    "@storybook/addons" "6.0.20"
+    "@storybook/api" "6.0.20"
+    "@storybook/client-logger" "6.0.20"
+    "@storybook/components" "6.0.20"
+    "@storybook/core-events" "6.0.20"
+    "@storybook/theming" "6.0.20"
     core-js "^3.0.1"
     global "^4.3.2"
     memoizerific "^1.11.3"
