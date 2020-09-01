@@ -37,6 +37,7 @@
 .bcgov-fill-width {
   width: -webkit-fill-available;
   width: -moz-available;
+  width: -ms-fill-available;
 }
 
 .display-file .bcgov-fill-width {
@@ -47,6 +48,7 @@
   .display-file .bcgov-fill-width {
     width: -webkit-fill-available;
     width: -moz-available;
+    width: -ms-fill-available;
   }
 }
 
