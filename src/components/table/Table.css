@@ -36,6 +36,7 @@
 
 .bcgov-fill-width {
   width: -webkit-fill-available;
+  width: -moz-available;
 }
 
 .display-file .bcgov-fill-width {
@@ -45,6 +46,7 @@
 @media (max-width: 576px) {
   .display-file .bcgov-fill-width {
     width: -webkit-fill-available;
+    width: -moz-available;
   }
 }
 
