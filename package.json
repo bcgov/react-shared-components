@@ -1,6 +1,6 @@
 {
   "name": "shared-components",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "main": "build/index.js",
   "private": true,
   "dependencies": {

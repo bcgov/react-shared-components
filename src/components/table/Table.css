@@ -35,7 +35,10 @@
 }
 
 .bcgov-fill-width {
+  width: 100%;
   width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill-available;
 }
 
 .display-file .bcgov-fill-width {
@@ -44,7 +47,10 @@
 
 @media (max-width: 576px) {
   .display-file .bcgov-fill-width {
+    width: 100%;
     width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
   }
 }
 
