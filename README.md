@@ -9,7 +9,7 @@ In order for a project to use these components, add the latest [release](https:/
 ```
 "dependencies": {
     ...
-    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/0.5.5/shared-components-0.5.5.tgz",
+    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/0.5.6/shared-components-0.5.6.tgz",
     ...
 },
 ```
