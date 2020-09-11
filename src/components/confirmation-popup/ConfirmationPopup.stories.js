@@ -4,6 +4,7 @@ import { State, Store } from "@sambego/storybook-state";
 import mdx from "./ConfirmationPopup.mdx";
 
 import ConfirmationPopup from "./ConfirmationPopup";
+import { getConfirmationPopupTestData } from "../../modules/confirmationPopupTestData";
 
 export default {
   title: "Confirmation Popup",
@@ -19,16 +20,7 @@ const store = new Store({
   show: false,
 });
 
-const body = () => (
-  <>
-    <p>Your files will not be submitted.</p>
-    <p>
-      You will be returned to:
-      <br />
-      <b>Original</b> website
-    </p>
-  </>
-);
+const { body } = getConfirmationPopupTestData();
 
 const modal = {
   title: "Cancel process?",
