@@ -9,8 +9,11 @@ const table = getTestTable();
 const icon = <MdPerson size={32} />;
 
 const generateDisplayBox = (hasIcon, styling) => {
-  if (!hasIcon) return <DisplayBox element={table} />;
-  else return <DisplayBox icon={icon} element={table} styling={styling} />;
+  return hasIcon ? (
+    <DisplayBox icon={icon} element={table} styling={styling} />
+  ) : (
+    <DisplayBox element={table} />
+  );
 };
 
 describe("DisplayBox Component", () => {
