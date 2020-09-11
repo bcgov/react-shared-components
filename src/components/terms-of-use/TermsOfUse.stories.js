@@ -21,7 +21,7 @@ const heading = "Terms of Use";
 
 const confirmText = "I accept these terms and conditions";
 
-export const Default = () => (
+const termsOfUseComponent = (
   <TermsOfUse
     acceptTerms={action("accept terms of use")}
     content={content}
@@ -30,14 +30,9 @@ export const Default = () => (
   />
 );
 
-export const Mobile = () => (
-  <TermsOfUse
-    acceptTerms={action("accept terms of use")}
-    content={content}
-    heading={heading}
-    confirmText={confirmText}
-  />
-);
+export const Default = () => termsOfUseComponent;
+
+export const Mobile = () => termsOfUseComponent;
 
 Mobile.parameters = {
   viewport: {
