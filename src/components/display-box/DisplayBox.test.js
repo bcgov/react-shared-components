@@ -8,24 +8,28 @@ import { getTestTable } from "../../modules/displayBoxTestData";
 const table = getTestTable();
 const icon = <MdPerson size={32} />;
 
+const generateDisplayBox = (hasIcon, styling) => {
+  return hasIcon ? (
+    <DisplayBox icon={icon} element={table} styling={styling} />
+  ) : (
+    <DisplayBox element={table} />
+  );
+};
+
 describe("DisplayBox Component", () => {
   test("Matches the 'without icon' snapshot", () => {
-    testBasicSnapshot(<DisplayBox element={table} />);
+    testBasicSnapshot(generateDisplayBox(false));
   });
 
   test("Matches the 'with icon' snapshot", () => {
-    testBasicSnapshot(<DisplayBox icon={icon} element={table} />);
+    testBasicSnapshot(generateDisplayBox(true));
   });
 
   test("Matches the warning snapshot", () => {
-    testBasicSnapshot(
-      <DisplayBox styling={"warning-background"} icon={icon} element={table} />
-    );
+    testBasicSnapshot(generateDisplayBox(true, "warning-background"));
   });
 
   test("Matches the blue-background snapshot", () => {
-    testBasicSnapshot(
-      <DisplayBox styling={"blue-background"} icon={icon} element={table} />
-    );
+    testBasicSnapshot(generateDisplayBox(true, "blue-background"));
   });
 });
