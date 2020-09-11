@@ -4,6 +4,15 @@ import { render, fireEvent, getAllByAltText } from "@testing-library/react";
 import testBasicSnapshot from "../../TestHelper";
 import { Header, HeadingTitle, HeaderImage } from "./Header";
 
+const setHistoryAndClickHeader = (header, container, type) => {
+  header.history.replace("/somepageroute");
+
+  if (type === "click")
+    fireEvent.click(getAllByAltText(container, "B.C. Government Logo")[0]);
+  else if (type === "keydown")
+    fireEvent.keyDown(getAllByAltText(container, "B.C. Government Logo")[0]);
+};
+
 describe("Header Component", () => {
   const header = {
     name: "File Submission",
@@ -35,17 +44,13 @@ describe("Header Component", () => {
   });
 
   test("Clicking HeadingImage takes you back to home", () => {
-    header.history.replace("/somepageroute");
-
-    fireEvent.click(getAllByAltText(container, "B.C. Government Logo")[0]);
+    setHistoryAndClickHeader(header, container, "click");
 
     expect(header.history.location.pathname).toEqual("/");
   });
 
   test("Keydown on HeadingImage takes you back to home", () => {
-    header.history.replace("/somepageroute");
-
-    fireEvent.keyDown(getAllByAltText(container, "B.C. Government Logo")[0]);
+    setHistoryAndClickHeader(header, container, "keydown");
 
     expect(header.history.location.pathname).toEqual("/");
   });
