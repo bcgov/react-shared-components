@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/df18a9729ae95e933fb2/maintainability)](https://codeclimate.com/github/bcgov/react-shared-components/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/df18a9729ae95e933fb2/test_coverage)](https://codeclimate.com/github/bcgov/react-shared-components/test_coverage)
+
 # React Shared Components
 
 Shared reusable react BCGov themed components. See [https://bcgov.github.io/react-shared-components/](https://bcgov.github.io/react-shared-components/) for documentation.
