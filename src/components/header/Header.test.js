@@ -4,15 +4,26 @@ import { render, fireEvent, getAllByAltText } from "@testing-library/react";
 import testBasicSnapshot from "../../TestHelper";
 import { Header, HeadingTitle, HeaderImage } from "./Header";
 
+const clickHeaderAndCheckUpdatedHistory = (header, container, type) => {
+  header.history.replace("/somepageroute");
+
+  if (type === "click")
+    fireEvent.click(getAllByAltText(container, "B.C. Government Logo")[0]);
+  else if (type === "keydown")
+    fireEvent.keyDown(getAllByAltText(container, "B.C. Government Logo")[0]);
+
+  expect(header.history.location.pathname).toEqual("/");
+};
+
 describe("Header Component", () => {
   const header = {
     name: "File Submission",
     history: createMemoryHistory(),
   };
 
-  test("Header matches the snapshot", () => {
-    const headerComponent = <Header header={header} />;
+  const headerComponent = <Header header={header} />;
 
+  test("Header matches the snapshot", () => {
     testBasicSnapshot(headerComponent);
   });
 
@@ -34,22 +45,14 @@ describe("Header Component", () => {
   });
 
   test("Clicking HeadingImage takes you back to home", () => {
-    header.history.replace("/somepageroute");
+    const { container } = render(headerComponent);
 
-    const { container } = render(<Header header={header} />);
-
-    fireEvent.click(getAllByAltText(container, "B.C. Government Logo")[0]);
-
-    expect(header.history.location.pathname).toEqual("/");
+    clickHeaderAndCheckUpdatedHistory(header, container, "click");
   });
 
   test("Keydown on HeadingImage takes you back to home", () => {
-    header.history.replace("/somepageroute");
+    const { container } = render(headerComponent);
 
-    const { container } = render(<Header header={header} />);
-
-    fireEvent.keyDown(getAllByAltText(container, "B.C. Government Logo")[0]);
-
-    expect(header.history.location.pathname).toEqual("/");
+    clickHeaderAndCheckUpdatedHistory(header, container, "keydown");
   });
 });

@@ -4,6 +4,7 @@ import { State, Store } from "@sambego/storybook-state";
 import mdx from "./ConfirmationPopup.mdx";
 
 import ConfirmationPopup from "./ConfirmationPopup";
+import { getConfirmationPopupTestData } from "../../modules/confirmationPopupTestData";
 
 export default {
   title: "Confirmation Popup",
@@ -19,16 +20,7 @@ const store = new Store({
   show: false,
 });
 
-const body = () => (
-  <>
-    <p>Your files will not be submitted.</p>
-    <p>
-      You will be returned to:
-      <br />
-      <b>Original</b> website
-    </p>
-  </>
-);
+const { body } = getConfirmationPopupTestData();
 
 const modal = {
   title: "Cancel process?",
@@ -55,23 +47,7 @@ const cancelButton = {
   onClick: onButtonClick,
 };
 
-export const Default = () => {
-  return (
-    <State store={store}>
-      {(state) => [
-        <ConfirmationPopup
-          key="popup"
-          modal={{ ...modal, show: state.show }}
-          mainButton={mainButton}
-          confirmButton={confirmButton}
-          cancelButton={cancelButton}
-        />,
-      ]}
-    </State>
-  );
-};
-
-export const Mobile = () => (
+const ConfirmationPopupState = (
   <State store={store}>
     {(state) => [
       <ConfirmationPopup
@@ -84,6 +60,10 @@ export const Mobile = () => (
     ]}
   </State>
 );
+
+export const Default = () => ConfirmationPopupState;
+
+export const Mobile = () => ConfirmationPopupState;
 
 Mobile.parameters = {
   viewport: {

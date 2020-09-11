@@ -4,18 +4,10 @@ import { mount } from "enzyme";
 import EnzymeToJson from "enzyme-to-json";
 
 import ConfirmationPopup from "./ConfirmationPopup";
+import { getConfirmationPopupTestData } from "../../modules/confirmationPopupTestData";
 
 describe("ConfirmationPopup Component", () => {
-  const body = () => (
-    <>
-      <p>Your files will not be submitted.</p>
-      <p>
-        You will be returned to:
-        <br />
-        <b>Original</b> website
-      </p>
-    </>
-  );
+  const { body } = getConfirmationPopupTestData();
 
   const modal = {
     show: true,
