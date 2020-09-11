@@ -20,47 +20,24 @@ const store = new Store({
 
 const setSelectedDate = (date) => store.set({ selectedDate: date });
 
-export const Default = () => {
-  return (
-    <State store={store}>
-      {(state) => [
-        <DatePick
-          key="datepick"
-          selectedDate={state.selectedDate}
-          setSelectedDate={setSelectedDate}
-        />,
-      ]}
-    </State>
-  );
-};
-
-export const WithLabel = () => {
-  return (
-    <State store={store}>
-      {(state) => [
-        <DatePick
-          key="datepick"
-          label="Select date"
-          isRequired
-          selectedDate={state.selectedDate}
-          setSelectedDate={setSelectedDate}
-        />,
-      ]}
-    </State>
-  );
-};
-
-export const Mobile = () => (
+const basicDatePickState = (label) => (
   <State store={store}>
     {(state) => [
       <DatePick
         key="datepick"
+        label={label}
         selectedDate={state.selectedDate}
         setSelectedDate={setSelectedDate}
       />,
     ]}
   </State>
 );
+
+export const Default = () => basicDatePickState();
+
+export const WithLabel = () => basicDatePickState("Select date");
+
+export const Mobile = () => basicDatePickState();
 
 Mobile.parameters = {
   viewport: {
