@@ -11,6 +11,7 @@ describe("Header Component", () => {
   };
 
   const headerComponent = <Header header={header} />;
+  const { container } = render(headerComponent);
 
   test("Header matches the snapshot", () => {
     testBasicSnapshot(headerComponent);
@@ -36,8 +37,6 @@ describe("Header Component", () => {
   test("Clicking HeadingImage takes you back to home", () => {
     header.history.replace("/somepageroute");
 
-    const { container } = render(headerComponent);
-
     fireEvent.click(getAllByAltText(container, "B.C. Government Logo")[0]);
 
     expect(header.history.location.pathname).toEqual("/");
@@ -45,8 +44,6 @@ describe("Header Component", () => {
 
   test("Keydown on HeadingImage takes you back to home", () => {
     header.history.replace("/somepageroute");
-
-    const { container } = render(headerComponent);
 
     fireEvent.keyDown(getAllByAltText(container, "B.C. Government Logo")[0]);
 
