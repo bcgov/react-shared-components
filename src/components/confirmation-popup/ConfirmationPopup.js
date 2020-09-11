@@ -34,16 +34,16 @@ export default function ConfirmationPopup({
           <Modal.Body className="padding-left">{body()}</Modal.Body>
           <div className="mx-auto mb-5">
             {generateButton(
-              confirmButton.styling,
               confirmButton.onClick,
               confirmButton.label,
+              confirmButton.styling,
               "modal-confirm-btn"
             )}
             <p />
             {generateButton(
-              cancelButton.styling,
               cancelButton.onClick,
               cancelButton.label,
+              cancelButton.styling,
               "modal-cancel-btn"
             )}
           </div>
