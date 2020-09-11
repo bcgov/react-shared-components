@@ -22,7 +22,6 @@ describe("Header Component", () => {
   };
 
   const headerComponent = <Header header={header} />;
-  const { container } = render(headerComponent);
 
   test("Header matches the snapshot", () => {
     testBasicSnapshot(headerComponent);
@@ -46,10 +45,14 @@ describe("Header Component", () => {
   });
 
   test("Clicking HeadingImage takes you back to home", () => {
+    const { container } = render(headerComponent);
+
     clickHeaderAndCheckUpdatedHistory(header, container, "click");
   });
 
   test("Keydown on HeadingImage takes you back to home", () => {
+    const { container } = render(headerComponent);
+
     clickHeaderAndCheckUpdatedHistory(header, container, "keydown");
   });
 });
