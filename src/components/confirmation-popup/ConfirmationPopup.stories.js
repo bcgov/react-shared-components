@@ -55,23 +55,7 @@ const cancelButton = {
   onClick: onButtonClick,
 };
 
-export const Default = () => {
-  return (
-    <State store={store}>
-      {(state) => [
-        <ConfirmationPopup
-          key="popup"
-          modal={{ ...modal, show: state.show }}
-          mainButton={mainButton}
-          confirmButton={confirmButton}
-          cancelButton={cancelButton}
-        />,
-      ]}
-    </State>
-  );
-};
-
-export const Mobile = () => (
+const ConfirmationPopupState = (
   <State store={store}>
     {(state) => [
       <ConfirmationPopup
@@ -84,6 +68,10 @@ export const Mobile = () => (
     ]}
   </State>
 );
+
+export const Default = () => ConfirmationPopupState;
+
+export const Mobile = () => ConfirmationPopupState;
 
 Mobile.parameters = {
   viewport: {
