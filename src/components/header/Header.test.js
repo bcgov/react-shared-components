@@ -13,8 +13,6 @@ describe("Header Component", () => {
   const headerComponent = <Header header={header} />;
 
   test("Header matches the snapshot", () => {
-    const headerComponent = <Header header={header} />;
-
     testBasicSnapshot(headerComponent);
   });
 
