@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/df18a9729ae95e933fb2/maintainability)](https://codeclimate.com/github/bcgov/react-shared-components/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/df18a9729ae95e933fb2/test_coverage)](https://codeclimate.com/github/bcgov/react-shared-components/test_coverage)
+
 # React Shared Components
 
 Shared reusable react BCGov themed components. See [https://bcgov.github.io/react-shared-components/](https://bcgov.github.io/react-shared-components/) for documentation.
@@ -9,7 +11,7 @@ In order for a project to use these components, add the latest [release](https:/
 ```
 "dependencies": {
     ...
-    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/0.5.6/shared-components-0.5.6.tgz",
+    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/0.5.7/shared-components-0.5.7.tgz",
     ...
 },
 ```
