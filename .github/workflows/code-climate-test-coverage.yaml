@@ -1,0 +1,82 @@
+name: Generate/Upload all Coverage Reports
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  yarn:
+    env:
+      CC_TEST_REPORTER_ID: 7d2432e1de539b66bfce3471fe722f0442ad5422397bb8e8f3258535b0dee0ba
+
+    name: Create, format and upload Javascript coverage artifact
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # Get Code Climate binary
+      - name: Download Code Climate Binary
+        run: curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+
+      # Permissions applied to the Code Climate Executable
+      - name: Apply executable perms to Code Climate Binary
+        run: chmod +x ./cc-test-reporter
+
+      # Before build
+      - name: Before build
+        run: ./cc-test-reporter before-build
+
+      # Set required Git env vars for either pull request
+      - name: Set ENV for codeclimate (pull_request)
+        run: |
+          echo "::set-env name=GIT_BRANCH::${{ github.event.pull_request.head.ref }}"
+          echo "::set-env name=GIT_COMMIT_SHA::${{ github.event.pull_request.head.sha }}"
+        if: github.event_name == 'pull_request'
+
+      # Set required Git env vars for a push to master
+      - name: Set ENV for codeclimate (push)
+        run: |
+          echo "::set-env name=GIT_BRANCH::$GITHUB_REF"
+          echo "::set-env name=GIT_COMMIT_SHA::$GITHUB_SHA"
+        if: github.event_name == 'push'
+
+      # Trimming the ref to master in order to publish correct report (paambaati)
+      - name: Set ref/head/master to master
+        run: |
+          echo "::set-env name=GIT_BRANCH::master"
+        if: env.GIT_BRANCH == 'refs/heads/master'
+            
+      # Run Yarn Install 
+      - name: Run Yarn Install 
+        run: yarn install
+
+      # Run lint
+      - name: Run lint
+        run: yarn run lint
+
+      # Yarn Coverage
+      - name: Run Yarn Coverage 
+        run: yarn coverage
+
+      # Formatting the coverage report
+      - name: Format the coverage report
+        run: |
+          ./cc-test-reporter format-coverage -t lcov -o coverage/react-shared-codeclimate.json ${{github.workspace}}/coverage/lcov.info
+      
+      # List all formatted files in coverage directory
+      - name: WHERE AM I - FORMATTED?
+        run: |
+          ls ${{ github.workspace }}/coverage
+      
+      # Upload JSON for debugging purposes
+      - name: Upload JSON for debugging purposes
+        uses: actions/upload-artifact@v2
+        with:
+          name: react-shared-codeclimate
+          path: coverage/react-shared-codeclimate.json
+
+      # Upload total coverage report to Code Climate
+      - name: Upload coverage report to Code Climate
+        run: ./cc-test-reporter upload-coverage -i coverage/react-shared-codeclimate.json
