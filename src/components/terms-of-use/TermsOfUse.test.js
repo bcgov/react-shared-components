@@ -15,28 +15,21 @@ describe("TermsOfUse Component", () => {
 
   const confirmText = "I accept these terms and conditions";
 
-  test("Matches the snapshot", () => {
-    const termsOfUse = (
-      <TermsOfUse
-        acceptTerms={acceptTerms}
-        content={content}
-        heading={heading}
-        confirmText={confirmText}
-      />
-    );
+  const termsOfUse = (
+    <TermsOfUse
+      acceptTerms={acceptTerms}
+      content={content}
+      heading={heading}
+      confirmText={confirmText}
+    />
+  );
 
+  test("Matches the snapshot", () => {
     testBasicSnapshot(termsOfUse);
   });
 
   test("Print terms of use (click)", async () => {
-    const { container } = render(
-      <TermsOfUse
-        acceptTerms={acceptTerms}
-        content={content}
-        heading={heading}
-        confirmText={confirmText}
-      />
-    );
+    const { container } = render(termsOfUse);
 
     fireEvent.click(getByText(container, "Print"));
 
@@ -46,14 +39,7 @@ describe("TermsOfUse Component", () => {
   });
 
   test("Print terms of use (keydown)", async () => {
-    const { container } = render(
-      <TermsOfUse
-        acceptTerms={acceptTerms}
-        content={content}
-        heading={heading}
-        confirmText={confirmText}
-      />
-    );
+    const { container } = render(termsOfUse);
 
     fireEvent.keyDown(getByText(container, "Print"));
 
