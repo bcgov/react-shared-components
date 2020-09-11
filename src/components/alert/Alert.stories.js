@@ -2,6 +2,7 @@ import React from "react";
 import { MdError, MdCancel, MdCheckBox, MdInfo } from "react-icons/md";
 import mdx from "./Alert.mdx";
 
+import { Alert } from "./Alert";
 import { generateAlert } from "../../modules/alertTestData";
 
 export default {
