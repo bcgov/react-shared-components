@@ -10,6 +10,8 @@ describe("Header Component", () => {
     history: createMemoryHistory(),
   };
 
+  const headerComponent = <Header header={header} />;
+
   test("Header matches the snapshot", () => {
     const headerComponent = <Header header={header} />;
 
@@ -36,7 +38,7 @@ describe("Header Component", () => {
   test("Clicking HeadingImage takes you back to home", () => {
     header.history.replace("/somepageroute");
 
-    const { container } = render(<Header header={header} />);
+    const { container } = render(headerComponent);
 
     fireEvent.click(getAllByAltText(container, "B.C. Government Logo")[0]);
 
@@ -46,7 +48,7 @@ describe("Header Component", () => {
   test("Keydown on HeadingImage takes you back to home", () => {
     header.history.replace("/somepageroute");
 
-    const { container } = render(<Header header={header} />);
+    const { container } = render(headerComponent);
 
     fireEvent.keyDown(getAllByAltText(container, "B.C. Government Logo")[0]);
 
