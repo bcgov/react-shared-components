@@ -7,6 +7,10 @@ import { propTypes } from "../../types/propTypes";
 
 import "./ConfirmationPopup.css";
 
+const generateButton = (onClick, label, styling, testId) => (
+  <Button onClick={onClick} label={label} styling={styling} testId={testId} />
+);
+
 export default function ConfirmationPopup({
   modal: { show, title, body },
   mainButton,
@@ -15,12 +19,12 @@ export default function ConfirmationPopup({
 }) {
   return (
     <>
-      <Button
-        onClick={mainButton.onClick}
-        label={mainButton.label}
-        styling={mainButton.styling}
-        testId="main-cancel-btn"
-      />
+      {generateButton(
+        mainButton.onClick,
+        mainButton.label,
+        mainButton.styling,
+        "main-cancel-btn"
+      )}
 
       <Modal show={show} onHide={cancelButton.onClick}>
         <Modal.Header className="hide-border mt-3" closeButton>
@@ -29,19 +33,19 @@ export default function ConfirmationPopup({
         <div className="mx-auto">
           <Modal.Body className="padding-left">{body()}</Modal.Body>
           <div className="mx-auto mb-5">
-            <Button
-              styling={confirmButton.styling}
-              onClick={confirmButton.onClick}
-              label={confirmButton.label}
-              testId="modal-confirm-btn"
-            />
+            {generateButton(
+              confirmButton.onClick,
+              confirmButton.label,
+              confirmButton.styling,
+              "modal-confirm-btn"
+            )}
             <p />
-            <Button
-              styling={cancelButton.styling}
-              onClick={cancelButton.onClick}
-              label={cancelButton.label}
-              testId="modal-cancel-btn"
-            />
+            {generateButton(
+              cancelButton.onClick,
+              cancelButton.label,
+              cancelButton.styling,
+              "modal-cancel-btn"
+            )}
           </div>
         </div>
       </Modal>
