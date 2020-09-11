@@ -23,13 +23,14 @@ describe("TermsOfUse Component", () => {
       confirmText={confirmText}
     />
   );
-  const { container } = render(termsOfUse);
 
   test("Matches the snapshot", () => {
     testBasicSnapshot(termsOfUse);
   });
 
   test("Print terms of use (click)", async () => {
+    const { container } = render(termsOfUse);
+
     fireEvent.click(getByText(container, "Print"));
 
     await waitFor(() => {
@@ -38,6 +39,8 @@ describe("TermsOfUse Component", () => {
   });
 
   test("Print terms of use (keydown)", async () => {
+    const { container } = render(termsOfUse);
+
     fireEvent.keyDown(getByText(container, "Print"));
 
     await waitFor(() => {
