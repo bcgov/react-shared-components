@@ -32,7 +32,7 @@ exports[`Storyshots Sidecard Blue 1`] = `
       <p />
       <section
         className="submit-container"
-        id="blue-section"
+        id="bluecard"
       >
         <h2
           className="heading-style"
@@ -84,7 +84,7 @@ exports[`Storyshots Sidecard Blue Grey 1`] = `
       <p />
       <section
         className="bluegrey-container"
-        id="bluegrey-section"
+        id="bluegreycard"
       >
         <div
           className="container-background bluegrey-heading"
@@ -142,7 +142,7 @@ exports[`Storyshots Sidecard Grey 1`] = `
       <p />
       <section
         className="submit-container"
-        id="grey-section"
+        id="greycard"
         style={
           Object {
             "backgroundColor": "#F2F2F2",
@@ -208,7 +208,7 @@ exports[`Storyshots Sidecard Mobile 1`] = `
       <p />
       <section
         className="bluegrey-container"
-        id="bluegrey-section"
+        id="bluegreycard"
       >
         <div
           className="container-background bluegrey-heading"
@@ -314,7 +314,7 @@ exports[`Storyshots Sidecard With Icon 1`] = `
       <p />
       <section
         className="bluegrey-container"
-        id="bluegrey-section"
+        id="bluegreyiconcard"
       >
         <div
           className="container-background bluegrey-heading"
