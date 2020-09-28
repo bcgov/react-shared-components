@@ -27,7 +27,10 @@ export const FooterToggler = () => (
 
 export const Footer = () => (
   <footer className="footer">
-    <nav className="navbar navbar-expand-sm navbar-dark justify-content-end">
+    <nav
+      className="navbar navbar-expand-sm navbar-dark justify-content-end"
+      aria-label="Footer"
+    >
       <FooterToggler />
       <div className="collapse navbar-collapse flex-grow-0" id="footerBar">
         <ul className="navbar-nav text-right">

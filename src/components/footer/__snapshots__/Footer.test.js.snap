@@ -20,6 +20,7 @@ exports[`Footer Component Matches the snapshot 1`] = `
   className="footer"
 >
   <nav
+    aria-label="Footer"
     className="navbar navbar-expand-sm navbar-dark justify-content-end"
   >
     <button
