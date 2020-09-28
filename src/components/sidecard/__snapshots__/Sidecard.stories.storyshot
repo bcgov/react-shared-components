@@ -8,6 +8,7 @@ exports[`Storyshots Sidecard Blue 1`] = `
         "This is where I put my content for the sidecard",
       ],
       "heading": "Heading",
+      "id": "bluecard",
       "type": "blue",
     }
   }
@@ -59,6 +60,7 @@ exports[`Storyshots Sidecard Blue Grey 1`] = `
         "This is where I put my content for the sidecard",
       ],
       "heading": "Heading",
+      "id": "bluegreycard",
       "type": "bluegrey",
     }
   }
@@ -116,6 +118,7 @@ exports[`Storyshots Sidecard Grey 1`] = `
         "This is where I put my content for the sidecard",
       ],
       "heading": "Heading",
+      "id": "greycard",
       "type": "grey",
     }
   }
@@ -181,6 +184,7 @@ exports[`Storyshots Sidecard Mobile 1`] = `
       "icon": <FaIdCard
         className="side-card-icon"
       />,
+      "id": "bluegreycard",
       "type": "bluegrey",
     }
   }
@@ -286,6 +290,7 @@ exports[`Storyshots Sidecard With Icon 1`] = `
       "icon": <FaIdCard
         className="side-card-icon"
       />,
+      "id": "bluegreyiconcard",
       "type": "bluegrey",
     }
   }

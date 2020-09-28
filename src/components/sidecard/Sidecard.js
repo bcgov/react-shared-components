@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import "./Sidecard.css";
 
 export const Sidecard = ({
-  sideCard: { heading, content, type, image, imageLink, isWide, icon },
+  sideCard: { id, heading, content, type, image, imageLink, isWide, icon },
 }) => {
   let sideCardCss = "dashboard-spacing";
   if (isWide) sideCardCss = "wide-dashboard-spacing";
@@ -75,6 +75,7 @@ export const Sidecard = ({
 
 Sidecard.propTypes = {
   sideCard: PropTypes.shape({
+    id: PropTypes.string.isRequired,
     heading: PropTypes.string.isRequired,
     content: PropTypes.array.isRequired,
     type: PropTypes.string.isRequired,
