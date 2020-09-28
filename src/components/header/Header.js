@@ -19,14 +19,17 @@ export const HeaderImage = (history, classNames, width, src) => (
     alt="B.C. Government Logo"
     onClick={() => history.push("/")}
     onKeyDown={() => history.push("/")}
-    role="presentation"
+    role="img"
   />
 );
 
 export const Header = ({ header: { name, history } }) => {
   return (
     <header>
-      <nav className="container-fluid navbar navbar-expand-lg navbar-dark">
+      <nav
+        className="container-fluid navbar navbar-expand-lg navbar-dark"
+        aria-label="Header"
+      >
         {HeadingTitle("navbar-brand pointer")}
         {HeaderImage(
           history,
