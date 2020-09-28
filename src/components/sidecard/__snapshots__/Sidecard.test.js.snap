@@ -20,7 +20,7 @@ exports[`Sidecard Component Matches the blue card snapshot with image 1`] = `
     <p />
     <section
       className="submit-container"
-      id="blue-section"
+      id="blueimagecard"
     >
       <h2
         className="heading-style"
@@ -71,7 +71,7 @@ exports[`Sidecard Component Matches the blue card snapshot without image 1`] = `
     <p />
     <section
       className="submit-container"
-      id="blue-section"
+      id="bluecard"
     >
       <h2
         className="heading-style"
@@ -110,7 +110,7 @@ exports[`Sidecard Component Matches the bluegrey card snapshot 1`] = `
     <p />
     <section
       className="bluegrey-container"
-      id="bluegrey-section"
+      id="bluegreycard"
     >
       <div
         className="container-background bluegrey-heading"
@@ -155,7 +155,7 @@ exports[`Sidecard Component Matches the grey card snapshot 1`] = `
     <p />
     <section
       className="submit-container"
-      id="grey-section"
+      id="greycard"
       style={
         Object {
           "backgroundColor": "#F2F2F2",
@@ -205,7 +205,7 @@ exports[`Sidecard Component Matches the snapshot when heading is long 1`] = `
     <p />
     <section
       className="submit-container"
-      id="grey-section"
+      id="longheadingcard"
       style={
         Object {
           "backgroundColor": "#F2F2F2",
@@ -255,7 +255,7 @@ exports[`Sidecard Component Matches the snapshot when it is wide 1`] = `
     <p />
     <section
       className="submit-container"
-      id="grey-section"
+      id="widecard"
       style={
         Object {
           "backgroundColor": "#F2F2F2",

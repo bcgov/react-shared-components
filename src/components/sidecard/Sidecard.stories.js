@@ -18,14 +18,17 @@ const sideCard = {
   heading: "Heading",
   content: ["This is where I put my content for the sidecard"],
   type: "blue",
+  id: "bluecard",
 };
 
 export const Blue = () => <Sidecard sideCard={sideCard} />;
 
-export const Grey = () => <Sidecard sideCard={{ ...sideCard, type: "grey" }} />;
+export const Grey = () => (
+  <Sidecard sideCard={{ ...sideCard, type: "grey", id: "greycard" }} />
+);
 
 export const BlueGrey = () => (
-  <Sidecard sideCard={{ ...sideCard, type: "bluegrey" }} />
+  <Sidecard sideCard={{ ...sideCard, type: "bluegrey", id: "bluegreycard" }} />
 );
 
 export const WithIcon = () => (
@@ -33,6 +36,7 @@ export const WithIcon = () => (
     sideCard={{
       ...sideCard,
       type: "bluegrey",
+      id: "bluegreyiconcard",
       icon: <FaIdCard className="side-card-icon" />,
     }}
   />
@@ -43,6 +47,7 @@ export const Mobile = () => (
     sideCard={{
       ...sideCard,
       type: "bluegrey",
+      id: "bluegreycard",
       icon: <FaIdCard className="side-card-icon" />,
     }}
   />
