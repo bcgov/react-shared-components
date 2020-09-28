@@ -6,6 +6,7 @@ exports[`Storyshots Footer Basic 1`] = `
     className="footer"
   >
     <nav
+      aria-label="Footer"
       className="navbar navbar-expand-sm navbar-dark justify-content-end"
     >
       <FooterToggler>
@@ -100,6 +101,7 @@ exports[`Storyshots Footer Mobile 1`] = `
     className="footer"
   >
     <nav
+      aria-label="Footer"
       className="navbar navbar-expand-sm navbar-dark justify-content-end"
     >
       <FooterToggler>

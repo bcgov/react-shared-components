@@ -19,7 +19,6 @@ export const HeaderImage = (history, classNames, width, src) => (
     alt="B.C. Government Logo"
     onClick={() => history.push("/")}
     onKeyDown={() => history.push("/")}
-    role="img"
   />
 );
 

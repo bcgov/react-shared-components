@@ -7,7 +7,7 @@ exports[`Storyshots Date Pick Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "f7cfb246-f8e0-447f-9ba1-6f5b3f1bd6bd",
+          "subscription": "330a9955-07ad-41cd-8c24-0c1681ef3c25",
         },
       ],
       "state": Object {
@@ -17,7 +17,9 @@ exports[`Storyshots Date Pick Default 1`] = `
   }
 >
   <DatePick
+    isRequired={false}
     key="datepick"
+    label=""
     selectedDate={1975-08-20T06:15:30.000Z}
     setSelectedDate={[Function]}
   >
@@ -187,11 +189,15 @@ exports[`Storyshots Date Pick Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "f7cfb246-f8e0-447f-9ba1-6f5b3f1bd6bd",
+          "subscription": "330a9955-07ad-41cd-8c24-0c1681ef3c25",
         },
         Object {
           "callback": [Function],
-          "subscription": "6bc29272-bc81-4dbd-86cd-14ccaae98655",
+          "subscription": "0af913d7-0ee6-4d0b-a9a0-8cad4caf11f6",
+        },
+        Object {
+          "callback": [Function],
+          "subscription": "ec6b87d9-8ae5-415b-a90e-13055eb871be",
         },
       ],
       "state": Object {
@@ -201,7 +207,9 @@ exports[`Storyshots Date Pick Mobile 1`] = `
   }
 >
   <DatePick
+    isRequired={false}
     key="datepick"
+    label=""
     selectedDate={1975-08-20T06:15:30.000Z}
     setSelectedDate={[Function]}
   >
@@ -371,11 +379,11 @@ exports[`Storyshots Date Pick With Label 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "94a59d0a-42ca-4dd2-b48d-b340e787d81c",
+          "subscription": "330a9955-07ad-41cd-8c24-0c1681ef3c25",
         },
         Object {
           "callback": [Function],
-          "subscription": "6114b6f8-0ef4-4adb-a98b-7cd8653b4314",
+          "subscription": "0af913d7-0ee6-4d0b-a9a0-8cad4caf11f6",
         },
       ],
       "state": Object {

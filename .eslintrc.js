@@ -26,6 +26,7 @@ module.exports = {
     "import/prefer-default-export": "off",
     "react/forbid-prop-types": "off",
     "react/jsx-wrap-multilines": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
     "prettier/prettier": ["error"],
   },
 };

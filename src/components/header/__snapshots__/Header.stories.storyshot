@@ -29,6 +29,7 @@ exports[`Storyshots Header Basic 1`] = `
 >
   <header>
     <nav
+      aria-label="Header"
       className="container-fluid navbar navbar-expand-lg navbar-dark"
     >
       <div
@@ -41,7 +42,6 @@ exports[`Storyshots Header Basic 1`] = `
         height="44"
         onClick={[Function]}
         onKeyDown={[Function]}
-        role="presentation"
         src="undefined/images/bcid-logo-rev-en.svg"
         width={181}
       />
@@ -51,7 +51,6 @@ exports[`Storyshots Header Basic 1`] = `
         height="44"
         onClick={[Function]}
         onKeyDown={[Function]}
-        role="presentation"
         src="undefined/images/bcid-symbol-rev.svg"
         width={64}
       />
@@ -99,6 +98,7 @@ exports[`Storyshots Header Mobile 1`] = `
 >
   <header>
     <nav
+      aria-label="Header"
       className="container-fluid navbar navbar-expand-lg navbar-dark"
     >
       <div
@@ -111,7 +111,6 @@ exports[`Storyshots Header Mobile 1`] = `
         height="44"
         onClick={[Function]}
         onKeyDown={[Function]}
-        role="presentation"
         src="undefined/images/bcid-logo-rev-en.svg"
         width={181}
       />
@@ -121,7 +120,6 @@ exports[`Storyshots Header Mobile 1`] = `
         height="44"
         onClick={[Function]}
         onKeyDown={[Function]}
-        role="presentation"
         src="undefined/images/bcid-symbol-rev.svg"
         width={64}
       />
