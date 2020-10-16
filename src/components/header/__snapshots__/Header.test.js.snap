@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header Component Header matches the snapshot 1`] = `
-<header>
+<header
+  className="header"
+>
   <nav
     aria-label="Header"
     className="container-fluid navbar navbar-expand-lg navbar-dark"

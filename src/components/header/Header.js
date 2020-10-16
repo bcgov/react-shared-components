@@ -24,7 +24,7 @@ export const HeaderImage = (history, classNames, width, src) => (
 
 export const Header = ({ header: { name, history } }) => {
   return (
-    <header>
+    <header className="header">
       <nav
         className="container-fluid navbar navbar-expand-lg navbar-dark"
         aria-label="Header"
