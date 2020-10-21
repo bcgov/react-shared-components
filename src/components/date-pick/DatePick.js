@@ -17,7 +17,7 @@ export const DatePick = ({
 
   if (isRequired) {
     asterisk = (
-      <span id="asterisk" className="mandatory">
+      <span id="asterisk" className="bcgov-mandatory">
         *
       </span>
     );
@@ -26,7 +26,7 @@ export const DatePick = ({
   return (
     <>
       {label && (
-        <div className="input-label">
+        <div className="bcgov-input-label">
           <label htmlFor={label}>{label}</label>
           {asterisk}&nbsp;
         </div>

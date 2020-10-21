@@ -3,7 +3,7 @@
 exports[`Storyshots Footer Basic 1`] = `
 <Footer>
   <footer
-    className="footer"
+    className="bcgov-footer"
   >
     <nav
       aria-label="Footer"
@@ -98,7 +98,7 @@ exports[`Storyshots Footer Basic 1`] = `
 exports[`Storyshots Footer Mobile 1`] = `
 <Footer>
   <footer
-    className="footer"
+    className="bcgov-footer"
   >
     <nav
       aria-label="Footer"

@@ -24,20 +24,25 @@ export const HeaderImage = (history, classNames, width, src) => (
 
 export const Header = ({ header: { name, history } }) => {
   return (
-    <header className="header">
+    <header className="bcgov-header">
       <nav
         className="container-fluid navbar navbar-expand-lg navbar-dark"
         aria-label="Header"
       >
-        {HeadingTitle("navbar-brand pointer")}
+        {HeadingTitle("navbar-brand bcgov-pointer")}
         {HeaderImage(
           history,
-          "img-fluid d-none d-md-block pointer",
+          "img-fluid d-none d-md-block bcgov-pointer",
           181,
           bcidLogoRev
         )}
-        {HeaderImage(history, "img-fluid d-md-none pointer", 64, bcidSymbol)}
-        {HeadingTitle("pointer navbar-brand nav-item nav-link")}
+        {HeaderImage(
+          history,
+          "img-fluid d-md-none bcgov-pointer",
+          64,
+          bcidSymbol
+        )}
+        {HeadingTitle("bcgov-pointer navbar-brand nav-item nav-link")}
         <div id="title" className="navbar-brand">
           {name}
         </div>

@@ -1,54 +1,54 @@
-.display-box {
+.bcgov-display-box {
   display: flex;
   flex-direction: row;
   padding: 15px;
 }
 
-.no-padding-bottom {
+.bcgov-no-padding-bottom {
   padding: 10px;
   padding-bottom: 0px !important;
 }
 
-.display-icon {
+.bcgov-display-icon {
   padding-right: 15px;
 }
 
-.display-file {
+.bcgov-display-file {
   padding: 0px !important;
   padding-left: 5px !important;
   min-height: 75px;
 }
 
-.display-file .display-icon {
+.bcgov-display-file .bcgov-display-icon {
   display: flex;
   align-self: center;
 }
 
-.display-right-element {
+.bcgov-display-right-element {
   width: 100%;
   padding-top: 3px;
   display: flex;
   align-self: center;
 }
 
-.display-left-element {
+.bcgov-display-left-element {
   padding-left: 0px !important;
 }
 
-.grey-background {
+.bcgov-grey-background {
   background-color: lightgrey;
 }
 
-.blue-background {
+.bcgov-blue-background {
   background-color: rgba(225, 232, 242, 1);
 }
 
-.border-background {
+.bcgov-border-background {
   border-width: thin;
   border-style: solid;
   border-color: lightgrey;
 }
 
-.react-icons {
+.bcgov-react-icons {
   vertical-align: middle;
 }

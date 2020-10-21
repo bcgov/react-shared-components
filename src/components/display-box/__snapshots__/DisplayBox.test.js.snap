@@ -2,10 +2,10 @@
 
 exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
 <div
-  className="display-box "
+  className="bcgov-display-box "
 >
   <div
-    className="display-icon"
+    className="bcgov-display-icon"
   >
     <svg
       fill="currentColor"
@@ -28,7 +28,7 @@ exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
     </svg>
   </div>
   <div
-    className="display-right-element"
+    className="bcgov-display-right-element"
   >
     <div
       className="bcgov-table "
@@ -103,10 +103,10 @@ exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
 
 exports[`DisplayBox Component Matches the 'without icon' snapshot 1`] = `
 <div
-  className="display-box "
+  className="bcgov-display-box "
 >
   <div
-    className="display-right-element"
+    className="bcgov-display-right-element"
   >
     <div
       className="bcgov-table "
@@ -181,10 +181,10 @@ exports[`DisplayBox Component Matches the 'without icon' snapshot 1`] = `
 
 exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
 <div
-  className="display-box blue-background"
+  className="bcgov-display-box bcgov-blue-background"
 >
   <div
-    className="display-icon"
+    className="bcgov-display-icon"
   >
     <svg
       fill="currentColor"
@@ -207,7 +207,7 @@ exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
     </svg>
   </div>
   <div
-    className="display-right-element"
+    className="bcgov-display-right-element"
   >
     <div
       className="bcgov-table "
@@ -282,10 +282,10 @@ exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
 
 exports[`DisplayBox Component Matches the warning snapshot 1`] = `
 <div
-  className="display-box warning-background"
+  className="bcgov-display-box bcgov-warning-background"
 >
   <div
-    className="display-icon"
+    className="bcgov-display-icon"
   >
     <svg
       fill="currentColor"
@@ -308,7 +308,7 @@ exports[`DisplayBox Component Matches the warning snapshot 1`] = `
     </svg>
   </div>
   <div
-    className="display-right-element"
+    className="bcgov-display-right-element"
   >
     <div
       className="bcgov-table "

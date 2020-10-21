@@ -10,7 +10,7 @@ describe("Alert Component", () => {
       generateAlert(
         <MdCheckBox size={32} />,
         "success",
-        "success-background",
+        "bcgov-success-background",
         "This is a success message!"
       )
     );
@@ -21,7 +21,7 @@ describe("Alert Component", () => {
       generateAlert(
         <MdError size={32} />,
         "warning",
-        "warning-background",
+        "bcgov-warning-background",
         "This is a warning message!"
       )
     );
@@ -32,7 +32,7 @@ describe("Alert Component", () => {
       generateAlert(
         <MdCancel size={32} />,
         "error",
-        "error-background",
+        "bcgov-error-background",
         "This is an error message!"
       )
     );
@@ -43,7 +43,7 @@ describe("Alert Component", () => {
       generateAlert(
         <MdInfo size={32} />,
         "info",
-        "info-background",
+        "bcgov-info-background",
         "This is an info message!"
       )
     );

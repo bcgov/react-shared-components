@@ -258,10 +258,10 @@ exports[`Storyshots Terms of Use Default 1`] = `
 >
   <div>
     <div
-      className="non-printable full-width"
+      className="bcgov-non-printable bcgov-full-width"
     >
       <span
-        className="print-page print"
+        className="bcgov-print-page print"
         onClick={[Function]}
         onKeyDown={[Function]}
         role="button"
@@ -315,7 +315,7 @@ exports[`Storyshots Terms of Use Default 1`] = `
       </h3>
     </div>
     <section
-      className="scroll-box printable"
+      className="bcgov-scroll-box bcgov-printable"
     >
       <p>
         In these Terms of Use, "you" or "your" includes the individual using or accessing the Electronic Criminal Record Check Portal (the "Site") on their own behalf to submit an online request for a criminal record check.
@@ -565,7 +565,7 @@ exports[`Storyshots Terms of Use Default 1`] = `
       </ol>
     </section>
     <section
-      className="non-printable pt-2"
+      className="bcgov-non-printable pt-2"
     >
       <label
         htmlFor="acceptTerms"
@@ -580,7 +580,7 @@ exports[`Storyshots Terms of Use Default 1`] = `
           I accept these terms and conditions
         </b>
         <span
-          className="mandatory"
+          className="bcgov-mandatory"
           id="asterisk"
         >
           *
@@ -849,10 +849,10 @@ exports[`Storyshots Terms of Use Mobile 1`] = `
 >
   <div>
     <div
-      className="non-printable full-width"
+      className="bcgov-non-printable bcgov-full-width"
     >
       <span
-        className="print-page print"
+        className="bcgov-print-page print"
         onClick={[Function]}
         onKeyDown={[Function]}
         role="button"
@@ -906,7 +906,7 @@ exports[`Storyshots Terms of Use Mobile 1`] = `
       </h3>
     </div>
     <section
-      className="scroll-box printable"
+      className="bcgov-scroll-box bcgov-printable"
     >
       <p>
         In these Terms of Use, "you" or "your" includes the individual using or accessing the Electronic Criminal Record Check Portal (the "Site") on their own behalf to submit an online request for a criminal record check.
@@ -1156,7 +1156,7 @@ exports[`Storyshots Terms of Use Mobile 1`] = `
       </ol>
     </section>
     <section
-      className="non-printable pt-2"
+      className="bcgov-non-printable pt-2"
     >
       <label
         htmlFor="acceptTerms"
@@ -1171,7 +1171,7 @@ exports[`Storyshots Terms of Use Mobile 1`] = `
           I accept these terms and conditions
         </b>
         <span
-          className="mandatory"
+          className="bcgov-mandatory"
           id="asterisk"
         >
           *

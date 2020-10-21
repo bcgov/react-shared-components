@@ -26,7 +26,7 @@ export const EditableWhiteMandatory = () => (
   <Input
     input={{
       ...input,
-      styling: "editable-white",
+      styling: "bcgov-editable-white",
       isRequired: true,
     }}
     onChange={action("onChange")}
@@ -37,7 +37,7 @@ export const EditableWhiteWithLabel = () => (
   <Input
     input={{
       ...input,
-      styling: "editable-white",
+      styling: "bcgov-editable-white",
     }}
     onChange={action("onChange")}
   />
@@ -47,7 +47,7 @@ export const EditableWhiteNoLabel = () => (
   <Input
     input={{
       ...input,
-      styling: "editable-white",
+      styling: "bcgov-editable-white",
       label: "",
     }}
     onChange={action("onChange")}
@@ -58,7 +58,7 @@ export const NonEditableGrey = () => (
   <Input
     input={{
       ...input,
-      styling: "non-editable-grey",
+      styling: "bcgov-non-editable-grey",
       isReadOnly: true,
     }}
     onChange={action("onChange")}
@@ -69,7 +69,7 @@ export const WithErrorMessage = () => (
   <Input
     input={{
       ...input,
-      styling: "editable-white",
+      styling: "bcgov-editable-white",
       errorMsg: "There is an error.",
       value: "some wrong value",
     }}
@@ -81,7 +81,7 @@ export const Mobile = () => (
   <Input
     input={{
       ...input,
-      styling: "non-editable-grey",
+      styling: "bcgov-non-editable-grey",
       isReadOnly: true,
     }}
     onChange={action("onChange")}

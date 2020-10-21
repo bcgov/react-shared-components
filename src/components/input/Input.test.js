@@ -5,7 +5,7 @@ import testBasicSnapshot from "../../TestHelper";
 
 describe("Input Component", () => {
   const input = {
-    styling: "editable-white",
+    styling: "bcgov-editable-white",
     id: "textInputId",
     isReadOnly: false,
   };

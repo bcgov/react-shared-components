@@ -9,34 +9,34 @@ exports[`Storyshots Input Editable White Mandatory 1`] = `
       "isRequired": true,
       "label": "Label Heading",
       "placeholder": "Enter value",
-      "styling": "editable-white",
+      "styling": "bcgov-editable-white",
     }
   }
   onChange={[Function]}
 >
   <div>
     <label
-      className="label"
+      className="bcgov-label"
       htmlFor="textInputId"
     >
       <div
-        className="input-label"
+        className="bcgov-input-label"
       >
         Label Heading
       </div>
       <span
-        className="mandatory"
+        className="bcgov-mandatory"
         id="asterisk"
       >
         *
       </span>
        
       <span
-        className="note"
+        className="bcgov-note"
       />
     </label>
     <input
-      className="editable-white"
+      className="bcgov-editable-white"
       id="textInputId"
       onChange={[Function]}
       placeholder="Enter value"
@@ -45,7 +45,7 @@ exports[`Storyshots Input Editable White Mandatory 1`] = `
     />
     <br />
     <span
-      className="error"
+      className="bcgov-error"
     />
   </div>
 </Input>
@@ -60,14 +60,14 @@ exports[`Storyshots Input Editable White No Label 1`] = `
       "isRequired": false,
       "label": "",
       "placeholder": "Enter value",
-      "styling": "editable-white",
+      "styling": "bcgov-editable-white",
     }
   }
   onChange={[Function]}
 >
   <div>
     <input
-      className="editable-white"
+      className="bcgov-editable-white"
       id="textInputId"
       onChange={[Function]}
       placeholder="Enter value"
@@ -76,7 +76,7 @@ exports[`Storyshots Input Editable White No Label 1`] = `
     />
     <br />
     <span
-      className="error"
+      className="bcgov-error"
     />
   </div>
 </Input>
@@ -91,28 +91,28 @@ exports[`Storyshots Input Editable White With Label 1`] = `
       "isRequired": false,
       "label": "Label Heading",
       "placeholder": "Enter value",
-      "styling": "editable-white",
+      "styling": "bcgov-editable-white",
     }
   }
   onChange={[Function]}
 >
   <div>
     <label
-      className="label"
+      className="bcgov-label"
       htmlFor="textInputId"
     >
       <div
-        className="input-label"
+        className="bcgov-input-label"
       >
         Label Heading
       </div>
        
       <span
-        className="note"
+        className="bcgov-note"
       />
     </label>
     <input
-      className="editable-white"
+      className="bcgov-editable-white"
       id="textInputId"
       onChange={[Function]}
       placeholder="Enter value"
@@ -121,7 +121,7 @@ exports[`Storyshots Input Editable White With Label 1`] = `
     />
     <br />
     <span
-      className="error"
+      className="bcgov-error"
     />
   </div>
 </Input>
@@ -136,28 +136,28 @@ exports[`Storyshots Input Mobile 1`] = `
       "isRequired": false,
       "label": "Label Heading",
       "placeholder": "Enter value",
-      "styling": "non-editable-grey",
+      "styling": "bcgov-non-editable-grey",
     }
   }
   onChange={[Function]}
 >
   <div>
     <label
-      className="label"
+      className="bcgov-label"
       htmlFor="textInputId"
     >
       <div
-        className="input-label"
+        className="bcgov-input-label"
       >
         Label Heading
       </div>
        
       <span
-        className="note"
+        className="bcgov-note"
       />
     </label>
     <input
-      className="non-editable-grey"
+      className="bcgov-non-editable-grey"
       id="textInputId"
       onChange={[Function]}
       placeholder="Enter value"
@@ -166,7 +166,7 @@ exports[`Storyshots Input Mobile 1`] = `
     />
     <br />
     <span
-      className="error"
+      className="bcgov-error"
     />
   </div>
 </Input>
@@ -181,28 +181,28 @@ exports[`Storyshots Input Non Editable Grey 1`] = `
       "isRequired": false,
       "label": "Label Heading",
       "placeholder": "Enter value",
-      "styling": "non-editable-grey",
+      "styling": "bcgov-non-editable-grey",
     }
   }
   onChange={[Function]}
 >
   <div>
     <label
-      className="label"
+      className="bcgov-label"
       htmlFor="textInputId"
     >
       <div
-        className="input-label"
+        className="bcgov-input-label"
       >
         Label Heading
       </div>
        
       <span
-        className="note"
+        className="bcgov-note"
       />
     </label>
     <input
-      className="non-editable-grey"
+      className="bcgov-non-editable-grey"
       id="textInputId"
       onChange={[Function]}
       placeholder="Enter value"
@@ -211,7 +211,7 @@ exports[`Storyshots Input Non Editable Grey 1`] = `
     />
     <br />
     <span
-      className="error"
+      className="bcgov-error"
     />
   </div>
 </Input>
@@ -227,7 +227,7 @@ exports[`Storyshots Input With Error Message 1`] = `
       "isRequired": false,
       "label": "Label Heading",
       "placeholder": "Enter value",
-      "styling": "editable-white",
+      "styling": "bcgov-editable-white",
       "value": "some wrong value",
     }
   }
@@ -235,21 +235,21 @@ exports[`Storyshots Input With Error Message 1`] = `
 >
   <div>
     <label
-      className="label"
+      className="bcgov-label"
       htmlFor="textInputId"
     >
       <div
-        className="input-label"
+        className="bcgov-input-label"
       >
         Label Heading
       </div>
        
       <span
-        className="note"
+        className="bcgov-note"
       />
     </label>
     <input
-      className="editable-white"
+      className="bcgov-editable-white"
       defaultValue="some wrong value"
       id="textInputId"
       onChange={[Function]}
@@ -259,7 +259,7 @@ exports[`Storyshots Input With Error Message 1`] = `
     />
     <br />
     <span
-      className="error"
+      className="bcgov-error"
     >
       There is an error.
     </span>

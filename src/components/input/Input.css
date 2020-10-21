@@ -1,10 +1,10 @@
-.label {
+.bcgov-label {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
 }
 
-.input-label {
+.bcgov-input-label {
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -13,7 +13,7 @@
   line-height: 16px;
 }
 
-.editable-white {
+.bcgov-editable-white {
   padding: 1px 0px 1px 10px;
   box-sizing: border-box;
   top: 30px;
@@ -29,7 +29,7 @@
   border-style: inset;
 }
 
-.non-editable-grey {
+.bcgov-non-editable-grey {
   padding: 1px 0px 1px 10px;
   top: 30px;
   width: 100%;
@@ -46,16 +46,16 @@
   border-width: 2px;
 }
 
-.note {
+.bcgov-note {
   font-size: 14px;
   font-weight: 400;
 }
 
-.error {
+.bcgov-error {
   color: red;
 }
 
-.mandatory {
+.bcgov-mandatory {
   padding: 0px 0px 0px 3px;
   color: red;
   font-weight: 500;

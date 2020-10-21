@@ -6,11 +6,11 @@ exports[`Storyshots Button Disabled 1`] = `
   hasLoader={false}
   label="Disabled"
   onClick={[Function]}
-  styling="normal-blue btn"
+  styling="bcgov-normal-blue btn"
   testId=""
 >
   <button
-    className="bcgov-button normal-blue btn"
+    className="bcgov-button bcgov-normal-blue btn"
     data-test-id=""
     disabled={true}
     onClick={[Function]}
@@ -27,11 +27,11 @@ exports[`Storyshots Button Has Loader 1`] = `
   hasLoader={true}
   label="Has Loader"
   onClick={[Function]}
-  styling="normal-blue btn"
+  styling="bcgov-normal-blue btn"
   testId=""
 >
   <button
-    className="bcgov-button normal-blue btn"
+    className="bcgov-button bcgov-normal-blue btn"
     data-test-id=""
     disabled={false}
     onClick={[Function]}
@@ -45,12 +45,8 @@ exports[`Storyshots Button Has Loader 1`] = `
         page={false}
       >
         <div
-          className="loader-align"
-        >
-          <div
-            className="btn-loader"
-          />
-        </div>
+          className="bcgov-btn-loader"
+        />
       </Loader>
     </div>
   </button>
@@ -63,11 +59,11 @@ exports[`Storyshots Button Mobile 1`] = `
   hasLoader={false}
   label="Submit"
   onClick={[Function]}
-  styling="normal-blue btn"
+  styling="bcgov-normal-blue btn"
   testId=""
 >
   <button
-    className="bcgov-button normal-blue btn"
+    className="bcgov-button bcgov-normal-blue btn"
     data-test-id=""
     disabled={false}
     onClick={[Function]}
@@ -84,11 +80,11 @@ exports[`Storyshots Button Primary 1`] = `
   hasLoader={false}
   label="Submit"
   onClick={[Function]}
-  styling="normal-blue btn"
+  styling="bcgov-normal-blue btn"
   testId=""
 >
   <button
-    className="bcgov-button normal-blue btn"
+    className="bcgov-button bcgov-normal-blue btn"
     data-test-id=""
     disabled={false}
     onClick={[Function]}
@@ -105,11 +101,11 @@ exports[`Storyshots Button Secondary 1`] = `
   hasLoader={false}
   label="Cancel"
   onClick={[Function]}
-  styling="normal-white btn"
+  styling="bcgov-normal-white btn"
   testId=""
 >
   <button
-    className="bcgov-button normal-white btn"
+    className="bcgov-button bcgov-normal-white btn"
     data-test-id=""
     disabled={false}
     onClick={[Function]}

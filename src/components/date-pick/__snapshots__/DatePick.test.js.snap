@@ -53,7 +53,7 @@ Array [
 exports[`DatePick Component With mandatory label matches the snapshot 1`] = `
 Array [
   <div
-    className="input-label"
+    className="bcgov-input-label"
   >
     <label
       htmlFor="Select date"
@@ -61,7 +61,7 @@ Array [
       Select date
     </label>
     <span
-      className="mandatory"
+      className="bcgov-mandatory"
       id="asterisk"
     >
       *

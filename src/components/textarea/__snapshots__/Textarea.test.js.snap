@@ -3,7 +3,7 @@
 exports[`Textarea Component when is required matches the snapshot 1`] = `
 Array [
   <div
-    className="input-label"
+    className="bcgov-input-label"
   >
     <label
       htmlFor="1"
@@ -11,7 +11,7 @@ Array [
       some label
     </label>
     <span
-      className="mandatory"
+      className="bcgov-mandatory"
       id="asterisk"
     >
       *
@@ -19,7 +19,7 @@ Array [
      
   </div>,
   <textarea
-    className="text-input"
+    className="bcgov-text-input"
     cols="60"
     id="1"
     onChange={[Function]}
@@ -31,7 +31,7 @@ Array [
 exports[`Textarea Component with label matches the snapshot 1`] = `
 Array [
   <div
-    className="input-label"
+    className="bcgov-input-label"
   >
     <label
       htmlFor="1"
@@ -42,7 +42,7 @@ Array [
      
   </div>,
   <textarea
-    className="text-input"
+    className="bcgov-text-input"
     cols="60"
     id="1"
     onChange={[Function]}
@@ -55,7 +55,7 @@ exports[`Textarea Component without label matches the snapshot 1`] = `
 Array [
   "",
   <textarea
-    className="text-input"
+    className="bcgov-text-input"
     cols="60"
     id="1"
     onChange={[Function]}

@@ -17,7 +17,7 @@ exports[`Footer Component Link element renders the link and matches the snapshot
 
 exports[`Footer Component Matches the snapshot 1`] = `
 <footer
-  className="footer"
+  className="bcgov-footer"
 >
   <nav
     aria-label="Footer"

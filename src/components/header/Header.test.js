@@ -28,7 +28,7 @@ describe("Header Component", () => {
   });
 
   test("HeadingTitle matches the snapshot", () => {
-    const headingTitle = HeadingTitle("navbar-brand pointer");
+    const headingTitle = HeadingTitle("navbar-brand bcgov-pointer");
 
     testBasicSnapshot(headingTitle);
   });

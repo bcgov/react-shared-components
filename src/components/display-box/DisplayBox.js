@@ -5,9 +5,9 @@ import "./DisplayBox.css";
 
 export const DisplayBox = ({ styling, icon, element }) => {
   return (
-    <div className={`display-box ${styling}`}>
-      {icon && <div className="display-icon">{icon}</div>}
-      <div className="display-right-element">{element}</div>
+    <div className={`bcgov-display-box ${styling}`}>
+      {icon && <div className="bcgov-display-icon">{icon}</div>}
+      <div className="bcgov-display-right-element">{element}</div>
     </div>
   );
 };

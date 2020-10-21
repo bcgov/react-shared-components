@@ -7,10 +7,10 @@ import "./TermsOfUse.css";
 export const TermsOfUse = ({ acceptTerms, content, heading, confirmText }) => {
   return (
     <div>
-      <div className="non-printable full-width">
+      <div className="bcgov-non-printable bcgov-full-width">
         <span
           role="button"
-          className="print-page print"
+          className="bcgov-print-page print"
           tabIndex={0}
           onClick={() => window.print()}
           onKeyDown={() => window.print()}
@@ -22,14 +22,14 @@ export const TermsOfUse = ({ acceptTerms, content, heading, confirmText }) => {
         <h3>{heading}</h3>
       </div>
 
-      <section className="scroll-box printable">{content}</section>
+      <section className="bcgov-scroll-box bcgov-printable">{content}</section>
 
-      <section className="non-printable pt-2">
+      <section className="bcgov-non-printable pt-2">
         <label htmlFor="acceptTerms">
           <input id="acceptTerms" type="checkbox" onClick={acceptTerms} />
           &nbsp;
           <b>{confirmText}</b>
-          <span id="asterisk" className="mandatory">
+          <span id="asterisk" className="bcgov-mandatory">
             *
           </span>
         </label>

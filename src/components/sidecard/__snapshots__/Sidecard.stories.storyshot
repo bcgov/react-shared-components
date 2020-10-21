@@ -14,7 +14,7 @@ exports[`Storyshots Sidecard Blue 1`] = `
   }
 >
   <div
-    className="dashboard-spacing"
+    className="bcgov-dashboard-spacing"
     style={
       Object {
         "position": "relative",
@@ -31,16 +31,16 @@ exports[`Storyshots Sidecard Blue 1`] = `
     >
       <p />
       <section
-        className="submit-container"
+        className="bcgov-submit-container"
         id="bluecard"
       >
         <h2
-          className="heading-style"
+          className="bcgov-heading-style"
         >
           Heading
         </h2>
         <div
-          className="submit-content"
+          className="bcgov-submit-content"
         >
           <span>
             This is where I put my content for the sidecard
@@ -66,7 +66,7 @@ exports[`Storyshots Sidecard Blue Grey 1`] = `
   }
 >
   <div
-    className="dashboard-spacing"
+    className="bcgov-dashboard-spacing"
     style={
       Object {
         "position": "relative",
@@ -83,23 +83,23 @@ exports[`Storyshots Sidecard Blue Grey 1`] = `
     >
       <p />
       <section
-        className="bluegrey-container"
+        className="bcgov-bluegrey-container"
         id="bluegreycard"
       >
         <div
-          className="container-background bluegrey-heading"
+          className="bcgov-container-background bcgov-bluegrey-heading"
         >
           <h2
-            className="heading-style"
+            className="bcgov-heading-style"
           >
             Heading
           </h2>
         </div>
         <div
-          className="bluegrey-content"
+          className="bcgov-bluegrey-content"
         >
           <span
-            className="content-style"
+            className="bcgov-content-style"
           >
             This is where I put my content for the sidecard
           </span>
@@ -124,7 +124,7 @@ exports[`Storyshots Sidecard Grey 1`] = `
   }
 >
   <div
-    className="dashboard-spacing"
+    className="bcgov-dashboard-spacing"
     style={
       Object {
         "position": "relative",
@@ -141,7 +141,7 @@ exports[`Storyshots Sidecard Grey 1`] = `
     >
       <p />
       <section
-        className="submit-container"
+        className="bcgov-submit-container"
         id="greycard"
         style={
           Object {
@@ -161,7 +161,7 @@ exports[`Storyshots Sidecard Grey 1`] = `
           Heading
         </h2>
         <div
-          className="submit-content"
+          className="bcgov-submit-content"
         >
           <span>
             This is where I put my content for the sidecard
@@ -182,7 +182,7 @@ exports[`Storyshots Sidecard Mobile 1`] = `
       ],
       "heading": "Heading",
       "icon": <FaIdCard
-        className="side-card-icon"
+        className="bcgov-side-card-icon"
       />,
       "id": "bluegreycard",
       "type": "bluegrey",
@@ -190,7 +190,7 @@ exports[`Storyshots Sidecard Mobile 1`] = `
   }
 >
   <div
-    className="dashboard-spacing"
+    className="bcgov-dashboard-spacing"
     style={
       Object {
         "position": "relative",
@@ -207,23 +207,23 @@ exports[`Storyshots Sidecard Mobile 1`] = `
     >
       <p />
       <section
-        className="bluegrey-container"
+        className="bcgov-bluegrey-container"
         id="bluegreycard"
       >
         <div
-          className="container-background bluegrey-heading"
+          className="bcgov-container-background bcgov-bluegrey-heading"
         >
           <h2
-            className="heading-style"
+            className="bcgov-heading-style"
           >
             <div
-              className="side-card-row"
+              className="bcgov-side-card-row"
             >
               <div
-                className="round-icon-wrapper"
+                className="bcgov-round-icon-wrapper"
               >
                 <FaIdCard
-                  className="side-card-icon"
+                  className="bcgov-side-card-icon"
                 >
                   <IconBase
                     attr={
@@ -231,10 +231,10 @@ exports[`Storyshots Sidecard Mobile 1`] = `
                         "viewBox": "0 0 576 512",
                       }
                     }
-                    className="side-card-icon"
+                    className="bcgov-side-card-icon"
                   >
                     <svg
-                      className="side-card-icon"
+                      className="bcgov-side-card-icon"
                       fill="currentColor"
                       height="1em"
                       stroke="currentColor"
@@ -257,7 +257,7 @@ exports[`Storyshots Sidecard Mobile 1`] = `
                 </FaIdCard>
               </div>
               <div
-                className="side-card-title"
+                className="bcgov-side-card-title"
               >
                 Heading
               </div>
@@ -265,10 +265,10 @@ exports[`Storyshots Sidecard Mobile 1`] = `
           </h2>
         </div>
         <div
-          className="bluegrey-content"
+          className="bcgov-bluegrey-content"
         >
           <span
-            className="content-style"
+            className="bcgov-content-style"
           >
             This is where I put my content for the sidecard
           </span>
@@ -288,7 +288,7 @@ exports[`Storyshots Sidecard With Icon 1`] = `
       ],
       "heading": "Heading",
       "icon": <FaIdCard
-        className="side-card-icon"
+        className="bcgov-side-card-icon"
       />,
       "id": "bluegreyiconcard",
       "type": "bluegrey",
@@ -296,7 +296,7 @@ exports[`Storyshots Sidecard With Icon 1`] = `
   }
 >
   <div
-    className="dashboard-spacing"
+    className="bcgov-dashboard-spacing"
     style={
       Object {
         "position": "relative",
@@ -313,23 +313,23 @@ exports[`Storyshots Sidecard With Icon 1`] = `
     >
       <p />
       <section
-        className="bluegrey-container"
+        className="bcgov-bluegrey-container"
         id="bluegreyiconcard"
       >
         <div
-          className="container-background bluegrey-heading"
+          className="bcgov-container-background bcgov-bluegrey-heading"
         >
           <h2
-            className="heading-style"
+            className="bcgov-heading-style"
           >
             <div
-              className="side-card-row"
+              className="bcgov-side-card-row"
             >
               <div
-                className="round-icon-wrapper"
+                className="bcgov-round-icon-wrapper"
               >
                 <FaIdCard
-                  className="side-card-icon"
+                  className="bcgov-side-card-icon"
                 >
                   <IconBase
                     attr={
@@ -337,10 +337,10 @@ exports[`Storyshots Sidecard With Icon 1`] = `
                         "viewBox": "0 0 576 512",
                       }
                     }
-                    className="side-card-icon"
+                    className="bcgov-side-card-icon"
                   >
                     <svg
-                      className="side-card-icon"
+                      className="bcgov-side-card-icon"
                       fill="currentColor"
                       height="1em"
                       stroke="currentColor"
@@ -363,7 +363,7 @@ exports[`Storyshots Sidecard With Icon 1`] = `
                 </FaIdCard>
               </div>
               <div
-                className="side-card-title"
+                className="bcgov-side-card-title"
               >
                 Heading
               </div>
@@ -371,10 +371,10 @@ exports[`Storyshots Sidecard With Icon 1`] = `
           </h2>
         </div>
         <div
-          className="bluegrey-content"
+          className="bcgov-bluegrey-content"
         >
           <span
-            className="content-style"
+            className="bcgov-content-style"
           >
             This is where I put my content for the sidecard
           </span>

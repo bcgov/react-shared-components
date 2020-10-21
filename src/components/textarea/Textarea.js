@@ -9,7 +9,7 @@ export const Textarea = ({ id, isRequired, label, onChange }) => {
 
   if (isRequired) {
     asterisk = (
-      <span id="asterisk" className="mandatory">
+      <span id="asterisk" className="bcgov-mandatory">
         *
       </span>
     );
@@ -18,14 +18,14 @@ export const Textarea = ({ id, isRequired, label, onChange }) => {
   return (
     <>
       {label && (
-        <div className="input-label">
+        <div className="bcgov-input-label">
           <label htmlFor={id}>{label}</label>
           {asterisk}&nbsp;
         </div>
       )}
       <textarea
         id={id}
-        className="text-input"
+        className="bcgov-text-input"
         rows="8"
         cols="60"
         onChange={(event) => onChange(event.target.value)}

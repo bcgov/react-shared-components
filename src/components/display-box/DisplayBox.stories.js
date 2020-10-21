@@ -74,7 +74,7 @@ export const WithoutIcon = () => <DisplayBox element={table} />;
 
 export const WithSideBySideContent = () => (
   <DisplayBox
-    styling="display-left-element"
+    styling="bcgov-display-left-element"
     element={<Table elements={elements} />}
   />
 );
@@ -82,16 +82,16 @@ export const WithSideBySideContent = () => (
 export const WithIcon = () => <DisplayBox icon={icon} element={table} />;
 
 export const WithBlueBackground = () => (
-  <DisplayBox styling="blue-background" icon={icon} element={table} />
+  <DisplayBox styling="bcgov-blue-background" icon={icon} element={table} />
 );
 
 export const WithBorder = () => (
-  <DisplayBox styling="border-background" icon={icon} element={table} />
+  <DisplayBox styling="bcgov-border-background" icon={icon} element={table} />
 );
 
 export const WithFileData = () => (
   <DisplayBox
-    styling="border-background display-file"
+    styling="bcgov-border-background bcgov-display-file"
     icon={documentIcon}
     element={
       <Table
@@ -105,7 +105,7 @@ export const WithFileData = () => (
 );
 
 export const Mobile = () => (
-  <DisplayBox styling="blue-background" icon={icon} element={table} />
+  <DisplayBox styling="bcgov-blue-background" icon={icon} element={table} />
 );
 
 Mobile.parameters = {

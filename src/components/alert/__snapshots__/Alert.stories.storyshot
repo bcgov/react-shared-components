@@ -8,7 +8,7 @@ exports[`Storyshots Alert Error 1`] = `
       size={32}
     />
   }
-  styling="error-background"
+  styling="bcgov-error-background"
   type="error"
 >
   <DisplayBox
@@ -26,13 +26,13 @@ exports[`Storyshots Alert Error 1`] = `
         />
       </div>
     }
-    styling="error-background"
+    styling="bcgov-error-background"
   >
     <div
-      className="display-box error-background"
+      className="bcgov-display-box bcgov-error-background"
     >
       <div
-        className="display-icon"
+        className="bcgov-display-icon"
       >
         <div
           style={
@@ -77,7 +77,7 @@ exports[`Storyshots Alert Error 1`] = `
         </div>
       </div>
       <div
-        className="display-right-element"
+        className="bcgov-display-right-element"
       >
         This is an error message!
       </div>
@@ -94,7 +94,7 @@ exports[`Storyshots Alert Info 1`] = `
       size={32}
     />
   }
-  styling="info-background"
+  styling="bcgov-info-background"
   type="info"
 >
   <DisplayBox
@@ -106,13 +106,13 @@ exports[`Storyshots Alert Info 1`] = `
         />
       </React.Fragment>
     }
-    styling="info-background"
+    styling="bcgov-info-background"
   >
     <div
-      className="display-box info-background"
+      className="bcgov-display-box bcgov-info-background"
     >
       <div
-        className="display-icon"
+        className="bcgov-display-icon"
       >
         <MdInfo
           size={32}
@@ -149,7 +149,7 @@ exports[`Storyshots Alert Info 1`] = `
         </MdInfo>
       </div>
       <div
-        className="display-right-element"
+        className="bcgov-display-right-element"
       >
         This is an info message!
       </div>
@@ -166,7 +166,7 @@ exports[`Storyshots Alert Mobile 1`] = `
       size={32}
     />
   }
-  styling="success-background"
+  styling="bcgov-success-background"
   type="success"
 >
   <DisplayBox
@@ -184,13 +184,13 @@ exports[`Storyshots Alert Mobile 1`] = `
         />
       </div>
     }
-    styling="success-background"
+    styling="bcgov-success-background"
   >
     <div
-      className="display-box success-background"
+      className="bcgov-display-box bcgov-success-background"
     >
       <div
-        className="display-icon"
+        className="bcgov-display-icon"
       >
         <div
           style={
@@ -235,7 +235,7 @@ exports[`Storyshots Alert Mobile 1`] = `
         </div>
       </div>
       <div
-        className="display-right-element"
+        className="bcgov-display-right-element"
       >
         This is a success message!
       </div>
@@ -252,7 +252,7 @@ exports[`Storyshots Alert Success 1`] = `
       size={32}
     />
   }
-  styling="success-background"
+  styling="bcgov-success-background"
   type="success"
 >
   <DisplayBox
@@ -270,13 +270,13 @@ exports[`Storyshots Alert Success 1`] = `
         />
       </div>
     }
-    styling="success-background"
+    styling="bcgov-success-background"
   >
     <div
-      className="display-box success-background"
+      className="bcgov-display-box bcgov-success-background"
     >
       <div
-        className="display-icon"
+        className="bcgov-display-icon"
       >
         <div
           style={
@@ -321,7 +321,7 @@ exports[`Storyshots Alert Success 1`] = `
         </div>
       </div>
       <div
-        className="display-right-element"
+        className="bcgov-display-right-element"
       >
         This is a success message!
       </div>
@@ -338,7 +338,7 @@ exports[`Storyshots Alert Warning 1`] = `
       size={32}
     />
   }
-  styling="warning-background"
+  styling="bcgov-warning-background"
   type="warning"
 >
   <DisplayBox
@@ -356,13 +356,13 @@ exports[`Storyshots Alert Warning 1`] = `
         />
       </div>
     }
-    styling="warning-background"
+    styling="bcgov-warning-background"
   >
     <div
-      className="display-box warning-background"
+      className="bcgov-display-box bcgov-warning-background"
     >
       <div
-        className="display-icon"
+        className="bcgov-display-icon"
       >
         <div
           style={
@@ -407,7 +407,7 @@ exports[`Storyshots Alert Warning 1`] = `
         </div>
       </div>
       <div
-        className="display-right-element"
+        className="bcgov-display-right-element"
       >
         This is a warning message!
       </div>

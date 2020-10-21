@@ -26,10 +26,10 @@ describe("DisplayBox Component", () => {
   });
 
   test("Matches the warning snapshot", () => {
-    testBasicSnapshot(generateDisplayBox(true, "warning-background"));
+    testBasicSnapshot(generateDisplayBox(true, "bcgov-warning-background"));
   });
 
   test("Matches the blue-background snapshot", () => {
-    testBasicSnapshot(generateDisplayBox(true, "blue-background"));
+    testBasicSnapshot(generateDisplayBox(true, "bcgov-blue-background"));
   });
 });

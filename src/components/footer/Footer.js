@@ -26,7 +26,7 @@ export const FooterToggler = () => (
 );
 
 export const Footer = () => (
-  <footer className="footer">
+  <footer className="bcgov-footer">
     <nav
       className="navbar navbar-expand-sm navbar-dark justify-content-end"
       aria-label="Footer"
