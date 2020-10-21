@@ -7,7 +7,7 @@ exports[`Storyshots Date Pick Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "5c7aa82e-906e-436c-b7ef-f4d26879058c",
+          "subscription": "4ad14b8f-fd62-4c78-902d-dcbb6ae32bd5",
         },
       ],
       "state": Object {
@@ -190,15 +190,15 @@ exports[`Storyshots Date Pick Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "5c7aa82e-906e-436c-b7ef-f4d26879058c",
+          "subscription": "4ad14b8f-fd62-4c78-902d-dcbb6ae32bd5",
         },
         Object {
           "callback": [Function],
-          "subscription": "f64025e3-8b7d-41b5-8fd8-beb7560108f3",
+          "subscription": "a22e9d1d-b5ab-4cf9-b883-fe6d9af2c03e",
         },
         Object {
           "callback": [Function],
-          "subscription": "809f1867-6aef-4a7b-a9c8-35dfabc620ef",
+          "subscription": "d61eaab1-9d99-43f1-91f8-053af3119fa6",
         },
       ],
       "state": Object {
@@ -381,11 +381,11 @@ exports[`Storyshots Date Pick With Label 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "5c7aa82e-906e-436c-b7ef-f4d26879058c",
+          "subscription": "4ad14b8f-fd62-4c78-902d-dcbb6ae32bd5",
         },
         Object {
           "callback": [Function],
-          "subscription": "f64025e3-8b7d-41b5-8fd8-beb7560108f3",
+          "subscription": "a22e9d1d-b5ab-4cf9-b883-fe6d9af2c03e",
         },
       ],
       "state": Object {

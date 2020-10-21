@@ -46,7 +46,7 @@ exports[`Storyshots Callout With Checkbox 1`] = `
         I agree
       </b>
       <span
-        className="mandatory"
+        className="bcgov-mandatory"
         id="asterisk"
       >
         *
