@@ -6,11 +6,11 @@ import "./Sidecard.css";
 export const Sidecard = ({
   sideCard: { id, heading, content, type, image, imageLink, isWide, icon },
 }) => {
-  let sideCardCss = "dashboard-spacing";
-  if (isWide) sideCardCss = "wide-dashboard-spacing";
+  let sideCardCss = "bcgov-dashboard-spacing";
+  if (isWide) sideCardCss = "bcgov-wide-dashboard-spacing";
 
   const sideCardTitleCss =
-    heading.length > 30 ? "large-title" : "side-card-title";
+    heading.length > 30 ? "bcgov-large-title" : "bcgov-side-card-title";
 
   return (
     <div className={sideCardCss} style={{ position: "relative" }}>
@@ -19,7 +19,7 @@ export const Sidecard = ({
         {type === "grey" && (
           <section
             id={id}
-            className="submit-container"
+            className="bcgov-submit-container"
             style={{
               backgroundColor: "#F2F2F2",
               color: "#000",
@@ -27,15 +27,15 @@ export const Sidecard = ({
             }}
           >
             <h2 style={{ color: "#000" }}>{heading}</h2>
-            <div className="submit-content">
+            <div className="bcgov-submit-content">
               <span>{content}</span>
             </div>
           </section>
         )}
         {type === "blue" && (
-          <section id={id} className="submit-container">
-            <h2 className="heading-style">{heading}</h2>
-            <div className="submit-content">
+          <section id={id} className="bcgov-submit-container">
+            <h2 className="bcgov-heading-style">{heading}</h2>
+            <div className="bcgov-submit-content">
               <span>{content}</span>
               {image && imageLink && (
                 <a href={imageLink} target="_blank" rel="noopener noreferrer">
@@ -51,20 +51,20 @@ export const Sidecard = ({
           </section>
         )}
         {type === "bluegrey" && (
-          <section id={id} className="bluegrey-container">
-            <div className="container-background bluegrey-heading">
-              {!icon && <h2 className="heading-style">{heading}</h2>}
+          <section id={id} className="bcgov-bluegrey-container">
+            <div className="bcgov-container-background bcgov-bluegrey-heading">
+              {!icon && <h2 className="bcgov-heading-style">{heading}</h2>}
               {icon && (
-                <h2 className="heading-style">
-                  <div className="side-card-row">
-                    <div className="round-icon-wrapper">{icon}</div>
+                <h2 className="bcgov-heading-style">
+                  <div className="bcgov-side-card-row">
+                    <div className="bcgov-round-icon-wrapper">{icon}</div>
                     <div className={sideCardTitleCss}>{heading}</div>
                   </div>
                 </h2>
               )}
             </div>
-            <div className="bluegrey-content">
-              <span className="content-style">{content}</span>
+            <div className="bcgov-bluegrey-content">
+              <span className="bcgov-content-style">{content}</span>
             </div>
           </section>
         )}

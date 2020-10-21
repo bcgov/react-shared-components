@@ -2,7 +2,7 @@
 
 exports[`Sidecard Component Matches the blue card snapshot with image 1`] = `
 <div
-  className="dashboard-spacing"
+  className="bcgov-dashboard-spacing"
   style={
     Object {
       "position": "relative",
@@ -19,16 +19,16 @@ exports[`Sidecard Component Matches the blue card snapshot with image 1`] = `
   >
     <p />
     <section
-      className="submit-container"
+      className="bcgov-submit-container"
       id="blueimagecard"
     >
       <h2
-        className="heading-style"
+        className="bcgov-heading-style"
       >
         header
       </h2>
       <div
-        className="submit-content"
+        className="bcgov-submit-content"
       >
         <span>
           content
@@ -53,7 +53,7 @@ exports[`Sidecard Component Matches the blue card snapshot with image 1`] = `
 
 exports[`Sidecard Component Matches the blue card snapshot without image 1`] = `
 <div
-  className="dashboard-spacing"
+  className="bcgov-dashboard-spacing"
   style={
     Object {
       "position": "relative",
@@ -70,16 +70,16 @@ exports[`Sidecard Component Matches the blue card snapshot without image 1`] = `
   >
     <p />
     <section
-      className="submit-container"
+      className="bcgov-submit-container"
       id="bluecard"
     >
       <h2
-        className="heading-style"
+        className="bcgov-heading-style"
       >
         header
       </h2>
       <div
-        className="submit-content"
+        className="bcgov-submit-content"
       >
         <span>
           content
@@ -92,7 +92,7 @@ exports[`Sidecard Component Matches the blue card snapshot without image 1`] = `
 
 exports[`Sidecard Component Matches the bluegrey card snapshot 1`] = `
 <div
-  className="dashboard-spacing"
+  className="bcgov-dashboard-spacing"
   style={
     Object {
       "position": "relative",
@@ -109,23 +109,23 @@ exports[`Sidecard Component Matches the bluegrey card snapshot 1`] = `
   >
     <p />
     <section
-      className="bluegrey-container"
+      className="bcgov-bluegrey-container"
       id="bluegreycard"
     >
       <div
-        className="container-background bluegrey-heading"
+        className="bcgov-container-background bcgov-bluegrey-heading"
       >
         <h2
-          className="heading-style"
+          className="bcgov-heading-style"
         >
           header
         </h2>
       </div>
       <div
-        className="bluegrey-content"
+        className="bcgov-bluegrey-content"
       >
         <span
-          className="content-style"
+          className="bcgov-content-style"
         >
           content
         </span>
@@ -137,7 +137,7 @@ exports[`Sidecard Component Matches the bluegrey card snapshot 1`] = `
 
 exports[`Sidecard Component Matches the grey card snapshot 1`] = `
 <div
-  className="dashboard-spacing"
+  className="bcgov-dashboard-spacing"
   style={
     Object {
       "position": "relative",
@@ -154,7 +154,7 @@ exports[`Sidecard Component Matches the grey card snapshot 1`] = `
   >
     <p />
     <section
-      className="submit-container"
+      className="bcgov-submit-container"
       id="greycard"
       style={
         Object {
@@ -174,7 +174,7 @@ exports[`Sidecard Component Matches the grey card snapshot 1`] = `
         header
       </h2>
       <div
-        className="submit-content"
+        className="bcgov-submit-content"
       >
         <span>
           content
@@ -187,7 +187,7 @@ exports[`Sidecard Component Matches the grey card snapshot 1`] = `
 
 exports[`Sidecard Component Matches the snapshot when heading is long 1`] = `
 <div
-  className="dashboard-spacing"
+  className="bcgov-dashboard-spacing"
   style={
     Object {
       "position": "relative",
@@ -204,7 +204,7 @@ exports[`Sidecard Component Matches the snapshot when heading is long 1`] = `
   >
     <p />
     <section
-      className="submit-container"
+      className="bcgov-submit-container"
       id="longheadingcard"
       style={
         Object {
@@ -224,7 +224,7 @@ exports[`Sidecard Component Matches the snapshot when heading is long 1`] = `
         heading is quite long so we can use custom styling to see it render
       </h2>
       <div
-        className="submit-content"
+        className="bcgov-submit-content"
       >
         <span>
           content
@@ -237,7 +237,7 @@ exports[`Sidecard Component Matches the snapshot when heading is long 1`] = `
 
 exports[`Sidecard Component Matches the snapshot when it is wide 1`] = `
 <div
-  className="wide-dashboard-spacing"
+  className="bcgov-wide-dashboard-spacing"
   style={
     Object {
       "position": "relative",
@@ -254,7 +254,7 @@ exports[`Sidecard Component Matches the snapshot when it is wide 1`] = `
   >
     <p />
     <section
-      className="submit-container"
+      className="bcgov-submit-container"
       id="widecard"
       style={
         Object {
@@ -274,7 +274,7 @@ exports[`Sidecard Component Matches the snapshot when it is wide 1`] = `
         header
       </h2>
       <div
-        className="submit-content"
+        className="bcgov-submit-content"
       >
         <span>
           content

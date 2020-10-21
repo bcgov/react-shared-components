@@ -1,4 +1,4 @@
-.text-input {
+.bcgov-text-input {
   font-family: "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   border: 2px solid #606060;
@@ -10,7 +10,7 @@
   max-width: 100%;
 }
 
-.text-input:focus {
+.bcgov-text-input:focus {
   outline: 4px solid #3b99fc;
   outline-offset: 1px;
 }

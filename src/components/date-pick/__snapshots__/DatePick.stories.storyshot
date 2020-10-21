@@ -7,7 +7,7 @@ exports[`Storyshots Date Pick Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "8f58fd61-e089-42b8-b3b3-4a08c1dfafd9",
+          "subscription": "4ad14b8f-fd62-4c78-902d-dcbb6ae32bd5",
         },
       ],
       "state": Object {
@@ -190,15 +190,15 @@ exports[`Storyshots Date Pick Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "8f58fd61-e089-42b8-b3b3-4a08c1dfafd9",
+          "subscription": "4ad14b8f-fd62-4c78-902d-dcbb6ae32bd5",
         },
         Object {
           "callback": [Function],
-          "subscription": "67f488c6-d1fb-4206-bf19-e71eb4491eaf",
+          "subscription": "a22e9d1d-b5ab-4cf9-b883-fe6d9af2c03e",
         },
         Object {
           "callback": [Function],
-          "subscription": "6126c9d9-e049-4714-a7b9-55d235eedaae",
+          "subscription": "d61eaab1-9d99-43f1-91f8-053af3119fa6",
         },
       ],
       "state": Object {
@@ -381,11 +381,11 @@ exports[`Storyshots Date Pick With Label 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "8f58fd61-e089-42b8-b3b3-4a08c1dfafd9",
+          "subscription": "4ad14b8f-fd62-4c78-902d-dcbb6ae32bd5",
         },
         Object {
           "callback": [Function],
-          "subscription": "67f488c6-d1fb-4206-bf19-e71eb4491eaf",
+          "subscription": "a22e9d1d-b5ab-4cf9-b883-fe6d9af2c03e",
         },
       ],
       "state": Object {
@@ -402,7 +402,7 @@ exports[`Storyshots Date Pick With Label 1`] = `
     setSelectedDate={[Function]}
   >
     <div
-      className="input-label"
+      className="bcgov-input-label"
     >
       <label
         htmlFor="Select date"

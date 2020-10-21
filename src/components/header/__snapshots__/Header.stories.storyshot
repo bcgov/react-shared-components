@@ -28,7 +28,7 @@ exports[`Storyshots Header Basic 1`] = `
   }
 >
   <header
-    className="header"
+    className="bcgov-header"
   >
     <nav
       aria-label="Header"
@@ -36,11 +36,11 @@ exports[`Storyshots Header Basic 1`] = `
     >
       <div
         aria-labelledby="title"
-        className="navbar-brand pointer"
+        className="navbar-brand bcgov-pointer"
       />
       <img
         alt="B.C. Government Logo"
-        className="img-fluid d-none d-md-block pointer"
+        className="img-fluid d-none d-md-block bcgov-pointer"
         height="44"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -49,7 +49,7 @@ exports[`Storyshots Header Basic 1`] = `
       />
       <img
         alt="B.C. Government Logo"
-        className="img-fluid d-md-none pointer"
+        className="img-fluid d-md-none bcgov-pointer"
         height="44"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -58,7 +58,7 @@ exports[`Storyshots Header Basic 1`] = `
       />
       <div
         aria-labelledby="title"
-        className="pointer navbar-brand nav-item nav-link"
+        className="bcgov-pointer navbar-brand nav-item nav-link"
       />
       <div
         className="navbar-brand"
@@ -99,7 +99,7 @@ exports[`Storyshots Header Mobile 1`] = `
   }
 >
   <header
-    className="header"
+    className="bcgov-header"
   >
     <nav
       aria-label="Header"
@@ -107,11 +107,11 @@ exports[`Storyshots Header Mobile 1`] = `
     >
       <div
         aria-labelledby="title"
-        className="navbar-brand pointer"
+        className="navbar-brand bcgov-pointer"
       />
       <img
         alt="B.C. Government Logo"
-        className="img-fluid d-none d-md-block pointer"
+        className="img-fluid d-none d-md-block bcgov-pointer"
         height="44"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -120,7 +120,7 @@ exports[`Storyshots Header Mobile 1`] = `
       />
       <img
         alt="B.C. Government Logo"
-        className="img-fluid d-md-none pointer"
+        className="img-fluid d-md-none bcgov-pointer"
         height="44"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -129,7 +129,7 @@ exports[`Storyshots Header Mobile 1`] = `
       />
       <div
         aria-labelledby="title"
-        className="pointer navbar-brand nav-item nav-link"
+        className="bcgov-pointer navbar-brand nav-item nav-link"
       />
       <div
         className="navbar-brand"

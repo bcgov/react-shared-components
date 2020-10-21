@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import "./Loader.css";
 
 export const Loader = ({ page }) => {
-  let loaderCss = "btn-loader";
-  if (page) loaderCss = "page-loader";
+  let loaderCss = "bcgov-btn-loader";
+  if (page) loaderCss = "bcgov-page-loader";
 
   return (
-    <div className="loader-align">
+    <>
       <div className={loaderCss} />
       {page && (
         <>
@@ -15,7 +15,7 @@ export const Loader = ({ page }) => {
           Loading... Please Wait
         </>
       )}
-    </div>
+    </>
   );
 };
 

@@ -21,7 +21,7 @@ export const Input = ({
 
   if (isRequired) {
     asterisk = (
-      <span id="asterisk" className="mandatory">
+      <span id="asterisk" className="bcgov-mandatory">
         *
       </span>
     );
@@ -32,10 +32,10 @@ export const Input = ({
 
   if (label) {
     labelPart = (
-      <label htmlFor={id} className="label">
-        <div className="input-label">{label}</div>
+      <label htmlFor={id} className="bcgov-label">
+        <div className="bcgov-input-label">{label}</div>
         {asterisk}&nbsp;
-        <span className="note">{note}</span>
+        <span className="bcgov-note">{note}</span>
       </label>
     );
   }
@@ -53,7 +53,7 @@ export const Input = ({
         onChange={(event) => onChange(event.target.value)}
       />
       <br />
-      <span className="error">{errorMsg}</span>
+      <span className="bcgov-error">{errorMsg}</span>
     </div>
   );
 };

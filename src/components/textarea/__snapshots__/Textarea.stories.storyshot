@@ -8,7 +8,7 @@ exports[`Storyshots Textarea Mobile 1`] = `
   onChange={[Function]}
 >
   <div
-    className="input-label"
+    className="bcgov-input-label"
   >
     <label
       htmlFor="1"
@@ -18,7 +18,7 @@ exports[`Storyshots Textarea Mobile 1`] = `
      
   </div>
   <textarea
-    className="text-input"
+    className="bcgov-text-input"
     cols="60"
     id="1"
     onChange={[Function]}
@@ -35,7 +35,7 @@ exports[`Storyshots Textarea With Label 1`] = `
   onChange={[Function]}
 >
   <div
-    className="input-label"
+    className="bcgov-input-label"
   >
     <label
       htmlFor="1"
@@ -45,7 +45,7 @@ exports[`Storyshots Textarea With Label 1`] = `
      
   </div>
   <textarea
-    className="text-input"
+    className="bcgov-text-input"
     cols="60"
     id="1"
     onChange={[Function]}
@@ -62,7 +62,7 @@ exports[`Storyshots Textarea Without Label 1`] = `
   onChange={[Function]}
 >
   <textarea
-    className="text-input"
+    className="bcgov-text-input"
     cols="60"
     id="1"
     onChange={[Function]}

@@ -2,22 +2,16 @@
 
 exports[`Loader Component Button version matches the snapshot 1`] = `
 <div
-  className="loader-align"
->
-  <div
-    className="btn-loader"
-  />
-</div>
+  className="bcgov-btn-loader"
+/>
 `;
 
 exports[`Loader Component Page version matches the snapshot 1`] = `
-<div
-  className="loader-align"
->
+Array [
   <div
-    className="page-loader"
-  />
-  <br />
-  Loading... Please Wait
-</div>
+    className="bcgov-page-loader"
+  />,
+  <br />,
+  "Loading... Please Wait",
+]
 `;

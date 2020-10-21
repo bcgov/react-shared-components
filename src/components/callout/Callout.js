@@ -14,7 +14,7 @@ export const Callout = ({ text, checkboxLabel, agreeCallout }) => {
           <input id="agreeCallout" type="checkbox" onClick={agreeCallout} />
           &nbsp;
           <b>{checkboxLabel}</b>
-          <span id="asterisk" className="mandatory">
+          <span id="asterisk" className="bcgov-mandatory">
             *
           </span>
         </label>

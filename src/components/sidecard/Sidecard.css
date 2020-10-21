@@ -1,4 +1,4 @@
-.heading-style {
+.bcgov-heading-style {
   font-weight: 600;
   font-style: normal;
   font-size: 16px;
@@ -6,17 +6,17 @@
   text-align: left;
 }
 
-.bluegrey-heading {
+.bcgov-bluegrey-heading {
   padding-top: 10px;
   padding-left: 15px;
   padding-bottom: 9px;
 }
 
-.bluegrey-heading h2 {
+.bcgov-bluegrey-heading h2 {
   margin-bottom: 0px;
 }
 
-.bluegrey-content {
+.bcgov-bluegrey-content {
   height: auto;
   background: inherit;
   background-color: #f2f2f2;
@@ -24,7 +24,7 @@
   padding-top: 15px;
 }
 
-.content-style {
+.bcgov-content-style {
   padding-right: 15px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -32,7 +32,7 @@
   flex-direction: column;
 }
 
-.container-background {
+.bcgov-container-background {
   background-color: rgba(56, 89, 138, 1);
   font-weight: 400;
   font-style: normal;
@@ -40,17 +40,17 @@
   text-align: left;
 }
 
-.submitted-header h2 {
+.bcgov-submitted-header h2 {
   color: #fff !important;
 }
 
-.submitted-content {
+.bcgov-submitted-content {
   background-color: #eee;
   padding: 30px;
   margin-bottom: 20px;
 }
 
-.submit-container {
+.bcgov-submit-container {
   background-color: #38598a;
   border-bottom: solid 4px #fc0;
   color: #fff;
@@ -58,20 +58,20 @@
   padding: 30px;
 }
 
-.bluegrey-container {
+.bcgov-bluegrey-container {
   margin-bottom: 20px;
 }
 
-.submit-container h2 {
+.bcgov-submit-container h2 {
   color: #fff;
 }
 
-.dashboard-spacing {
+.bcgov-dashboard-spacing {
   padding-left: 25px;
   max-width: 400px;
 }
 
-.wide-dashboard-spacing {
+.bcgov-wide-dashboard-spacing {
   padding-left: 25px;
   max-width: 458px;
 }
@@ -81,32 +81,32 @@ img {
 }
 
 @media (max-width: 575.98px) {
-  .dashboard-spacing {
+  .bcgov-dashboard-spacing {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .wide-dashboard-spacing {
+  .bcgov-wide-dashboard-spacing {
     padding-left: 0;
   }
 }
 
-.side-card-row {
+.bcgov-side-card-row {
   white-space: nowrap;
   display: flex;
 }
 
-.side-card-icon {
+.bcgov-side-card-icon {
   width: 30px;
   height: 30px;
 }
 
-.round-icon-wrapper {
+.bcgov-round-icon-wrapper {
   align-self: center;
   margin-right: 15px;
 }
 
-.side-card-title {
+.bcgov-side-card-title {
   align-self: center;
   font-size: 20px;
   font-weight: Semi-bold;
@@ -114,7 +114,7 @@ img {
   white-space: normal;
 }
 
-.large-title {
+.bcgov-large-title {
   font-size: 20px;
   font-weight: Semi-bold;
   width: 80%;
@@ -123,13 +123,13 @@ img {
 }
 
 @media (max-width: 950px) {
-  .side-card-title {
+  .bcgov-side-card-title {
     padding-top: 0px !important;
   }
 }
 
 @media (max-width: 865px) {
-  .wide-dashboard-spacing {
+  .bcgov-wide-dashboard-spacing {
     padding-left: 0px;
   }
 }

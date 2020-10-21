@@ -37,7 +37,7 @@ export const WithIcon = () => (
       ...sideCard,
       type: "bluegrey",
       id: "bluegreyiconcard",
-      icon: <FaIdCard className="side-card-icon" />,
+      icon: <FaIdCard className="bcgov-side-card-icon" />,
     }}
   />
 );
@@ -48,7 +48,7 @@ export const Mobile = () => (
       ...sideCard,
       type: "bluegrey",
       id: "bluegreycard",
-      icon: <FaIdCard className="side-card-icon" />,
+      icon: <FaIdCard className="bcgov-side-card-icon" />,
     }}
   />
 );

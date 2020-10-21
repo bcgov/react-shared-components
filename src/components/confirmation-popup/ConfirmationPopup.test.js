@@ -19,19 +19,19 @@ describe("ConfirmationPopup Component", () => {
 
   const mainButton = {
     label: "main label",
-    styling: "normal-blue btn",
+    styling: "bcgov-normal-blue btn",
     onClick: onButtonClick,
   };
 
   const confirmButton = {
     label: "Yes, cancel my process please",
-    styling: "normal-blue btn consistent-width",
+    styling: "bcgov-normal-blue btn bcgov-consistent-width",
     onClick: onButtonClick,
   };
 
   const cancelButton = {
     label: "No, resume my process please",
-    styling: "normal-white btn consistent-width",
+    styling: "bcgov-normal-white btn bcgov-consistent-width",
     onClick: onButtonClick,
   };
 

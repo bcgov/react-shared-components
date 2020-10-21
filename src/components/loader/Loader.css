@@ -1,4 +1,4 @@
-.page-loader {
+.bcgov-page-loader {
   height: 60px;
   width: 60px;
   color: #494949;
@@ -9,7 +9,7 @@
   display: inline-block;
 }
 
-.btn-loader {
+.bcgov-btn-loader {
   height: 15px;
   width: 15px;
   color: #ffffff;

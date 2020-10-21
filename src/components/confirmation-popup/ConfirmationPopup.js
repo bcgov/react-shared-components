@@ -27,11 +27,13 @@ export default function ConfirmationPopup({
       )}
 
       <Modal show={show} onHide={cancelButton.onClick}>
-        <Modal.Header className="hide-border mt-3" closeButton>
-          <Modal.Title className="mx-auto larger-font">{title}</Modal.Title>
+        <Modal.Header className="bcgov-hide-border mt-3" closeButton>
+          <Modal.Title className="mx-auto bcgov-larger-font">
+            {title}
+          </Modal.Title>
         </Modal.Header>
         <div className="mx-auto">
-          <Modal.Body className="padding-left">{body()}</Modal.Body>
+          <Modal.Body className="bcgov-padding-left">{body()}</Modal.Body>
           <div className="mx-auto mb-5">
             {generateButton(
               confirmButton.onClick,

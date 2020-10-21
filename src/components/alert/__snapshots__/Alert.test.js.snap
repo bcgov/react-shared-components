@@ -2,10 +2,10 @@
 
 exports[`Alert Component Matches the 'error' snapshot 1`] = `
 <div
-  className="display-box error-background"
+  className="bcgov-display-box bcgov-error-background"
 >
   <div
-    className="display-icon"
+    className="bcgov-display-icon"
   >
     <div
       style={
@@ -36,7 +36,7 @@ exports[`Alert Component Matches the 'error' snapshot 1`] = `
     </div>
   </div>
   <div
-    className="display-right-element"
+    className="bcgov-display-right-element"
   >
     This is an error message!
   </div>
@@ -45,10 +45,10 @@ exports[`Alert Component Matches the 'error' snapshot 1`] = `
 
 exports[`Alert Component Matches the 'info' snapshot 1`] = `
 <div
-  className="display-box info-background"
+  className="bcgov-display-box bcgov-info-background"
 >
   <div
-    className="display-icon"
+    className="bcgov-display-icon"
   >
     <svg
       fill="currentColor"
@@ -71,7 +71,7 @@ exports[`Alert Component Matches the 'info' snapshot 1`] = `
     </svg>
   </div>
   <div
-    className="display-right-element"
+    className="bcgov-display-right-element"
   >
     This is an info message!
   </div>
@@ -80,10 +80,10 @@ exports[`Alert Component Matches the 'info' snapshot 1`] = `
 
 exports[`Alert Component Matches the 'success' snapshot 1`] = `
 <div
-  className="display-box success-background"
+  className="bcgov-display-box bcgov-success-background"
 >
   <div
-    className="display-icon"
+    className="bcgov-display-icon"
   >
     <div
       style={
@@ -114,7 +114,7 @@ exports[`Alert Component Matches the 'success' snapshot 1`] = `
     </div>
   </div>
   <div
-    className="display-right-element"
+    className="bcgov-display-right-element"
   >
     This is a success message!
   </div>
@@ -123,10 +123,10 @@ exports[`Alert Component Matches the 'success' snapshot 1`] = `
 
 exports[`Alert Component Matches the 'warning' snapshot 1`] = `
 <div
-  className="display-box warning-background"
+  className="bcgov-display-box bcgov-warning-background"
 >
   <div
-    className="display-icon"
+    className="bcgov-display-icon"
   >
     <div
       style={
@@ -157,7 +157,7 @@ exports[`Alert Component Matches the 'warning' snapshot 1`] = `
     </div>
   </div>
   <div
-    className="display-right-element"
+    className="bcgov-display-right-element"
   >
     This is a warning message!
   </div>

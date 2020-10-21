@@ -17,18 +17,18 @@ describe("Button Component", () => {
   );
 
   test("Matches the 'primary' snapshot", () => {
-    testBasicSnapshot(buttonComponent("normal-blue btn"));
+    testBasicSnapshot(buttonComponent("bcgov-normal-blue btn"));
   });
 
   test("Matches the 'secondary' snapshot", () => {
-    testBasicSnapshot(buttonComponent("normal-white btn"));
+    testBasicSnapshot(buttonComponent("bcgov-normal-white btn"));
   });
 
   test("Matches the 'disabled' snapshot", () => {
-    testBasicSnapshot(buttonComponent("normal-blue btn", true));
+    testBasicSnapshot(buttonComponent("bcgov-normal-blue btn", true));
   });
 
   test("Matches the 'hasLoader' snapshot", () => {
-    testBasicSnapshot(buttonComponent("normal-blue btn", false, true));
+    testBasicSnapshot(buttonComponent("bcgov-normal-blue btn", false, true));
   });
 });

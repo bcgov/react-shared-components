@@ -2,7 +2,7 @@
 
 exports[`Header Component Header matches the snapshot 1`] = `
 <header
-  className="header"
+  className="bcgov-header"
 >
   <nav
     aria-label="Header"
@@ -10,11 +10,11 @@ exports[`Header Component Header matches the snapshot 1`] = `
   >
     <div
       aria-labelledby="title"
-      className="navbar-brand pointer"
+      className="navbar-brand bcgov-pointer"
     />
     <img
       alt="B.C. Government Logo"
-      className="img-fluid d-none d-md-block pointer"
+      className="img-fluid d-none d-md-block bcgov-pointer"
       height="44"
       onClick={[Function]}
       onKeyDown={[Function]}
@@ -23,7 +23,7 @@ exports[`Header Component Header matches the snapshot 1`] = `
     />
     <img
       alt="B.C. Government Logo"
-      className="img-fluid d-md-none pointer"
+      className="img-fluid d-md-none bcgov-pointer"
       height="44"
       onClick={[Function]}
       onKeyDown={[Function]}
@@ -32,7 +32,7 @@ exports[`Header Component Header matches the snapshot 1`] = `
     />
     <div
       aria-labelledby="title"
-      className="pointer navbar-brand nav-item nav-link"
+      className="bcgov-pointer navbar-brand nav-item nav-link"
     />
     <div
       className="navbar-brand"
@@ -59,6 +59,6 @@ exports[`Header Component HeaderImage matches the snapshot 1`] = `
 exports[`Header Component HeadingTitle matches the snapshot 1`] = `
 <div
   aria-labelledby="title"
-  className="navbar-brand pointer"
+  className="navbar-brand bcgov-pointer"
 />
 `;

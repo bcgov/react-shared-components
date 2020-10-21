@@ -19,7 +19,7 @@ export const Success = () =>
   generateAlert(
     <MdCheckBox size={32} />,
     "success",
-    "success-background",
+    "bcgov-success-background",
     "This is a success message!"
   );
 
@@ -27,7 +27,7 @@ export const Warning = () =>
   generateAlert(
     <MdError size={32} />,
     "warning",
-    "warning-background",
+    "bcgov-warning-background",
     "This is a warning message!"
   );
 
@@ -35,7 +35,7 @@ export const Error = () =>
   generateAlert(
     <MdCancel size={32} />,
     "error",
-    "error-background",
+    "bcgov-error-background",
     "This is an error message!"
   );
 
@@ -43,7 +43,7 @@ export const Info = () =>
   generateAlert(
     <MdInfo size={32} />,
     "info",
-    "info-background",
+    "bcgov-info-background",
     "This is an info message!"
   );
 
@@ -51,7 +51,7 @@ export const Mobile = () =>
   generateAlert(
     <MdCheckBox size={32} />,
     "success",
-    "success-background",
+    "bcgov-success-background",
     "This is a success message!"
   );
 

@@ -6,21 +6,21 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
     Object {
       "label": "No, resume my process please",
       "onClick": [MockFunction],
-      "styling": "normal-white btn consistent-width",
+      "styling": "bcgov-normal-white btn bcgov-consistent-width",
     }
   }
   confirmButton={
     Object {
       "label": "Yes, cancel my process please",
       "onClick": [MockFunction],
-      "styling": "normal-blue btn consistent-width",
+      "styling": "bcgov-normal-blue btn bcgov-consistent-width",
     }
   }
   mainButton={
     Object {
       "label": "main label",
       "onClick": [MockFunction],
-      "styling": "normal-blue btn",
+      "styling": "bcgov-normal-blue btn",
     }
   }
   modal={
@@ -36,11 +36,11 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
     hasLoader={false}
     label="main label"
     onClick={[MockFunction]}
-    styling="normal-blue btn"
+    styling="bcgov-normal-blue btn"
     testId="main-cancel-btn"
   >
     <button
-      className="bcgov-button normal-blue btn"
+      className="bcgov-button bcgov-normal-blue btn"
       data-test-id="main-cancel-btn"
       disabled={false}
       onClick={[MockFunction]}
@@ -98,10 +98,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     class="modal-content"
                   >
                     <div
-                      class="hide-border mt-3 modal-header"
+                      class="bcgov-hide-border mt-3 modal-header"
                     >
                       <div
-                        class="mx-auto larger-font modal-title h4"
+                        class="mx-auto bcgov-larger-font modal-title h4"
                       >
                         Cancel process?
                       </div>
@@ -125,7 +125,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       class="mx-auto"
                     >
                       <div
-                        class="padding-left modal-body"
+                        class="bcgov-padding-left modal-body"
                       >
                         <p>
                           Your files will not be submitted.
@@ -143,7 +143,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         class="mx-auto mb-5"
                       >
                         <button
-                          class="bcgov-button normal-blue btn consistent-width"
+                          class="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
                           data-test-id="modal-confirm-btn"
                           type="button"
                         >
@@ -151,7 +151,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         </button>
                         <p />
                         <button
-                          class="bcgov-button normal-white btn consistent-width"
+                          class="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
                           data-test-id="modal-cancel-btn"
                           type="button"
                         >
@@ -190,10 +190,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         class="modal-content"
                       >
                         <div
-                          class="hide-border mt-3 modal-header"
+                          class="bcgov-hide-border mt-3 modal-header"
                         >
                           <div
-                            class="mx-auto larger-font modal-title h4"
+                            class="mx-auto bcgov-larger-font modal-title h4"
                           >
                             Cancel process?
                           </div>
@@ -217,7 +217,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           class="mx-auto"
                         >
                           <div
-                            class="padding-left modal-body"
+                            class="bcgov-padding-left modal-body"
                           >
                             <p>
                               Your files will not be submitted.
@@ -235,7 +235,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             class="mx-auto mb-5"
                           >
                             <button
-                              class="bcgov-button normal-blue btn consistent-width"
+                              class="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
                               data-test-id="modal-confirm-btn"
                               type="button"
                             >
@@ -243,7 +243,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             </button>
                             <p />
                             <button
-                              class="bcgov-button normal-white btn consistent-width"
+                              class="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
                               data-test-id="modal-cancel-btn"
                               type="button"
                             >
@@ -290,10 +290,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     class="modal-content"
                   >
                     <div
-                      class="hide-border mt-3 modal-header"
+                      class="bcgov-hide-border mt-3 modal-header"
                     >
                       <div
-                        class="mx-auto larger-font modal-title h4"
+                        class="mx-auto bcgov-larger-font modal-title h4"
                       >
                         Cancel process?
                       </div>
@@ -317,7 +317,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       class="mx-auto"
                     >
                       <div
-                        class="padding-left modal-body"
+                        class="bcgov-padding-left modal-body"
                       >
                         <p>
                           Your files will not be submitted.
@@ -335,7 +335,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         class="mx-auto mb-5"
                       >
                         <button
-                          class="bcgov-button normal-blue btn consistent-width"
+                          class="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
                           data-test-id="modal-confirm-btn"
                           type="button"
                         >
@@ -343,7 +343,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         </button>
                         <p />
                         <button
-                          class="bcgov-button normal-white btn consistent-width"
+                          class="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
                           data-test-id="modal-cancel-btn"
                           type="button"
                         >
@@ -399,10 +399,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                   class="modal-content"
                 >
                   <div
-                    class="hide-border mt-3 modal-header"
+                    class="bcgov-hide-border mt-3 modal-header"
                   >
                     <div
-                      class="mx-auto larger-font modal-title h4"
+                      class="mx-auto bcgov-larger-font modal-title h4"
                     >
                       Cancel process?
                     </div>
@@ -426,7 +426,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     class="mx-auto"
                   >
                     <div
-                      class="padding-left modal-body"
+                      class="bcgov-padding-left modal-body"
                     >
                       <p>
                         Your files will not be submitted.
@@ -444,7 +444,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       class="mx-auto mb-5"
                     >
                       <button
-                        class="bcgov-button normal-blue btn consistent-width"
+                        class="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
                         data-test-id="modal-confirm-btn"
                         type="button"
                       >
@@ -452,7 +452,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       </button>
                       <p />
                       <button
-                        class="bcgov-button normal-white btn consistent-width"
+                        class="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
                         data-test-id="modal-cancel-btn"
                         type="button"
                       >
@@ -563,21 +563,21 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       className="modal-content"
                     >
                       <ModalHeader
-                        className="hide-border mt-3"
+                        className="bcgov-hide-border mt-3"
                         closeButton={true}
                         closeLabel="Close"
                       >
                         <div
-                          className="hide-border mt-3 modal-header"
+                          className="bcgov-hide-border mt-3 modal-header"
                         >
                           <ModalTitle
-                            className="mx-auto larger-font"
+                            className="mx-auto bcgov-larger-font"
                           >
                             <ForwardRef
-                              className="mx-auto larger-font modal-title"
+                              className="mx-auto bcgov-larger-font modal-title"
                             >
                               <div
-                                className="mx-auto larger-font modal-title h4"
+                                className="mx-auto bcgov-larger-font modal-title h4"
                               >
                                 Cancel process?
                               </div>
@@ -610,10 +610,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         className="mx-auto"
                       >
                         <ModalBody
-                          className="padding-left"
+                          className="bcgov-padding-left"
                         >
                           <div
-                            className="padding-left modal-body"
+                            className="bcgov-padding-left modal-body"
                           >
                             <p>
                               Your files will not be submitted.
@@ -636,11 +636,11 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             hasLoader={false}
                             label="Yes, cancel my process please"
                             onClick={[MockFunction]}
-                            styling="normal-blue btn consistent-width"
+                            styling="bcgov-normal-blue btn bcgov-consistent-width"
                             testId="modal-confirm-btn"
                           >
                             <button
-                              className="bcgov-button normal-blue btn consistent-width"
+                              className="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
                               data-test-id="modal-confirm-btn"
                               disabled={false}
                               onClick={[MockFunction]}
@@ -655,11 +655,11 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             hasLoader={false}
                             label="No, resume my process please"
                             onClick={[MockFunction]}
-                            styling="normal-white btn consistent-width"
+                            styling="bcgov-normal-white btn bcgov-consistent-width"
                             testId="modal-cancel-btn"
                           >
                             <button
-                              className="bcgov-button normal-white btn consistent-width"
+                              className="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
                               data-test-id="modal-cancel-btn"
                               disabled={false}
                               onClick={[MockFunction]}
