@@ -65,11 +65,7 @@ Header.propTypes = {
   header: PropTypes.shape({
     name: PropTypes.string.isRequired,
     history: PropTypes.any.isRequired,
-    button: PropTypes.shape({
-      label: PropTypes.string.isRequired,
-      styling: PropTypes.string.isRequired,
-      onClick: PropTypes.func.isRequired,
-    }),
+    button: PropTypes.func,
     additionalText: PropTypes.string,
   }).isRequired,
 };
