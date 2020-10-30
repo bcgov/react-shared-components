@@ -6,3 +6,13 @@
 .bcgov-pointer {
   cursor: pointer;
 }
+
+.bcgov-flex-spacing {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bcgov-vertical-center {
+  align-self: center;
+}

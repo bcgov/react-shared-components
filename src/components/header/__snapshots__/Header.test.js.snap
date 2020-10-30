@@ -35,10 +35,15 @@ exports[`Header Component Header matches the snapshot 1`] = `
       className="bcgov-pointer navbar-brand nav-item nav-link"
     />
     <div
-      className="navbar-brand"
-      id="title"
+      className="bcgov-flex-spacing"
     >
-      File Submission
+      <div
+        className="navbar-brand bcgov-vertical-center"
+        id="title"
+      >
+        File Submission
+      </div>
+      <div />
     </div>
   </nav>
 </header>

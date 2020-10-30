@@ -61,10 +61,15 @@ exports[`Storyshots Header Basic 1`] = `
         className="bcgov-pointer navbar-brand nav-item nav-link"
       />
       <div
-        className="navbar-brand"
-        id="title"
+        className="bcgov-flex-spacing"
       >
-        Header title
+        <div
+          className="navbar-brand bcgov-vertical-center"
+          id="title"
+        >
+          Header title
+        </div>
+        <div />
       </div>
     </nav>
   </header>
@@ -132,10 +137,121 @@ exports[`Storyshots Header Mobile 1`] = `
         className="bcgov-pointer navbar-brand nav-item nav-link"
       />
       <div
-        className="navbar-brand"
-        id="title"
+        className="bcgov-flex-spacing"
       >
-        Header title
+        <div
+          className="navbar-brand bcgov-vertical-center"
+          id="title"
+        >
+          Header title
+        </div>
+        <div />
+      </div>
+    </nav>
+  </header>
+</Header>
+`;
+
+exports[`Storyshots Header With Button And Text 1`] = `
+<Header
+  header={
+    Object {
+      "additionalText": "Username",
+      "button": [Function],
+      "history": Object {
+        "action": "POP",
+        "back": [Function],
+        "block": [Function],
+        "createHref": [Function],
+        "forward": [Function],
+        "go": [Function],
+        "index": 0,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/",
+          "search": "",
+          "state": null,
+        },
+        "push": [Function],
+        "replace": [Function],
+      },
+      "name": "Header title",
+    }
+  }
+>
+  <header
+    className="bcgov-header"
+  >
+    <nav
+      aria-label="Header"
+      className="container-fluid navbar navbar-expand-lg navbar-dark"
+    >
+      <div
+        aria-labelledby="title"
+        className="navbar-brand bcgov-pointer"
+      />
+      <img
+        alt="B.C. Government Logo"
+        className="img-fluid d-none d-md-block bcgov-pointer"
+        height="44"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        src="undefined/images/bcid-logo-rev-en.svg"
+        width={181}
+      />
+      <img
+        alt="B.C. Government Logo"
+        className="img-fluid d-md-none bcgov-pointer"
+        height="44"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        src="undefined/images/bcid-symbol-rev.svg"
+        width={64}
+      />
+      <div
+        aria-labelledby="title"
+        className="bcgov-pointer navbar-brand nav-item nav-link"
+      />
+      <div
+        className="bcgov-flex-spacing"
+      >
+        <div
+          className="navbar-brand bcgov-vertical-center"
+          id="title"
+        >
+          Header title
+        </div>
+        <div>
+          <div
+            className="navbar-brand"
+          >
+            Username
+          </div>
+          <div
+            className="navbar-brand"
+          >
+            <Button
+              disabled={false}
+              hasLoader={false}
+              label="Login"
+              onClick={[Function]}
+              styling="bcgov-normal-white btn"
+              testId=""
+            >
+              <button
+                className="bcgov-button bcgov-normal-white btn"
+                data-test-id=""
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                Login
+              </button>
+            </Button>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
