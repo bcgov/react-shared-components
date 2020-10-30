@@ -22,7 +22,9 @@ export const HeaderImage = (history, classNames, width, src) => (
   />
 );
 
-export const Header = ({ header: { name, history } }) => {
+export const Header = ({
+  header: { name, history, button, additionalText },
+}) => {
   return (
     <header className="bcgov-header">
       <nav
@@ -43,8 +45,16 @@ export const Header = ({ header: { name, history } }) => {
           bcidSymbol
         )}
         {HeadingTitle("bcgov-pointer navbar-brand nav-item nav-link")}
-        <div id="title" className="navbar-brand">
-          {name}
+        <div className="bcgov-flex-spacing">
+          <div id="title" className="navbar-brand bcgov-vertical-center">
+            {name}
+          </div>
+          <div>
+            {additionalText && (
+              <div className="navbar-brand">{additionalText}</div>
+            )}
+            {button && <div className="navbar-brand">{button()}</div>}
+          </div>
         </div>
       </nav>
     </header>
@@ -55,5 +65,11 @@ Header.propTypes = {
   header: PropTypes.shape({
     name: PropTypes.string.isRequired,
     history: PropTypes.any.isRequired,
+    button: PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      styling: PropTypes.string.isRequired,
+      onClick: PropTypes.func.isRequired,
+    }),
+    additionalText: PropTypes.string,
   }).isRequired,
 };
