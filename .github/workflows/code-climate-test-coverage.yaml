@@ -38,14 +38,14 @@ jobs:
       # Set required Git env vars for a push to master
       - name: Set ENV for codeclimate (push)
         run: |
-          echo "::set-env name=GIT_BRANCH::$GITHUB_REF"
-          echo "::set-env name=GIT_COMMIT_SHA::$GITHUB_SHA"
+          echo "GIT_BRANCH=$GITHUB_REF" >> GITHUB_ENV
+          echo "GIT_COMMIT_SHA=$GITHUB_SHA" >> GITHUB_ENV
         if: github.event_name == 'push'
 
       # Trimming the ref to master in order to publish correct report (paambaati)
       - name: Set ref/head/master to master
         run: |
-          echo "::set-env name=GIT_BRANCH::master"
+          echo "GIT_BRANCH=master" >> GITHUB_ENV
         if: env.GIT_BRANCH == 'refs/heads/master'
             
       # Run Yarn Install 
