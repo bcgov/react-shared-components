@@ -31,8 +31,8 @@ jobs:
       # Set required Git env vars for either pull request
       - name: Set ENV for codeclimate (pull_request)
         run: |
-          echo "::set-env name=GIT_BRANCH::${{ github.event.pull_request.head.ref }}"
-          echo "::set-env name=GIT_COMMIT_SHA::${{ github.event.pull_request.head.sha }}"
+          echo "GIT_BRANCH=${{ github.event.pull_request.head.ref }}" >> GITHUB_ENV
+          echo "GIT_COMMIT_SHA=${{ github.event.pull_request.head.sha }}" >> GITHUB_ENV
         if: github.event_name == 'pull_request'
 
       # Set required Git env vars for a push to master
