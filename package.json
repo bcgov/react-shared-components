@@ -36,7 +36,7 @@
     "@babel/preset-env": "^7.12.0",
     "@babel/preset-react": "^7.12.5",
     "@sambego/storybook-state": "^2.0.1",
-    "@storybook/addon-actions": "^6.0.28",
+    "@storybook/addon-actions": "^6.1.10",
     "@storybook/addon-links": "^6.0.28",
     "@storybook/addon-docs": "^6.1.10",
     "@storybook/addon-storyshots": "^6.0.28",
