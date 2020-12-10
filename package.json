@@ -31,7 +31,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
+    "@babel/core": "^7.12.10",
     "@babel/cli": "^7.12.0",
     "@babel/preset-env": "^7.12.0",
     "@babel/preset-react": "^7.12.5",
