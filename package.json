@@ -34,7 +34,7 @@
     "@babel/core": "^7.12.10",
     "@babel/cli": "^7.12.0",
     "@babel/preset-env": "^7.12.0",
-    "@babel/preset-react": "^7.12.5",
+    "@babel/preset-react": "^7.12.10",
     "@sambego/storybook-state": "^2.0.1",
     "@storybook/addon-actions": "^6.1.10",
     "@storybook/addon-links": "^6.1.10",
