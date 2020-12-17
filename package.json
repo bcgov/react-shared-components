@@ -33,7 +33,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/cli": "^7.12.0",
-    "@babel/preset-env": "^7.12.0",
+    "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@sambego/storybook-state": "^2.0.1",
     "@storybook/addon-actions": "^6.1.11",
