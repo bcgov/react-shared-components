@@ -106,3 +106,110 @@ exports[`Tabs Component Matches the snapshot 1`] = `
   </div>
 </div>
 `;
+
+exports[`Tabs Component Matches the snapshot 2`] = `
+<div
+  className="bcgov-tabs "
+>
+  <nav
+    className="bcgov-tab-title nav nav-tabs"
+    onKeyDown={[Function]}
+    role="tablist"
+  >
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-Tab1"
+      aria-selected={true}
+      className="nav-item nav-link active"
+      data-rb-event-key="Tab1"
+      href="#"
+      id="uncontrolled-tab-example-tab-Tab1"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+    >
+      Tab1
+    </a>
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-Tab2"
+      aria-selected={false}
+      className="nav-item nav-link"
+      data-rb-event-key="Tab2"
+      href="#"
+      id="uncontrolled-tab-example-tab-Tab2"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+      tabIndex={-1}
+    >
+      Tab2
+    </a>
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-Tab3"
+      aria-disabled={true}
+      aria-selected={false}
+      className="nav-item nav-link disabled"
+      data-rb-event-key="Tab3"
+      href="#"
+      id="uncontrolled-tab-example-tab-Tab3"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+      tabIndex={-1}
+    >
+      Tab3
+    </a>
+  </nav>
+  <div
+    className="tab-content"
+  >
+    <div
+      aria-hidden={false}
+      aria-labelledby="uncontrolled-tab-example-tab-Tab1"
+      className="bcgov-tab-content tab-pane active"
+      id="uncontrolled-tab-example-tabpane-Tab1"
+      role="tabpanel"
+      style={
+        Object {
+          "height": "300px",
+        }
+      }
+    >
+      <p>
+         Tab Content... 
+      </p>
+    </div>
+    <div
+      aria-hidden={true}
+      aria-labelledby="uncontrolled-tab-example-tab-Tab2"
+      className="bcgov-tab-content tab-pane"
+      id="uncontrolled-tab-example-tabpane-Tab2"
+      role="tabpanel"
+      style={
+        Object {
+          "height": "300px",
+        }
+      }
+    >
+      <p>
+         Tab Content... 
+      </p>
+    </div>
+    <div
+      aria-hidden={true}
+      aria-labelledby="uncontrolled-tab-example-tab-Tab3"
+      className="bcgov-tab-content tab-pane"
+      id="uncontrolled-tab-example-tabpane-Tab3"
+      role="tabpanel"
+      style={
+        Object {
+          "height": "300px",
+        }
+      }
+    >
+      <p>
+         Tab Content... 
+      </p>
+    </div>
+  </div>
+</div>
+`;
