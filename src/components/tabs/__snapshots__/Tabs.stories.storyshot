@@ -8,19 +8,19 @@ exports[`Storyshots Tabs BC Gov Tabs 1`] = `
     Array [
       Object {
         "content": <p>
-           Tab Content... 
+           Tab1 Content... 
         </p>,
         "title": "Tab1",
       },
       Object {
         "content": <p>
-           Tab Content... 
+           Tab2 Content... 
         </p>,
         "title": "Tab2",
       },
       Object {
         "content": <p>
-           Tab Content... 
+           Tab3 Content... 
         </p>,
         "isDisabled": true,
         "title": "Tab3",
@@ -313,7 +313,7 @@ exports[`Storyshots Tabs BC Gov Tabs 1`] = `
                 }
               >
                 <p>
-                   Tab Content... 
+                   Tab1 Content... 
                 </p>
               </div>
             </TabPane>
@@ -340,7 +340,7 @@ exports[`Storyshots Tabs BC Gov Tabs 1`] = `
                 }
               >
                 <p>
-                   Tab Content... 
+                   Tab2 Content... 
                 </p>
               </div>
             </TabPane>
@@ -367,7 +367,7 @@ exports[`Storyshots Tabs BC Gov Tabs 1`] = `
                 }
               >
                 <p>
-                   Tab Content... 
+                   Tab3 Content... 
                 </p>
               </div>
             </TabPane>
