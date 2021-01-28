@@ -19,8 +19,6 @@
 .env.test.local
 .env.production.local
 .eslintcache
-/storybook-static
-/out*
 
 
 npm-debug.log*
