@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Tabs BC Gov Tabs 1`] = `
+<Tabs
+  height={300}
+  styling=""
+  tabs={
+    Array [
+      Object {
+        "content": <p>
+           Tab1 Content... 
+        </p>,
+        "title": "Tab1",
+      },
+      Object {
+        "content": <p>
+           Tab2 Content... 
+        </p>,
+        "title": "Tab2",
+      },
+      Object {
+        "content": <p>
+           Tab3 Content... 
+        </p>,
+        "isDisabled": true,
+        "title": "Tab3",
+      },
+    ]
+  }
+>
+  <div
+    className="bcgov-tabs "
+  >
+    <Tabs
+      className="bcgov-tab-title"
+      defaultActiveKey="Tab1"
+      id="uncontrolled-tab-example"
+      mountOnEnter={false}
+      transition={false}
+      unmountOnExit={false}
+      variant="tabs"
+    >
+      <TabContainer
+        activeKey="Tab1"
+        id="uncontrolled-tab-example"
+        mountOnEnter={false}
+        onSelect={[Function]}
+        transition={false}
+        unmountOnExit={false}
+      >
+        <Nav
+          as="nav"
+          className="bcgov-tab-title"
+          fill={false}
+          justify={false}
+          role="tablist"
+          variant="tabs"
+        >
+          <ForwardRef
+            as="nav"
+            className="bcgov-tab-title nav nav-tabs"
+            onSelect={[Function]}
+            role="tablist"
+          >
+            <nav
+              className="bcgov-tab-title nav nav-tabs"
+              onKeyDown={[Function]}
+              role="tablist"
+            >
+              <NavItem
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "as": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "SafeAnchor",
+                        "render": [Function],
+                      },
+                      "disabled": false,
+                    },
+                    "displayName": "NavLink",
+                    "render": [Function],
+                  }
+                }
+                eventKey="Tab1"
+                key=".$Tab1"
+              >
+                <NavLink
+                  as={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "displayName": "SafeAnchor",
+                      "render": [Function],
+                    }
+                  }
+                  className="nav-item"
+                  disabled={false}
+                  eventKey="Tab1"
+                >
+                  <ForwardRef
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "SafeAnchor",
+                        "render": [Function],
+                      }
+                    }
+                    className="nav-item nav-link"
+                    disabled={false}
+                    eventKey="Tab1"
+                  >
+                    <SafeAnchor
+                      aria-controls="uncontrolled-tab-example-tabpane-Tab1"
+                      aria-selected={true}
+                      className="nav-item nav-link active"
+                      data-rb-event-key="Tab1"
+                      disabled={false}
+                      id="uncontrolled-tab-example-tab-Tab1"
+                      onClick={[Function]}
+                      role="tab"
+                    >
+                      <a
+                        aria-controls="uncontrolled-tab-example-tabpane-Tab1"
+                        aria-selected={true}
+                        className="nav-item nav-link active"
+                        data-rb-event-key="Tab1"
+                        href="#"
+                        id="uncontrolled-tab-example-tab-Tab1"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="tab"
+                      >
+                        Tab1
+                      </a>
+                    </SafeAnchor>
+                  </ForwardRef>
+                </NavLink>
+              </NavItem>
+              <NavItem
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "as": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "SafeAnchor",
+                        "render": [Function],
+                      },
+                      "disabled": false,
+                    },
+                    "displayName": "NavLink",
+                    "render": [Function],
+                  }
+                }
+                eventKey="Tab2"
+                key=".$Tab2"
+              >
+                <NavLink
+                  as={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "displayName": "SafeAnchor",
+                      "render": [Function],
+                    }
+                  }
+                  className="nav-item"
+                  disabled={false}
+                  eventKey="Tab2"
+                >
+                  <ForwardRef
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "SafeAnchor",
+                        "render": [Function],
+                      }
+                    }
+                    className="nav-item nav-link"
+                    disabled={false}
+                    eventKey="Tab2"
+                  >
+                    <SafeAnchor
+                      aria-controls="uncontrolled-tab-example-tabpane-Tab2"
+                      aria-selected={false}
+                      className="nav-item nav-link"
+                      data-rb-event-key="Tab2"
+                      disabled={false}
+                      id="uncontrolled-tab-example-tab-Tab2"
+                      onClick={[Function]}
+                      role="tab"
+                      tabIndex={-1}
+                    >
+                      <a
+                        aria-controls="uncontrolled-tab-example-tabpane-Tab2"
+                        aria-selected={false}
+                        className="nav-item nav-link"
+                        data-rb-event-key="Tab2"
+                        href="#"
+                        id="uncontrolled-tab-example-tab-Tab2"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="tab"
+                        tabIndex={-1}
+                      >
+                        Tab2
+                      </a>
+                    </SafeAnchor>
+                  </ForwardRef>
+                </NavLink>
+              </NavItem>
+              <NavItem
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "as": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "SafeAnchor",
+                        "render": [Function],
+                      },
+                      "disabled": false,
+                    },
+                    "displayName": "NavLink",
+                    "render": [Function],
+                  }
+                }
+                disabled={true}
+                eventKey="Tab3"
+                key=".$Tab3"
+              >
+                <NavLink
+                  as={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "displayName": "SafeAnchor",
+                      "render": [Function],
+                    }
+                  }
+                  className="nav-item"
+                  disabled={true}
+                  eventKey="Tab3"
+                >
+                  <ForwardRef
+                    as={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "displayName": "SafeAnchor",
+                        "render": [Function],
+                      }
+                    }
+                    className="nav-item nav-link disabled"
+                    disabled={true}
+                    eventKey="Tab3"
+                  >
+                    <SafeAnchor
+                      aria-controls="uncontrolled-tab-example-tabpane-Tab3"
+                      aria-selected={false}
+                      className="nav-item nav-link disabled"
+                      data-rb-event-key="Tab3"
+                      disabled={true}
+                      id="uncontrolled-tab-example-tab-Tab3"
+                      onClick={[Function]}
+                      role="tab"
+                      tabIndex={-1}
+                    >
+                      <a
+                        aria-controls="uncontrolled-tab-example-tabpane-Tab3"
+                        aria-disabled={true}
+                        aria-selected={false}
+                        className="nav-item nav-link disabled"
+                        data-rb-event-key="Tab3"
+                        href="#"
+                        id="uncontrolled-tab-example-tab-Tab3"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="tab"
+                        tabIndex={-1}
+                      >
+                        Tab3
+                      </a>
+                    </SafeAnchor>
+                  </ForwardRef>
+                </NavLink>
+              </NavItem>
+            </nav>
+          </ForwardRef>
+        </Nav>
+        <ForwardRef>
+          <div
+            className="tab-content"
+          >
+            <TabPane
+              className="bcgov-tab-content"
+              eventKey="Tab1"
+              key=".$Tab1"
+              style={
+                Object {
+                  "height": "300px",
+                }
+              }
+            >
+              <div
+                aria-hidden={false}
+                aria-labelledby="uncontrolled-tab-example-tab-Tab1"
+                className="bcgov-tab-content tab-pane active"
+                id="uncontrolled-tab-example-tabpane-Tab1"
+                role="tabpanel"
+                style={
+                  Object {
+                    "height": "300px",
+                  }
+                }
+              >
+                <p>
+                   Tab1 Content... 
+                </p>
+              </div>
+            </TabPane>
+            <TabPane
+              className="bcgov-tab-content"
+              eventKey="Tab2"
+              key=".$Tab2"
+              style={
+                Object {
+                  "height": "300px",
+                }
+              }
+            >
+              <div
+                aria-hidden={true}
+                aria-labelledby="uncontrolled-tab-example-tab-Tab2"
+                className="bcgov-tab-content tab-pane"
+                id="uncontrolled-tab-example-tabpane-Tab2"
+                role="tabpanel"
+                style={
+                  Object {
+                    "height": "300px",
+                  }
+                }
+              >
+                <p>
+                   Tab2 Content... 
+                </p>
+              </div>
+            </TabPane>
+            <TabPane
+              className="bcgov-tab-content"
+              eventKey="Tab3"
+              key=".$Tab3"
+              style={
+                Object {
+                  "height": "300px",
+                }
+              }
+            >
+              <div
+                aria-hidden={true}
+                aria-labelledby="uncontrolled-tab-example-tab-Tab3"
+                className="bcgov-tab-content tab-pane"
+                id="uncontrolled-tab-example-tabpane-Tab3"
+                role="tabpanel"
+                style={
+                  Object {
+                    "height": "300px",
+                  }
+                }
+              >
+                <p>
+                   Tab3 Content... 
+                </p>
+              </div>
+            </TabPane>
+          </div>
+        </ForwardRef>
+      </TabContainer>
+    </Tabs>
+  </div>
+</Tabs>
+`;

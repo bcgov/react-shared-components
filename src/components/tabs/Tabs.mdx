@@ -1,0 +1,52 @@
+import { Meta, Story } from "@storybook/addon-docs/blocks";
+import { Tabs } from "./Tabs";
+
+<Meta title="Tabs" component={Tabs} />
+
+# Tabs
+
+The tabs component is used to display information in an easy tab navigator.
+
+## API
+
+| Prop    | Type             | Required | Description                                               | Default |
+| ------- | ---------------- | -------- | --------------------------------------------------------- | ------- |
+| styling | string           | false    | css classnames representing the styling you wish to apply | ""      |
+| tabs    | array of objects | true     | title and content of the tabs                             |         |
+| height  | number           | true     | height of tabs element in pixels                          |         |
+
+## Tabs API
+
+The tabs array contains objects of the following structure:
+
+| Prop       | Type           | Required | Description                            | Default |
+| ---------- | -------------- | -------- | -------------------------------------- | ------- |
+| title      | string         | true     | the title of a tab                     |         |
+| content    | string/element | true     | the content of a tab                   |         |
+| isDisabled | boolean        | false    | represents if a tab should be disabled |         |
+
+<br />
+
+## Tabs
+
+<Story name="BC Gov Tabs" id="tabs" height={400}></Story>
+
+```js
+const tabs = [
+  {
+    title: "Tab1",
+    content: <p> Tab Content... </p>,
+  },
+  {
+    title: "Tab2",
+    content: <p> Tab Content... </p>,
+  },
+  {
+    title: "Tab3",
+    content: <p> Tab Content... </p>,
+    isDisabled: true,
+  },
+];
+
+<Tabs tabs={tabs} height={300} />;
+```
