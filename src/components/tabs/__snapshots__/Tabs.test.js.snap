@@ -68,7 +68,7 @@ exports[`Tabs Component Matches the snapshot 1`] = `
       }
     >
       <p>
-         Tab Content... 
+         Tab1 Content... 
       </p>
     </div>
     <div
@@ -84,7 +84,7 @@ exports[`Tabs Component Matches the snapshot 1`] = `
       }
     >
       <p>
-         Tab Content... 
+         Tab2 Content... 
       </p>
     </div>
     <div
@@ -100,7 +100,7 @@ exports[`Tabs Component Matches the snapshot 1`] = `
       }
     >
       <p>
-         Tab Content... 
+         Tab3 Content... 
       </p>
     </div>
   </div>
