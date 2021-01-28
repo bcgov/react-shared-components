@@ -3,8 +3,6 @@ import BootTabs from "react-bootstrap/Tabs";
 import BootTab from "react-bootstrap/Tab";
 import PropTypes from "prop-types";
 
-import "./Tabs.css";
-
 export const Tabs = ({ tabs, styling, height }) => {
   return (
     <div className={`bcgov-tabs ${styling}`}>
