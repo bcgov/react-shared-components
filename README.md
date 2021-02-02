@@ -21,7 +21,9 @@ In order for a project to use these components, add the latest [release](https:/
 Run the following commands locally when ready to release:
 
 ```bash
+yarn cache clean
 yarn install
+yarn --update-checksums
 ```
 
 ```bash
