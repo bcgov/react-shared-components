@@ -11,7 +11,7 @@ In order for a project to use these components, add the latest [release](https:/
 ```
 "dependencies": {
     ...
-    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/1.3.0-dragon/shared-components-1.3.0-dragon.tgz",
+    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/1.2.0/shared-components-1.2.0.tgz",
     ...
 },
 ```
