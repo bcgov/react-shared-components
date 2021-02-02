@@ -13,7 +13,9 @@ jobs:
 
       # Run Yarn Install
       - name: Run Yarn Install
-        run: yarn install
+        run: yarn cache clean &\
+          yarn install &\
+          yarn --update-checksums
 
       # Run Npm deploy-storybook
       - name: Deploy storybook to Github Pages
