@@ -1964,15 +1964,15 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storyshots@^6.1.11":
-  version "6.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-6.1.11.tgz#f75428651a09efcc99d64a5836f985fe8f562cfb"
-  integrity sha512-2qRmDKCAtoPnyJiGstX3I2D/3+kccFaTipnIs+YcxI2ugZzs6CjfLewJoZVL+ouQDg0iS/70j+HQtGOTBhLc+w==
+"@storybook/addon-storyshots@^6.1.18":
+  version "6.1.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-6.1.18.tgz#1228fb5dacfbc499120aab7f7ea6e0b4935e565f"
+  integrity sha512-J2PjfSjfCqDUiZD0p6sfD4cXQkFhs0TfnCcZfvCKv+bd48DIQVUDwA2gpVbCw2pB/pd2Xz9btRP0faOSr0vapA==
   dependencies:
     "@jest/transform" "^26.0.0"
-    "@storybook/addons" "6.1.11"
-    "@storybook/client-api" "6.1.11"
-    "@storybook/core" "6.1.11"
+    "@storybook/addons" "6.1.18"
+    "@storybook/client-api" "6.1.18"
+    "@storybook/core" "6.1.18"
     "@types/glob" "^7.1.1"
     "@types/jest" "^25.1.1"
     "@types/jest-specific-snapshot" "^0.5.3"
@@ -3349,10 +3349,10 @@
     lz-string "^1.4.4"
     pretty-format "^26.6.2"
 
-"@testing-library/jest-dom@^5.11.8":
-  version "5.11.8"
-  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.8.tgz#433a84d6f9a089485101b9e112ef03e5c30bcbfc"
-  integrity sha512-ScyKrWQM5xNcr79PkSewnA79CLaoxVskE+f7knTOhDD9ftZSA1Jw8mj+pneqhEu3x37ncNfW84NUr7lqK+mXjA==
+"@testing-library/jest-dom@^5.11.9":
+  version "5.11.9"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.9.tgz#e6b3cd687021f89f261bd53cbe367041fbd3e975"
+  integrity sha512-Mn2gnA9d1wStlAIT2NU8J15LNob0YFBVjs2aEQ3j8rsfRQo+lAs7/ui1i2TGaJjapLmuNPLTsrm+nPjmZDwpcQ==
   dependencies:
     "@babel/runtime" "^7.9.2"
     "@types/testing-library__jest-dom" "^5.9.1"
