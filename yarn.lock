@@ -1877,17 +1877,17 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storybook/addon-actions@^6.1.11":
-  version "6.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.1.11.tgz#73e91cc95c45ea477cfd4f3603f6b95f5829eab6"
-  integrity sha512-J44XLx2G732OG7Az79Cpk5UlI5SyXHeQqdykwT/4IEQXSBXAYWSTIJJjpJdcjR/D+zpklab1QDSiWxCrKbe81A==
+"@storybook/addon-actions@^6.1.18":
+  version "6.1.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.1.18.tgz#9dad0f2be52db778ec4519f130d9e0c46188b504"
+  integrity sha512-05p52RWst3jS5txwqplLZFWuZ89PMtsHojxs4rWRQ6mrgPwiTE0MUl+S1wMihabLm9CYUUJ0/41QNb2Uv0+hhw==
   dependencies:
-    "@storybook/addons" "6.1.11"
-    "@storybook/api" "6.1.11"
-    "@storybook/client-api" "6.1.11"
-    "@storybook/components" "6.1.11"
-    "@storybook/core-events" "6.1.11"
-    "@storybook/theming" "6.1.11"
+    "@storybook/addons" "6.1.18"
+    "@storybook/api" "6.1.18"
+    "@storybook/client-api" "6.1.18"
+    "@storybook/components" "6.1.18"
+    "@storybook/core-events" "6.1.18"
+    "@storybook/theming" "6.1.18"
     core-js "^3.0.1"
     fast-deep-equal "^3.1.1"
     global "^4.3.2"
@@ -1964,15 +1964,15 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storyshots@^6.1.11":
-  version "6.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-6.1.11.tgz#f75428651a09efcc99d64a5836f985fe8f562cfb"
-  integrity sha512-2qRmDKCAtoPnyJiGstX3I2D/3+kccFaTipnIs+YcxI2ugZzs6CjfLewJoZVL+ouQDg0iS/70j+HQtGOTBhLc+w==
+"@storybook/addon-storyshots@^6.1.18":
+  version "6.1.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-6.1.18.tgz#1228fb5dacfbc499120aab7f7ea6e0b4935e565f"
+  integrity sha512-J2PjfSjfCqDUiZD0p6sfD4cXQkFhs0TfnCcZfvCKv+bd48DIQVUDwA2gpVbCw2pB/pd2Xz9btRP0faOSr0vapA==
   dependencies:
     "@jest/transform" "^26.0.0"
-    "@storybook/addons" "6.1.11"
-    "@storybook/client-api" "6.1.11"
-    "@storybook/core" "6.1.11"
+    "@storybook/addons" "6.1.18"
+    "@storybook/client-api" "6.1.18"
+    "@storybook/core" "6.1.18"
     "@types/glob" "^7.1.1"
     "@types/jest" "^25.1.1"
     "@types/jest-specific-snapshot" "^0.5.3"
