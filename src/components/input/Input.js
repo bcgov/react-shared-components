@@ -70,5 +70,9 @@ Input.propTypes = {
     note: PropTypes.string,
     isReadOnly: PropTypes.bool,
   }).isRequired,
-  onChange: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
+};
+
+Input.defaultProps = {
+  onChange: () => {},
 };
