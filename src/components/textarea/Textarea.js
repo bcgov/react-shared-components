@@ -38,10 +38,11 @@ Textarea.propTypes = {
   isRequired: PropTypes.bool,
   id: PropTypes.string.isRequired,
   label: PropTypes.string,
-  onChange: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
 };
 
 Textarea.defaultProps = {
   label: "",
   isRequired: false,
+  onChange: () => {},
 };

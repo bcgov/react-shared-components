@@ -28,7 +28,7 @@ export const Button = ({
 );
 
 Button.propTypes = {
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
   label: PropTypes.string.isRequired,
   styling: PropTypes.string.isRequired,
   disabled: PropTypes.bool,
@@ -40,4 +40,5 @@ Button.defaultProps = {
   disabled: false,
   testId: "",
   hasLoader: false,
+  onClick: () => {},
 };
