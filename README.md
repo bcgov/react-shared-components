@@ -11,7 +11,7 @@ In order for a project to use these components, add the latest [release](https:/
 ```
 "dependencies": {
     ...
-    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/v1.2.2/shared-components-1.2.2.tgz",
+    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/v1.2.x/shared-components-1.2.x.tgz",
     ...
 },
 ```
