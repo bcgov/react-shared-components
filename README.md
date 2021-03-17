@@ -11,7 +11,7 @@ In order for a project to use these components, add the latest [release](https:/
 ```
 "dependencies": {
     ...
-    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/1.2.0/shared-components-1.2.0.tgz",
+    "shared-components": "https://github.com/bcgov/react-shared-components/releases/download/v1.2.2/shared-components-1.2.2.tgz",
     ...
 },
 ```
@@ -21,7 +21,9 @@ In order for a project to use these components, add the latest [release](https:/
 Run the following commands locally when ready to release:
 
 ```bash
+yarn cache clean
 yarn install
+yarn --update-checksums
 ```
 
 ```bash

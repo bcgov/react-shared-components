@@ -22,5 +22,9 @@ Radio.propTypes = {
   label: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  onSelect: PropTypes.func.isRequired,
+  onSelect: PropTypes.func,
+};
+
+Radio.defaultProps = {
+  onSelect: () => {},
 };
