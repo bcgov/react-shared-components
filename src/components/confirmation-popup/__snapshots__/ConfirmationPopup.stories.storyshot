@@ -7,7 +7,7 @@ exports[`Storyshots Confirmation Popup Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "ce28c2a1-b3ca-437b-a0ce-577bd59289dd",
+          "subscription": "57d2a483-646f-4e37-87be-b67ca0b897e3",
         },
       ],
       "state": Object {
@@ -57,7 +57,7 @@ exports[`Storyshots Confirmation Popup Default 1`] = `
     >
       <button
         className="bcgov-button bcgov-normal-white btn"
-        data-test-id="main-cancel-btn"
+        data-testid="main-cancel-btn"
         disabled={false}
         onClick={[Function]}
         type="button"
@@ -123,11 +123,11 @@ exports[`Storyshots Confirmation Popup Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "ce28c2a1-b3ca-437b-a0ce-577bd59289dd",
+          "subscription": "57d2a483-646f-4e37-87be-b67ca0b897e3",
         },
         Object {
           "callback": [Function],
-          "subscription": "1c4cecb9-1610-48c7-805a-2628fb646456",
+          "subscription": "bbfd2be7-e705-4081-9afe-3c736a44e52c",
         },
       ],
       "state": Object {
@@ -177,7 +177,7 @@ exports[`Storyshots Confirmation Popup Mobile 1`] = `
     >
       <button
         className="bcgov-button bcgov-normal-white btn"
-        data-test-id="main-cancel-btn"
+        data-testid="main-cancel-btn"
         disabled={false}
         onClick={[Function]}
         type="button"

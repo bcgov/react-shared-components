@@ -16,7 +16,7 @@ export const Button = ({
     onClick={onClick}
     type="button"
     disabled={disabled}
-    data-test-id={testId}
+    data-testid={testId}
   >
     {label}
     {hasLoader && (
