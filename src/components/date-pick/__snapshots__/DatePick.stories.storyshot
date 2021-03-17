@@ -7,7 +7,7 @@ exports[`Storyshots Date Pick Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "357bc1a9-2dc5-4704-9fcc-a3537ac5064a",
+          "subscription": "664a3e96-64b6-459e-bc04-51d49298e9cd",
         },
       ],
       "state": Object {
@@ -62,7 +62,7 @@ exports[`Storyshots Date Pick Default 1`] = `
           </svg>
         </IconBase>
       </MdDateRange>
-      <a
+      <r
         allowSameDay={false}
         customTimeInput={null}
         dateFormat="MM/dd/yyyy"
@@ -111,7 +111,7 @@ exports[`Storyshots Date Pick Default 1`] = `
         withPortal={false}
         yearItemNumber={12}
       >
-        <o
+        <r
           enableTabLoop={true}
           hidePopper={true}
           popperComponent={null}
@@ -176,8 +176,8 @@ exports[`Storyshots Date Pick Default 1`] = `
               </InnerReference>
             </Reference>
           </Manager>
-        </o>
-      </a>
+        </r>
+      </r>
     </div>
   </DatePick>
 </State>
@@ -190,15 +190,15 @@ exports[`Storyshots Date Pick Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "357bc1a9-2dc5-4704-9fcc-a3537ac5064a",
+          "subscription": "664a3e96-64b6-459e-bc04-51d49298e9cd",
         },
         Object {
           "callback": [Function],
-          "subscription": "844956d9-8341-4f42-bb3a-93d677a0294f",
+          "subscription": "c5ca7d81-22a2-4671-8ca1-db31b97af4e6",
         },
         Object {
           "callback": [Function],
-          "subscription": "0d17a9a1-c121-4047-ac3b-ab5279a594c1",
+          "subscription": "d49e80ff-2be9-49ec-ab59-e06ef26a71bf",
         },
       ],
       "state": Object {
@@ -253,7 +253,7 @@ exports[`Storyshots Date Pick Mobile 1`] = `
           </svg>
         </IconBase>
       </MdDateRange>
-      <a
+      <r
         allowSameDay={false}
         customTimeInput={null}
         dateFormat="MM/dd/yyyy"
@@ -302,7 +302,7 @@ exports[`Storyshots Date Pick Mobile 1`] = `
         withPortal={false}
         yearItemNumber={12}
       >
-        <o
+        <r
           enableTabLoop={true}
           hidePopper={true}
           popperComponent={null}
@@ -367,8 +367,8 @@ exports[`Storyshots Date Pick Mobile 1`] = `
               </InnerReference>
             </Reference>
           </Manager>
-        </o>
-      </a>
+        </r>
+      </r>
     </div>
   </DatePick>
 </State>
@@ -381,11 +381,11 @@ exports[`Storyshots Date Pick With Label 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "357bc1a9-2dc5-4704-9fcc-a3537ac5064a",
+          "subscription": "664a3e96-64b6-459e-bc04-51d49298e9cd",
         },
         Object {
           "callback": [Function],
-          "subscription": "844956d9-8341-4f42-bb3a-93d677a0294f",
+          "subscription": "c5ca7d81-22a2-4671-8ca1-db31b97af4e6",
         },
       ],
       "state": Object {
@@ -450,7 +450,7 @@ exports[`Storyshots Date Pick With Label 1`] = `
           </svg>
         </IconBase>
       </MdDateRange>
-      <a
+      <r
         allowSameDay={false}
         customTimeInput={null}
         dateFormat="MM/dd/yyyy"
@@ -499,7 +499,7 @@ exports[`Storyshots Date Pick With Label 1`] = `
         withPortal={false}
         yearItemNumber={12}
       >
-        <o
+        <r
           enableTabLoop={true}
           hidePopper={true}
           popperComponent={null}
@@ -564,8 +564,8 @@ exports[`Storyshots Date Pick With Label 1`] = `
               </InnerReference>
             </Reference>
           </Manager>
-        </o>
-      </a>
+        </r>
+      </r>
     </div>
   </DatePick>
 </State>

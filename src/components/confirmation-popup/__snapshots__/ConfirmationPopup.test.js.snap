@@ -41,7 +41,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
   >
     <button
       className="bcgov-button bcgov-normal-blue btn"
-      data-test-id="main-cancel-btn"
+      data-testid="main-cancel-btn"
       disabled={false}
       onClick={[MockFunction]}
       type="button"
@@ -144,7 +144,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       >
                         <button
                           class="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
-                          data-test-id="modal-confirm-btn"
+                          data-testid="modal-confirm-btn"
                           type="button"
                         >
                           Yes, cancel my process please
@@ -152,7 +152,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         <p />
                         <button
                           class="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
-                          data-test-id="modal-cancel-btn"
+                          data-testid="modal-cancel-btn"
                           type="button"
                         >
                           No, resume my process please
@@ -236,7 +236,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           >
                             <button
                               class="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
-                              data-test-id="modal-confirm-btn"
+                              data-testid="modal-confirm-btn"
                               type="button"
                             >
                               Yes, cancel my process please
@@ -244,7 +244,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                             <p />
                             <button
                               class="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
-                              data-test-id="modal-cancel-btn"
+                              data-testid="modal-cancel-btn"
                               type="button"
                             >
                               No, resume my process please
@@ -336,7 +336,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       >
                         <button
                           class="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
-                          data-test-id="modal-confirm-btn"
+                          data-testid="modal-confirm-btn"
                           type="button"
                         >
                           Yes, cancel my process please
@@ -344,7 +344,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                         <p />
                         <button
                           class="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
-                          data-test-id="modal-cancel-btn"
+                          data-testid="modal-cancel-btn"
                           type="button"
                         >
                           No, resume my process please
@@ -445,7 +445,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                     >
                       <button
                         class="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
-                        data-test-id="modal-confirm-btn"
+                        data-testid="modal-confirm-btn"
                         type="button"
                       >
                         Yes, cancel my process please
@@ -453,7 +453,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                       <p />
                       <button
                         class="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
-                        data-test-id="modal-cancel-btn"
+                        data-testid="modal-cancel-btn"
                         type="button"
                       >
                         No, resume my process please
@@ -641,7 +641,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           >
                             <button
                               className="bcgov-button bcgov-normal-blue btn bcgov-consistent-width"
-                              data-test-id="modal-confirm-btn"
+                              data-testid="modal-confirm-btn"
                               disabled={false}
                               onClick={[MockFunction]}
                               type="button"
@@ -660,7 +660,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                           >
                             <button
                               className="bcgov-button bcgov-normal-white btn bcgov-consistent-width"
-                              data-test-id="modal-cancel-btn"
+                              data-testid="modal-cancel-btn"
                               disabled={false}
                               onClick={[MockFunction]}
                               type="button"

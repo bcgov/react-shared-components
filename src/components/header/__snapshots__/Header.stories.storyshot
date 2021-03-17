@@ -242,7 +242,7 @@ exports[`Storyshots Header With Button And Text 1`] = `
             >
               <button
                 className="bcgov-button bcgov-normal-white btn"
-                data-test-id=""
+                data-testid=""
                 disabled={false}
                 onClick={[Function]}
                 type="button"

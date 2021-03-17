@@ -3,7 +3,7 @@
 exports[`Button Component Matches the 'disabled' snapshot 1`] = `
 <button
   className="bcgov-button bcgov-normal-blue btn"
-  data-test-id=""
+  data-testid=""
   disabled={true}
   onClick={[MockFunction]}
   type="button"
@@ -15,7 +15,7 @@ exports[`Button Component Matches the 'disabled' snapshot 1`] = `
 exports[`Button Component Matches the 'hasLoader' snapshot 1`] = `
 <button
   className="bcgov-button bcgov-normal-blue btn"
-  data-test-id=""
+  data-testid=""
   disabled={false}
   onClick={[MockFunction]}
   type="button"
@@ -34,7 +34,7 @@ exports[`Button Component Matches the 'hasLoader' snapshot 1`] = `
 exports[`Button Component Matches the 'primary' snapshot 1`] = `
 <button
   className="bcgov-button bcgov-normal-blue btn"
-  data-test-id=""
+  data-testid=""
   disabled={false}
   onClick={[MockFunction]}
   type="button"
@@ -46,7 +46,7 @@ exports[`Button Component Matches the 'primary' snapshot 1`] = `
 exports[`Button Component Matches the 'secondary' snapshot 1`] = `
 <button
   className="bcgov-button bcgov-normal-white btn"
-  data-test-id=""
+  data-testid=""
   disabled={false}
   onClick={[MockFunction]}
   type="button"
