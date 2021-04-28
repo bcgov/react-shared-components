@@ -57,7 +57,6 @@ exports[`Storyshots DisplayBox Mobile 1`] = `
           <svg
             fill="currentColor"
             height={32}
-            size={32}
             stroke="currentColor"
             strokeWidth="0"
             style={
@@ -282,7 +281,6 @@ exports[`Storyshots DisplayBox With Blue Background 1`] = `
           <svg
             fill="currentColor"
             height={32}
-            size={32}
             stroke="currentColor"
             strokeWidth="0"
             style={
@@ -507,7 +505,6 @@ exports[`Storyshots DisplayBox With Border 1`] = `
           <svg
             fill="currentColor"
             height={32}
-            size={32}
             stroke="currentColor"
             strokeWidth="0"
             style={
@@ -768,7 +765,6 @@ exports[`Storyshots DisplayBox With File Data 1`] = `
             <svg
               fill="currentColor"
               height={32}
-              size={32}
               stroke="currentColor"
               strokeWidth="0"
               style={
@@ -1067,7 +1063,6 @@ exports[`Storyshots DisplayBox With Icon 1`] = `
           <svg
             fill="currentColor"
             height={32}
-            size={32}
             stroke="currentColor"
             strokeWidth="0"
             style={

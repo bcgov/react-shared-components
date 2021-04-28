@@ -17,7 +17,6 @@ exports[`Alert Component Matches the 'error' snapshot 1`] = `
       <svg
         fill="currentColor"
         height={32}
-        size={32}
         stroke="currentColor"
         strokeWidth="0"
         style={
@@ -53,7 +52,6 @@ exports[`Alert Component Matches the 'info' snapshot 1`] = `
     <svg
       fill="currentColor"
       height={32}
-      size={32}
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -95,7 +93,6 @@ exports[`Alert Component Matches the 'success' snapshot 1`] = `
       <svg
         fill="currentColor"
         height={32}
-        size={32}
         stroke="currentColor"
         strokeWidth="0"
         style={
@@ -138,7 +135,6 @@ exports[`Alert Component Matches the 'warning' snapshot 1`] = `
       <svg
         fill="currentColor"
         height={32}
-        size={32}
         stroke="currentColor"
         strokeWidth="0"
         style={
