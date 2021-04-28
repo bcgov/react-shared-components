@@ -7,7 +7,7 @@ exports[`Storyshots Date Pick Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "664a3e96-64b6-459e-bc04-51d49298e9cd",
+          "subscription": "222c51f1-3dca-4072-a3fd-b89038fe0112",
         },
       ],
       "state": Object {
@@ -43,7 +43,6 @@ exports[`Storyshots Date Pick Default 1`] = `
             className="bcgov-move-right"
             fill="currentColor"
             height={32}
-            size={32}
             stroke="currentColor"
             strokeWidth="0"
             style={
@@ -190,15 +189,15 @@ exports[`Storyshots Date Pick Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "664a3e96-64b6-459e-bc04-51d49298e9cd",
+          "subscription": "222c51f1-3dca-4072-a3fd-b89038fe0112",
         },
         Object {
           "callback": [Function],
-          "subscription": "c5ca7d81-22a2-4671-8ca1-db31b97af4e6",
+          "subscription": "40c99a46-de33-4f16-a61f-f80d5bd9e009",
         },
         Object {
           "callback": [Function],
-          "subscription": "d49e80ff-2be9-49ec-ab59-e06ef26a71bf",
+          "subscription": "26317709-70f4-4525-bdbc-511e2a3f3ea6",
         },
       ],
       "state": Object {
@@ -234,7 +233,6 @@ exports[`Storyshots Date Pick Mobile 1`] = `
             className="bcgov-move-right"
             fill="currentColor"
             height={32}
-            size={32}
             stroke="currentColor"
             strokeWidth="0"
             style={
@@ -381,11 +379,11 @@ exports[`Storyshots Date Pick With Label 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "664a3e96-64b6-459e-bc04-51d49298e9cd",
+          "subscription": "222c51f1-3dca-4072-a3fd-b89038fe0112",
         },
         Object {
           "callback": [Function],
-          "subscription": "c5ca7d81-22a2-4671-8ca1-db31b97af4e6",
+          "subscription": "40c99a46-de33-4f16-a61f-f80d5bd9e009",
         },
       ],
       "state": Object {
@@ -431,7 +429,6 @@ exports[`Storyshots Date Pick With Label 1`] = `
             className="bcgov-move-right"
             fill="currentColor"
             height={32}
-            size={32}
             stroke="currentColor"
             strokeWidth="0"
             style={

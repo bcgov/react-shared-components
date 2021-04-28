@@ -10,7 +10,6 @@ exports[`DisplayBox Component Matches the 'with icon' snapshot 1`] = `
     <svg
       fill="currentColor"
       height={32}
-      size={32}
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -189,7 +188,6 @@ exports[`DisplayBox Component Matches the blue-background snapshot 1`] = `
     <svg
       fill="currentColor"
       height={32}
-      size={32}
       stroke="currentColor"
       strokeWidth="0"
       style={
@@ -290,7 +288,6 @@ exports[`DisplayBox Component Matches the warning snapshot 1`] = `
     <svg
       fill="currentColor"
       height={32}
-      size={32}
       stroke="currentColor"
       strokeWidth="0"
       style={

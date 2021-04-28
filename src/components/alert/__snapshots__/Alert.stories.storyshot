@@ -55,7 +55,6 @@ exports[`Storyshots Alert Error 1`] = `
               <svg
                 fill="currentColor"
                 height={32}
-                size={32}
                 stroke="currentColor"
                 strokeWidth="0"
                 style={
@@ -128,7 +127,6 @@ exports[`Storyshots Alert Info 1`] = `
             <svg
               fill="currentColor"
               height={32}
-              size={32}
               stroke="currentColor"
               strokeWidth="0"
               style={
@@ -213,7 +211,6 @@ exports[`Storyshots Alert Mobile 1`] = `
               <svg
                 fill="currentColor"
                 height={32}
-                size={32}
                 stroke="currentColor"
                 strokeWidth="0"
                 style={
@@ -299,7 +296,6 @@ exports[`Storyshots Alert Success 1`] = `
               <svg
                 fill="currentColor"
                 height={32}
-                size={32}
                 stroke="currentColor"
                 strokeWidth="0"
                 style={
@@ -385,7 +381,6 @@ exports[`Storyshots Alert Warning 1`] = `
               <svg
                 fill="currentColor"
                 height={32}
-                size={32}
                 stroke="currentColor"
                 strokeWidth="0"
                 style={
