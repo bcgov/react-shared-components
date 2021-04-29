@@ -1,0 +1,27 @@
+{
+  "files": {
+    "0.01eeaef0.iframe.bundle.js": "./0.01eeaef0.iframe.bundle.js",
+    "main.css": "./static/css/main.dfb9704b.chunk.css",
+    "main.js": "./main.58d8d399.iframe.bundle.js",
+    "main.css.map": "./static/css/main.dfb9704b.chunk.css.map",
+    "runtime~main.js": "./runtime~main.c41fcbfd.iframe.bundle.js",
+    "vendors~main.css": "./static/css/vendors~main.99fdbab4.chunk.css",
+    "vendors~main.js": "./vendors~main.1dc7799a.iframe.bundle.js",
+    "vendors~main.css.map": "./static/css/vendors~main.99fdbab4.chunk.css.map",
+    "vendors~main.js.map": "./vendors~main.1dc7799a.iframe.bundle.js.map",
+    "4.f45aee8d.iframe.bundle.js": "./4.f45aee8d.iframe.bundle.js",
+    "5.dc24506f.iframe.bundle.js": "./5.dc24506f.iframe.bundle.js",
+    "6.01d66de6.iframe.bundle.js": "./6.01d66de6.iframe.bundle.js",
+    "7.dab840d3.iframe.bundle.js": "./7.dab840d3.iframe.bundle.js",
+    "iframe.html": "./iframe.html",
+    "static/media/bootstrap-theme.min.css": "./static/media/BCSans-Regular.fd842dd8.woff2",
+    "vendors~main.1dc7799a.iframe.bundle.js.LICENSE.txt": "./vendors~main.1dc7799a.iframe.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.c41fcbfd.iframe.bundle.js",
+    "static/css/vendors~main.99fdbab4.chunk.css",
+    "vendors~main.1dc7799a.iframe.bundle.js",
+    "static/css/main.dfb9704b.chunk.css",
+    "main.58d8d399.iframe.bundle.js"
+  ]
+}
