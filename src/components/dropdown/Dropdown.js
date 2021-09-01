@@ -4,7 +4,7 @@ import { FaChevronDown } from "react-icons/fa";
 
 import "./Dropdown.css";
 
-export const Dropdown = ({ items, label, onSelect }) => {
+export const Dropdown = ({ items, label, onSelect, testId }) => {
   return (
     <div className="bcgov-form">
       {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
@@ -19,7 +19,7 @@ export const Dropdown = ({ items, label, onSelect }) => {
           className="bcgov-dropdown"
           name="options"
           id="dropdown"
-          data-testid="dropdown"
+          data-testid={testId}
           onChange={(e) => onSelect(e.target.value)}
         >
           {items.map((val) => (
@@ -37,8 +37,10 @@ Dropdown.propTypes = {
   items: PropTypes.arrayOf(PropTypes.string).isRequired,
   label: PropTypes.string,
   onSelect: PropTypes.func.isRequired,
+  testId: PropTypes.string,
 };
 
 Dropdown.defaultProps = {
   label: "",
+  testId: "dropdown",
 };
