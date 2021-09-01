@@ -7,7 +7,7 @@ exports[`Storyshots Date Pick Default 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "222c51f1-3dca-4072-a3fd-b89038fe0112",
+          "subscription": "43f5fc43-e611-4882-a7e2-ffd5e44ee502",
         },
       ],
       "state": Object {
@@ -94,6 +94,7 @@ exports[`Storyshots Date Pick Default 1`] = `
         renderDayContents={[Function]}
         selected={1975-08-20T06:15:30.000Z}
         shouldCloseOnSelect={true}
+        showFourColumnMonthYearPicker={false}
         showFullMonthYearPicker={false}
         showMonthYearPicker={false}
         showPopperArrow={true}
@@ -189,15 +190,15 @@ exports[`Storyshots Date Pick Mobile 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "222c51f1-3dca-4072-a3fd-b89038fe0112",
+          "subscription": "43f5fc43-e611-4882-a7e2-ffd5e44ee502",
         },
         Object {
           "callback": [Function],
-          "subscription": "40c99a46-de33-4f16-a61f-f80d5bd9e009",
+          "subscription": "01802e2f-e16e-4d70-b2fc-6c6fcf8d5d4e",
         },
         Object {
           "callback": [Function],
-          "subscription": "26317709-70f4-4525-bdbc-511e2a3f3ea6",
+          "subscription": "1d5bf4ae-2851-4552-8277-71ead5f5f729",
         },
       ],
       "state": Object {
@@ -284,6 +285,7 @@ exports[`Storyshots Date Pick Mobile 1`] = `
         renderDayContents={[Function]}
         selected={1975-08-20T06:15:30.000Z}
         shouldCloseOnSelect={true}
+        showFourColumnMonthYearPicker={false}
         showFullMonthYearPicker={false}
         showMonthYearPicker={false}
         showPopperArrow={true}
@@ -379,11 +381,11 @@ exports[`Storyshots Date Pick With Label 1`] = `
       "callbacks": Array [
         Object {
           "callback": [Function],
-          "subscription": "222c51f1-3dca-4072-a3fd-b89038fe0112",
+          "subscription": "43f5fc43-e611-4882-a7e2-ffd5e44ee502",
         },
         Object {
           "callback": [Function],
-          "subscription": "40c99a46-de33-4f16-a61f-f80d5bd9e009",
+          "subscription": "01802e2f-e16e-4d70-b2fc-6c6fcf8d5d4e",
         },
       ],
       "state": Object {
@@ -480,6 +482,7 @@ exports[`Storyshots Date Pick With Label 1`] = `
         renderDayContents={[Function]}
         selected={1975-08-20T06:15:30.000Z}
         shouldCloseOnSelect={true}
+        showFourColumnMonthYearPicker={false}
         showFullMonthYearPicker={false}
         showMonthYearPicker={false}
         showPopperArrow={true}
