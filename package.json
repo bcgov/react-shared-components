@@ -71,7 +71,7 @@
     "react-is": "^17.0.2",
     "react-scripts": "4.0.3",
     "react-test-renderer": "^16.12.0",
-    "webpack": "5.36.1"
+    "webpack": "5.58.1"
   },
   "files": [
     "/build"
