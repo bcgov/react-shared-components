@@ -1,5 +1,4 @@
-import React from "react";
-import { State, Store } from "@sambego/storybook-state";
+import React, { useState } from "react";
 import mdx from "./DatePick.mdx";
 
 import { DatePick } from "./DatePick";
@@ -14,30 +13,26 @@ export default {
   },
 };
 
-const store = new Store({
-  selectedDate: new Date("August 19, 1975 23:15:30"),
-});
+const BasicDatePickState = (label) => {
+  const [selectedDate, setSelectedDate] = useState(
+    new Date("August 19, 1975 23:15:30")
+  );
 
-const setSelectedDate = (date) => store.set({ selectedDate: date });
+  return (
+    <DatePick
+      key="datepick"
+      label={label}
+      selectedDate={selectedDate}
+      setSelectedDate={setSelectedDate}
+    />
+  );
+};
 
-const basicDatePickState = (label) => (
-  <State store={store}>
-    {(state) => [
-      <DatePick
-        key="datepick"
-        label={label}
-        selectedDate={state.selectedDate}
-        setSelectedDate={setSelectedDate}
-      />,
-    ]}
-  </State>
-);
+export const Default = () => BasicDatePickState();
 
-export const Default = () => basicDatePickState();
+export const WithLabel = () => BasicDatePickState("Select date");
 
-export const WithLabel = () => basicDatePickState("Select date");
-
-export const Mobile = () => basicDatePickState();
+export const Mobile = () => BasicDatePickState();
 
 Mobile.parameters = {
   viewport: {

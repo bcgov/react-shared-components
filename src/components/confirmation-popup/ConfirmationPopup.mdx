@@ -76,31 +76,34 @@ const modal = {
   body
 };
 
-const onButtonClick = () => store.set({ show: !store.get("show") });
+const modal = {
+  title: "Cancel process?",
+  body,
+};
 
-const mainButton = {
+const mainButton = (onButtonClick) => ({
   label: "Click Me",
   styling: "bcgov-normal-white btn",
-  onClick: onButtonClick
-};
+  onClick: onButtonClick,
+});
 
-const confirmButton = {
+const confirmButton = (onButtonClick) => ({
   label: "Yes, cancel my process please",
   styling: "bcgov-normal-blue btn bcgov-consistent-width",
-  onClick: onButtonClick
-};
+  onClick: onButtonClick,
+});
 
-const cancelButton = {
+const cancelButton = (onButtonClick) => ({
   label: "No, resume my process please",
   styling: "bcgov-normal-white btn bcgov-consistent-width",
-  onClick: onButtonClick
-};
+  onClick: onButtonClick,
+});
 
 <ConfirmationPopup
   key="popup"
-  modal={{ ...modal, show: state.show }}
-  mainButton={mainButton}
-  confirmButton={confirmButton}
-  cancelButton={cancelButton}
+  modal={{ ...modal, show }}
+  mainButton={mainButton(onButtonClick)}
+  confirmButton={confirmButton(onButtonClick)}
+  cancelButton={cancelButton(onButtonClick)}
 />
 ```
