@@ -9,7 +9,7 @@
     "history": "^5.0.0",
     "jquery": "^3.6.0",
     "prop-types": "^15.7.2",
-    "react-bootstrap": "^1.4.0",
+    "react-bootstrap": "^2.2.1",
     "react-datepicker": "^3.8.0",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.1.2",
