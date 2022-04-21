@@ -10,17 +10,21 @@ export const HeadingTitle = (classNames) => (
   <div className={classNames} aria-labelledby="title" />
 );
 
-export const HeaderImage = (history, classNames, width, src) => (
-  <img
-    className={classNames}
-    src={src}
-    width={width}
-    height="44"
-    alt="B.C. Government Logo"
-    onClick={() => history.push("/")}
-    onKeyDown={() => history.push("/")}
-  />
-);
+export const HeaderImage = (history, classNames, width, src) => {
+  const { push } = history;
+
+  return (
+    <img
+      className={classNames}
+      src={src}
+      width={width}
+      height="44"
+      alt="B.C. Government Logo"
+      onClick={() => push("/")}
+      onKeyDown={() => push("/")}
+    />
+  );
+};
 
 export const Header = ({
   header: { name, history, button, additionalText },
