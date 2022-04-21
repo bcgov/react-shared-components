@@ -21,7 +21,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public --docs",
     "deploy-storybook": "storybook-to-ghpages",
-    "test": "jest --env=jest-environment-jsdom-sixteen",
+    "test": "jest --env=jsdom",
     "coverage": "jest --coverage --env=jest-environment-jsdom-sixteen",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",

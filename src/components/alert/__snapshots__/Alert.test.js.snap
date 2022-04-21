@@ -29,6 +29,10 @@ exports[`Alert Component Matches the 'error' snapshot 1`] = `
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
           d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
         />
       </svg>
@@ -49,6 +53,7 @@ exports[`Alert Component Matches the 'info' snapshot 1`] = `
   <div
     className="bcgov-display-icon"
   >
+     
     <svg
       fill="currentColor"
       height={32}
@@ -63,6 +68,10 @@ exports[`Alert Component Matches the 'info' snapshot 1`] = `
       width={32}
       xmlns="http://www.w3.org/2000/svg"
     >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
       <path
         d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
       />
@@ -105,7 +114,11 @@ exports[`Alert Component Matches the 'success' snapshot 1`] = `
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
         />
       </svg>
     </div>
@@ -146,6 +159,10 @@ exports[`Alert Component Matches the 'warning' snapshot 1`] = `
         width={32}
         xmlns="http://www.w3.org/2000/svg"
       >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
         <path
           d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
         />

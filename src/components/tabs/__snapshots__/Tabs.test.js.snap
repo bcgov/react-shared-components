@@ -32,7 +32,6 @@ exports[`Tabs Component Matches the snapshot 1`] = `
       onClick={[Function]}
       onKeyDown={[Function]}
       role="tab"
-      tabIndex={-1}
     >
       Tab2
     </a>
