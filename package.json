@@ -22,7 +22,7 @@
     "build-storybook": "build-storybook -s public --docs",
     "deploy-storybook": "storybook-to-ghpages",
     "test": "jest --env=jsdom",
-    "coverage": "jest --coverage --env=jest-environment-jsdom-sixteen",
+    "coverage": "jest --coverage --env=jsdom",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "precommit": "pretty-quick --staged"
