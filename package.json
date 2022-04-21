@@ -75,6 +75,10 @@
     "react-test-renderer": "^16.12.0",
     "storybook-react-context": "^0.6.0"
   },
+  "resolutions": {
+    "glob-parent": "^5.1.2",
+    "trim": "^0.0.3"
+  },
   "files": [
     "/build"
   ],
