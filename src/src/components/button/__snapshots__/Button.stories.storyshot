@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Disabled 1`] = `
+<Button
+  disabled={true}
+  hasLoader={false}
+  label="Disabled"
+  onClick={[Function]}
+  styling="bcgov-normal-blue btn"
+  testId=""
+>
+  <button
+    className="bcgov-button bcgov-normal-blue btn"
+    data-testid=""
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Disabled
+  </button>
+</Button>
+`;
+
+exports[`Storyshots Button Has Loader 1`] = `
+<Button
+  disabled={false}
+  hasLoader={true}
+  label="Has Loader"
+  onClick={[Function]}
+  styling="bcgov-normal-blue btn"
+  testId=""
+>
+  <button
+    className="bcgov-button bcgov-normal-blue btn"
+    data-testid=""
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Has Loader
+    <div
+      className="bcgov-loader-show"
+    >
+      <Loader
+        page={false}
+      >
+        <div
+          className="bcgov-btn-loader"
+        />
+      </Loader>
+    </div>
+  </button>
+</Button>
+`;
+
+exports[`Storyshots Button Mobile 1`] = `
+<Button
+  disabled={false}
+  hasLoader={false}
+  label="Submit"
+  onClick={[Function]}
+  styling="bcgov-normal-blue btn"
+  testId=""
+>
+  <button
+    className="bcgov-button bcgov-normal-blue btn"
+    data-testid=""
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Submit
+  </button>
+</Button>
+`;
+
+exports[`Storyshots Button Primary 1`] = `
+<Button
+  disabled={false}
+  hasLoader={false}
+  label="Submit"
+  onClick={[Function]}
+  styling="bcgov-normal-blue btn"
+  testId=""
+>
+  <button
+    className="bcgov-button bcgov-normal-blue btn"
+    data-testid=""
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Submit
+  </button>
+</Button>
+`;
+
+exports[`Storyshots Button Secondary 1`] = `
+<Button
+  disabled={false}
+  hasLoader={false}
+  label="Cancel"
+  onClick={[Function]}
+  styling="bcgov-normal-white btn"
+  testId=""
+>
+  <button
+    className="bcgov-button bcgov-normal-white btn"
+    data-testid=""
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Cancel
+  </button>
+</Button>
+`;

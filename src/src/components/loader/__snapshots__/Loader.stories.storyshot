@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Loader Container 1`] = `
+<div
+  style={
+    Object {
+      "background": "rgba(225, 232, 242, 1)",
+      "width": "200px",
+    }
+  }
+>
+  <Loader
+    page={false}
+  >
+    <div
+      className="bcgov-btn-loader"
+    />
+  </Loader>
+</div>
+`;
+
+exports[`Storyshots Loader Mobile 1`] = `
+<Loader
+  page={true}
+>
+  <div
+    className="bcgov-page-loader"
+  />
+  <br />
+  Loading... Please Wait
+</Loader>
+`;
+
+exports[`Storyshots Loader Page 1`] = `
+<Loader
+  page={true}
+>
+  <div
+    className="bcgov-page-loader"
+  />
+  <br />
+  Loading... Please Wait
+</Loader>
+`;

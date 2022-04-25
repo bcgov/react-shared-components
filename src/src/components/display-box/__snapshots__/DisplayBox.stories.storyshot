@@ -1,0 +1,1589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots DisplayBox Mobile 1`] = `
+<DisplayBox
+  element={
+    <Table
+      elementStyles={Object {}}
+      elements={
+        Array [
+          Object {
+            "name": "BCeID",
+            "value": "bobross42",
+          },
+          Object {
+            "name": "Last Name",
+            "value": "Ross",
+          },
+          Object {
+            "name": "First Name",
+            "value": "Bob",
+          },
+          Object {
+            "name": "Email Address",
+            "value": "bob.ross@example.com",
+          },
+        ]
+      }
+      heading=""
+      isFeesData={false}
+      styling=""
+    />
+  }
+  icon={
+    <MdPerson
+      size={32}
+    />
+  }
+  styling="bcgov-blue-background"
+>
+  <div
+    className="bcgov-display-box bcgov-blue-background"
+  >
+    <div
+      className="bcgov-display-icon"
+    >
+      <MdPerson
+        size={32}
+      >
+        <IconBase
+          attr={
+            Object {
+              "viewBox": "0 0 24 24",
+            }
+          }
+          size={32}
+        >
+          <svg
+            fill="currentColor"
+            height={32}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={32}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+              key="0"
+            />
+            <path
+              d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              key="1"
+            />
+          </svg>
+        </IconBase>
+      </MdPerson>
+    </div>
+    <div
+      className="bcgov-display-right-element"
+    >
+      <Table
+        elementStyles={Object {}}
+        elements={
+          Array [
+            Object {
+              "name": "BCeID",
+              "value": "bobross42",
+            },
+            Object {
+              "name": "Last Name",
+              "value": "Ross",
+            },
+            Object {
+              "name": "First Name",
+              "value": "Bob",
+            },
+            Object {
+              "name": "Email Address",
+              "value": "bob.ross@example.com",
+            },
+          ]
+        }
+        heading=""
+        isFeesData={false}
+        styling=""
+      >
+        <div
+          className="bcgov-table "
+        >
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
+            <TableElement
+              element={
+                Object {
+                  "name": "BCeID",
+                  "value": "bobross42",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="BCeID"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  BCeID
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bobross42
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Last Name",
+                  "value": "Ross",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Last Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Last Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Ross
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "First Name",
+                  "value": "Bob",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="First Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  First Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Bob
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Email Address",
+                  "value": "bob.ross@example.com",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Email Address"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Email Address
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bob.ross@example.com
+                </div>
+              </div>
+            </TableElement>
+          </div>
+        </div>
+      </Table>
+    </div>
+  </div>
+</DisplayBox>
+`;
+
+exports[`Storyshots DisplayBox With Blue Background 1`] = `
+<DisplayBox
+  element={
+    <Table
+      elementStyles={Object {}}
+      elements={
+        Array [
+          Object {
+            "name": "BCeID",
+            "value": "bobross42",
+          },
+          Object {
+            "name": "Last Name",
+            "value": "Ross",
+          },
+          Object {
+            "name": "First Name",
+            "value": "Bob",
+          },
+          Object {
+            "name": "Email Address",
+            "value": "bob.ross@example.com",
+          },
+        ]
+      }
+      heading=""
+      isFeesData={false}
+      styling=""
+    />
+  }
+  icon={
+    <MdPerson
+      size={32}
+    />
+  }
+  styling="bcgov-blue-background"
+>
+  <div
+    className="bcgov-display-box bcgov-blue-background"
+  >
+    <div
+      className="bcgov-display-icon"
+    >
+      <MdPerson
+        size={32}
+      >
+        <IconBase
+          attr={
+            Object {
+              "viewBox": "0 0 24 24",
+            }
+          }
+          size={32}
+        >
+          <svg
+            fill="currentColor"
+            height={32}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={32}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+              key="0"
+            />
+            <path
+              d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              key="1"
+            />
+          </svg>
+        </IconBase>
+      </MdPerson>
+    </div>
+    <div
+      className="bcgov-display-right-element"
+    >
+      <Table
+        elementStyles={Object {}}
+        elements={
+          Array [
+            Object {
+              "name": "BCeID",
+              "value": "bobross42",
+            },
+            Object {
+              "name": "Last Name",
+              "value": "Ross",
+            },
+            Object {
+              "name": "First Name",
+              "value": "Bob",
+            },
+            Object {
+              "name": "Email Address",
+              "value": "bob.ross@example.com",
+            },
+          ]
+        }
+        heading=""
+        isFeesData={false}
+        styling=""
+      >
+        <div
+          className="bcgov-table "
+        >
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
+            <TableElement
+              element={
+                Object {
+                  "name": "BCeID",
+                  "value": "bobross42",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="BCeID"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  BCeID
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bobross42
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Last Name",
+                  "value": "Ross",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Last Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Last Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Ross
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "First Name",
+                  "value": "Bob",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="First Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  First Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Bob
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Email Address",
+                  "value": "bob.ross@example.com",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Email Address"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Email Address
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bob.ross@example.com
+                </div>
+              </div>
+            </TableElement>
+          </div>
+        </div>
+      </Table>
+    </div>
+  </div>
+</DisplayBox>
+`;
+
+exports[`Storyshots DisplayBox With Border 1`] = `
+<DisplayBox
+  element={
+    <Table
+      elementStyles={Object {}}
+      elements={
+        Array [
+          Object {
+            "name": "BCeID",
+            "value": "bobross42",
+          },
+          Object {
+            "name": "Last Name",
+            "value": "Ross",
+          },
+          Object {
+            "name": "First Name",
+            "value": "Bob",
+          },
+          Object {
+            "name": "Email Address",
+            "value": "bob.ross@example.com",
+          },
+        ]
+      }
+      heading=""
+      isFeesData={false}
+      styling=""
+    />
+  }
+  icon={
+    <MdPerson
+      size={32}
+    />
+  }
+  styling="bcgov-border-background"
+>
+  <div
+    className="bcgov-display-box bcgov-border-background"
+  >
+    <div
+      className="bcgov-display-icon"
+    >
+      <MdPerson
+        size={32}
+      >
+        <IconBase
+          attr={
+            Object {
+              "viewBox": "0 0 24 24",
+            }
+          }
+          size={32}
+        >
+          <svg
+            fill="currentColor"
+            height={32}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={32}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+              key="0"
+            />
+            <path
+              d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              key="1"
+            />
+          </svg>
+        </IconBase>
+      </MdPerson>
+    </div>
+    <div
+      className="bcgov-display-right-element"
+    >
+      <Table
+        elementStyles={Object {}}
+        elements={
+          Array [
+            Object {
+              "name": "BCeID",
+              "value": "bobross42",
+            },
+            Object {
+              "name": "Last Name",
+              "value": "Ross",
+            },
+            Object {
+              "name": "First Name",
+              "value": "Bob",
+            },
+            Object {
+              "name": "Email Address",
+              "value": "bob.ross@example.com",
+            },
+          ]
+        }
+        heading=""
+        isFeesData={false}
+        styling=""
+      >
+        <div
+          className="bcgov-table "
+        >
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
+            <TableElement
+              element={
+                Object {
+                  "name": "BCeID",
+                  "value": "bobross42",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="BCeID"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  BCeID
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bobross42
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Last Name",
+                  "value": "Ross",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Last Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Last Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Ross
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "First Name",
+                  "value": "Bob",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="First Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  First Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Bob
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Email Address",
+                  "value": "bob.ross@example.com",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Email Address"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Email Address
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bob.ross@example.com
+                </div>
+              </div>
+            </TableElement>
+          </div>
+        </div>
+      </Table>
+    </div>
+  </div>
+</DisplayBox>
+`;
+
+exports[`Storyshots DisplayBox With File Data 1`] = `
+<DisplayBox
+  element={
+    <Table
+      elementStyles={
+        Object {
+          "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
+        }
+      }
+      elements={
+        Array [
+          Object {
+            "name": <div
+              style={
+                Object {
+                  "width": "80%",
+                }
+              }
+            >
+              <span>
+                file name
+              </span>
+            </div>,
+            "value": <Table
+              elementStyles={Object {}}
+              elements={
+                Array [
+                  Object {
+                    "isValueBold": true,
+                    "name": "Description:",
+                    "value": "some file description",
+                  },
+                  Object {
+                    "isValueBold": true,
+                    "name": "Statutory Fee:",
+                    "value": "$10.00",
+                  },
+                ]
+              }
+              heading=""
+              isFeesData={false}
+              styling=""
+            />,
+          },
+        ]
+      }
+      heading=""
+      isFeesData={false}
+      styling=""
+    />
+  }
+  icon={
+    <div
+      style={
+        Object {
+          "color": "rgb(252, 186, 25)",
+        }
+      }
+    >
+      <MdDescription
+        size={32}
+      />
+    </div>
+  }
+  styling="bcgov-border-background bcgov-display-file"
+>
+  <div
+    className="bcgov-display-box bcgov-border-background bcgov-display-file"
+  >
+    <div
+      className="bcgov-display-icon"
+    >
+      <div
+        style={
+          Object {
+            "color": "rgb(252, 186, 25)",
+          }
+        }
+      >
+        <MdDescription
+          size={32}
+        >
+          <IconBase
+            attr={
+              Object {
+                "viewBox": "0 0 24 24",
+              }
+            }
+            size={32}
+          >
+            <svg
+              fill="currentColor"
+              height={32}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 24 24"
+              width={32}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+                key="0"
+              />
+              <path
+                d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+                key="1"
+              />
+            </svg>
+          </IconBase>
+        </MdDescription>
+      </div>
+    </div>
+    <div
+      className="bcgov-display-right-element"
+    >
+      <Table
+        elementStyles={
+          Object {
+            "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
+          }
+        }
+        elements={
+          Array [
+            Object {
+              "name": <div
+                style={
+                  Object {
+                    "width": "80%",
+                  }
+                }
+              >
+                <span>
+                  file name
+                </span>
+              </div>,
+              "value": <Table
+                elementStyles={Object {}}
+                elements={
+                  Array [
+                    Object {
+                      "isValueBold": true,
+                      "name": "Description:",
+                      "value": "some file description",
+                    },
+                    Object {
+                      "isValueBold": true,
+                      "name": "Statutory Fee:",
+                      "value": "$10.00",
+                    },
+                  ]
+                }
+                heading=""
+                isFeesData={false}
+                styling=""
+              />,
+            },
+          ]
+        }
+        heading=""
+        isFeesData={false}
+        styling=""
+      >
+        <div
+          className="bcgov-table "
+        >
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
+            <TableElement
+              element={
+                Object {
+                  "name": <div
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <span>
+                      file name
+                    </span>
+                  </div>,
+                  "value": <Table
+                    elementStyles={Object {}}
+                    elements={
+                      Array [
+                        Object {
+                          "isValueBold": true,
+                          "name": "Description:",
+                          "value": "some file description",
+                        },
+                        Object {
+                          "isValueBold": true,
+                          "name": "Statutory Fee:",
+                          "value": "$10.00",
+                        },
+                      ]
+                    }
+                    heading=""
+                    isFeesData={false}
+                    styling=""
+                  />,
+                }
+              }
+              elementStyles={
+                Object {
+                  "columnStyle": "bcgov-vertical-middle bcgov-fill-width",
+                }
+              }
+              isFeesData={false}
+              key="[object Object]"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-vertical-middle bcgov-fill-width"
+                >
+                  <div
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <span>
+                      file name
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  <Table
+                    elementStyles={Object {}}
+                    elements={
+                      Array [
+                        Object {
+                          "isValueBold": true,
+                          "name": "Description:",
+                          "value": "some file description",
+                        },
+                        Object {
+                          "isValueBold": true,
+                          "name": "Statutory Fee:",
+                          "value": "$10.00",
+                        },
+                      ]
+                    }
+                    heading=""
+                    isFeesData={false}
+                    styling=""
+                  >
+                    <div
+                      className="bcgov-table "
+                    >
+                      <b />
+                      <div
+                        className="bcgov-table-body"
+                      >
+                        <TableElement
+                          element={
+                            Object {
+                              "isValueBold": true,
+                              "name": "Description:",
+                              "value": "some file description",
+                            }
+                          }
+                          elementStyles={Object {}}
+                          isFeesData={false}
+                          key="Description:"
+                        >
+                          <div
+                            className="bcgov-row "
+                          >
+                            <div
+                              className="bcgov-fill-width"
+                            >
+                              Description:
+                            </div>
+                            <div
+                              className="bcgov-table-value "
+                            >
+                              <b>
+                                some file description
+                              </b>
+                            </div>
+                          </div>
+                        </TableElement>
+                        <TableElement
+                          element={
+                            Object {
+                              "isValueBold": true,
+                              "name": "Statutory Fee:",
+                              "value": "$10.00",
+                            }
+                          }
+                          elementStyles={Object {}}
+                          isFeesData={false}
+                          key="Statutory Fee:"
+                        >
+                          <div
+                            className="bcgov-row "
+                          >
+                            <div
+                              className="bcgov-fill-width"
+                            >
+                              Statutory Fee:
+                            </div>
+                            <div
+                              className="bcgov-table-value "
+                            >
+                              <b>
+                                $10.00
+                              </b>
+                            </div>
+                          </div>
+                        </TableElement>
+                      </div>
+                    </div>
+                  </Table>
+                </div>
+              </div>
+            </TableElement>
+          </div>
+        </div>
+      </Table>
+    </div>
+  </div>
+</DisplayBox>
+`;
+
+exports[`Storyshots DisplayBox With Icon 1`] = `
+<DisplayBox
+  element={
+    <Table
+      elementStyles={Object {}}
+      elements={
+        Array [
+          Object {
+            "name": "BCeID",
+            "value": "bobross42",
+          },
+          Object {
+            "name": "Last Name",
+            "value": "Ross",
+          },
+          Object {
+            "name": "First Name",
+            "value": "Bob",
+          },
+          Object {
+            "name": "Email Address",
+            "value": "bob.ross@example.com",
+          },
+        ]
+      }
+      heading=""
+      isFeesData={false}
+      styling=""
+    />
+  }
+  icon={
+    <MdPerson
+      size={32}
+    />
+  }
+  styling=""
+>
+  <div
+    className="bcgov-display-box "
+  >
+    <div
+      className="bcgov-display-icon"
+    >
+      <MdPerson
+        size={32}
+      >
+        <IconBase
+          attr={
+            Object {
+              "viewBox": "0 0 24 24",
+            }
+          }
+          size={32}
+        >
+          <svg
+            fill="currentColor"
+            height={32}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={32}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+              key="0"
+            />
+            <path
+              d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              key="1"
+            />
+          </svg>
+        </IconBase>
+      </MdPerson>
+    </div>
+    <div
+      className="bcgov-display-right-element"
+    >
+      <Table
+        elementStyles={Object {}}
+        elements={
+          Array [
+            Object {
+              "name": "BCeID",
+              "value": "bobross42",
+            },
+            Object {
+              "name": "Last Name",
+              "value": "Ross",
+            },
+            Object {
+              "name": "First Name",
+              "value": "Bob",
+            },
+            Object {
+              "name": "Email Address",
+              "value": "bob.ross@example.com",
+            },
+          ]
+        }
+        heading=""
+        isFeesData={false}
+        styling=""
+      >
+        <div
+          className="bcgov-table "
+        >
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
+            <TableElement
+              element={
+                Object {
+                  "name": "BCeID",
+                  "value": "bobross42",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="BCeID"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  BCeID
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bobross42
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Last Name",
+                  "value": "Ross",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Last Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Last Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Ross
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "First Name",
+                  "value": "Bob",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="First Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  First Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Bob
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Email Address",
+                  "value": "bob.ross@example.com",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Email Address"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Email Address
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bob.ross@example.com
+                </div>
+              </div>
+            </TableElement>
+          </div>
+        </div>
+      </Table>
+    </div>
+  </div>
+</DisplayBox>
+`;
+
+exports[`Storyshots DisplayBox With Side By Side Content 1`] = `
+<DisplayBox
+  element={
+    <Table
+      elementStyles={Object {}}
+      elements={
+        Array [
+          Object {
+            "isSideBySide": true,
+            "name": <p
+              style={
+                Object {
+                  "width": "80%",
+                }
+              }
+            >
+              This is the content on the left of the display box. Maybe there will be other content on the right too.
+            </p>,
+            "value": <p
+              style={
+                Object {
+                  "width": "80%",
+                }
+              }
+            >
+              This is the content on the right of the display box. There already is content on the left side of the box.
+            </p>,
+          },
+        ]
+      }
+      heading=""
+      isFeesData={false}
+      styling=""
+    />
+  }
+  icon={null}
+  styling="bcgov-display-left-element"
+>
+  <div
+    className="bcgov-display-box bcgov-display-left-element"
+  >
+    <div
+      className="bcgov-display-right-element"
+    >
+      <Table
+        elementStyles={Object {}}
+        elements={
+          Array [
+            Object {
+              "isSideBySide": true,
+              "name": <p
+                style={
+                  Object {
+                    "width": "80%",
+                  }
+                }
+              >
+                This is the content on the left of the display box. Maybe there will be other content on the right too.
+              </p>,
+              "value": <p
+                style={
+                  Object {
+                    "width": "80%",
+                  }
+                }
+              >
+                This is the content on the right of the display box. There already is content on the left side of the box.
+              </p>,
+            },
+          ]
+        }
+        heading=""
+        isFeesData={false}
+        styling=""
+      >
+        <div
+          className="bcgov-table "
+        >
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
+            <TableElement
+              element={
+                Object {
+                  "isSideBySide": true,
+                  "name": <p
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    This is the content on the left of the display box. Maybe there will be other content on the right too.
+                  </p>,
+                  "value": <p
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    This is the content on the right of the display box. There already is content on the left side of the box.
+                  </p>,
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="[object Object]"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  <p
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    This is the content on the left of the display box. Maybe there will be other content on the right too.
+                  </p>
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  <p
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    This is the content on the right of the display box. There already is content on the left side of the box.
+                  </p>
+                </div>
+              </div>
+            </TableElement>
+          </div>
+        </div>
+      </Table>
+    </div>
+  </div>
+</DisplayBox>
+`;
+
+exports[`Storyshots DisplayBox Without Icon 1`] = `
+<DisplayBox
+  element={
+    <Table
+      elementStyles={Object {}}
+      elements={
+        Array [
+          Object {
+            "name": "BCeID",
+            "value": "bobross42",
+          },
+          Object {
+            "name": "Last Name",
+            "value": "Ross",
+          },
+          Object {
+            "name": "First Name",
+            "value": "Bob",
+          },
+          Object {
+            "name": "Email Address",
+            "value": "bob.ross@example.com",
+          },
+        ]
+      }
+      heading=""
+      isFeesData={false}
+      styling=""
+    />
+  }
+  icon={null}
+  styling=""
+>
+  <div
+    className="bcgov-display-box "
+  >
+    <div
+      className="bcgov-display-right-element"
+    >
+      <Table
+        elementStyles={Object {}}
+        elements={
+          Array [
+            Object {
+              "name": "BCeID",
+              "value": "bobross42",
+            },
+            Object {
+              "name": "Last Name",
+              "value": "Ross",
+            },
+            Object {
+              "name": "First Name",
+              "value": "Bob",
+            },
+            Object {
+              "name": "Email Address",
+              "value": "bob.ross@example.com",
+            },
+          ]
+        }
+        heading=""
+        isFeesData={false}
+        styling=""
+      >
+        <div
+          className="bcgov-table "
+        >
+          <b />
+          <div
+            className="bcgov-table-body"
+          >
+            <TableElement
+              element={
+                Object {
+                  "name": "BCeID",
+                  "value": "bobross42",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="BCeID"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  BCeID
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bobross42
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Last Name",
+                  "value": "Ross",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Last Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Last Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Ross
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "First Name",
+                  "value": "Bob",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="First Name"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  First Name
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  Bob
+                </div>
+              </div>
+            </TableElement>
+            <TableElement
+              element={
+                Object {
+                  "name": "Email Address",
+                  "value": "bob.ross@example.com",
+                }
+              }
+              elementStyles={Object {}}
+              isFeesData={false}
+              key="Email Address"
+            >
+              <div
+                className="bcgov-row "
+              >
+                <div
+                  className="bcgov-fill-width"
+                >
+                  Email Address
+                </div>
+                <div
+                  className="bcgov-table-value "
+                >
+                  bob.ross@example.com
+                </div>
+              </div>
+            </TableElement>
+          </div>
+        </div>
+      </Table>
+    </div>
+  </div>
+</DisplayBox>
+`;

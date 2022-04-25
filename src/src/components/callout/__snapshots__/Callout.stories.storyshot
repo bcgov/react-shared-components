@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Callout Mobile 1`] = `
+<Callout
+  agreeCallout={[Function]}
+  checkboxLabel=""
+  text="By March 1, 2018, eligible residents of B.C. are expected to renew enrolment in the Medical Services Plan (MSP) and get a BC Services Card."
+>
+  <div
+    className="bcgov-callout"
+  >
+    <p>
+      By March 1, 2018, eligible residents of B.C. are expected to renew enrolment in the Medical Services Plan (MSP) and get a BC Services Card.
+    </p>
+  </div>
+</Callout>
+`;
+
+exports[`Storyshots Callout With Checkbox 1`] = `
+<Callout
+  agreeCallout={[Function]}
+  checkboxLabel="I agree"
+  text="By March 1, 2018, eligible residents of B.C. are expected to renew enrolment in the Medical Services Plan (MSP) and get a BC Services Card."
+>
+  <div
+    className="bcgov-callout-checkbox"
+  >
+    <p>
+      By March 1, 2018, eligible residents of B.C. are expected to renew enrolment in the Medical Services Plan (MSP) and get a BC Services Card.
+    </p>
+    <label
+      htmlFor="agreeCallout"
+      style={
+        Object {
+          "float": "right",
+        }
+      }
+    >
+      <input
+        id="agreeCallout"
+        onClick={[Function]}
+        type="checkbox"
+      />
+       
+      <b>
+        I agree
+      </b>
+      <span
+        className="bcgov-mandatory"
+        id="asterisk"
+      >
+        *
+      </span>
+    </label>
+  </div>
+</Callout>
+`;
+
+exports[`Storyshots Callout With Text 1`] = `
+<Callout
+  agreeCallout={[Function]}
+  checkboxLabel=""
+  text="By March 1, 2018, eligible residents of B.C. are expected to renew enrolment in the Medical Services Plan (MSP) and get a BC Services Card."
+>
+  <div
+    className="bcgov-callout"
+  >
+    <p>
+      By March 1, 2018, eligible residents of B.C. are expected to renew enrolment in the Medical Services Plan (MSP) and get a BC Services Card.
+    </p>
+  </div>
+</Callout>
+`;
