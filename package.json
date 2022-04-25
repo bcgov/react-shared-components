@@ -13,7 +13,8 @@
     "react-datepicker": "^3.8.0",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.1.2",
-    "regenerator-runtime": "^0.13.7"
+    "regenerator-runtime": "^0.13.7",
+    "storybook-addon-state": "^1.0.3"
   },
   "scripts": {
     "build": "babel src -d build --copy-files",

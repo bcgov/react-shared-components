@@ -1,5 +1,5 @@
-/* eslint-disable react/jsx-one-expression-per-line */
-import React, { useState } from "react";
+import React from "react";
+import useState from "storybook-addon-state";
 // import mdx from "./ConfirmationPopup.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import ConfirmationPopup from "./ConfirmationPopup";
