@@ -1,6 +1,6 @@
 import React from "react";
 import useState from "storybook-addon-state";
-// import mdx from "./DatePick.mdx";
+import mdx from "./DatePick.mdx";
 
 import { DatePick } from "./DatePick";
 
@@ -9,7 +9,7 @@ export default {
   component: DatePick,
   parameters: {
     docs: {
-      // page: mdx,
+      page: mdx,
     },
   },
 };

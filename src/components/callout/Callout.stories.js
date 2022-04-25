@@ -1,6 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-// import mdx from "./Callout.mdx"; TODO: uncomment when jest is not upset with this anymore
+import mdx from "./Callout.mdx";
 
 import { Callout } from "./Callout";
 
@@ -9,7 +9,7 @@ export default {
   component: Callout,
   parameters: {
     docs: {
-      // page: mdx, TODO: uncomment when jest is not upset with this anymore
+      page: mdx,
     },
   },
 };

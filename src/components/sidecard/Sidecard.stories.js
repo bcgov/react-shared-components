@@ -1,6 +1,6 @@
 import React from "react";
 import { FaIdCard } from "react-icons/fa";
-// import mdx from "./Sidecard.mdx"; TODO: uncomment when jest is not upset with this anymore
+import mdx from "./Sidecard.mdx";
 
 import { Sidecard } from "./Sidecard";
 
@@ -9,7 +9,7 @@ export default {
   component: Sidecard,
   parameters: {
     docs: {
-      // page: mdx, TODO: uncomment when jest is not upset with this anymore
+      page: mdx,
     },
   },
 };

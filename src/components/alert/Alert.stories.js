@@ -1,6 +1,6 @@
 import React from "react";
 import { MdError, MdCancel, MdCheckBox, MdInfo } from "react-icons/md";
-// import mdx from "./Alert.mdx"; TODO: uncomment when jest is not upset with this anymore
+import mdx from "./Alert.mdx";
 
 import { Alert } from "./Alert";
 import { generateAlert } from "../../modules/alertTestData";
@@ -10,7 +10,7 @@ export default {
   component: Alert,
   parameters: {
     docs: {
-      // page: mdx, TODO: uncomment when jest is not upset with this anymore
+      page: mdx,
     },
   },
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-// import mdx from "./Dropdown.mdx"; TODO: uncomment when jest is not upset with this anymore
+import mdx from "./Dropdown.mdx";
 
 import { Dropdown } from "./Dropdown";
 
@@ -9,7 +9,7 @@ export default {
   component: Dropdown,
   parameters: {
     docs: {
-      // page: mdx, TODO: uncomment when jest is not upset with this anymore
+      page: mdx,
     },
   },
 };

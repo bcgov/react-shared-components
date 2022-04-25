@@ -1,6 +1,6 @@
 import React from "react";
 import useState from "storybook-addon-state";
-// import mdx from "./ConfirmationPopup.mdx"; TODO: uncomment when jest is not upset with this anymore
+import mdx from "./ConfirmationPopup.mdx";
 
 import ConfirmationPopup from "./ConfirmationPopup";
 import { getConfirmationPopupTestData } from "../../modules/confirmationPopupTestData";
@@ -10,7 +10,7 @@ export default {
   component: ConfirmationPopup,
   parameters: {
     docs: {
-      // page: mdx, TODO: uncomment when jest is not upset with this anymore
+      page: mdx,
     },
   },
 };

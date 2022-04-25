@@ -1,7 +1,7 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
 import { getTestData } from "../../modules/termsOfUseTestData";
-// import mdx from "./TermsOfUse.mdx"; TODO: uncomment when jest is not upset with this anymore
+import mdx from "./TermsOfUse.mdx";
 
 import { TermsOfUse } from "./TermsOfUse";
 
@@ -10,7 +10,7 @@ export default {
   component: TermsOfUse,
   parameters: {
     docs: {
-      // page: mdx, TODO: uncomment when jest is not upset with this anymore
+      page: mdx,
     },
   },
 };

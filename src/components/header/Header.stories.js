@@ -2,7 +2,7 @@ import React from "react";
 import { action } from "@storybook/addon-actions";
 import { createMemoryHistory } from "history";
 import { Button } from "../button/Button";
-// import mdx from "./Header.mdx"; TODO: uncomment when jest is not upset with this anymore
+import mdx from "./Header.mdx";
 
 import { Header } from "./Header";
 
@@ -11,7 +11,7 @@ export default {
   component: Header,
   parameters: {
     docs: {
-      // page: mdx, TODO: uncomment when jest is not upset with this anymore
+      page: mdx,
     },
   },
 };
