@@ -1,5 +1,5 @@
 import React from "react";
-import mdx from "./Loader.mdx";
+// import mdx from "./Loader.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import { Loader } from "./Loader";
 
@@ -8,7 +8,7 @@ export default {
   component: Loader,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };

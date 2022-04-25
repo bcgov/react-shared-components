@@ -1,6 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-import mdx from "./Radio.mdx";
+// import mdx from "./Radio.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import { Radio } from "./Radio";
 
@@ -9,7 +9,7 @@ export default {
   component: Radio,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };

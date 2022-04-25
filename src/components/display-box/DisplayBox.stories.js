@@ -1,6 +1,6 @@
 import React from "react";
 import { MdPerson, MdDescription } from "react-icons/md";
-import mdx from "./DisplayBox.mdx";
+// import mdx from "./DisplayBox.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import { DisplayBox } from "./DisplayBox";
 import { Table } from "../table/Table";
@@ -11,7 +11,7 @@ export default {
   component: DisplayBox,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };

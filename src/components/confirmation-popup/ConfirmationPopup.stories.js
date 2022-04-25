@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React, { useState } from "react";
-import mdx from "./ConfirmationPopup.mdx";
+// import mdx from "./ConfirmationPopup.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import ConfirmationPopup from "./ConfirmationPopup";
 import { getConfirmationPopupTestData } from "../../modules/confirmationPopupTestData";
@@ -10,7 +10,7 @@ export default {
   component: ConfirmationPopup,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };

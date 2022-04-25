@@ -1,6 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-import mdx from "./Button.mdx";
+// import mdx from "./Button.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import { Button } from "./Button";
 import "./Button.css";
@@ -10,7 +10,7 @@ export default {
   component: Button,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };

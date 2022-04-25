@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import mdx from "./DatePick.mdx";
+// import mdx from "./DatePick.mdx";
 
 import { DatePick } from "./DatePick";
 
@@ -8,7 +8,7 @@ export default {
   component: DatePick,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx,
     },
   },
 };

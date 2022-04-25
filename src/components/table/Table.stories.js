@@ -1,5 +1,5 @@
 import React from "react";
-import mdx from "./Table.mdx";
+// import mdx from "./Table.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import { Table } from "./Table";
 import { getTableElementsTestData } from "../../modules/tableTestData";
@@ -9,7 +9,7 @@ export default {
   component: Table,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };

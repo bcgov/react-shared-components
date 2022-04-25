@@ -1,5 +1,5 @@
 import React from "react";
-import mdx from "./Footer.mdx";
+// import mdx from "./Footer.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import { Footer } from "./Footer";
 
@@ -8,7 +8,7 @@ export default {
   component: Footer,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };

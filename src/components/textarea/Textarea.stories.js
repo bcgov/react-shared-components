@@ -1,6 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-import mdx from "./Textarea.mdx";
+// import mdx from "./Textarea.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import { Textarea } from "./Textarea";
 
@@ -9,7 +9,7 @@ export default {
   component: Textarea,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };

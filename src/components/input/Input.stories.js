@@ -1,6 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-import mdx from "./Input.mdx";
+// import mdx from "./Input.mdx"; TODO: uncomment when jest is not upset with this anymore
 
 import { Input } from "./Input";
 
@@ -17,7 +17,7 @@ export default {
   component: Input,
   parameters: {
     docs: {
-      page: mdx,
+      // page: mdx, TODO: uncomment when jest is not upset with this anymore
     },
   },
 };
