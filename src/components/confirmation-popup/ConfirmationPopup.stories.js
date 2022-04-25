@@ -41,13 +41,13 @@ const cancelButton = (onButtonClick) => ({
 });
 
 const ConfirmationPopupState = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState("show", false);
   const onButtonClick = () => setShow(!show);
 
   return (
     <ConfirmationPopup
       key="popup"
-      modal={{ ...modal, show }}
+      modal={{ show, ...modal }}
       mainButton={mainButton(onButtonClick)}
       confirmButton={confirmButton(onButtonClick)}
       cancelButton={cancelButton(onButtonClick)}

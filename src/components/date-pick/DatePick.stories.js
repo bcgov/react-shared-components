@@ -16,6 +16,7 @@ export default {
 
 const BasicDatePickState = (label) => {
   const [selectedDate, setSelectedDate] = useState(
+    "date",
     new Date("August 19, 1975 23:15:30")
   );
 
