@@ -1,0 +1,677 @@
+.bcgov-display-box {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.bcgov-no-padding-bottom {
+  padding: 10px;
+  padding-bottom: 0px !important;
+}
+
+.bcgov-display-icon {
+  padding-right: 15px;
+}
+
+.bcgov-display-file {
+  padding: 0px !important;
+  padding-left: 5px !important;
+  min-height: 75px;
+}
+
+.bcgov-display-file .bcgov-display-icon {
+  display: flex;
+  align-self: center;
+}
+
+.bcgov-display-right-element {
+  width: 100%;
+  padding-top: 3px;
+  display: flex;
+  align-self: center;
+}
+
+.bcgov-display-left-element {
+  padding-left: 0px !important;
+}
+
+.bcgov-grey-background {
+  background-color: lightgrey;
+}
+
+.bcgov-blue-background {
+  background-color: rgba(225, 232, 242, 1);
+}
+
+.bcgov-border-background {
+  border-width: thin;
+  border-style: solid;
+  border-color: lightgrey;
+}
+
+.bcgov-react-icons {
+  vertical-align: middle;
+}
+
+.bcgov-success-background {
+  background-color: #e7f7ea;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #2e8540;
+}
+
+.bcgov-warning-background {
+  background-color: rgb(252, 247, 228);
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: rgb(252, 186, 25);
+}
+
+.bcgov-error-background {
+  background-color: #f8dee0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #d8292f;
+}
+
+.bcgov-info-background {
+  background-color: #d9eaf7;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #313132;
+}
+
+.bcgov-page-loader {
+  height: 60px;
+  width: 60px;
+  color: #494949;
+  border: 7px solid;
+  border-radius: 50%;
+  border-top-color: transparent;
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+  display: inline-block;
+}
+
+.bcgov-btn-loader {
+  height: 15px;
+  width: 15px;
+  color: #ffffff;
+  border: 2px solid;
+  border-radius: 50%;
+  border-top-color: transparent;
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 3px;
+  vertical-align: text-top;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bcgov-normal-blue {
+  color: white;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #003366;
+}
+
+.bcgov-normal-blue:hover {
+  background-color: rgba(43, 91, 164, 1);
+  color: white;
+}
+
+.bcgov-normal-white {
+  color: #003366;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(204, 204, 204, 1);
+}
+
+.bcgov-normal-white:hover {
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(204, 204, 204, 1);
+}
+
+.bcgov-consistent-width {
+  width: 270px;
+}
+
+.bcgov-button {
+  min-width: 150px;
+  min-height: 40px;
+}
+
+@media (max-width: 575.98px) {
+  .bcgov-button {
+    min-width: 0px;
+    min-height: 0px;
+  }
+}
+
+.bcgov-loader-show {
+  display: inline-block;
+}
+
+.bcgov-callout {
+  padding: 25px;
+  border-left: 10px solid #38598a;
+  margin: 16px 0;
+  background-color: #f2f2f2;
+}
+
+.bcgov-callout-checkbox {
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-right: 25px;
+  border-left: 10px solid #38598a;
+  margin: 16px 0;
+  background-color: #f2f2f2;
+}
+
+.bcgov-callout h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.bcgov-hide-border {
+  border-bottom: 0 none;
+}
+
+.bcgov-larger-font {
+  font-size: larger;
+}
+
+.bcgov-padding-left {
+  padding-left: 0%;
+}
+
+.bcgov-flex {
+  display: flex;
+}
+
+.bcgov-move-right {
+  margin-right: 5px;
+}
+
+.bcgov-table {
+  width: 100%;
+}
+
+.bcgov-table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bcgov-row,
+.bcgov-row-fees {
+  display: flex;
+  flex-direction: row;
+  vertical-align: top;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-right: 3px;
+  white-space: pre-wrap;
+}
+
+.bcgov-table-value {
+  width: 100%;
+}
+
+.bcgov-blue-stripe .bcgov-table-body .bcgov-row:nth-child(even) {
+  background: rgba(241, 244, 250, 1);
+}
+
+.bcgov-blue-stripe .bcgov-table-body .bcgov-row:nth-child(odd) {
+  background: rgba(225, 232, 242, 1);
+}
+
+.bcgov-side-by-side {
+  width: 60%;
+}
+
+.bcgov-fill-width {
+  width: 100%;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+}
+
+.bcgov-display-file .bcgov-fill-width {
+  width: 35%;
+}
+
+@media (max-width: 576px) {
+  .bcgov-display-file .bcgov-fill-width {
+    width: 100%;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: stretch;
+  }
+}
+
+.bcgov-vertical-middle {
+  align-self: center;
+}
+
+.bcgov-reduce-width {
+  width: 20%;
+}
+
+.bcgov-empty-row div {
+  border-bottom: 1px solid black;
+}
+
+.bcgov-right-align {
+  text-align: right;
+}
+
+@media (max-width: 576px) {
+  .bcgov-row {
+    flex-direction: column;
+  }
+
+  .bcgov-side-by-side,
+  .bcgov-vertical-middle,
+  .bcgov-reduce-width {
+    width: 100% !important;
+  }
+}
+
+.bcgov-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bcgov-dropdown-label {
+  margin-bottom: 10px;
+}
+
+.bcgov-dropdown {
+  color: #313132;
+  background: white;
+  box-shadow: none;
+  border: 2px solid #606060;
+  width: 100%;
+  padding: 8px 45px 8px 15px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.fa-chevron-down {
+  pointer-events: none;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.bcgov-dropdown-wrapper {
+  position: relative;
+  display: inline;
+}
+
+:focus {
+  outline: 4px solid #3b99fc;
+  outline-offset: 1px;
+}
+
+.navbar > .container-fluid {
+  width: 95%;
+  justify-content: inherit;
+}
+
+.bcgov-pointer {
+  cursor: pointer;
+}
+
+.bcgov-flex-spacing {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bcgov-vertical-center {
+  align-self: center;
+}
+
+.bcgov-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.bcgov-input-label {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #333333;
+  text-align: left;
+  line-height: 16px;
+}
+
+.bcgov-editable-white {
+  padding: 1px 0px 1px 10px;
+  box-sizing: border-box;
+  top: 30px;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #494949;
+  text-align: left;
+  border-style: inset;
+}
+
+.bcgov-non-editable-grey {
+  padding: 1px 0px 1px 10px;
+  top: 30px;
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #494949;
+  text-align: left;
+  border-style: solid;
+  border-color: #b1b1b1;
+  border-width: 2px;
+}
+
+.bcgov-note {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bcgov-error {
+  color: red;
+}
+
+.bcgov-mandatory {
+  padding: 0px 0px 0px 3px;
+  color: red;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Customize the label (the container) */
+.bcgov-radio {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.bcgov-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.bcgov-dot {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 2px solid #606060;
+}
+
+/* When the radio button is checked, add a blue background */
+.bcgov-radio input:checked ~ .bcgov-dot {
+  background-color: #ffffff;
+}
+
+/* Custom checkbox has blue outline when in focus */
+.bcgov-radio input:focus ~ .bcgov-dot {
+  outline: 4px solid #3b99fc;
+  outline-offset: 1px;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.bcgov-dot:after {
+  content: "";
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #606060;
+  transform: translate(-50%, -50%);
+}
+
+/* Show the indicator (dot/circle) when checked */
+.bcgov-radio input:checked ~ .bcgov-dot:after {
+  display: block;
+}
+
+.bcgov-heading-style {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.bcgov-bluegrey-heading {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 9px;
+}
+
+.bcgov-bluegrey-heading h2 {
+  margin-bottom: 0px;
+}
+
+.bcgov-bluegrey-content {
+  height: auto;
+  background: inherit;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+
+.bcgov-content-style {
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bcgov-container-background {
+  background-color: rgba(56, 89, 138, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  text-align: left;
+}
+
+.bcgov-submitted-header h2 {
+  color: #fff !important;
+}
+
+.bcgov-submitted-content {
+  background-color: #eee;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.bcgov-submit-container {
+  background-color: #38598a;
+  border-bottom: solid 4px #fc0;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.bcgov-bluegrey-container {
+  margin-bottom: 20px;
+}
+
+.bcgov-submit-container h2 {
+  color: #fff;
+}
+
+.bcgov-dashboard-spacing {
+  padding-left: 25px;
+  max-width: 400px;
+}
+
+.bcgov-wide-dashboard-spacing {
+  padding-left: 25px;
+  max-width: 458px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .bcgov-dashboard-spacing {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .bcgov-wide-dashboard-spacing {
+    padding-left: 0;
+  }
+}
+
+.bcgov-side-card-row {
+  white-space: nowrap;
+  display: flex;
+}
+
+.bcgov-side-card-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.bcgov-round-icon-wrapper {
+  align-self: center;
+  margin-right: 15px;
+}
+
+.bcgov-side-card-title {
+  align-self: center;
+  font-size: 20px;
+  font-weight: Semi-bold;
+  width: 100%;
+  white-space: normal;
+}
+
+.bcgov-large-title {
+  font-size: 20px;
+  font-weight: Semi-bold;
+  width: 80%;
+  white-space: normal;
+  padding-top: 0 !important;
+}
+
+@media (max-width: 950px) {
+  .bcgov-side-card-title {
+    padding-top: 0px !important;
+  }
+}
+
+@media (max-width: 865px) {
+  .bcgov-wide-dashboard-spacing {
+    padding-left: 0px;
+  }
+}
+
+.bcgov-scroll-box {
+  overflow: auto;
+  width: 100%;
+  height: 500px;
+  border: 1px solid;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.bcgov-full-width {
+  width: 100%;
+}
+
+.bcgov-print-page {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #1a5a96;
+  float: right;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+@media print {
+  .bcgov-printable {
+    overflow: visible;
+    height: auto;
+  }
+
+  .bcgov-non-printable {
+    display: none;
+  }
+}
+
+.bcgov-text-input {
+  font-family: "Noto Sans", Verdana, Arial, sans-serif;
+  font-size: 18px;
+  border: 2px solid #606060;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  padding: 5px;
+  resize: none;
+  max-width: 100%;
+}
+
+.bcgov-text-input:focus {
+  outline: 4px solid #3b99fc;
+  outline-offset: 1px;
+}
+
+
+/*# sourceMappingURL=main.ce6a2d45.css.map*/
