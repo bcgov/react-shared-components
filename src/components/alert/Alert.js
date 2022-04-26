@@ -8,7 +8,7 @@ const generateIcon = (icon, type) => {
   const success = <div style={{ color: "#2E8540" }}>{icon}</div>;
   const warning = <div style={{ color: "rgb(252, 186, 25)" }}>{icon}</div>;
   const error = <div style={{ color: "#D8292F" }}>{icon}</div>;
-  const info = <>{icon}</>;
+  const info = <> {icon}</>;
 
   if (type === "success") return success;
   if (type === "warning") return warning;

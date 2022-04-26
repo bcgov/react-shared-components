@@ -11,12 +11,12 @@ const generateButton = (onClick, label, styling, testId) => (
   <Button onClick={onClick} label={label} styling={styling} testId={testId} />
 );
 
-export default function ConfirmationPopup({
+const ConfirmationPopup = ({
   modal: { show, title, body },
   mainButton,
   confirmButton,
   cancelButton,
-}) {
+}) => {
   return (
     <>
       {generateButton(
@@ -53,7 +53,9 @@ export default function ConfirmationPopup({
       </Modal>
     </>
   );
-}
+};
+
+export default ConfirmationPopup;
 
 ConfirmationPopup.propTypes = {
   modal: PropTypes.shape({

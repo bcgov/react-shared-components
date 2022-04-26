@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Input Editable White Mandatory 1`] = `
+<Input
+  input={
+    Object {
+      "id": "textInputId",
+      "isReadOnly": false,
+      "isRequired": true,
+      "label": "Label Heading",
+      "placeholder": "Enter value",
+      "styling": "bcgov-editable-white",
+    }
+  }
+  onChange={[Function]}
+>
+  <div>
+    <label
+      className="bcgov-label"
+      htmlFor="textInputId"
+    >
+      <div
+        className="bcgov-input-label"
+      >
+        Label Heading
+      </div>
+      <span
+        className="bcgov-mandatory"
+        id="asterisk"
+      >
+        *
+      </span>
+       
+      <span
+        className="bcgov-note"
+      />
+    </label>
+    <input
+      className="bcgov-editable-white"
+      id="textInputId"
+      onChange={[Function]}
+      placeholder="Enter value"
+      readOnly={false}
+      type="text"
+    />
+    <br />
+    <span
+      className="bcgov-error"
+    />
+  </div>
+</Input>
+`;
+
+exports[`Storyshots Input Editable White No Label 1`] = `
+<Input
+  input={
+    Object {
+      "id": "textInputId",
+      "isReadOnly": false,
+      "isRequired": false,
+      "label": "",
+      "placeholder": "Enter value",
+      "styling": "bcgov-editable-white",
+    }
+  }
+  onChange={[Function]}
+>
+  <div>
+    <input
+      className="bcgov-editable-white"
+      id="textInputId"
+      onChange={[Function]}
+      placeholder="Enter value"
+      readOnly={false}
+      type="text"
+    />
+    <br />
+    <span
+      className="bcgov-error"
+    />
+  </div>
+</Input>
+`;
+
+exports[`Storyshots Input Editable White With Label 1`] = `
+<Input
+  input={
+    Object {
+      "id": "textInputId",
+      "isReadOnly": false,
+      "isRequired": false,
+      "label": "Label Heading",
+      "placeholder": "Enter value",
+      "styling": "bcgov-editable-white",
+    }
+  }
+  onChange={[Function]}
+>
+  <div>
+    <label
+      className="bcgov-label"
+      htmlFor="textInputId"
+    >
+      <div
+        className="bcgov-input-label"
+      >
+        Label Heading
+      </div>
+       
+      <span
+        className="bcgov-note"
+      />
+    </label>
+    <input
+      className="bcgov-editable-white"
+      id="textInputId"
+      onChange={[Function]}
+      placeholder="Enter value"
+      readOnly={false}
+      type="text"
+    />
+    <br />
+    <span
+      className="bcgov-error"
+    />
+  </div>
+</Input>
+`;
+
+exports[`Storyshots Input Mobile 1`] = `
+<Input
+  input={
+    Object {
+      "id": "textInputId",
+      "isReadOnly": true,
+      "isRequired": false,
+      "label": "Label Heading",
+      "placeholder": "Enter value",
+      "styling": "bcgov-non-editable-grey",
+    }
+  }
+  onChange={[Function]}
+>
+  <div>
+    <label
+      className="bcgov-label"
+      htmlFor="textInputId"
+    >
+      <div
+        className="bcgov-input-label"
+      >
+        Label Heading
+      </div>
+       
+      <span
+        className="bcgov-note"
+      />
+    </label>
+    <input
+      className="bcgov-non-editable-grey"
+      id="textInputId"
+      onChange={[Function]}
+      placeholder="Enter value"
+      readOnly={true}
+      type="text"
+    />
+    <br />
+    <span
+      className="bcgov-error"
+    />
+  </div>
+</Input>
+`;
+
+exports[`Storyshots Input Non Editable Grey 1`] = `
+<Input
+  input={
+    Object {
+      "id": "textInputId",
+      "isReadOnly": true,
+      "isRequired": false,
+      "label": "Label Heading",
+      "placeholder": "Enter value",
+      "styling": "bcgov-non-editable-grey",
+    }
+  }
+  onChange={[Function]}
+>
+  <div>
+    <label
+      className="bcgov-label"
+      htmlFor="textInputId"
+    >
+      <div
+        className="bcgov-input-label"
+      >
+        Label Heading
+      </div>
+       
+      <span
+        className="bcgov-note"
+      />
+    </label>
+    <input
+      className="bcgov-non-editable-grey"
+      id="textInputId"
+      onChange={[Function]}
+      placeholder="Enter value"
+      readOnly={true}
+      type="text"
+    />
+    <br />
+    <span
+      className="bcgov-error"
+    />
+  </div>
+</Input>
+`;
+
+exports[`Storyshots Input With Error Message 1`] = `
+<Input
+  input={
+    Object {
+      "errorMsg": "There is an error.",
+      "id": "textInputId",
+      "isReadOnly": false,
+      "isRequired": false,
+      "label": "Label Heading",
+      "placeholder": "Enter value",
+      "styling": "bcgov-editable-white",
+      "value": "some wrong value",
+    }
+  }
+  onChange={[Function]}
+>
+  <div>
+    <label
+      className="bcgov-label"
+      htmlFor="textInputId"
+    >
+      <div
+        className="bcgov-input-label"
+      >
+        Label Heading
+      </div>
+       
+      <span
+        className="bcgov-note"
+      />
+    </label>
+    <input
+      className="bcgov-editable-white"
+      defaultValue="some wrong value"
+      id="textInputId"
+      onChange={[Function]}
+      placeholder="Enter value"
+      readOnly={false}
+      type="text"
+    />
+    <br />
+    <span
+      className="bcgov-error"
+    >
+      There is an error.
+    </span>
+  </div>
+</Input>
+`;

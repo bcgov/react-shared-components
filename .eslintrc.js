@@ -29,5 +29,9 @@ module.exports = {
     "jsx-a11y/no-noninteractive-element-interactions": "off",
     "arrow-body-style": "off",
     "prettier/prettier": ["error"],
+    "react/function-component-definition": [
+      2,
+      { namedComponents: "arrow-function" },
+    ],
   },
 };

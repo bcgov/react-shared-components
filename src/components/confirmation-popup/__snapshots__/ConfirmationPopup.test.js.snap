@@ -92,7 +92,6 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
               >
                 <div
                   class="modal-dialog"
-                  role="document"
                 >
                   <div
                     class="modal-content"
@@ -184,7 +183,6 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
                   >
                     <div
                       class="modal-dialog"
-                      role="document"
                     >
                       <div
                         class="modal-content"
@@ -284,7 +282,6 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
               >
                 <div
                   class="modal-dialog"
-                  role="document"
                 >
                   <div
                     class="modal-content"
@@ -393,7 +390,6 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
             >
               <div
                 class="modal-dialog"
-                role="document"
               >
                 <div
                   class="modal-content"
@@ -474,7 +470,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
             appear={true}
             in={true}
             mountOnEnter={false}
-            timeout={300}
+            timeout={null}
             unmountOnExit={false}
           >
             <Transition
@@ -490,7 +486,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
               onExit={[Function]}
               onExited={[Function]}
               onExiting={[Function]}
-              timeout={300}
+              timeout={null}
               unmountOnExit={false}
             >
               <div
@@ -517,7 +513,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
             onEntering={[Function]}
             onExit={[Function]}
             onExited={[Function]}
-            timeout={300}
+            timeout={null}
             unmountOnExit={true}
           >
             <Transition
@@ -533,7 +529,7 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
               onExit={[Function]}
               onExited={[Function]}
               onExiting={[Function]}
-              timeout={300}
+              timeout={null}
               unmountOnExit={true}
             >
               <div
@@ -552,12 +548,10 @@ exports[`ConfirmationPopup Component Matches the snapshot 1`] = `
               >
                 <ModalDialog
                   onMouseDown={[Function]}
-                  role="document"
                 >
                   <div
                     className="modal-dialog"
                     onMouseDown={[Function]}
-                    role="document"
                   >
                     <div
                       className="modal-content"

@@ -1,6 +1,5 @@
-/* eslint-disable react/jsx-one-expression-per-line */
 import React from "react";
-import { State, Store } from "@sambego/storybook-state";
+import useState from "storybook-addon-state";
 import mdx from "./ConfirmationPopup.mdx";
 
 import ConfirmationPopup from "./ConfirmationPopup";
@@ -16,10 +15,6 @@ export default {
   },
 };
 
-const store = new Store({
-  show: false,
-});
-
 const { body } = getConfirmationPopupTestData();
 
 const modal = {
@@ -27,43 +22,42 @@ const modal = {
   body,
 };
 
-const onButtonClick = () => store.set({ show: !store.get("show") });
-
-const mainButton = {
+const mainButton = (onButtonClick) => ({
   label: "Click Me",
   styling: "bcgov-normal-white btn",
   onClick: onButtonClick,
-};
+});
 
-const confirmButton = {
+const confirmButton = (onButtonClick) => ({
   label: "Yes, cancel my process please",
   styling: "bcgov-normal-blue btn bcgov-consistent-width",
   onClick: onButtonClick,
-};
+});
 
-const cancelButton = {
+const cancelButton = (onButtonClick) => ({
   label: "No, resume my process please",
   styling: "bcgov-normal-white btn bcgov-consistent-width",
   onClick: onButtonClick,
+});
+
+const ConfirmationPopupState = () => {
+  const [show, setShow] = useState("show", false);
+  const onButtonClick = () => setShow(!show);
+
+  return (
+    <ConfirmationPopup
+      key="popup"
+      modal={{ show, ...modal }}
+      mainButton={mainButton(onButtonClick)}
+      confirmButton={confirmButton(onButtonClick)}
+      cancelButton={cancelButton(onButtonClick)}
+    />
+  );
 };
 
-const ConfirmationPopupState = (
-  <State store={store}>
-    {(state) => [
-      <ConfirmationPopup
-        key="popup"
-        modal={{ ...modal, show: state.show }}
-        mainButton={mainButton}
-        confirmButton={confirmButton}
-        cancelButton={cancelButton}
-      />,
-    ]}
-  </State>
-);
+export const Default = ConfirmationPopupState.bind({});
 
-export const Default = () => ConfirmationPopupState;
-
-export const Mobile = () => ConfirmationPopupState;
+export const Mobile = ConfirmationPopupState.bind({});
 
 Mobile.parameters = {
   viewport: {

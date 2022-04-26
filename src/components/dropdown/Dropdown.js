@@ -7,7 +7,6 @@ import "./Dropdown.css";
 export const Dropdown = ({ items, label, onSelect, testId }) => {
   return (
     <div className="bcgov-form">
-      {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
       {label && (
         <label className="bcgov-dropdown-label" htmlFor="dropdown">
           {label}
