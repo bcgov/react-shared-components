@@ -27,6 +27,7 @@ module.exports = {
     "react/forbid-prop-types": "off",
     "react/jsx-wrap-multilines": "off",
     "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/control-has-associated-label": "off",
     "arrow-body-style": "off",
     "prettier/prettier": ["error"],
     "react/function-component-definition": [
