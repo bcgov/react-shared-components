@@ -4,7 +4,7 @@ exports[`Storyshots Date Pick Default 1`] = `
 <DatePick
   isRequired={false}
   label=""
-  selectedDate={1975-08-19T23:15:30.000Z}
+  selectedDate={1975-08-20T06:15:30.000Z}
   setSelectedDate={[Function]}
 >
   <div
@@ -81,7 +81,7 @@ exports[`Storyshots Date Pick Default 1`] = `
       previousYearButtonLabel="Previous Year"
       readOnly={false}
       renderDayContents={[Function]}
-      selected={1975-08-19T23:15:30.000Z}
+      selected={1975-08-20T06:15:30.000Z}
       shouldCloseOnSelect={true}
       showFourColumnMonthYearPicker={false}
       showFullMonthYearPicker={false}
@@ -175,7 +175,7 @@ exports[`Storyshots Date Pick Mobile 1`] = `
 <DatePick
   isRequired={false}
   label=""
-  selectedDate={1975-08-19T23:15:30.000Z}
+  selectedDate={1975-08-20T06:15:30.000Z}
   setSelectedDate={[Function]}
 >
   <div
@@ -252,7 +252,7 @@ exports[`Storyshots Date Pick Mobile 1`] = `
       previousYearButtonLabel="Previous Year"
       readOnly={false}
       renderDayContents={[Function]}
-      selected={1975-08-19T23:15:30.000Z}
+      selected={1975-08-20T06:15:30.000Z}
       shouldCloseOnSelect={true}
       showFourColumnMonthYearPicker={false}
       showFullMonthYearPicker={false}
@@ -346,7 +346,7 @@ exports[`Storyshots Date Pick With Label 1`] = `
 <DatePick
   isRequired={false}
   label="Select date"
-  selectedDate={1975-08-19T23:15:30.000Z}
+  selectedDate={1975-08-20T06:15:30.000Z}
   setSelectedDate={[Function]}
 >
   <div
@@ -433,7 +433,7 @@ exports[`Storyshots Date Pick With Label 1`] = `
       previousYearButtonLabel="Previous Year"
       readOnly={false}
       renderDayContents={[Function]}
-      selected={1975-08-19T23:15:30.000Z}
+      selected={1975-08-20T06:15:30.000Z}
       shouldCloseOnSelect={true}
       showFourColumnMonthYearPicker={false}
       showFullMonthYearPicker={false}
