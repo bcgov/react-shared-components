@@ -78,6 +78,7 @@
     "storybook-react-context": "^0.6.0"
   },
   "resolutions": {
+    "@babel-traverse": "7.23.2",
     "form-data": "4.0.4",
     "jest": "26.6.3",
     "glob-parent": "^5.1.2",
